@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>매일 외국어 학습</title>
+<style>
+:root{
+  --bg:#f7f7f5; --card:#ffffff; --text:#1a1a1a; --muted:#6b6b6b;
+  --line:#e5e5e0; --accent:#4f46e5; --accent-soft:#eef2ff;
+  --en:#2563eb; --zh:#dc2626; --ok:#16a34a; --bad:#dc2626;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#141416; --card:#1e1e21; --text:#f0f0ee; --muted:#a0a0a0;
+    --line:#2e2e33; --accent:#818cf8; --accent-soft:#26263a;
+    --en:#60a5fa; --zh:#f87171; --ok:#4ade80; --bad:#f87171;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.6;padding-bottom:60px}
+.wrap{max-width:640px;margin:0 auto;padding:16px}
+header{padding:20px 0 8px}
+header h1{font-size:1.35rem;font-weight:800}
+header .sub{color:var(--muted);font-size:.85rem;margin-top:2px}
+
+/* 진도율 */
+.progress-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 16px;margin:14px 0;display:flex;flex-direction:column;gap:10px}
+.pr-row{display:flex;align-items:center;gap:10px}
+.pr-label{font-size:.85rem;font-weight:700;min-width:88px}
+.pr-bar{flex:1;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.pr-fill{height:100%;border-radius:4px;transition:width .5s}
+.pr-num{font-size:.78rem;color:var(--muted);min-width:70px;text-align:right;font-variant-numeric:tabular-nums}
+
+/* 탭 */
+.tabs{display:flex;gap:6px;margin:10px 0 16px}
+.tab{flex:1;padding:10px 0;text-align:center;border-radius:10px;border:1px solid var(--line);
+  background:var(--card);font-weight:700;font-size:.92rem;cursor:pointer;color:var(--muted)}
+.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* 카드 */
+.day-title{font-size:.95rem;font-weight:800;margin:18px 0 8px;display:flex;align-items:center;gap:8px}
+.day-title .badge{font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:99px;
+  background:var(--accent-soft);color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px;margin-bottom:10px}
+.card.highlight{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.expr{font-size:1.15rem;font-weight:800;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.pinyin{font-size:.9rem;color:var(--accent);font-weight:600}
+.meaning{margin-top:2px;font-size:.95rem}
+.note{margin-top:6px;font-size:.82rem;color:var(--muted)}
+.example{margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:10px;font-size:.9rem}
+.example .ko{color:var(--muted);font-size:.84rem;margin-top:2px}
+.audio-row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}
+button.play{border:1px solid var(--line);background:var(--card);color:var(--text);
+  border-radius:99px;padding:6px 14px;font-size:.84rem;font-weight:600;cursor:pointer}
+button.play:active{background:var(--accent-soft)}
+select.opt{border:1px solid var(--line);background:var(--card);color:var(--muted);
+  border-radius:8px;padding:5px 6px;font-size:.78rem}
+.levelup-banner{background:linear-gradient(90deg,#f59e0b,#ef4444);color:#fff;font-weight:800;
+  text-align:center;border-radius:var(--radius);padding:12px;margin:10px 0;font-size:.95rem}
+
+details.arch{margin-bottom:8px;border:1px solid var(--line);border-radius:var(--radius);
+  background:var(--card);overflow:hidden}
+details.arch>summary{padding:12px 16px;font-weight:700;font-size:.9rem;cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;align-items:center}
+details.arch>summary::after{content:"▾";color:var(--muted)}
+details.arch[open]>summary::after{content:"▴"}
+details.arch .inner{padding:0 12px 12px}
+details.arch .card{border:none;border-top:1px solid var(--line);border-radius:0;margin:0}
+
+/* 퀴즈 */
+.quiz-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;text-align:center}
+.quiz-q{font-size:1.2rem;font-weight:800;margin:14px 0 4px;min-height:1.6em}
+.quiz-sub{color:var(--muted);font-size:.85rem;margin-bottom:14px}
+.quiz-choices{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.quiz-choices button{padding:12px;border-radius:10px;border:1px solid var(--line);
+  background:var(--bg);color:var(--text);font-size:.95rem;font-weight:600;cursor:pointer;text-align:left}
+.quiz-choices button.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--bg));}
+.quiz-choices button.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--bg));}
+.quiz-meta{font-size:.8rem;color:var(--muted);margin-top:14px}
+.big-btn{margin-top:14px;padding:12px 22px;border-radius:99px;border:none;background:var(--accent);
+  color:#fff;font-weight:800;font-size:.95rem;cursor:pointer}
+.empty{color:var(--muted);text-align:center;padding:40px 0;font-size:.9rem}
+footer{margin-top:30px;text-align:center;color:var(--muted);font-size:.75rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📚 매일 외국어 학습</h1>
+    <div class="sub" id="subline">불러오는 중…</div>
+  </header>
+
+  <div class="progress-box" id="progressBox" hidden>
+    <div class="pr-row">
+      <span class="pr-label">🇺🇸 <span id="enLevelName"></span></span>
+      <div class="pr-bar"><div class="pr-fill" id="enFill" style="background:var(--en);width:0%"></div></div>
+      <span class="pr-num" id="enNum"></span>
+    </div>
+    <div class="pr-row">
+      <span class="pr-label">🇨🇳 <span id="zhLevelName"></span></span>
+      <div class="pr-bar"><div class="pr-fill" id="zhFill" style="background:var(--zh);width:0%"></div></div>
+      <span class="pr-num" id="zhNum"></span>
+    </div>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-tab="en">🇺🇸 영어</button>
+    <button class="tab" data-tab="zh">🇨🇳 중국어</button>
+    <button class="tab" data-tab="quiz">📝 복습 퀴즈</button>
+  </div>
+
+  <main id="content"><div class="empty">불러오는 중…</div></main>
+  <footer>GitHub Actions + Pages로 자동 운영 · 매일 21:00 발송</footer>
+</div>
+
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+const LANGNAME = {en:"영어", zh:"중국어"};
+const TTSLANG = {en:"en-US", zh:"zh-CN"};
+const SRS_INTERVALS = [1,3,7,21];
+let ARCHIVE = [], STATE = null, TAB = "en";
+const urlDate = new URLSearchParams(location.search).get("d");
+
+/* ---------- 데이터 로드 ---------- */
+async function loadData(){
+  try{
+    const bust = "?" + Date.now();
+    const [a,s] = await Promise.all([
+      fetch("data/archive.json"+bust).then(r=>r.ok?r.json():[]),
+      fetch("data/state.json"+bust).then(r=>r.ok?r.json():null),
+    ]);
+    ARCHIVE = a; STATE = s;
+  }catch(e){ ARCHIVE=[]; STATE=null; }
+  renderHeader(); render();
+}
+
+function todayKST(){
+  const now = new Date(Date.now() + 9*3600*1000);
+  return now.toISOString().slice(0,10);
+}
+function fmtDate(d){
+  const [y,m,dd] = d.split("-");
+  return `${+m}월 ${+dd}일`;
+}
+
+/* ---------- 헤더/진도 ---------- */
+function renderHeader(){
+  if(!ARCHIVE.length){ $("#subline").textContent = "첫 수업을 기다리는 중이에요"; return; }
+  const days = STATE && STATE.days ? STATE.days : ARCHIVE.length;
+  const learned = STATE ? (STATE.en.learned + STATE.zh.learned) : 0;
+  $("#subline").textContent = `${days}일째 학습 중 · 지금까지 표현 ${learned}개`;
+  const latest = ARCHIVE[0];
+  $("#progressBox").hidden = false;
+  for(const lang of ["en","zh"]){
+    const sec = latest[lang];
+    const pct = sec.total ? Math.round(sec.progress/sec.total*100) : 0;
+    $("#"+lang+"LevelName").textContent = sec.done ? "완주 🏆" : sec.level_name;
+    $("#"+lang+"Fill").style.width = pct+"%";
+    $("#"+lang+"Num").textContent = `${sec.progress}/${sec.total} (${pct}%)`;
+  }
+}
+
+/* ---------- 오디오 ---------- */
+let currentAudio = null, repeatLeft = 0;
+function stopAudio(){
+  if(currentAudio){ currentAudio.pause(); currentAudio = null; }
+  repeatLeft = 0;
+  speechSynthesis.cancel();
+}
+function speak(text, lang, rate){
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = TTSLANG[lang]; u.rate = rate;
+  speechSynthesis.speak(u);
+}
+function playClip(lang, id, suffix, text, card){
+  stopAudio();
+  const rate = parseFloat(card.querySelector(".speed").value);
+  const rep  = parseInt(card.querySelector(".repeat").value, 10);
+  const url = `audio/${lang}/${id}${suffix}.mp3`;
+  const audio = new Audio(url);
+  audio.playbackRate = rate;
+  repeatLeft = rep - 1;
+  audio.onended = () => {
+    if(repeatLeft > 0){ repeatLeft--; audio.currentTime = 0; audio.playbackRate = rate; audio.play(); }
+  };
+  audio.onerror = () => { // MP3가 없으면 브라우저 음성으로 대체
+    for(let i=0;i<rep;i++) speak(text, lang, rate);
+  };
+  currentAudio = audio;
+  audio.play().catch(()=>{ for(let i=0;i<rep;i++) speak(text, lang, rate); });
+}
+
+/* ---------- 표현 카드 ---------- */
+function cardHTML(lang, it){
+  const pinyin = it.pinyin ? `<span class="pinyin">${esc(it.pinyin)}</span>` : "";
+  const exPinyin = it.example_pinyin ? `<div class="pinyin">${esc(it.example_pinyin)}</div>` : "";
+  const note = it.note ? `<div class="note">💡 ${esc(it.note)}</div>` : "";
+  return `<div class="card" data-id="${it.id}">
+    <div class="expr">${esc(it.expression)} ${pinyin}</div>
+    <div class="meaning">${esc(it.meaning)}</div>
+    ${note}
+    <div class="example">${esc(it.example)}${exPinyin}<div class="ko">${esc(it.example_ko)}</div></div>
+    <div class="audio-row">
+      <button class="play" data-act="expr">🔊 표현 듣기</button>
+      <button class="play" data-act="ex">🔊 예문 듣기</button>
+      <select class="opt speed" title="재생 속도">
+        <option value="1">1.0배속</option><option value="0.85">0.85배속</option><option value="0.7">0.7배속 (쉐도잉)</option>
+      </select>
+      <select class="opt repeat" title="반복 횟수">
+        <option value="1">1회</option><option value="3">3회</option><option value="5">5회</option>
+      </select>
+    </div>
+  </div>`;
+}
+function esc(s){ return String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function bindCards(root, lang, items){
+  root.querySelectorAll(".card").forEach(card=>{
+    const it = items.find(i=>i.id===card.dataset.id);
+    if(!it) return;
+    card.querySelector('[data-act="expr"]').onclick = ()=>playClip(lang, it.id, "", it.expression, card);
+    card.querySelector('[data-act="ex"]').onclick = ()=>playClip(lang, it.id, "x", it.example, card);
+  });
+}
+
+/* ---------- 언어 탭 렌더 ---------- */
+function renderLang(lang){
+  const c = $("#content");
+  if(!ARCHIVE.length){ c.innerHTML = `<div class="empty">아직 학습 기록이 없어요.<br>첫 발송(매일 21:00) 후에 여기에 쌓입니다.</div>`; return; }
+  let html = "";
+  const [latest, ...past] = ARCHIVE;
+  const isToday = latest.date === todayKST();
+  const sec = latest[lang];
+  html += `<div class="day-title">${fmtDate(latest.date)} ${isToday?'<span class="badge">오늘</span>':""}
+           <span class="badge">${esc(sec.level_name)}</span></div>`;
+  if(sec.levelup) html += `<div class="levelup-banner">🎉 미션 컴플리트! ${esc(sec.next_level_name)} 레벨로 올라갔어요!</div>`;
+  if(sec.done && !sec.items.length) html += `<div class="levelup-banner">🏆 ${LANGNAME[lang]} 전체 완주!</div>`;
+  html += sec.items.map(it=>cardHTML(lang,it)).join("");
+  if(past.length){
+    html += `<div class="day-title" style="margin-top:26px">지난 학습</div>`;
+    for(const e of past){
+      const s = e[lang];
+      if(!s || !s.items.length) continue;
+      const open = urlDate===e.date ? " open" : "";
+      html += `<details class="arch"${open} data-date="${e.date}">
+        <summary>${fmtDate(e.date)} · ${esc(s.level_name)} ${s.items.length}개</summary>
+        <div class="inner">${s.items.map(it=>cardHTML(lang,it)).join("")}</div>
+      </details>`;
+    }
+  }
+  c.innerHTML = html;
+  // 오디오 바인딩
+  const all = ARCHIVE.flatMap(e=>e[lang]?e[lang].items:[]);
+  bindCards(c, lang, all);
+  if(urlDate){
+    const el = c.querySelector(`[data-date="${urlDate}"]`);
+    if(el) el.scrollIntoView({behavior:"smooth"});
+  }
+}
+
+/* ---------- 간격 반복 퀴즈 (SRS: 1·3·7·21일) ---------- */
+function srsLoad(){ try{ return JSON.parse(localStorage.getItem("srs-v1"))||{}; }catch(e){ return {}; } }
+function srsSave(s){ localStorage.setItem("srs-v1", JSON.stringify(s)); }
+function addDays(dateStr, n){
+  const d = new Date(dateStr+"T00:00:00");
+  d.setDate(d.getDate()+n);
+  return d.toISOString().slice(0,10);
+}
+function quizPool(){
+  const pool = [];
+  for(const e of ARCHIVE)
+    for(const lang of ["en","zh"])
+      if(e[lang]) for(const it of e[lang].items) pool.push({...it, lang, learned:e.date});
+  return pool;
+}
+function dueItems(){
+  const srs = srsLoad(), today = todayKST();
+  return quizPool().filter(it=>{
+    const rec = srs[it.id];
+    const due = rec ? rec.due : addDays(it.learned, SRS_INTERVALS[0]);
+    return due <= today;
+  });
+}
+let quizQueue = [], quizIdx = 0, quizScore = 0;
+function renderQuiz(){
+  const c = $("#content");
+  const due = dueItems();
+  if(!due.length){
+    const total = quizPool().length;
+    c.innerHTML = `<div class="quiz-box"><div style="font-size:2.2rem">🌱</div>
+      <div class="quiz-q">오늘 복습할 표현이 없어요</div>
+      <div class="quiz-sub">${total ? "복습은 배운 다음 날부터 1·3·7·21일 간격으로 나와요." : "먼저 표현을 배우면 다음 날부터 퀴즈가 시작돼요."}</div></div>`;
+    return;
+  }
+  c.innerHTML = `<div class="quiz-box"><div style="font-size:2.2rem">📝</div>
+    <div class="quiz-q">오늘 복습할 표현 ${due.length}개</div>
+    <div class="quiz-sub">간격 반복(1·3·7·21일) 방식으로 출제됩니다.<br>틀린 표현은 다음 날 다시 나와요.</div>
+    <button class="big-btn" id="startQuiz">퀴즈 시작</button></div>`;
+  $("#startQuiz").onclick = ()=>{
+    quizQueue = due.sort(()=>Math.random()-0.5).slice(0,20);
+    quizIdx = 0; quizScore = 0;
+    nextQuestion();
+  };
+}
+function nextQuestion(){
+  if(quizIdx >= quizQueue.length){ return quizDone(); }
+  const it = quizQueue[quizIdx];
+  const pool = quizPool().filter(p=>p.lang===it.lang && p.id!==it.id);
+  const distract = pool.sort(()=>Math.random()-0.5).slice(0,3);
+  const askMeaning = Math.random() < 0.5 || distract.length<3;
+  const qText  = askMeaning ? it.expression + (it.pinyin?` (${it.pinyin})`:"") : it.meaning;
+  const qLabel = askMeaning ? "이 표현의 뜻은?" : `이 뜻의 ${LANGNAME[it.lang]} 표현은?`;
+  const answer = askMeaning ? it.meaning : it.expression;
+  const choices = [...distract.map(d=>askMeaning?d.meaning:d.expression), answer]
+    .sort(()=>Math.random()-0.5);
+  const c = $("#content");
+  c.innerHTML = `<div class="quiz-box">
+    <div class="quiz-meta">${quizIdx+1} / ${quizQueue.length}</div>
+    <div class="quiz-sub">${qLabel}</div>
+    <div class="quiz-q">${esc(qText)}</div>
+    ${askMeaning?`<button class="play" id="qPlay">🔊 듣기</button>`:""}
+    <div class="quiz-choices">${choices.map(ch=>`<button data-v="${esc(ch)}">${esc(ch)}</button>`).join("")}</div>
+  </div>`;
+  const qp = $("#qPlay");
+  if(qp) qp.onclick = ()=>{
+    stopAudio();
+    const a = new Audio(`audio/${it.lang}/${it.id}.mp3`);
+    a.onerror = ()=>speak(it.expression, it.lang, 1);
+    currentAudio = a;
+    a.play().catch(()=>speak(it.expression, it.lang, 1));
+  };
+  c.querySelectorAll(".quiz-choices button").forEach(btn=>{
+    btn.onclick = ()=>{
+      const ok = btn.dataset.v === answer;
+      c.querySelectorAll(".quiz-choices button").forEach(b=>{
+        if(b.dataset.v===answer) b.classList.add("correct");
+        else if(b===btn) b.classList.add("wrong");
+        b.disabled = true;
+      });
+      gradeAnswer(it, ok);
+      if(ok) quizScore++;
+      setTimeout(()=>{ quizIdx++; nextQuestion(); }, ok?800:1800);
+    };
+  });
+}
+function gradeAnswer(it, ok){
+  const srs = srsLoad(), today = todayKST();
+  const rec = srs[it.id] || {step:0};
+  if(ok){
+    rec.step = Math.min(rec.step+1, SRS_INTERVALS.length);
+    rec.due = rec.step >= SRS_INTERVALS.length
+      ? addDays(today, 60)  // 4회 모두 통과 → 장기 보관(60일 뒤 한 번 더)
+      : addDays(today, SRS_INTERVALS[rec.step]);
+  }else{
+    rec.step = 0;
+    rec.due = addDays(today, 1);
+    rec.wrong = (rec.wrong||0)+1;
+  }
+  srs[it.id] = rec; srsSave(srs);
+}
+function quizDone(){
+  const pct = quizQueue.length?Math.round(quizScore/quizQueue.length*100):0;
+  $("#content").innerHTML = `<div class="quiz-box">
+    <div style="font-size:2.2rem">${pct>=80?"🎉":"💪"}</div>
+    <div class="quiz-q">${quizScore} / ${quizQueue.length} 정답 (${pct}%)</div>
+    <div class="quiz-sub">${pct>=80?"훌륭해요! 틀린 표현은 내일 다시 나와요.":"틀린 표현은 내일 다시 복습하게 돼요. 꾸준함이 답!"}</div>
+    <button class="big-btn" onclick="renderQuiz()">다시 확인</button></div>`;
+}
+
+/* ---------- 탭 ---------- */
+function render(){
+  stopAudio();
+  if(TAB==="quiz") renderQuiz(); else renderLang(TAB);
+}
+document.querySelectorAll(".tab").forEach(t=>{
+  t.onclick = ()=>{
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");
+    TAB = t.dataset.tab;
+    render();
+  };
+});
+loadData();
+</script>
+</body>
+</html>
