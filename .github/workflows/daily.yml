@@ -1,0 +1,49 @@
+name: Daily Lesson
+
+on:
+  schedule:
+    # 매일 12:00 UTC = 한국시간 오후 9시 (GitHub 사정으로 몇 분~수십 분 지연될 수 있음)
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '오늘 이미 발송했어도 다시 보내기'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-lesson
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 음성 생성 도구 설치
+        run: pip install edge-tts
+
+      - name: 오늘의 표현 발송
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FORCE_RESEND: ${{ github.event.inputs.force }}
+        run: python scripts/daily.py
+
+      - name: 변경사항 저장 (아카이브·진도·음성)
+        run: |
+          git config user.name "daily-lang-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "lesson: $(TZ=Asia/Seoul date +%F)"
+          git push
