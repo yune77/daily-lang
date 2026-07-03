@@ -114,6 +114,25 @@ def process_commands(state):
             pass
 
 
+def ensure_keyboard(state):
+    """레벨 변경용 상주 버튼판을 채팅방에 1회 설치"""
+    if DRY_RUN or not BOT_TOKEN or state.get("kb_sent"):
+        return
+    kb = {"keyboard": [
+        [{"text": "영어 초급"}, {"text": "영어 중급"}, {"text": "영어 고급"}],
+        [{"text": "중국어 초급"}, {"text": "중국어 중급"}, {"text": "중국어 고급"}],
+    ], "resize_keyboard": True, "is_persistent": True}
+    try:
+        telegram("sendMessage", {
+            "chat_id": CHAT_ID,
+            "text": "⚙️ 입력창 아래 버튼으로 언제든 레벨을 바꿀 수 있어요.\n"
+                    "누르면 다음 발송(매일 밤 9시)부터 적용됩니다.",
+            "reply_markup": kb})
+        state["kb_sent"] = True
+    except Exception as e:
+        print(f"[keyboard] 설치 실패: {e}", file=sys.stderr)
+
+
 def pick_today(lang, state):
     """오늘 배울 표현을 뽑고 진도를 갱신. (items, levelup, all_done) 반환"""
     st = state[lang]
@@ -238,6 +257,7 @@ def main():
         sys.exit(1)
     migrate(state)
     process_commands(state)
+    ensure_keyboard(state)
     archive = read_json(WEB_DATA / "archive.json", [])
 
     # 오늘 이미 발송했으면: 기본은 건너뛰기, force면 같은 내용 재발송(진도 중복 진행 없음)
