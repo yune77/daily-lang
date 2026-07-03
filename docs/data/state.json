@@ -1,18 +1,26 @@
 {
  "en": {
   "level": 1,
-  "index": 5,
-  "learned": 5,
+  "learned": 10,
   "done": false,
-  "total": 100
+  "pos": {
+   "1": 10,
+   "2": 0,
+   "3": 0
+  }
  },
  "zh": {
   "level": 1,
-  "index": 5,
-  "learned": 5,
+  "learned": 10,
   "done": false,
-  "total": 100
+  "pos": {
+   "1": 10,
+   "2": 0,
+   "3": 0
+  }
  },
- "days": 1,
- "last_sent": "2026-07-03"
+ "days": 2,
+ "last_sent": "2026-07-04",
+ "tg_offset": 129658926,
+ "kb_sent": true
 }

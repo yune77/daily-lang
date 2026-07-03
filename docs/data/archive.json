@@ -1,5 +1,120 @@
 [
  {
+  "date": "2026-07-04",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-006",
+     "expression": "What's up?",
+     "meaning": "잘 지내? / 무슨 일이야?",
+     "example": "Hey, what's up? Long time no see!",
+     "example_ko": "야, 잘 지냈어? 오랜만이다!",
+     "note": "인사로 쓰면 대답은 Not much가 무난"
+    },
+    {
+     "id": "en1-007",
+     "expression": "hold on",
+     "meaning": "잠깐만 (기다려)",
+     "example": "Hold on, I'll be right back.",
+     "example_ko": "잠깐만, 금방 올게.",
+     "note": "전화에서 특히 자주 씀"
+    },
+    {
+     "id": "en1-008",
+     "expression": "be running late",
+     "meaning": "늦어지고 있다",
+     "example": "Sorry, I'm running late. Give me ten minutes.",
+     "example_ko": "미안, 좀 늦고 있어. 10분만 기다려줘.",
+     "note": "약속 시간에 늦을 때 문자로 가장 많이 쓰는 문장"
+    },
+    {
+     "id": "en1-009",
+     "expression": "my bad",
+     "meaning": "내 잘못이야, 미안",
+     "example": "Oh, my bad. I thought the meeting was at 3.",
+     "example_ko": "아, 내 잘못이야. 회의가 3시인 줄 알았어.",
+     "note": "가벼운 실수에만 사용, 정중한 사과는 아님"
+    },
+    {
+     "id": "en1-010",
+     "expression": "take it easy",
+     "meaning": "무리하지 마, 쉬엄쉬엄 해",
+     "example": "You look exhausted. Take it easy this weekend.",
+     "example_ko": "너 완전 지쳐 보여. 주말엔 좀 쉬어.",
+     "note": "헤어질 때 인사로도 씀"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 10,
+   "total": 100,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-006",
+     "expression": "好久不见",
+     "pinyin": "hǎojiǔ bújiàn",
+     "meaning": "오랜만이야",
+     "example": "好久不见，你都没怎么变。",
+     "example_pinyin": "Hǎojiǔ bújiàn, nǐ dōu méi zěnme biàn.",
+     "example_ko": "오랜만이야, 하나도 안 변했네.",
+     "note": "오랫동안 못 본 사람을 만났을 때"
+    },
+    {
+     "id": "zh1-007",
+     "expression": "最近怎么样",
+     "pinyin": "zuìjìn zěnmeyàng",
+     "meaning": "요즘 어때",
+     "example": "最近怎么样？工作忙不忙？",
+     "example_pinyin": "Zuìjìn zěnmeyàng? Gōngzuò máng bu máng?",
+     "example_ko": "요즘 어때? 일은 바빠?",
+     "note": "안부를 물을 때 가장 흔한 표현"
+    },
+    {
+     "id": "zh1-008",
+     "expression": "你吃了吗",
+     "pinyin": "nǐ chī le ma",
+     "meaning": "밥 먹었어?",
+     "example": "你吃了吗？还没的话一起吧。",
+     "example_pinyin": "Nǐ chī le ma? Hái méi de huà yìqǐ ba.",
+     "example_ko": "밥 먹었어? 아직 안 먹었으면 같이 먹자.",
+     "note": "중국식 인사, 실제로 식사 여부를 궁금해하는 게 아닐 때도 많음"
+    },
+    {
+     "id": "zh1-009",
+     "expression": "慢走",
+     "pinyin": "màn zǒu",
+     "meaning": "조심히 가",
+     "example": "外面下雨了，慢走。",
+     "example_pinyin": "Wàimiàn xiàyǔ le, màn zǒu.",
+     "example_ko": "밖에 비 와, 조심히 가.",
+     "note": "손님을 배웅할 때 자주 쓰는 인사"
+    },
+    {
+     "id": "zh1-010",
+     "expression": "回头见",
+     "pinyin": "huítóu jiàn",
+     "meaning": "이따 봐",
+     "example": "我去买杯咖啡，回头见。",
+     "example_pinyin": "Wǒ qù mǎi bēi kāfēi, huítóu jiàn.",
+     "example_ko": "커피 사러 갔다 올게, 이따 봐.",
+     "note": "곧 다시 만날 사람에게 하는 인사"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 10,
+   "total": 100,
+   "done": false
+  }
+ },
+ {
   "date": "2026-07-03",
   "en": {
    "level": 1,
