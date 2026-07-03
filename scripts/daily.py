@@ -9,6 +9,7 @@
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import datetime
@@ -65,6 +66,54 @@ def load_level(lang, level):
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def migrate(state):
+    """구버전 state(index 방식)를 레벨별 진도(pos) 방식으로 변환"""
+    for lang in ("en", "zh"):
+        st = state[lang]
+        if "pos" not in st:
+            st["pos"] = {"1": 0, "2": 0, "3": 0}
+            st["pos"][str(st.get("level", 1))] = st.pop("index", 0)
+        st.pop("total", None)
+        st.setdefault("learned", 0)
+    state.setdefault("tg_offset", 0)
+
+
+def process_commands(state):
+    """봇 채팅으로 받은 레벨 변경 명령 처리. 예: '영어 고급', '중국어 초급'"""
+    if DRY_RUN or not BOT_TOKEN:
+        return
+    try:
+        r = telegram("getUpdates", {"offset": state.get("tg_offset", 0) + 1,
+                                    "timeout": 0})
+    except Exception as e:
+        print(f"[commands] getUpdates 실패: {e}", file=sys.stderr)
+        return
+    LV = {"초급": 1, "중급": 2, "고급": 3}
+    replies = {}
+    for up in r.get("result", []):
+        state["tg_offset"] = max(state.get("tg_offset", 0), up["update_id"])
+        msg = up.get("message") or {}
+        if str(msg.get("chat", {}).get("id")) != str(CHAT_ID):
+            continue
+        m = re.search(r"(영어|중국어)\s*(초급|중급|고급)", msg.get("text") or "")
+        if not m:
+            continue
+        lang = "en" if m.group(1) == "영어" else "zh"
+        level = LV[m.group(2)]
+        st = state[lang]
+        st["level"] = level
+        st["done"] = False
+        total = len(load_level(lang, level) or [])
+        if st["pos"].get(str(level), 0) >= total:
+            st["pos"][str(level)] = 0  # 이미 끝낸 레벨은 처음부터 다시
+        replies[lang] = f"✅ 오늘부터 {m.group(1)}는 {m.group(2)}으로 나갑니다!"
+    for text in replies.values():
+        try:
+            telegram("sendMessage", {"chat_id": CHAT_ID, "text": text})
+        except Exception:
+            pass
+
+
 def pick_today(lang, state):
     """오늘 배울 표현을 뽑고 진도를 갱신. (items, levelup, all_done) 반환"""
     st = state[lang]
@@ -74,16 +123,17 @@ def pick_today(lang, state):
     if items is None:
         st["done"] = True
         return [], False, True
-    picked = items[st["index"]: st["index"] + PER_DAY]
-    st["index"] += len(picked)
+    key = str(st["level"])
+    idx = st["pos"].get(key, 0)
+    picked = items[idx: idx + PER_DAY]
+    st["pos"][key] = idx + len(picked)
     st["learned"] = st.get("learned", 0) + len(picked)
-    st["total"] = len(items)
     levelup = False
-    if st["index"] >= len(items):
-        if load_level(lang, st["level"] + 1) is not None:
-            st["level"] += 1
-            st["index"] = 0
-            st["total"] = len(load_level(lang, st["level"]))
+    if st["pos"][key] >= len(items):
+        nxt = st["level"] + 1
+        nxt_items = load_level(lang, nxt)
+        if nxt_items is not None and st["pos"].get(str(nxt), 0) < len(nxt_items):
+            st["level"] = nxt
             levelup = True
         else:
             st["done"] = True
@@ -143,6 +193,7 @@ def build_message(entry):
             lines.append(f"\U0001F389 <b>미션 컴플리트! {sec['next_level_name']}으로 레벨업!</b>")
         lines.append("")
     lines.append("\U0001F50A 발음 듣기 · 예문 · 복습 퀴즈는 웹에서!")
+    lines.append("<i>레벨 변경: 이 채팅에 '영어 고급'처럼 보내면 다음 발송부터 적용</i>")
     return "\n".join(lines)
 
 
@@ -185,11 +236,14 @@ def main():
     if state is None:
         print("state.json이 없습니다.", file=sys.stderr)
         sys.exit(1)
+    migrate(state)
+    process_commands(state)
     archive = read_json(WEB_DATA / "archive.json", [])
 
     # 오늘 이미 발송했으면: 기본은 건너뛰기, force면 같은 내용 재발송(진도 중복 진행 없음)
     existing = next((e for e in archive if e["date"] == TODAY), None)
     if existing:
+        write_json(WEB_DATA / "state.json", state)  # 레벨 명령 처리분 저장
         if FORCE:
             print("오늘 항목 재발송(force).")
             send(existing)
@@ -208,7 +262,7 @@ def main():
             "items": items,
             "levelup": levelup,
             "next_level_name": LEVEL_NAMES.get(state[lang]["level"], ""),
-            "progress": state[lang]["index"],
+            "progress": state[lang]["pos"].get(str(before_level), 0),
             "total": len(load_level(lang, before_level) or []),
             "done": done,
         }

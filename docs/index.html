@@ -364,13 +364,46 @@ function gradeAnswer(it, ok){
   }
   srs[it.id] = rec; srsSave(srs);
 }
+const QUOTES = [
+  "언어는 재능이 아니라 매일의 습관이 만든다.",
+  "오늘 외운 한 문장이 언젠가 대화의 문을 연다.",
+  "천 리 길도 한 표현부터. 千里之行，始于足下。",
+  "어제의 나보다 다섯 표현만큼 성장했다.",
+  "유창함은 완벽한 하루가 아니라 빠지지 않은 하루들의 합이다.",
+  "The secret of getting ahead is getting started. 시작이 반이다.",
+  "실수하는 사람만이 새 언어를 얻는다. 틀린 문장이 늘수록 입이 열린다.",
+  "매일 밤 9시의 작은 약속이 1년 뒤의 나를 바꾼다.",
+  "Little by little, a little becomes a lot. 티끌 모아 태산.",
+  "포기하지 않는 한, 늦은 시작은 없다.",
+  "오늘의 복습이 내일의 자신감이다.",
+  "坚持就是胜利。버티는 것이 곧 이기는 것이다.",
+  "외국어는 다른 인생을 하나 더 사는 일이다.",
+  "완벽한 문장보다 용감한 문장이 먼저다.",
+  "지금 이 순간에도 당신의 뇌는 새 회로를 만들고 있다."
+];
+function claudeUrl(){
+  const latest = ARCHIVE[0];
+  if(!latest) return "https://claude.ai/new";
+  const en = (latest.en?.items||[]).map(i=>i.expression).join(", ") || "없음";
+  const zh = (latest.zh?.items||[]).map(i=>i.expression).join(", ") || "없음";
+  const prompt = `오늘 배운 표현으로 회화 연습을 하고 싶어. 영어 표현: ${en}. 중국어 표현: ${zh}. `
+    + `네가 원어민 친구 역할을 맡아 자연스러운 상황극을 만들어 주고, 내가 이 표현들을 직접 써 볼 수 있게 대화를 이끌어줘. `
+    + `내 문장에 어색한 부분이 있으면 그때그때 자연스럽게 교정해줘. 영어부터 시작하고, 끝나면 중국어(병음 포함)로 넘어가자.`;
+  return "https://claude.ai/new?q=" + encodeURIComponent(prompt);
+}
 function quizDone(){
   const pct = quizQueue.length?Math.round(quizScore/quizQueue.length*100):0;
+  const quote = QUOTES[Math.floor(Math.random()*QUOTES.length)];
   $("#content").innerHTML = `<div class="quiz-box">
-    <div style="font-size:2.2rem">${pct>=80?"🎉":"💪"}</div>
-    <div class="quiz-q">${quizScore} / ${quizQueue.length} 정답 (${pct}%)</div>
-    <div class="quiz-sub">${pct>=80?"훌륭해요! 틀린 표현은 내일 다시 나와요.":"틀린 표현은 내일 다시 복습하게 돼요. 꾸준함이 답!"}</div>
-    <button class="big-btn" onclick="renderQuiz()">다시 확인</button></div>`;
+    <div style="font-size:2.6rem">${pct>=80?"🎉":"💪"}</div>
+    <div class="quiz-q">오늘 학습 완료!</div>
+    <div class="quiz-sub">${quizScore} / ${quizQueue.length} 정답 (${pct}%)
+      · ${pct>=80?"훌륭해요!":"틀린 표현은 내일 다시 나와요."}</div>
+    <div style="margin:18px 8px;padding:16px;background:var(--accent-soft);border-radius:12px;
+      font-weight:700;font-size:.95rem;line-height:1.7">"${quote}"</div>
+    <a href="${claudeUrl()}" target="_blank" style="text-decoration:none">
+      <button class="big-btn">💬 오늘 표현으로 Claude와 회화 연습</button></a>
+    <div class="quiz-meta">내일 밤 9시에 새로운 표현으로 만나요 🌙</div></div>`;
 }
 
 /* ---------- 탭 ---------- */
