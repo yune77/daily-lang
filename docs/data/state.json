@@ -1,6 +1,18 @@
 {
- "en": {"level": 1, "index": 0, "learned": 0, "done": false},
- "zh": {"level": 1, "index": 0, "learned": 0, "done": false},
- "days": 0,
- "last_sent": null
+ "en": {
+  "level": 1,
+  "index": 5,
+  "learned": 5,
+  "done": false,
+  "total": 100
+ },
+ "zh": {
+  "level": 1,
+  "index": 5,
+  "learned": 5,
+  "done": false,
+  "total": 100
+ },
+ "days": 1,
+ "last_sent": "2026-07-03"
 }

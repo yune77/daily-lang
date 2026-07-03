@@ -1,0 +1,117 @@
+[
+ {
+  "date": "2026-07-03",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-001",
+     "expression": "hang out",
+     "meaning": "놀다, 시간을 보내다",
+     "example": "Do you want to hang out this weekend?",
+     "example_ko": "이번 주말에 같이 놀래?",
+     "note": "친구와 편하게 시간 보낼 때 가장 흔한 표현"
+    },
+    {
+     "id": "en1-002",
+     "expression": "grab a bite",
+     "meaning": "간단히 뭐 좀 먹다",
+     "example": "Let's grab a bite before the movie.",
+     "example_ko": "영화 보기 전에 간단히 뭐 좀 먹자.",
+     "note": "grab a coffee(커피 한잔하다)도 같은 패턴"
+    },
+    {
+     "id": "en1-003",
+     "expression": "I'm down",
+     "meaning": "나도 할래, 좋아(제안 수락)",
+     "example": "Pizza tonight? — I'm down!",
+     "example_ko": "오늘 밤 피자 어때? — 완전 좋지!",
+     "note": "I'm in도 같은 뜻"
+    },
+    {
+     "id": "en1-004",
+     "expression": "no big deal",
+     "meaning": "별거 아니야",
+     "example": "Don't worry about it. It's no big deal.",
+     "example_ko": "걱정하지 마. 별거 아니야.",
+     "note": "줄여서 NBD라고 쓰기도 함"
+    },
+    {
+     "id": "en1-005",
+     "expression": "kind of",
+     "meaning": "약간, 좀",
+     "example": "I'm kind of tired today.",
+     "example_ko": "나 오늘 좀 피곤해.",
+     "note": "발음은 kinda로 뭉개지는 경우가 많음"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 5,
+   "total": 100,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-001",
+     "expression": "加油",
+     "pinyin": "jiā yóu",
+     "meaning": "힘내, 파이팅",
+     "example": "明天就要考试了？加油！",
+     "example_pinyin": "Míngtiān jiù yào kǎoshì le? Jiāyóu!",
+     "example_ko": "내일이 바로 시험이야? 힘내!",
+     "note": "응원할 때 가장 많이 쓰는 표현"
+    },
+    {
+     "id": "zh1-002",
+     "expression": "你好",
+     "pinyin": "nǐ hǎo",
+     "meaning": "안녕하세요",
+     "example": "你好，请问洗手间在哪儿？",
+     "example_pinyin": "Nǐ hǎo, qǐngwèn xǐshǒujiān zài nǎr?",
+     "example_ko": "안녕하세요, 화장실이 어디예요?",
+     "note": "가장 기본적인 인사말, 낯선 사람에게도 사용"
+    },
+    {
+     "id": "zh1-003",
+     "expression": "再见",
+     "pinyin": "zàijiàn",
+     "meaning": "잘 가, 안녕",
+     "example": "我先走了，再见！",
+     "example_pinyin": "Wǒ xiān zǒu le, zàijiàn!",
+     "example_ko": "나 먼저 갈게, 안녕!",
+     "note": "헤어질 때 쓰는 기본 인사"
+    },
+    {
+     "id": "zh1-004",
+     "expression": "早上好",
+     "pinyin": "zǎoshang hǎo",
+     "meaning": "좋은 아침",
+     "example": "早上好，你今天气色不错。",
+     "example_pinyin": "Zǎoshang hǎo, nǐ jīntiān qìsè búcuò.",
+     "example_ko": "좋은 아침, 오늘 안색이 좋네.",
+     "note": "아침 인사, 早안 대신 격식 있게도 사용"
+    },
+    {
+     "id": "zh1-005",
+     "expression": "晚安",
+     "pinyin": "wǎn'ān",
+     "meaning": "잘 자",
+     "example": "我困了，晚安。",
+     "example_pinyin": "Wǒ kùn le, wǎn'ān.",
+     "example_ko": "나 졸려, 잘 자.",
+     "note": "자기 전 인사, 문자에서도 자주 씀"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 5,
+   "total": 100,
+   "done": false
+  }
+ }
+]
