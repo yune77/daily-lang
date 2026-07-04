@@ -1,5 +1,120 @@
 [
  {
+  "date": "2026-07-05",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-001",
+     "expression": "hit the sack",
+     "meaning": "자러 가다",
+     "example": "I'm beat. Time to hit the sack.",
+     "example_ko": "완전 지쳤어. 이제 자야겠다.",
+     "note": "hit the hay도 같은 뜻"
+    },
+    {
+     "id": "en2-002",
+     "expression": "be on the fence",
+     "meaning": "결정을 못 하고 망설이다",
+     "example": "I'm still on the fence about moving abroad.",
+     "example_ko": "해외 이주에 대해 아직도 결정을 못 하겠어.",
+     "note": "울타리 위에 앉아 어느 쪽으로도 안 내려온 이미지"
+    },
+    {
+     "id": "en2-003",
+     "expression": "cut corners",
+     "meaning": "대충 하다, 절차를 건너뛰다",
+     "example": "Don't cut corners on safety checks.",
+     "example_ko": "안전 점검은 대충 넘어가지 마.",
+     "note": "비용·시간을 아끼려 질을 희생하는 뉘앙스"
+    },
+    {
+     "id": "en2-004",
+     "expression": "call it a day",
+     "meaning": "오늘은 여기까지 하다",
+     "example": "We've done enough. Let's call it a day.",
+     "example_ko": "충분히 했어. 오늘은 여기까지 하자.",
+     "note": "직장 미드 단골 표현"
+    },
+    {
+     "id": "en2-005",
+     "expression": "under the weather",
+     "meaning": "몸이 좀 안 좋다",
+     "example": "I'm feeling a bit under the weather today.",
+     "example_ko": "오늘 몸이 좀 안 좋네.",
+     "note": "심각한 병이 아닌 가벼운 컨디션 난조"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 5,
+   "total": 100,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-011",
+     "expression": "拜拜",
+     "pinyin": "báibái",
+     "meaning": "빠이빠이",
+     "example": "那我先挂了，拜拜！",
+     "example_pinyin": "Nà wǒ xiān guà le, báibái!",
+     "example_ko": "그럼 나 먼저 끊을게, 빠이빠이!",
+     "note": "영어 bye에서 온 캐주얼한 작별 인사"
+    },
+    {
+     "id": "zh1-012",
+     "expression": "谢谢",
+     "pinyin": "xièxie",
+     "meaning": "고마워",
+     "example": "谢谢你一直陪着我。",
+     "example_pinyin": "Xièxie nǐ yìzhí péizhe wǒ.",
+     "example_ko": "계속 곁에 있어줘서 고마워.",
+     "note": "가장 기본적인 감사 표현"
+    },
+    {
+     "id": "zh1-013",
+     "expression": "不客气",
+     "pinyin": "bú kèqi",
+     "meaning": "천만에",
+     "example": "不客气，这是我应该做的。",
+     "example_pinyin": "Bú kèqi, zhè shì wǒ yīnggāi zuò de.",
+     "example_ko": "천만에, 이건 내가 당연히 해야 할 일이야.",
+     "note": "감사 인사에 대한 대답"
+    },
+    {
+     "id": "zh1-014",
+     "expression": "对不起",
+     "pinyin": "duìbuqǐ",
+     "meaning": "미안해",
+     "example": "对不起，我来晚了。",
+     "example_pinyin": "Duìbuqǐ, wǒ láiwǎn le.",
+     "example_ko": "미안해, 내가 늦었어.",
+     "note": "사과할 때 가장 기본적인 표현"
+    },
+    {
+     "id": "zh1-015",
+     "expression": "没关系",
+     "pinyin": "méi guānxi",
+     "meaning": "괜찮아",
+     "example": "没关系，这不是你的错。",
+     "example_pinyin": "Méi guānxi, zhè bú shì nǐ de cuò.",
+     "example_ko": "괜찮아, 네 잘못이 아니야.",
+     "note": "사과를 받아줄 때 쓰는 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 15,
+   "total": 100,
+   "done": false
+  }
+ },
+ {
   "date": "2026-07-04",
   "en": {
    "level": 1,
