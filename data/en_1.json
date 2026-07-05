@@ -1,102 +1,906 @@
 [
-{"id":"en1-001","expression":"hang out","meaning":"놀다, 시간을 보내다","example":"Do you want to hang out this weekend?","example_ko":"이번 주말에 같이 놀래?","note":"친구와 편하게 시간 보낼 때 가장 흔한 표현"},
-{"id":"en1-002","expression":"grab a bite","meaning":"간단히 뭐 좀 먹다","example":"Let's grab a bite before the movie.","example_ko":"영화 보기 전에 간단히 뭐 좀 먹자.","note":"grab a coffee(커피 한잔하다)도 같은 패턴"},
-{"id":"en1-003","expression":"I'm down","meaning":"나도 할래, 좋아(제안 수락)","example":"Pizza tonight? — I'm down!","example_ko":"오늘 밤 피자 어때? — 완전 좋지!","note":"I'm in도 같은 뜻"},
-{"id":"en1-004","expression":"no big deal","meaning":"별거 아니야","example":"Don't worry about it. It's no big deal.","example_ko":"걱정하지 마. 별거 아니야.","note":"줄여서 NBD라고 쓰기도 함"},
-{"id":"en1-005","expression":"kind of","meaning":"약간, 좀","example":"I'm kind of tired today.","example_ko":"나 오늘 좀 피곤해.","note":"발음은 kinda로 뭉개지는 경우가 많음"},
-{"id":"en1-006","expression":"What's up?","meaning":"잘 지내? / 무슨 일이야?","example":"Hey, what's up? Long time no see!","example_ko":"야, 잘 지냈어? 오랜만이다!","note":"인사로 쓰면 대답은 Not much가 무난"},
-{"id":"en1-007","expression":"hold on","meaning":"잠깐만 (기다려)","example":"Hold on, I'll be right back.","example_ko":"잠깐만, 금방 올게.","note":"전화에서 특히 자주 씀"},
-{"id":"en1-008","expression":"be running late","meaning":"늦어지고 있다","example":"Sorry, I'm running late. Give me ten minutes.","example_ko":"미안, 좀 늦고 있어. 10분만 기다려줘.","note":"약속 시간에 늦을 때 문자로 가장 많이 쓰는 문장"},
-{"id":"en1-009","expression":"my bad","meaning":"내 잘못이야, 미안","example":"Oh, my bad. I thought the meeting was at 3.","example_ko":"아, 내 잘못이야. 회의가 3시인 줄 알았어.","note":"가벼운 실수에만 사용, 정중한 사과는 아님"},
-{"id":"en1-010","expression":"take it easy","meaning":"무리하지 마, 쉬엄쉬엄 해","example":"You look exhausted. Take it easy this weekend.","example_ko":"너 완전 지쳐 보여. 주말엔 좀 쉬어.","note":"헤어질 때 인사로도 씀"},
-{"id":"en1-011","expression":"hang on a sec","meaning":"잠깐만 기다려","example":"Hang on a sec, I can't find my keys.","example_ko":"잠깐만, 열쇠를 못 찾겠어.","note":"sec은 second의 줄임"},
-{"id":"en1-012","expression":"be into","meaning":"~에 푹 빠져 있다, 좋아하다","example":"I'm really into K-dramas these days.","example_ko":"나 요즘 한국 드라마에 완전 빠졌어.","note":"사람에게 쓰면 '좋아한다'는 뜻"},
-{"id":"en1-013","expression":"sounds good","meaning":"좋아, 그렇게 하자","example":"Meet at seven? — Sounds good!","example_ko":"7시에 만날까? — 좋아!","note":"제안에 동의할 때 가장 무난한 대답"},
-{"id":"en1-014","expression":"on my way","meaning":"가는 중이야","example":"I'm on my way. See you in five.","example_ko":"가는 중이야. 5분 뒤에 봐.","note":"문자에서 OMW로 줄여 씀"},
-{"id":"en1-015","expression":"a bunch of","meaning":"많은, 한 무더기의","example":"I have a bunch of things to do today.","example_ko":"오늘 할 일이 산더미야.","note":"a lot of의 구어체 버전"},
-{"id":"en1-016","expression":"for real","meaning":"진짜로, 정말","example":"Are you moving to Seoul? For real?","example_ko":"서울로 이사 간다고? 진짜로?","note":"놀람이나 확인에 사용"},
-{"id":"en1-017","expression":"hit up","meaning":"연락하다","example":"Hit me up when you're free.","example_ko":"시간 되면 연락해.","note":"미드에서 매우 흔한 캐주얼 표현"},
-{"id":"en1-018","expression":"catch up","meaning":"밀린 이야기를 나누다","example":"Let's catch up over coffee soon.","example_ko":"조만간 커피 마시면서 밀린 얘기 하자.","note":"오랜만에 만난 사람에게 필수 표현"},
-{"id":"en1-019","expression":"I can't wait","meaning":"너무 기대돼","example":"I can't wait for the concert!","example_ko":"콘서트 너무 기대돼!","note":"부정형이지만 뜻은 긍정적 기대"},
-{"id":"en1-020","expression":"stuff","meaning":"것들, 물건, 일","example":"I have some stuff to take care of.","example_ko":"처리할 일이 좀 있어.","note":"things보다 더 캐주얼한 만능 단어"},
-{"id":"en1-021","expression":"pretty much","meaning":"거의, 대체로","example":"Are you done? — Yeah, pretty much.","example_ko":"다 했어? — 응, 거의.","note":"almost보다 구어적"},
-{"id":"en1-022","expression":"hang in there","meaning":"조금만 버텨, 힘내","example":"I know it's tough, but hang in there.","example_ko":"힘든 거 알아, 그래도 조금만 버텨.","note":"위로할 때 자주 쓰는 표현"},
-{"id":"en1-023","expression":"no worries","meaning":"괜찮아, 신경 쓰지 마","example":"Sorry I'm late! — No worries.","example_ko":"늦어서 미안! — 괜찮아.","note":"Thank you에 대한 대답으로도 씀"},
-{"id":"en1-024","expression":"figure out","meaning":"알아내다, 해결하다","example":"I can't figure out how to use this app.","example_ko":"이 앱 어떻게 쓰는지 모르겠어.","note":"일상 회화 최고 빈출 구동사 중 하나"},
-{"id":"en1-025","expression":"come over","meaning":"(우리 집에) 오다, 들르다","example":"Why don't you come over for dinner?","example_ko":"저녁 먹으러 우리 집에 올래?","note":"말하는 사람 쪽으로 오는 것"},
-{"id":"en1-026","expression":"grab","meaning":"집다, 가져오다, 사다","example":"Can you grab my phone from the table?","example_ko":"테이블에서 내 폰 좀 갖다줄래?","note":"get보다 캐주얼하고 미드 단골"},
-{"id":"en1-027","expression":"be about to","meaning":"막 ~하려던 참이다","example":"I was about to call you!","example_ko":"막 너한테 전화하려던 참이었어!","note":"타이밍이 겹쳤을 때 자주 나옴"},
-{"id":"en1-028","expression":"You bet","meaning":"물론이지, 당연하지","example":"Can you help me move? — You bet!","example_ko":"이사하는 것 좀 도와줄래? — 당연하지!","note":"Sure의 활기찬 버전"},
-{"id":"en1-029","expression":"a while","meaning":"한동안, 꽤 오래","example":"I haven't seen him in a while.","example_ko":"그를 못 본 지 꽤 됐어.","note":"It's been a while(오랜만이야)도 필수"},
-{"id":"en1-030","expression":"turn out","meaning":"결국 ~로 드러나다","example":"It turned out he was right.","example_ko":"알고 보니 그가 맞았어.","note":"반전을 이야기할 때 필수"},
-{"id":"en1-031","expression":"Guess what?","meaning":"있잖아, 맞혀봐 (놀라운 소식 예고)","example":"Guess what? I got the job!","example_ko":"있잖아! 나 그 회사 붙었어!","note":"대답은 What? 하면 됨"},
-{"id":"en1-032","expression":"right away","meaning":"바로, 즉시","example":"I'll send it to you right away.","example_ko":"바로 보내줄게.","note":"immediately보다 부드러운 구어체"},
-{"id":"en1-033","expression":"give it a try","meaning":"한번 해보다","example":"It looks hard, but I'll give it a try.","example_ko":"어려워 보이지만 한번 해볼게.","note":"give it a shot도 같은 뜻"},
-{"id":"en1-034","expression":"be up to","meaning":"~을 하고 있다, 꾸미다","example":"What are you up to tonight?","example_ko":"오늘 밤에 뭐 해?","note":"What are you doing?의 캐주얼 버전"},
-{"id":"en1-035","expression":"totally","meaning":"완전, 진짜 (강한 동의)","example":"That movie was amazing! — Totally.","example_ko":"그 영화 대박이었어! — 완전.","note":"맞장구용 필수 단어"},
-{"id":"en1-036","expression":"show up","meaning":"나타나다, 오다","example":"He didn't show up to the party.","example_ko":"걔 파티에 안 왔어.","note":"약속에 나타나지 않으면 no-show"},
-{"id":"en1-037","expression":"make it","meaning":"(시간 맞춰) 가다, 해내다","example":"Sorry, I can't make it tomorrow.","example_ko":"미안, 나 내일 못 가.","note":"약속 취소할 때 가장 흔한 문장"},
-{"id":"en1-038","expression":"That works","meaning":"그거 괜찮네, 그렇게 하자","example":"How about Friday at six? — That works.","example_ko":"금요일 6시 어때? — 좋아, 괜찮아.","note":"일정 조율에서 초고빈도"},
-{"id":"en1-039","expression":"stay in","meaning":"집에 있다, 안 나가다","example":"I'm tired, so I'll just stay in tonight.","example_ko":"피곤해서 오늘 밤엔 그냥 집에 있을래.","note":"반대는 go out"},
-{"id":"en1-040","expression":"check out","meaning":"확인해 보다, 구경하다","example":"Check out this video. It's hilarious.","example_ko":"이 영상 좀 봐. 완전 웃겨.","note":"추천할 때 필수"},
-{"id":"en1-041","expression":"be starving","meaning":"배고파 죽겠다","example":"Let's eat. I'm starving!","example_ko":"밥 먹자. 배고파 죽겠어!","note":"hungry의 과장 버전, 매우 흔함"},
-{"id":"en1-042","expression":"go ahead","meaning":"먼저 해, 그렇게 해","example":"Can I use your charger? — Sure, go ahead.","example_ko":"충전기 좀 써도 돼? — 응, 써.","note":"허락할 때 기본 표현"},
-{"id":"en1-043","expression":"be broke","meaning":"돈이 없다, 빈털터리다","example":"I can't go shopping. I'm broke this month.","example_ko":"쇼핑 못 가. 이번 달에 완전 거지야.","note":"broken이 아니라 broke"},
-{"id":"en1-044","expression":"hang up","meaning":"전화를 끊다","example":"Don't hang up! I have one more thing to say.","example_ko":"끊지 마! 할 말이 하나 더 있어.","note":"전화 회화 필수"},
-{"id":"en1-045","expression":"pick up","meaning":"데리러 가다, 전화를 받다, 사 오다","example":"Can you pick me up at the station?","example_ko":"역으로 나 데리러 와줄 수 있어?","note":"상황 따라 뜻이 여러 개인 만능 구동사"},
-{"id":"en1-046","expression":"How come?","meaning":"왜? 어째서?","example":"You're not coming? How come?","example_ko":"안 온다고? 왜?","note":"Why보다 놀람이 섞인 캐주얼한 왜"},
-{"id":"en1-047","expression":"be on me","meaning":"내가 살게","example":"Dinner is on me tonight.","example_ko":"오늘 저녁은 내가 살게.","note":"It's my treat도 같은 뜻"},
-{"id":"en1-048","expression":"work out","meaning":"운동하다 / 잘 풀리다","example":"Everything will work out fine.","example_ko":"다 잘 풀릴 거야.","note":"문맥에 따라 두 가지 뜻 모두 초빈출"},
-{"id":"en1-049","expression":"in a row","meaning":"연속으로","example":"It's been raining three days in a row.","example_ko":"3일 연속으로 비가 오고 있어.","note":"연속 기록 말할 때 필수"},
-{"id":"en1-050","expression":"Never mind","meaning":"아냐 됐어, 신경 쓰지 마","example":"What did you say? — Never mind.","example_ko":"뭐라고 했어? — 아냐, 됐어.","note":"말 꺼냈다가 접을 때"},
-{"id":"en1-051","expression":"be free","meaning":"시간이 되다, 한가하다","example":"Are you free this Saturday?","example_ko":"이번 주 토요일에 시간 돼?","note":"약속 잡기의 시작 문장"},
-{"id":"en1-052","expression":"come up","meaning":"(일이) 갑자기 생기다","example":"Sorry, something came up. Can we reschedule?","example_ko":"미안, 갑자기 일이 생겼어. 다시 잡아도 될까?","note":"약속 변경 필수 표현"},
-{"id":"en1-053","expression":"That sucks","meaning":"안됐다, 짜증나겠다","example":"I lost my wallet. — Oh no, that sucks.","example_ko":"지갑 잃어버렸어. — 헐, 완전 짜증나겠다.","note":"친구 사이에서만, 격식 자리 금지"},
-{"id":"en1-054","expression":"look for","meaning":"찾다","example":"I'm looking for a new apartment.","example_ko":"새 아파트를 알아보고 있어.","note":"find(찾아내다)와 구분"},
-{"id":"en1-055","expression":"grab a seat","meaning":"자리에 앉다","example":"Grab a seat. The show is about to start.","example_ko":"자리 잡아. 공연 곧 시작해.","note":"Take a seat보다 캐주얼"},
-{"id":"en1-056","expression":"deal","meaning":"좋아, 그렇게 하기로 한 거다","example":"You cook, I'll do the dishes. — Deal!","example_ko":"네가 요리하면 설거지는 내가 할게. — 콜!","note":"한국어 '콜!'에 해당"},
-{"id":"en1-057","expression":"be exhausted","meaning":"완전히 지치다","example":"I'm exhausted after work today.","example_ko":"오늘 일하고 나니 완전 녹초야.","note":"tired의 강한 버전"},
-{"id":"en1-058","expression":"take a rain check","meaning":"다음으로 미루다","example":"Can I take a rain check on dinner?","example_ko":"저녁은 다음에 해도 될까?","note":"거절이 아니라 '다음에 꼭'의 뉘앙스"},
-{"id":"en1-059","expression":"hurry up","meaning":"서두르다","example":"Hurry up! We're going to miss the bus.","example_ko":"서둘러! 버스 놓치겠어.","note":"재촉의 기본 표현"},
-{"id":"en1-060","expression":"be good at","meaning":"~을 잘하다","example":"She's really good at cooking.","example_ko":"걔 요리 진짜 잘해.","note":"반대는 be bad at"},
-{"id":"en1-061","expression":"go for it","meaning":"한번 해봐, 도전해","example":"I want to apply for that job. — Go for it!","example_ko":"그 자리에 지원하고 싶어. — 해봐!","note":"응원할 때 필수"},
-{"id":"en1-062","expression":"by the way","meaning":"그런데, 그나저나","example":"By the way, did you finish the report?","example_ko":"그나저나 보고서는 다 끝냈어?","note":"화제 전환의 기본, 문자에선 btw"},
-{"id":"en1-063","expression":"a little bit","meaning":"조금, 약간","example":"Can you speak a little bit slower?","example_ko":"조금만 천천히 말해줄래?","note":"줄여서 a bit도 흔함"},
-{"id":"en1-064","expression":"get it","meaning":"이해하다, 알겠다","example":"Oh, now I get it!","example_ko":"아, 이제 이해했어!","note":"I got it은 '내가 할게/받을게'로도 씀"},
-{"id":"en1-065","expression":"try on","meaning":"입어 보다, 신어 보다","example":"Can I try on these shoes?","example_ko":"이 신발 신어봐도 돼요?","note":"쇼핑 회화 필수"},
-{"id":"en1-066","expression":"be on a diet","meaning":"다이어트 중이다","example":"No cake for me. I'm on a diet.","example_ko":"난 케이크 안 먹을래. 다이어트 중이야.","note":"go on a diet는 '다이어트를 시작하다'"},
-{"id":"en1-067","expression":"give someone a ride","meaning":"태워다 주다","example":"Can you give me a ride to the airport?","example_ko":"공항까지 태워다 줄 수 있어?","note":"영국은 give a lift"},
-{"id":"en1-068","expression":"What a small world!","meaning":"세상 참 좁다!","example":"You know Jenny too? What a small world!","example_ko":"너도 제니 알아? 세상 참 좁다!","note":"우연한 연결을 발견했을 때"},
-{"id":"en1-069","expression":"keep in touch","meaning":"연락하고 지내다","example":"It was great meeting you. Let's keep in touch!","example_ko":"만나서 반가웠어. 계속 연락하자!","note":"헤어질 때 단골 인사"},
-{"id":"en1-070","expression":"be worth it","meaning":"그럴 가치가 있다","example":"The hike was hard, but the view was worth it.","example_ko":"등산은 힘들었지만 경치가 그만한 가치가 있었어.","note":"Is it worth it?(그럴 만해?)도 자주 씀"},
-{"id":"en1-071","expression":"right now","meaning":"지금 당장, 지금은","example":"I'm busy right now. Can I call you back?","example_ko":"지금 좀 바빠. 다시 전화해도 될까?","note":"now보다 즉시성 강조"},
-{"id":"en1-072","expression":"eat out","meaning":"외식하다","example":"Let's eat out tonight. I don't feel like cooking.","example_ko":"오늘 저녁은 외식하자. 요리하기 귀찮아.","note":"배달은 order in"},
-{"id":"en1-073","expression":"feel like -ing","meaning":"~하고 싶다, ~할 기분이다","example":"I feel like watching a movie tonight.","example_ko":"오늘 밤엔 영화 보고 싶은 기분이야.","note":"부정형 I don't feel like it도 초빈출"},
-{"id":"en1-074","expression":"Long time no see","meaning":"오랜만이야","example":"Hey! Long time no see. How have you been?","example_ko":"어! 오랜만이다. 어떻게 지냈어?","note":"뒤에 How have you been?이 세트"},
-{"id":"en1-075","expression":"get along","meaning":"사이좋게 지내다","example":"Do you get along with your coworkers?","example_ko":"직장 동료들이랑 잘 지내?","note":"get along with + 사람"},
-{"id":"en1-076","expression":"be running out of","meaning":"~이 다 떨어져 가다","example":"We're running out of time!","example_ko":"시간이 없어!","note":"run out of(다 떨어지다)와 세트"},
-{"id":"en1-077","expression":"hold up","meaning":"잠깐만 (놀람·제지)","example":"Hold up, you two are dating?","example_ko":"잠깐만, 너네 둘이 사귄다고?","note":"놀라운 정보에 반응할 때"},
-{"id":"en1-078","expression":"That's a relief","meaning":"다행이다","example":"The test came back negative. — That's a relief!","example_ko":"검사 결과 음성이래. — 다행이다!","note":"What a relief!도 같은 뜻"},
-{"id":"en1-079","expression":"look forward to","meaning":"~을 기대하다","example":"I'm looking forward to seeing you.","example_ko":"너 만나는 거 기대하고 있어.","note":"to 뒤에 동사원형이 아니라 -ing"},
-{"id":"en1-080","expression":"stop by","meaning":"잠깐 들르다","example":"I'll stop by the store on my way home.","example_ko":"집에 가는 길에 가게에 잠깐 들를게.","note":"drop by, swing by도 같은 뜻"},
-{"id":"en1-081","expression":"be up","meaning":"깨어 있다","example":"Are you still up? It's 2 a.m.!","example_ko":"아직 안 잤어? 새벽 2시야!","note":"stay up은 '안 자고 버티다'"},
-{"id":"en1-082","expression":"a couple of","meaning":"두어 개의, 몇 개의","example":"I'll be there in a couple of minutes.","example_ko":"몇 분 안에 도착할 거야.","note":"정확히 2개가 아니라 '두셋 정도'"},
-{"id":"en1-083","expression":"Help yourself","meaning":"마음껏 드세요/쓰세요","example":"There's food in the fridge. Help yourself.","example_ko":"냉장고에 음식 있어. 마음껏 먹어.","note":"손님 대접 필수 표현"},
-{"id":"en1-084","expression":"get lost","meaning":"길을 잃다","example":"We got lost on the way to the hotel.","example_ko":"호텔 가는 길에 길을 잃었어.","note":"명령형 Get lost!는 '꺼져!'이니 주의"},
-{"id":"en1-085","expression":"be in the mood for","meaning":"~이 당기다, ~할 기분이다","example":"I'm in the mood for something spicy.","example_ko":"매운 게 당기네.","note":"음식 정할 때 초빈출"},
-{"id":"en1-086","expression":"So far, so good","meaning":"지금까지는 괜찮아","example":"How's the new job? — So far, so good.","example_ko":"새 직장 어때? — 지금까진 좋아.","note":"근황 대답으로 유용"},
-{"id":"en1-087","expression":"put on","meaning":"입다, 쓰다, 바르다 (동작)","example":"Put on your jacket. It's cold outside.","example_ko":"재킷 입어. 밖에 추워.","note":"wear는 상태, put on은 동작"},
-{"id":"en1-088","expression":"You made it!","meaning":"왔구나! / 해냈구나!","example":"You made it! I thought you couldn't come.","example_ko":"왔네! 못 오는 줄 알았어.","note":"도착과 성공 둘 다에 씀"},
-{"id":"en1-089","expression":"leave for","meaning":"~로 떠나다, 출발하다","example":"We're leaving for the airport at six.","example_ko":"우리 6시에 공항으로 출발해.","note":"leave(떠나다)+for(목적지)"},
-{"id":"en1-090","expression":"once in a while","meaning":"가끔","example":"I eat fast food once in a while.","example_ko":"난 가끔 패스트푸드를 먹어.","note":"every once in a while로도 씀"},
-{"id":"en1-091","expression":"It's up to you","meaning":"네가 정해, 너한테 달렸어","example":"Chinese or pizza? — It's up to you.","example_ko":"중식이야 피자야? — 네가 정해.","note":"결정을 넘길 때 기본 표현"},
-{"id":"en1-092","expression":"get off work","meaning":"퇴근하다","example":"What time do you get off work?","example_ko":"몇 시에 퇴근해?","note":"출근은 get to work"},
-{"id":"en1-093","expression":"be on the phone","meaning":"통화 중이다","example":"She can't talk now. She's on the phone.","example_ko":"걔 지금 통화 중이라 얘기 못 해.","note":"on을 쓰는 것이 포인트"},
-{"id":"en1-094","expression":"come on","meaning":"어서 / 에이, 왜 이래","example":"Come on, we don't have all day!","example_ko":"어서, 시간 없어!","note":"재촉·설득·항의 모두 가능한 만능 표현"},
-{"id":"en1-095","expression":"take out","meaning":"꺼내다, 버리다, 포장하다","example":"Can you take out the trash?","example_ko":"쓰레기 좀 내다 버려줄래?","note":"식당에서 to go와 takeout 둘 다 포장"},
-{"id":"en1-096","expression":"be almost there","meaning":"거의 다 왔다 / 거의 다 됐다","example":"Keep going, we're almost there!","example_ko":"계속 가, 거의 다 왔어!","note":"물리적 거리와 진행 상황 모두에 씀"},
-{"id":"en1-097","expression":"have no idea","meaning":"전혀 모르다","example":"I have no idea where my phone is.","example_ko":"내 폰이 어디 있는지 전혀 모르겠어.","note":"I don't know의 강조 버전"},
-{"id":"en1-098","expression":"treat","meaning":"한턱, 대접","example":"It's my treat today. Order anything!","example_ko":"오늘 내가 쏜다. 아무거나 시켜!","note":"동사로 treat someone to도 가능"},
-{"id":"en1-099","expression":"as soon as","meaning":"~하자마자","example":"Call me as soon as you get home.","example_ko":"집에 도착하자마자 전화해.","note":"ASAP(as soon as possible)의 원형"},
-{"id":"en1-100","expression":"That's it","meaning":"그게 다야 / 바로 그거야","example":"Just mix and bake. That's it!","example_ko":"섞어서 굽기만 하면 돼. 그게 다야!","note":"끝났음을 알리거나 정답 반응으로 씀"}
+ {
+  "id": "en1-001",
+  "situation": "카페에서 커피 주문하기",
+  "key_expressions": [
+   "Can I get",
+   "for here or to go",
+   "Keep the change"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, can I get a small iced americano?",
+    "ko": "안녕하세요, 스몰 아이스 아메리카노 하나 주시겠어요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Sure. For here or to go?",
+    "ko": "네. 매장에서 드시나요, 포장이신가요?"
+   },
+   {
+    "speaker": "A",
+    "text": "To go, please.",
+    "ko": "포장으로 할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "That'll be four fifty.",
+    "ko": "4달러 50센트입니다."
+   },
+   {
+    "speaker": "A",
+    "text": "Here you go. Keep the change.",
+    "ko": "여기요. 잔돈은 됐어요."
+   },
+   {
+    "speaker": "B",
+    "text": "Thanks! Have a good one.",
+    "ko": "감사합니다! 좋은 하루 보내세요."
+   }
+  ],
+  "note": "for here or to go는 미국 카페 어디서나 듣는 필수 질문. Keep the change는 팁 문화권 표현"
+ },
+ {
+  "id": "en1-002",
+  "situation": "친구와 약속 잡기",
+  "key_expressions": [
+   "Are you free",
+   "How about",
+   "sounds good"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, are you free this Saturday?",
+    "ko": "야, 이번 주 토요일에 시간 돼?"
+   },
+   {
+    "speaker": "B",
+    "text": "I think so. What's up?",
+    "ko": "될 것 같은데. 왜?"
+   },
+   {
+    "speaker": "A",
+    "text": "Want to grab dinner? How about 7?",
+    "ko": "저녁 같이 먹을래? 7시 어때?"
+   },
+   {
+    "speaker": "B",
+    "text": "Sounds good. Where should we go?",
+    "ko": "좋아. 어디로 갈까?"
+   },
+   {
+    "speaker": "A",
+    "text": "That new pasta place downtown?",
+    "ko": "시내에 새로 생긴 파스타집 어때?"
+   },
+   {
+    "speaker": "B",
+    "text": "Perfect. See you there!",
+    "ko": "완벽해. 거기서 봐!"
+   }
+  ],
+  "note": "약속 잡을 때 가장 흔한 대화 흐름: 시간 확인 → 제안 → 장소 정하기"
+ },
+ {
+  "id": "en1-003",
+  "situation": "길 묻기",
+  "key_expressions": [
+   "Excuse me",
+   "Is it far from here",
+   "Just go straight"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Excuse me, how do I get to the subway station?",
+    "ko": "저기요, 지하철역까지 어떻게 가나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Just go straight and turn left at the light.",
+    "ko": "쭉 가시다가 신호등에서 왼쪽으로 도세요."
+   },
+   {
+    "speaker": "A",
+    "text": "Is it far from here?",
+    "ko": "여기서 멀어요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Not really, about five minutes on foot.",
+    "ko": "그렇게 멀지 않아요, 걸어서 5분 정도요."
+   },
+   {
+    "speaker": "A",
+    "text": "Great, thank you so much!",
+    "ko": "좋네요, 정말 감사합니다!"
+   }
+  ],
+  "note": "길을 묻고 답할 때 가장 흔히 쓰는 패턴"
+ },
+ {
+  "id": "en1-004",
+  "situation": "카페에서 라떼 포장 주문하기",
+  "key_expressions": [
+   "Can I get",
+   "For here or to go",
+   "That'll be"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, can I get a medium latte, please?",
+    "ko": "안녕하세요, 라떼 미디엄 사이즈로 주세요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure. For here or to go?",
+    "ko": "네. 여기서 드시나요, 아니면 포장이신가요?"
+   },
+   {
+    "speaker": "A",
+    "text": "To go, please. Oh, and can you make it iced?",
+    "ko": "포장이요. 아, 아이스로 해주실 수 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "No problem. That'll be four fifty.",
+    "ko": "그럼요. 4달러 50센트 나왔습니다."
+   },
+   {
+    "speaker": "A",
+    "text": "Here you go. Keep the change.",
+    "ko": "여기요. 잔돈은 괜찮아요."
+   },
+   {
+    "speaker": "B",
+    "text": "Thanks! It'll be ready in a few minutes.",
+    "ko": "감사합니다! 몇 분 안에 준비될 거예요."
+   }
+  ],
+  "note": "카페에서는 for here or to go를 거의 항상 물어보니까 미리 답 준비해두면 편함"
+ },
+ {
+  "id": "en1-005",
+  "situation": "식당에서 자리 예약하기",
+  "key_expressions": [
+   "I'd like to make a reservation",
+   "for how many",
+   "Do you have anything"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'd like to make a reservation for tonight.",
+    "ko": "안녕하세요, 오늘 저녁에 예약하고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, for how many people?",
+    "ko": "네, 몇 분이서 오시나요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Four, around seven o'clock.",
+    "ko": "네 명이요, 7시쯤이요."
+   },
+   {
+    "speaker": "B",
+    "text": "Let me check... we're full at seven. Do you have anything later?",
+    "ko": "잠시만요... 7시는 자리가 다 찼네요. 조금 늦게 오실 수 있으세요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Sure, how about seven thirty?",
+    "ko": "네, 7시 반은 어떨까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "That works. Can I get your name?",
+    "ko": "좋습니다. 성함이 어떻게 되시나요?"
+   }
+  ],
+  "note": "예약할 때 인원수랑 시간부터 물어보니까 미리 정해두고 전화하면 좋음"
+ },
+ {
+  "id": "en1-006",
+  "situation": "새로운 이웃과 인사 나누기",
+  "key_expressions": [
+   "I just moved in",
+   "Nice to meet you",
+   "If you ever need anything"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi there! I just moved in next door.",
+    "ko": "안녕하세요! 저 옆집에 새로 이사 왔어요."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh, welcome! I'm Rachel, I live right across the hall.",
+    "ko": "아, 환영해요! 저는 레이첼이에요, 바로 맞은편에 살아요."
+   },
+   {
+    "speaker": "A",
+    "text": "Nice to meet you. I'm Kevin.",
+    "ko": "만나서 반가워요. 저는 케빈이에요."
+   },
+   {
+    "speaker": "B",
+    "text": "If you ever need anything, just knock on my door.",
+    "ko": "뭐 필요한 거 있으면 언제든 문 두드리세요."
+   },
+   {
+    "speaker": "A",
+    "text": "That's so kind, thank you. I'll be sure to do that.",
+    "ko": "진짜 친절하시네요, 감사해요. 그럴게요."
+   }
+  ],
+  "note": "새 이웃한테는 짧게 이름 소개하고 도움 필요하면 말하라는 식으로 마무리하는 게 자연스러움"
+ },
+ {
+  "id": "en1-007",
+  "situation": "친구와 저녁 약속 잡기",
+  "key_expressions": [
+   "Are you free",
+   "How about",
+   "Let's meet at"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, are you free for dinner this week?",
+    "ko": "야, 이번 주에 저녁 시간 돼?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, I think so. How about Thursday?",
+    "ko": "응, 될 것 같아. 목요일 어때?"
+   },
+   {
+    "speaker": "A",
+    "text": "Thursday works for me. Where do you want to go?",
+    "ko": "목요일 나도 좋아. 어디 갈까?"
+   },
+   {
+    "speaker": "B",
+    "text": "There's a new Thai place downtown. Let's meet at seven.",
+    "ko": "시내에 새로 생긴 태국 음식점 있잖아. 7시에 만나자."
+   },
+   {
+    "speaker": "A",
+    "text": "Sounds perfect. See you then!",
+    "ko": "완전 좋아. 그때 봐!"
+   }
+  ],
+  "note": "약속 잡을 때 요일이랑 시간 딱 정해서 말하면 서로 편함"
+ },
+ {
+  "id": "en1-008",
+  "situation": "옷가게에서 사이즈 문의하기",
+  "key_expressions": [
+   "Do you have this in",
+   "Can I try it on",
+   "It's a bit tight"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Excuse me, do you have this in a medium?",
+    "ko": "저기요, 이거 미디엄 사이즈 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Let me check the back. Yes, we have it.",
+    "ko": "창고에 확인해볼게요. 네, 있어요."
+   },
+   {
+    "speaker": "A",
+    "text": "Great, can I try it on?",
+    "ko": "좋아요, 입어봐도 될까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Of course, the fitting room is right over there.",
+    "ko": "그럼요, 탈의실은 바로 저쪽에 있어요."
+   },
+   {
+    "speaker": "A",
+    "text": "Actually, it's a bit tight. Do you have a large instead?",
+    "ko": "음, 이거 좀 끼는데요. 라지 사이즈로 있을까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, I'll grab one for you.",
+    "ko": "네, 하나 가져다드릴게요."
+   }
+  ],
+  "note": "사이즈 안 맞을 때는 It's a bit tight/loose라고 편하게 말하면 됨"
+ },
+ {
+  "id": "en1-009",
+  "situation": "택시 잡고 목적지 말하기",
+  "key_expressions": [
+   "Can you take me to",
+   "How long will it take",
+   "Right here is fine"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, can you take me to the airport?",
+    "ko": "안녕하세요, 공항까지 가주실 수 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Sure thing. Which terminal?",
+    "ko": "그럼요. 어느 터미널이세요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Terminal two, please. How long will it take?",
+    "ko": "2터미널이요. 얼마나 걸릴까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "With traffic, maybe thirty minutes.",
+    "ko": "차 막히는 거 감안하면 한 30분 정도요."
+   },
+   {
+    "speaker": "A",
+    "text": "That's fine. Right here is fine, thanks.",
+    "ko": "괜찮아요. 여기서 세워주시면 돼요, 감사합니다."
+   },
+   {
+    "speaker": "B",
+    "text": "No problem, have a safe flight.",
+    "ko": "네, 좋은 비행 되세요."
+   }
+  ],
+  "note": "목적지 말할 때는 세부 장소(터미널, 출입구 등)까지 같이 말해주면 훨씬 편함"
+ },
+ {
+  "id": "en1-010",
+  "situation": "호텔 체크인하기",
+  "key_expressions": [
+   "I have a reservation under",
+   "Could I get a room with",
+   "What time is checkout"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I have a reservation under the name Sophie Lee.",
+    "ko": "안녕하세요, 소피 리라는 이름으로 예약했어요."
+   },
+   {
+    "speaker": "B",
+    "text": "Let me pull that up... yes, two nights, one queen bed.",
+    "ko": "확인해볼게요... 네, 2박에 퀸사이즈 침대 하나로 되어 있네요."
+   },
+   {
+    "speaker": "A",
+    "text": "That's right. Could I get a room with a view, if possible?",
+    "ko": "맞아요. 혹시 가능하면 전망 좋은 방으로 받을 수 있을까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "I can put you on a higher floor, no extra charge.",
+    "ko": "높은 층으로 배정해드릴게요, 추가 비용은 없어요."
+   },
+   {
+    "speaker": "A",
+    "text": "Perfect. What time is checkout?",
+    "ko": "완벽하네요. 체크아웃은 몇 시인가요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Checkout is at eleven. Here's your key card.",
+    "ko": "체크아웃은 11시입니다. 키카드 여기 있습니다."
+   }
+  ],
+  "note": "체크인할 때 예약 이름 먼저 말하고 원하는 요청은 자연스럽게 덧붙이면 됨"
+ },
+ {
+  "id": "en1-011",
+  "situation": "병원에서 진료 접수하기",
+  "key_expressions": [
+   "I'd like to see a doctor",
+   "Is this your first time here",
+   "Fill out this form"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'd like to see a doctor. I've had a sore throat for days.",
+    "ko": "안녕하세요, 진료 좀 받고 싶은데요. 목이 며칠째 아파서요."
+   },
+   {
+    "speaker": "B",
+    "text": "Is this your first time here?",
+    "ko": "저희 병원 처음 오시는 건가요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Yes, it is.",
+    "ko": "네, 처음이에요."
+   },
+   {
+    "speaker": "B",
+    "text": "Okay, please fill out this form and have a seat.",
+    "ko": "네, 이 서류 작성하시고 잠시 앉아 계세요."
+   },
+   {
+    "speaker": "A",
+    "text": "Sure. About how long is the wait?",
+    "ko": "네. 대기 시간은 얼마나 될까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "About fifteen minutes. We'll call your name.",
+    "ko": "한 15분 정도요. 성함 부르면 들어가시면 돼요."
+   }
+  ],
+  "note": "접수할 때 증상 간단히 말하고 첫 방문인지 물으면 대답만 잘하면 됨"
+ },
+ {
+  "id": "en1-012",
+  "situation": "편의점에서 계산하기",
+  "key_expressions": [
+   "Is that everything",
+   "Do you want a bag",
+   "Here's your change"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, just these two, please.",
+    "ko": "안녕하세요, 이 두 개만 계산해주세요."
+   },
+   {
+    "speaker": "B",
+    "text": "Is that everything for you today?",
+    "ko": "오늘은 이게 다인가요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Yes, that's it.",
+    "ko": "네, 이게 다예요."
+   },
+   {
+    "speaker": "B",
+    "text": "Do you want a bag for that?",
+    "ko": "봉투 필요하세요?"
+   },
+   {
+    "speaker": "A",
+    "text": "No thanks, I'll just carry it.",
+    "ko": "아니요 괜찮아요, 그냥 들고 갈게요."
+   },
+   {
+    "speaker": "B",
+    "text": "Okay, that'll be three dollars. Here's your change.",
+    "ko": "네, 3달러입니다. 거스름돈 여기 있어요."
+   }
+  ],
+  "note": "간단한 계산 상황이라 짧고 반복되는 표현 위주라 익혀두면 편함"
+ },
+ {
+  "id": "en1-013",
+  "situation": "날씨 이야기로 스몰토크",
+  "key_expressions": [
+   "Nice weather, isn't it",
+   "supposed to rain",
+   "I love this kind of weather"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Nice weather today, isn't it?",
+    "ko": "오늘 날씨 진짜 좋다, 그치?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, it's perfect. I heard it's supposed to rain tomorrow though.",
+    "ko": "응, 완전 좋아. 근데 내일은 비 온다더라."
+   },
+   {
+    "speaker": "A",
+    "text": "Really? That's a shame, I was going to go hiking.",
+    "ko": "진짜? 아쉽다, 나 등산 가려고 했는데."
+   },
+   {
+    "speaker": "B",
+    "text": "Maybe do it today instead. I love this kind of weather.",
+    "ko": "그럼 오늘 가는 게 어때. 나 이런 날씨 완전 좋아해."
+   },
+   {
+    "speaker": "A",
+    "text": "That's a good idea, actually.",
+    "ko": "그거 좋은 생각이네."
+   }
+  ],
+  "note": "영어권에서는 날씨 얘기가 진짜 흔한 스몰토크 소재라 짧게 던지기 좋음"
+ },
+ {
+  "id": "en1-014",
+  "situation": "전화로 예약 시간 변경하기",
+  "key_expressions": [
+   "I'm calling to change",
+   "Would it be possible to",
+   "That works better for me"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'm calling to change my appointment.",
+    "ko": "안녕하세요, 예약 시간 좀 바꾸려고 전화드렸어요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, can I get your name and current appointment time?",
+    "ko": "네, 성함이랑 원래 예약 시간 알려주시겠어요?"
+   },
+   {
+    "speaker": "A",
+    "text": "It's Daniel Park, I'm booked for two on Friday.",
+    "ko": "다니엘 박이고요, 금요일 2시로 되어 있어요."
+   },
+   {
+    "speaker": "B",
+    "text": "Got it. What time would you like instead?",
+    "ko": "확인했어요. 몇 시로 바꿔드릴까요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Would it be possible to move it to four?",
+    "ko": "혹시 4시로 옮길 수 있을까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yes, that's open. All set for four on Friday.",
+    "ko": "네, 그 시간 비어 있어요. 금요일 4시로 변경됐습니다."
+   }
+  ],
+  "note": "전화로 일정 바꿀 땐 원래 시간이랑 원하는 시간을 딱 말해주면 빨리 처리됨"
+ },
+ {
+  "id": "en1-015",
+  "situation": "공항에서 탑승 수속하기",
+  "key_expressions": [
+   "Here's my passport",
+   "Aisle or window seat",
+   "Where's the gate"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, here's my passport and reservation.",
+    "ko": "안녕하세요, 여기 여권이랑 예약 확인서요."
+   },
+   {
+    "speaker": "B",
+    "text": "Thank you. Aisle or window seat?",
+    "ko": "감사합니다. 통로 쪽 좋으세요, 창가 쪽 좋으세요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Window, please, if it's available.",
+    "ko": "가능하면 창가 쪽으로 부탁드려요."
+   },
+   {
+    "speaker": "B",
+    "text": "You're all set, seat 24A. Any bags to check?",
+    "ko": "완료됐습니다, 24A석이에요. 부칠 짐 있으세요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Just this one suitcase. Where's the gate?",
+    "ko": "이 캐리어 하나만요. 탑승구는 어디예요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Gate fourteen, boarding starts at nine thirty.",
+    "ko": "14번 게이트고요, 탑승은 9시 반부터 시작해요."
+   }
+  ],
+  "note": "체크인할 때 좌석 선호랑 짐 개수 미리 생각해두면 수속이 빨리 끝남"
+ },
+ {
+  "id": "en1-016",
+  "situation": "헬스장 회원 등록하기",
+  "key_expressions": [
+   "I'd like to sign up",
+   "What plans do you have",
+   "Is there a trial"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'd like to sign up for a membership.",
+    "ko": "안녕하세요, 회원 등록하고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "Great, what plans do you have in mind? Monthly or annual?",
+    "ko": "좋아요, 어떤 플랜 생각하세요? 월 단위요, 아니면 연 단위요?"
+   },
+   {
+    "speaker": "A",
+    "text": "I'm not sure yet. Is there a trial period?",
+    "ko": "아직 잘 모르겠어요. 체험 기간 같은 게 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yes, we offer a free three-day trial.",
+    "ko": "네, 3일 무료 체험 있어요."
+   },
+   {
+    "speaker": "A",
+    "text": "Perfect, let's start with that.",
+    "ko": "완벽하네요, 그걸로 시작할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sounds good. I'll just need your ID and phone number.",
+    "ko": "좋아요. 신분증이랑 전화번호만 주시면 돼요."
+   }
+  ],
+  "note": "등록 전에 체험 기간부터 물어보는 게 자연스러운 순서"
+ },
+ {
+  "id": "en1-017",
+  "situation": "은행에서 계좌 개설 문의하기",
+  "key_expressions": [
+   "I'd like to open an account",
+   "What do I need to bring",
+   "Is there a monthly fee"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'd like to open a checking account.",
+    "ko": "안녕하세요, 입출금 계좌 만들고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure. What do I need to bring, you mean documents?",
+    "ko": "네. 어떤 게 필요하신지, 서류 말씀이신 거죠?"
+   },
+   {
+    "speaker": "A",
+    "text": "Right, what do I need to bring for that?",
+    "ko": "네, 그거 만들려면 뭐가 필요할까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Just a photo ID and proof of address.",
+    "ko": "신분증이랑 주소 증명 서류만 있으면 돼요."
+   },
+   {
+    "speaker": "A",
+    "text": "Got it. Is there a monthly fee?",
+    "ko": "알겠어요. 매달 나가는 수수료 같은 거 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "No fee if you keep a minimum balance of five hundred.",
+    "ko": "최소 잔액 500달러만 유지하시면 수수료는 없어요."
+   }
+  ],
+  "note": "계좌 관련 문의는 필요 서류랑 수수료부터 물어보면 됨"
+ },
+ {
+  "id": "en1-018",
+  "situation": "우체국에서 소포 보내기",
+  "key_expressions": [
+   "I'd like to send this package",
+   "How long will it take to arrive",
+   "Do you need it insured"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'd like to send this package to Korea.",
+    "ko": "안녕하세요, 이 소포 한국으로 보내고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, let's put it on the scale. That'll be around thirty dollars.",
+    "ko": "네, 저울에 올려볼게요. 30달러 정도 나오네요."
+   },
+   {
+    "speaker": "A",
+    "text": "How long will it take to arrive?",
+    "ko": "도착하는 데 얼마나 걸릴까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "About a week with standard shipping.",
+    "ko": "일반 배송이면 일주일 정도 걸려요."
+   },
+   {
+    "speaker": "A",
+    "text": "That's fine. Do you need it insured?",
+    "ko": "괜찮아요. 보험 들어야 하나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "It's optional, but I'd recommend it for electronics.",
+    "ko": "선택 사항인데, 전자기기면 드는 걸 추천드려요."
+   }
+  ],
+  "note": "소포 보낼 때는 무게 재고 가격, 도착 기간, 보험 순으로 물어보면 자연스러움"
+ },
+ {
+  "id": "en1-019",
+  "situation": "영화관에서 표 구매하기",
+  "key_expressions": [
+   "Two tickets for",
+   "What time does it start",
+   "Can we sit near the back"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, two tickets for the seven o'clock showing, please.",
+    "ko": "안녕하세요, 7시 영화 두 장 주세요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure. What time does it start, did you say seven?",
+    "ko": "네. 몇 시라고 하셨죠, 7시 맞으시죠?"
+   },
+   {
+    "speaker": "A",
+    "text": "Yes, seven. Can we sit near the back?",
+    "ko": "네, 7시요. 뒤쪽 자리로 앉을 수 있을까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Let me check the seating chart... row J works.",
+    "ko": "좌석표 확인해볼게요... J열 자리 있어요."
+   },
+   {
+    "speaker": "A",
+    "text": "Perfect, we'll take that.",
+    "ko": "완벽해요, 그걸로 할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "Great, that'll be twenty-four dollars total.",
+    "ko": "네, 총 24달러입니다."
+   }
+  ],
+  "note": "영화표 살 때 시간이랑 좌석 위치 순서로 얘기하면 됨"
+ },
+ {
+  "id": "en1-020",
+  "situation": "미용실 예약 전화하기",
+  "key_expressions": [
+   "I'd like to book an appointment",
+   "Do you have any openings",
+   "How much does it cost"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I'd like to book an appointment for a haircut.",
+    "ko": "안녕하세요, 커트 예약하고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, do you have a stylist in mind?",
+    "ko": "네, 원하시는 디자이너 있으세요?"
+   },
+   {
+    "speaker": "A",
+    "text": "Not really. Do you have any openings this weekend?",
+    "ko": "딱히 없어요. 이번 주말에 예약 가능한 시간 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "We have Saturday at eleven or Sunday at two.",
+    "ko": "토요일 11시나 일요일 2시 가능해요."
+   },
+   {
+    "speaker": "A",
+    "text": "Saturday works. How much does it cost?",
+    "ko": "토요일이 좋아요. 가격은 어떻게 되나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "A haircut is thirty-five dollars.",
+    "ko": "커트는 35달러입니다."
+   }
+  ],
+  "note": "미용실 예약은 원하는 시술이랑 가능한 시간대부터 확인하면 편함"
+ },
+ {
+  "id": "en1-021",
+  "situation": "마트에서 직원에게 물건 위치 묻기",
+  "key_expressions": [
+   "Excuse me, where can I find",
+   "It's in aisle",
+   "Do you have any in the back"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Excuse me, where can I find olive oil?",
+    "ko": "저기요, 올리브오일은 어디 있나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "It's in aisle six, next to the vinegar.",
+    "ko": "6번 통로에 있어요, 식초 옆에요."
+   },
+   {
+    "speaker": "A",
+    "text": "Thanks. Also, do you have any in the back? The shelf looks empty.",
+    "ko": "감사해요. 그리고 혹시 창고에 더 있나요? 선반이 비어 보여서요."
+   },
+   {
+    "speaker": "B",
+    "text": "Let me check for you real quick.",
+    "ko": "잠깐 확인해볼게요."
+   },
+   {
+    "speaker": "A",
+    "text": "I appreciate it.",
+    "ko": "감사합니다."
+   },
+   {
+    "speaker": "B",
+    "text": "Good news, we have more. I'll bring some out.",
+    "ko": "다행히 더 있네요. 갖다드릴게요."
+   }
+  ],
+  "note": "마트에서는 aisle 번호로 위치 설명하니까 이 표현만 알아둬도 충분함"
+ },
+ {
+  "id": "en1-022",
+  "situation": "생일 파티에서 축하 인사 나누기",
+  "key_expressions": [
+   "Happy birthday",
+   "I got you something",
+   "Hope all your wishes come true"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Happy birthday, Grace! You look amazing tonight.",
+    "ko": "생일 축하해, 그레이스! 오늘 진짜 예쁘다."
+   },
+   {
+    "speaker": "B",
+    "text": "Aw, thank you so much for coming!",
+    "ko": "와, 와줘서 정말 고마워!"
+   },
+   {
+    "speaker": "A",
+    "text": "Of course. I got you something, it's not much.",
+    "ko": "당연하지. 이거 작은 선물인데 준비했어."
+   },
+   {
+    "speaker": "B",
+    "text": "You didn't have to! Can I open it now?",
+    "ko": "안 그래도 되는데! 지금 열어봐도 돼?"
+   },
+   {
+    "speaker": "A",
+    "text": "Go ahead! Hope all your wishes come true this year.",
+    "ko": "열어봐! 올해는 소원 다 이루어지길 바라."
+   },
+   {
+    "speaker": "B",
+    "text": "That's so sweet of you, thank you.",
+    "ko": "진짜 감동이다, 고마워."
+   }
+  ],
+  "note": "생일 파티에서는 칭찬 한마디랑 선물, 덕담을 자연스럽게 이어서 말하면 됨"
+ }
 ]

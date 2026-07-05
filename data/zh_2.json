@@ -1,1002 +1,1083 @@
 [
  {
   "id": "zh2-001",
-  "expression": "听说",
-  "pinyin": "tīngshuō",
-  "meaning": "듣자 하니",
-  "example": "听说你要出国留学了？",
-  "example_pinyin": "Tīngshuō nǐ yào chūguó liúxué le?",
-  "example_ko": "듣자 하니 너 유학 간다며?",
-  "note": "전해 들은 소식을 말할 때 문장 맨 앞에 씀"
+  "situation": "약속 취소 양해 구하기",
+  "key_expressions": [
+   "不好意思",
+   "突然有事",
+   "改天",
+   "没关系"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "不好意思，今天突然有事，可能去不了了。",
+    "pinyin": "Bù hǎoyìsi, jīntiān tūrán yǒu shì, kěnéng qù bùliǎo le.",
+    "ko": "미안한데, 오늘 갑자기 일이 생겨서 못 갈 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "没关系，那我们改天吧。",
+    "pinyin": "Méi guānxi, nà wǒmen gǎitiān ba.",
+    "ko": "괜찮아, 그럼 다음에 하자."
+   },
+   {
+    "speaker": "A",
+    "text": "真的很抱歉，我请你吃饭补偿你。",
+    "pinyin": "Zhēnde hěn bàoqiàn, wǒ qǐng nǐ chīfàn bǔcháng nǐ.",
+    "ko": "정말 미안해, 밥 사서 갚을게."
+   },
+   {
+    "speaker": "B",
+    "text": "哈哈，不用这么客气。",
+    "pinyin": "Hāhā, bú yòng zhème kèqi.",
+    "ko": "하하, 그렇게 예의 차릴 필요 없어."
+   }
+  ],
+  "note": "改天(다음에)는 약속을 미룰 때 가장 자연스러운 표현"
  },
  {
   "id": "zh2-002",
-  "expression": "差点儿",
-  "pinyin": "chàdiǎnr",
-  "meaning": "하마터면",
-  "example": "我今天差点儿迟到。",
-  "example_pinyin": "Wǒ jīntiān chàdiǎnr chídào.",
-  "example_ko": "나 오늘 하마터면 지각할 뻔했어.",
-  "note": "안 좋은 일을 아슬아슬하게 피했을 때"
+  "situation": "날씨 이야기로 스몰토크",
+  "key_expressions": [
+   "越来越",
+   "听说",
+   "要不"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "最近天气越来越冷了。",
+    "pinyin": "Zuìjìn tiānqì yuèláiyuè lěng le.",
+    "ko": "요즘 날씨가 점점 추워지네."
+   },
+   {
+    "speaker": "B",
+    "text": "是啊，听说这周末会下雪。",
+    "pinyin": "Shì a, tīngshuō zhè zhōumò huì xiàxuě.",
+    "ko": "맞아, 듣자 하니 이번 주말에 눈 온대."
+   },
+   {
+    "speaker": "A",
+    "text": "真的吗？要不我们周末在家看电影吧。",
+    "pinyin": "Zhēn de ma? Yàobù wǒmen zhōumò zài jiā kàn diànyǐng ba.",
+    "ko": "진짜? 그러지 말고 주말에 우리 집에서 영화 보자."
+   },
+   {
+    "speaker": "B",
+    "text": "好主意，我带零食过去。",
+    "pinyin": "Hǎo zhǔyì, wǒ dài língshí guòqù.",
+    "ko": "좋은 생각이야, 내가 간식 가져갈게."
+   }
+  ],
+  "note": "要不(그러지 말고 ~하자)는 대안을 제안할 때 쓰는 회화 패턴"
  },
  {
   "id": "zh2-003",
-  "expression": "越来越",
-  "pinyin": "yuèláiyuè",
-  "meaning": "점점 더",
-  "example": "天气越来越冷了。",
-  "example_pinyin": "Tiānqì yuèláiyuè lěng le.",
-  "example_ko": "날씨가 점점 더 추워지네.",
-  "note": "형용사 앞에 붙여 변화 정도를 표현"
+  "situation": "친구에게 지각 이유 둘러대기",
+  "key_expressions": [
+   "差点儿",
+   "不好意思",
+   "堵车"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你怎么才来啊?我都等了半个小时了!",
+    "pinyin": "Nǐ zěnme cái lái a? Wǒ dōu děngle bàn ge xiǎoshí le!",
+    "ko": "너 왜 이제 와? 나 30분이나 기다렸잖아!"
+   },
+   {
+    "speaker": "B",
+    "text": "不好意思不好意思,路上堵车堵得特别厉害。",
+    "pinyin": "Bù hǎoyìsi bù hǎoyìsi, lùshang dǔchē dǔ de tèbié lìhai.",
+    "ko": "미안 미안, 길에서 차가 엄청 막혔어."
+   },
+   {
+    "speaker": "A",
+    "text": "又堵车?你每次都这么说。",
+    "pinyin": "Yòu dǔchē? Nǐ měi cì dōu zhème shuō.",
+    "ko": "또 차 막혔다고? 너 매번 그렇게 말하잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "这次是真的!我差点儿就迟到一个小时了,你信不信?",
+    "pinyin": "Zhè cì shì zhēn de! Wǒ chàdiǎnr jiù chídào yí ge xiǎoshí le, nǐ xìn bu xìn?",
+    "ko": "이번엔 진짜야! 나 하마터면 한 시간이나 늦을 뻔했다니까, 믿어 안 믿어?"
+   },
+   {
+    "speaker": "A",
+    "text": "好啦好啦,下次早点儿出门吧。",
+    "pinyin": "Hǎo la hǎo la, xià cì zǎodiǎnr chūmén ba.",
+    "ko": "알았어 알았어, 다음엔 좀 일찍 나와."
+   },
+   {
+    "speaker": "B",
+    "text": "好,我请你喝奶茶赔罪,行吧?",
+    "pinyin": "Hǎo, wǒ qǐng nǐ hē nǎichá péizuì, xíng ba?",
+    "ko": "알았어, 내가 밀크티 사줄게 사과의 의미로, 됐지?"
+   }
+  ],
+  "note": "差点儿는 '하마터면 ~할 뻔했다'는 뜻으로 안 좋은 일이 겨우 안 일어났을 때 써요. 늦잠이나 차 막힘 핑계 댈 때 진짜 자주 나오는 표현이에요."
  },
  {
   "id": "zh2-004",
-  "expression": "要不",
-  "pinyin": "yàobù",
-  "meaning": "아니면, 그러지 말고",
-  "example": "下雨了，要不我们改天再去吧。",
-  "example_pinyin": "Xiàyǔ le, yàobù wǒmen gǎitiān zài qù ba.",
-  "example_ko": "비 오네, 아니면 우리 다음에 가는 게 어때.",
-  "note": "제안이나 대안을 꺼낼 때"
+  "situation": "주말 나들이 계획 세우기",
+  "key_expressions": [
+   "要不",
+   "顺便",
+   "不见不散"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "周末你有什么安排吗?一起出去走走怎么样?",
+    "pinyin": "Zhōumò nǐ yǒu shénme ānpái ma? Yìqǐ chūqù zǒuzou zěnmeyàng?",
+    "ko": "주말에 뭐 계획 있어? 같이 나가서 좀 걷는 거 어때?"
+   },
+   {
+    "speaker": "B",
+    "text": "我还没想好呢,你有什么好主意?",
+    "pinyin": "Wǒ hái méi xiǎnghǎo ne, nǐ yǒu shénme hǎo zhǔyi?",
+    "ko": "아직 딱히 생각한 거 없는데, 뭐 좋은 생각 있어?"
+   },
+   {
+    "speaker": "A",
+    "text": "要不我们去公园野餐吧,天气这么好。",
+    "pinyin": "Yàobù wǒmen qù gōngyuán yěcān ba, tiānqì zhème hǎo.",
+    "ko": "아니면 우리 공원 가서 소풍 갈까, 날씨도 이렇게 좋은데."
+   },
+   {
+    "speaker": "B",
+    "text": "好主意!顺便可以带上相机,拍点照片。",
+    "pinyin": "Hǎo zhǔyi! Shùnbiàn kěyǐ dàishang xiàngjī, pāi diǎn zhàopiàn.",
+    "ko": "좋은 생각이야! 겸사겸사 카메라도 가져가서 사진도 좀 찍자."
+   },
+   {
+    "speaker": "A",
+    "text": "那我们几点出发?我十点之前应该能准备好。",
+    "pinyin": "Nà wǒmen jǐ diǎn chūfā? Wǒ shí diǎn zhīqián yīnggāi néng zhǔnbèi hǎo.",
+    "ko": "그럼 우리 몇 시에 출발할까? 나는 10시 전에는 준비될 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "十点半吧,我顺路去买点水果和面包。",
+    "pinyin": "Shí diǎn bàn ba, wǒ shùnlù qù mǎi diǎn shuǐguǒ hé miànbāo.",
+    "ko": "10시 반으로 하자, 나는 가는 길에 과일이랑 빵 좀 사갈게."
+   },
+   {
+    "speaker": "A",
+    "text": "行,那就这么定了,不见不散!",
+    "pinyin": "Xíng, nà jiù zhème dìng le, bú jiàn bú sàn!",
+    "ko": "좋아, 그럼 그렇게 정하자, 꼭 만나!"
+   }
+  ],
+  "note": "要不는 '아니면, ~하는 게 어때'라는 뜻으로 제안할 때 정말 많이 써요. 뒤에 顺便 붙이면 '이왕 나가는 김에'라는 뉘앙스가 자연스럽게 살아나요."
  },
  {
   "id": "zh2-005",
-  "expression": "说不定",
-  "pinyin": "shuōbudìng",
-  "meaning": "어쩌면",
-  "example": "说不定他已经知道了。",
-  "example_pinyin": "Shuōbudìng tā yǐjīng zhīdào le.",
-  "example_ko": "어쩌면 걔는 이미 알고 있을지도 몰라.",
-  "note": "확실하지 않은 추측을 말할 때"
+  "situation": "친구에게 소문 전하기",
+  "key_expressions": [
+   "听说",
+   "好像",
+   "嘴巴严"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "哎,你听说了吗?隔壁部门的经理好像要辞职了。",
+    "pinyin": "Āi, nǐ tīngshuō le ma? Gébì bùmén de jīnglǐ hǎoxiàng yào cízhí le.",
+    "ko": "야, 너 들었어? 옆 부서 매니저 사표 낼 것 같대."
+   },
+   {
+    "speaker": "B",
+    "text": "真的假的?我怎么一点儿都不知道。",
+    "pinyin": "Zhēn de jiǎ de? Wǒ zěnme yìdiǎnr dōu bù zhīdào.",
+    "ko": "진짜야 가짜야? 나는 전혀 몰랐는데."
+   },
+   {
+    "speaker": "A",
+    "text": "听说是因为跟老板意见不合,吵得挺厉害的。",
+    "pinyin": "Tīngshuō shì yīnwèi gēn lǎobǎn yìjiàn bùhé, chǎo de tǐng lìhai de.",
+    "ko": "듣기로는 사장님이랑 의견이 안 맞아서, 꽤 심하게 싸웠대."
+   },
+   {
+    "speaker": "B",
+    "text": "好像最近他们部门确实气氛不太好。",
+    "pinyin": "Hǎoxiàng zuìjìn tāmen bùmén quèshí qìfēn bú tài hǎo.",
+    "ko": "그러고 보니 요즘 그 부서 분위기가 진짜 안 좋긴 하더라."
+   },
+   {
+    "speaker": "A",
+    "text": "你可别到处说啊,我也是听小刘说的。",
+    "pinyin": "Nǐ kě bié dàochù shuō a, wǒ yě shì tīng Xiǎo Liú shuō de.",
+    "ko": "너 여기저기 말하고 다니지 마, 나도 샤오리우한테 들은 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "放心吧,我嘴巴严着呢。",
+    "pinyin": "Fàngxīn ba, wǒ zuǐba yán zhe ne.",
+    "ko": "걱정 마, 나 입 무거워."
+   }
+  ],
+  "note": "听说는 '듣기로는~', 직접 확인 안 된 소문 전할 때 필수 표현이에요. 好像이랑 같이 쓰면 '확실친 않지만 그런 것 같다'는 느낌이 자연스럽게 나와요."
  },
  {
   "id": "zh2-006",
-  "expression": "好不容易",
-  "pinyin": "hǎobùróngyì",
-  "meaning": "겨우, 힘들게",
-  "example": "好不容易才抢到票。",
-  "example_pinyin": "Hǎobùróngyì cái qiǎngdào piào.",
-  "example_ko": "힘들게 겨우 표를 구했어.",
-  "note": "힘든 과정을 거쳐 이루었을 때"
+  "situation": "친구 초대 완곡하게 거절하기",
+  "key_expressions": [
+   "不好意思",
+   "反正",
+   "改天"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "这周六我生日,来我家聚一聚吧!",
+    "pinyin": "Zhè zhōuliù wǒ shēngrì, lái wǒ jiā jùyiju ba!",
+    "ko": "이번 주 토요일 내 생일인데, 우리 집에 와서 모이자!"
+   },
+   {
+    "speaker": "B",
+    "text": "啊,真不好意思,这周六我可能没办法去。",
+    "pinyin": "À, zhēn bù hǎoyìsi, zhè zhōuliù wǒ kěnéng méi bànfǎ qù.",
+    "ko": "아, 진짜 미안한데, 이번 주 토요일엔 나 못 갈 것 같아."
+   },
+   {
+    "speaker": "A",
+    "text": "怎么了?有事儿吗?",
+    "pinyin": "Zěnme le? Yǒu shìr ma?",
+    "ko": "왜? 무슨 일 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "我爸妈那天要来看我,不好推掉。反正下次一定补上。",
+    "pinyin": "Wǒ bàmā nà tiān yào lái kàn wǒ, bù hǎo tuīdiào. Fǎnzhèng xià cì yídìng bǔshàng.",
+    "ko": "그날 우리 부모님이 나 보러 오시기로 해서, 미루기가 좀 그래. 그래도 다음엔 꼭 챙길게."
+   },
+   {
+    "speaker": "A",
+    "text": "哦,那没关系,家人重要。",
+    "pinyin": "Ó, nà méi guānxi, jiārén zhòngyào.",
+    "ko": "아, 그럼 괜찮아, 가족이 더 중요하지."
+   },
+   {
+    "speaker": "B",
+    "text": "谢谢你理解,改天我请你吃饭补偿一下。",
+    "pinyin": "Xièxie nǐ lǐjiě, gǎitiān wǒ qǐng nǐ chīfàn bǔcháng yíxià.",
+    "ko": "이해해줘서 고마워, 나중에 밥 한 끼 사면서 미안함 갚을게."
+   }
+  ],
+  "note": "거절할 땐 바로 '안 돼'라고 하기보다 不好意思로 시작해서 이유를 대고 反正(어차피, 그래도)으로 다음을 기약하면 훨씬 부드럽게 들려요."
  },
  {
   "id": "zh2-007",
-  "expression": "难怪",
-  "pinyin": "nánguài",
-  "meaning": "어쩐지",
-  "example": "难怪你今天这么开心。",
-  "example_pinyin": "Nánguài nǐ jīntiān zhème kāixīn.",
-  "example_ko": "어쩐지 오늘 그렇게 기분 좋더라.",
-  "note": "이유를 알고 나서 납득할 때"
+  "situation": "감기 걸려서 걱정 끼치기",
+  "key_expressions": [
+   "好像",
+   "顺便",
+   "养病"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你脸色怎么这么差?没事儿吧?",
+    "pinyin": "Nǐ liǎnsè zěnme zhème chà? Méishìr ba?",
+    "ko": "너 얼굴이 왜 이렇게 안 좋아? 괜찮아?"
+   },
+   {
+    "speaker": "B",
+    "text": "我好像感冒了,昨天晚上开始发烧。",
+    "pinyin": "Wǒ hǎoxiàng gǎnmào le, zuótiān wǎnshang kāishǐ fāshāo.",
+    "ko": "나 감기 걸린 것 같아, 어제저녁부터 열이 나기 시작했어."
+   },
+   {
+    "speaker": "A",
+    "text": "那你吃药了吗?去医院看了没有?",
+    "pinyin": "Nà nǐ chī yào le ma? Qù yīyuàn kàn le méiyǒu?",
+    "ko": "그럼 약은 먹었어? 병원은 가봤어?"
+   },
+   {
+    "speaker": "B",
+    "text": "吃了退烧药,不过还是有点儿头疼。",
+    "pinyin": "Chī le tuìshāo yào, búguò háishi yǒudiǎnr tóuténg.",
+    "ko": "해열제는 먹었는데, 그래도 좀 머리가 아파."
+   },
+   {
+    "speaker": "A",
+    "text": "那你别硬撑着上班了,好好在家休息。",
+    "pinyin": "Nà nǐ bié yìngchēngzhe shàngbān le, hǎohāo zài jiā xiūxi.",
+    "ko": "그럼 억지로 출근하지 말고, 집에서 푹 쉬어."
+   },
+   {
+    "speaker": "B",
+    "text": "嗯,我请了假。你顺便帮我请个假,跟老师说一声吧?",
+    "pinyin": "Ń, wǒ qǐng le jià. Nǐ shùnbiàn bāng wǒ qǐng ge jià, gēn lǎoshī shuō yì shēng ba?",
+    "ko": "응, 나 휴가 냈어. 겸사겸사 나 대신 선생님한테 말 좀 전해줄래?"
+   },
+   {
+    "speaker": "A",
+    "text": "没问题,你好好养病,有事儿给我打电话。",
+    "pinyin": "Méi wèntí, nǐ hǎohāo yǎngbìng, yǒu shìr gěi wǒ dǎ diànhuà.",
+    "ko": "문제없어, 몸조리 잘해, 일 있으면 전화해."
+   }
+  ],
+  "note": "好像感冒了처럼 好像은 자기 몸 상태를 말할 때도 '확실친 않지만 그런 듯'이라는 느낌으로 자연스럽게 붙여요."
  },
  {
   "id": "zh2-008",
-  "expression": "幸好",
-  "pinyin": "xìnghǎo",
-  "meaning": "다행히",
-  "example": "幸好带了伞，不然全湿了。",
-  "example_pinyin": "Xìnghǎo dài le sǎn, bùrán quán shī le.",
-  "example_ko": "다행히 우산 챙겼지, 안 그랬으면 다 젖었을 거야.",
-  "note": "위기를 피했을 때 안도하며 쓰는 말"
+  "situation": "이삿짐 도움 요청하기",
+  "key_expressions": [
+   "要不",
+   "人多好办事",
+   "帮忙"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "喂,你这周末有空吗?我下周要搬家。",
+    "pinyin": "Wéi, nǐ zhè zhōumò yǒu kòng ma? Wǒ xià zhōu yào bānjiā.",
+    "ko": "여보세요, 너 이번 주말에 시간 있어? 나 다음 주에 이사해."
+   },
+   {
+    "speaker": "B",
+    "text": "有空啊,怎么了,需要帮忙吗?",
+    "pinyin": "Yǒu kòng a, zěnme le, xūyào bāngmáng ma?",
+    "ko": "시간 있어, 왜, 도움 필요해?"
+   },
+   {
+    "speaker": "A",
+    "text": "对啊,东西挺多的,一个人搬不完。要不你来帮我搬几箱书?",
+    "pinyin": "Duì a, dōngxi tǐng duō de, yí ge rén bān bu wán. Yàobù nǐ lái bāng wǒ bān jǐ xiāng shū?",
+    "ko": "응, 짐이 꽤 많아서 혼자 다 못 옮기겠어. 혹시 와서 책 몇 상자만 좀 옮겨줄 수 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "没问题,我叫上小王一起去,人多好办事。",
+    "pinyin": "Méi wèntí, wǒ jiào shàng Xiǎo Wáng yìqǐ qù, rén duō hǎo bàn shì.",
+    "ko": "문제없어, 샤오왕도 같이 부를게, 사람 많으면 일하기 편하니까."
+   },
+   {
+    "speaker": "A",
+    "text": "太好了,谢谢你们!我请你们吃火锅当谢礼。",
+    "pinyin": "Tài hǎo le, xièxie nǐmen! Wǒ qǐng nǐmen chī huǒguō dāng xiè lǐ.",
+    "ko": "너무 좋다, 고마워! 감사 표시로 훠궈 살게."
+   },
+   {
+    "speaker": "B",
+    "text": "那可说好了,我最爱吃火锅了。",
+    "pinyin": "Nà kě shuōhǎo le, wǒ zuì ài chī huǒguō le.",
+    "ko": "그럼 약속한 거다, 나 훠궈 완전 좋아하거든."
+   }
+  ],
+  "note": "부탁할 때 要不 뒤에 구체적인 요청을 붙이면 명령조가 아니라 제안하듯 부드럽게 들려서 부탁하기 훨씬 편해요."
  },
  {
   "id": "zh2-009",
-  "expression": "反正",
-  "pinyin": "fǎnzhèng",
-  "meaning": "어쨌든, 어차피",
-  "example": "反正你说什么我都不信。",
-  "example_pinyin": "Fǎnzhèng nǐ shuō shénme wǒ dōu bú xìn.",
-  "example_ko": "어차피 네가 뭐라 하든 난 안 믿어.",
-  "note": "결론이 바뀌지 않음을 강조할 때"
+  "situation": "다이어트 실패담 나누기",
+  "key_expressions": [
+   "差点儿",
+   "反正",
+   "走着瞧"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你不是说这个月要减肥吗?怎么又在吃炸鸡?",
+    "pinyin": "Nǐ búshì shuō zhè ge yuè yào jiǎnféi ma? Zěnme yòu zài chī zhájī?",
+    "ko": "너 이번 달에 다이어트한다고 하지 않았어? 근데 왜 또 치킨 먹고 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "别提了,我差点儿就坚持住了,结果昨天晚上没忍住。",
+    "pinyin": "Bié tí le, wǒ chàdiǎnr jiù jiānchí zhù le, jiéguǒ zuótiān wǎnshang méi rěnzhù.",
+    "ko": "말도 마, 나 하마터면 참을 뻔했는데, 결국 어제저녁에 못 참았어."
+   },
+   {
+    "speaker": "A",
+    "text": "哈哈,你都坚持几天了?",
+    "pinyin": "Hāhā, nǐ dōu jiānchí jǐ tiān le?",
+    "ko": "하하, 너 며칠이나 버텼는데?"
+   },
+   {
+    "speaker": "B",
+    "text": "三天。反正明天开始重新来过,这次是认真的。",
+    "pinyin": "Sān tiān. Fǎnzhèng míngtiān kāishǐ chóngxīn láiguò, zhè cì shì rènzhēn de.",
+    "ko": "3일. 어차피 내일부터 다시 시작하지 뭐, 이번엔 진짜야."
+   },
+   {
+    "speaker": "A",
+    "text": "你每次都说这次是认真的。",
+    "pinyin": "Nǐ měi cì dōu shuō zhè cì shì rènzhēn de.",
+    "ko": "너 매번 이번엔 진짜라고 하잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "这次真的不一样!我都办健身卡了。",
+    "pinyin": "Zhè cì zhēn de bù yíyàng! Wǒ dōu bàn jiànshēn kǎ le.",
+    "ko": "이번엔 진짜 달라! 나 헬스장 카드도 끊었다니까."
+   },
+   {
+    "speaker": "A",
+    "text": "那咱们走着瞧吧。",
+    "pinyin": "Nà zánmen zǒuzhe qiáo ba.",
+    "ko": "그럼 우리 지켜보자고."
+   }
+  ],
+  "note": "差点儿는 좋은 일이든 나쁜 일이든 '하마터면'이라는 뜻인데, 여기선 다이어트 성공 직전에 실패했다는 아쉬움을 살짝 유머러스하게 표현해요."
  },
  {
   "id": "zh2-010",
-  "expression": "干脆",
-  "pinyin": "gāncuì",
-  "meaning": "차라리, 아예",
-  "example": "堵车严重，干脆走路去吧。",
-  "example_pinyin": "Dǔchē yánzhòng, gāncuì zǒulù qù ba.",
-  "example_ko": "차가 너무 막히니까 차라리 걸어가자.",
-  "note": "망설이지 않고 결단할 때"
+  "situation": "하우스메이트와 집안일 분담 정하기",
+  "key_expressions": [
+   "要不",
+   "顺便",
+   "轮流"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "咱们是不是应该商量一下家务怎么分配?",
+    "pinyin": "Zánmen shìbushì yīnggāi shāngliang yíxià jiāwù zěnme fēnpèi?",
+    "ko": "우리 집안일 어떻게 나눌지 좀 상의해야 하지 않을까?"
+   },
+   {
+    "speaker": "B",
+    "text": "对,一直都是我洗碗,你好像从来没洗过。",
+    "pinyin": "Duì, yìzhí dōu shì wǒ xǐ wǎn, nǐ hǎoxiàng cónglái méi xǐguo.",
+    "ko": "맞아, 계속 내가 설거지했잖아, 너는 한 번도 안 한 것 같은데."
+   },
+   {
+    "speaker": "A",
+    "text": "是吗?那要不这样,我负责洗碗,你负责倒垃圾和拖地?",
+    "pinyin": "Shì ma? Nà yàobù zhèyàng, wǒ fùzé xǐ wǎn, nǐ fùzé dào lājī hé tuōdì?",
+    "ko": "그래? 그럼 이렇게 하는 거 어때, 내가 설거지 맡고, 너는 쓰레기 버리고 바닥 청소 맡는 걸로?"
+   },
+   {
+    "speaker": "B",
+    "text": "行啊,顺便说一下,冰箱里的过期食品也得定期清理。",
+    "pinyin": "Xíng a, shùnbiàn shuō yíxià, bīngxiāng lǐ de guòqī shípǐn yě děi dìngqī qīnglǐ.",
+    "ko": "좋아, 겸사겸사 말하는 건데, 냉장고 안 유통기한 지난 음식도 정기적으로 치워야 해."
+   },
+   {
+    "speaker": "A",
+    "text": "好,那我们一人一周,轮流打扫公共区域怎么样?",
+    "pinyin": "Hǎo, nà wǒmen yì rén yì zhōu, lúnliú dǎsǎo gōnggòng qūyù zěnmeyàng?",
+    "ko": "좋아, 그럼 우리 일주일씩 번갈아 가면서 공용 공간 청소하는 거 어때?"
+   },
+   {
+    "speaker": "B",
+    "text": "没问题,这样比较公平。",
+    "pinyin": "Méi wèntí, zhèyàng bǐjiào gōngpíng.",
+    "ko": "문제없어, 이게 더 공평하네."
+   }
+  ],
+  "note": "룸메이트끼리 집안일 나눌 때 要不这样(이렇게 하는 거 어때)으로 구체적인 제안을 던지면 갈등 없이 자연스럽게 대화가 풀려요."
  },
  {
   "id": "zh2-011",
-  "expression": "顺便",
-  "pinyin": "shùnbiàn",
-  "meaning": "~하는 김에",
-  "example": "出门顺便把垃圾扔了。",
-  "example_pinyin": "Chūmén shùnbiàn bǎ lājī rēng le.",
-  "example_ko": "나가는 김에 쓰레기 좀 버려줘.",
-  "note": "다른 일을 하면서 곁들여 할 때"
+  "situation": "소개팅 주선 부탁하기",
+  "key_expressions": [
+   "听说",
+   "顺便",
+   "聊得来"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "婉婷,你能不能帮我介绍个对象啊?",
+    "pinyin": "Wǎntíng, nǐ néng bu néng bāng wǒ jièshào ge duìxiàng a?",
+    "ko": "완팅, 나 소개팅 좀 시켜줄 수 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "哟,你终于开窍了?听说你一直挺抗拒相亲的。",
+    "pinyin": "Yō, nǐ zhōngyú kāiqiào le? Tīngshuō nǐ yìzhí tǐng kàngjù xiāngqīn de.",
+    "ko": "어머, 드디어 마음이 열렸어? 듣기로는 너 계속 소개팅 거부했다던데."
+   },
+   {
+    "speaker": "A",
+    "text": "以前是,不过最近想通了,单身太久也不是办法。",
+    "pinyin": "Yǐqián shì, búguò zuìjìn xiǎngtōng le, dānshēn tài jiǔ yě bú shì bànfǎ.",
+    "ko": "예전엔 그랬는데, 요즘 마음을 좀 정리했어, 너무 오래 혼자인 것도 방법은 아니잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "那正好,我同事有个人挺不错的,顺便帮你们约个时间见面吧。",
+    "pinyin": "Nà zhènghǎo, wǒ tóngshì yǒu ge rén tǐng búcuò de, shùnbiàn bāng nǐmen yuē ge shíjiān jiànmiàn ba.",
+    "ko": "그럼 마침 잘됐다, 내 동료 중에 괜찮은 사람 있는데, 겸사겸사 너희 만날 시간 잡아줄게."
+   },
+   {
+    "speaker": "A",
+    "text": "真的吗?太谢谢你了!他是做什么工作的?",
+    "pinyin": "Zhēn de ma? Tài xièxie nǐ le! Tā shì zuò shénme gōngzuò de?",
+    "ko": "진짜? 완전 고마워! 그 사람 무슨 일 해?"
+   },
+   {
+    "speaker": "B",
+    "text": "是个设计师,人挺幽默的,你们应该聊得来。",
+    "pinyin": "Shì ge shèjìshī, rén tǐng yōumò de, nǐmen yīnggāi liáo de lái.",
+    "ko": "디자이너인데, 사람이 꽤 유머러스해서, 너희 잘 통할 것 같아."
+   }
+  ],
+  "note": "听说你一直挺抗拒相亲的처럼 상대방에 대해 들은 얘기를 살짝 언급하면서 대화를 자연스럽게 이어가는 방식이 회화체에서 자주 쓰여요."
  },
  {
   "id": "zh2-012",
-  "expression": "竟然",
-  "pinyin": "jìngrán",
-  "meaning": "놀랍게도",
-  "example": "他竟然一句话都没说。",
-  "example_pinyin": "Tā jìngrán yíjù huà dōu méi shuō.",
-  "example_ko": "걔가 놀랍게도 한마디도 안 하더라.",
-  "note": "예상 밖의 결과에 놀랐을 때"
+  "situation": "상사에게 조퇴 요청하기",
+  "key_expressions": [
+   "不好意思",
+   "麻烦",
+   "请假"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "经理,不好意思,打扰一下。",
+    "pinyin": "Jīnglǐ, bù hǎoyìsi, dǎrǎo yíxià.",
+    "ko": "팀장님, 죄송한데, 잠깐 방해 좀 할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "怎么了?有什么事儿吗?",
+    "pinyin": "Zěnme le? Yǒu shénme shìr ma?",
+    "ko": "무슨 일이야? 뭐 일 있어?"
+   },
+   {
+    "speaker": "A",
+    "text": "我女儿学校突然打电话来,说她发烧了,我想申请下午请假去接她。",
+    "pinyin": "Wǒ nǚ'ér xuéxiào tūrán dǎ diànhuà lái, shuō tā fāshāo le, wǒ xiǎng shēnqǐng xiàwǔ qǐngjià qù jiē tā.",
+    "ko": "딸 학교에서 갑자기 전화가 와서, 애가 열이 난다고 해서요, 오후에 조퇴하고 데리러 가고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "没事儿,家庭为重,你赶紧去吧。",
+    "pinyin": "Méishìr, jiātíng wéi zhòng, nǐ gǎnjǐn qù ba.",
+    "ko": "괜찮아, 가족이 우선이지, 얼른 가봐."
+   },
+   {
+    "speaker": "A",
+    "text": "麻烦您了,手头的报告我今天晚上回去补上。",
+    "pinyin": "Máfan nín le, shǒutóu de bàogào wǒ jīntiān wǎnshang huíqù bǔshàng.",
+    "ko": "번거롭게 해서 죄송해요, 지금 하던 보고서는 오늘 저녁에 마저 할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "不用着急,先把孩子照顾好,报告明天交也行。",
+    "pinyin": "Búyòng zháojí, xiān bǎ háizi zhàogù hǎo, bàogào míngtiān jiāo yě xíng.",
+    "ko": "서두르지 말고, 우선 애부터 잘 챙겨, 보고서는 내일 내도 돼."
+   },
+   {
+    "speaker": "A",
+    "text": "谢谢经理体谅,我这就走了。",
+    "pinyin": "Xièxie jīnglǐ tǐliàng, wǒ zhè jiù zǒu le.",
+    "ko": "이해해주셔서 감사합니다, 저 바로 갈게요."
+   }
+  ],
+  "note": "상사한테 부탁할 땐 麻烦您了(번거롭게 해드려서 죄송해요) 같은 표현을 붙이면 훨씬 공손하고 예의 있게 들려요."
  },
  {
   "id": "zh2-013",
-  "expression": "居然",
-  "pinyin": "jūrán",
-  "meaning": "뜻밖에도",
-  "example": "没想到你居然会做饭。",
-  "example_pinyin": "Méi xiǎngdào nǐ jūrán huì zuòfàn.",
-  "example_ko": "네가 요리를 할 줄이야, 뜻밖이다.",
-  "note": "의외의 상황에 놀랄 때"
+  "situation": "친구 고민 상담해주기",
+  "key_expressions": [
+   "其实",
+   "反正",
+   "万一"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我最近心里特别乱,不知道该不该换工作。",
+    "pinyin": "Wǒ zuìjìn xīnli tèbié luàn, bù zhīdào gāi bu gāi huàn gōngzuò.",
+    "ko": "나 요즘 마음이 진짜 복잡해, 이직을 해야 할지 말지 모르겠어."
+   },
+   {
+    "speaker": "B",
+    "text": "怎么了?现在这份工作不是挺稳定的吗?",
+    "pinyin": "Zěnme le? Xiànzài zhè fèn gōngzuò búshì tǐng wěndìng de ma?",
+    "ko": "왜? 지금 일 꽤 안정적이지 않아?"
+   },
+   {
+    "speaker": "A",
+    "text": "稳定是稳定,不过我一点儿都不喜欢,每天都很痛苦。",
+    "pinyin": "Wěndìng shì wěndìng, búguò wǒ yìdiǎnr dōu bù xǐhuan, měitiān dōu hěn tòngkǔ.",
+    "ko": "안정적이긴 한데, 근데 하나도 안 좋아, 매일이 너무 힘들어."
+   },
+   {
+    "speaker": "B",
+    "text": "其实我觉得,工作是为了生活,不是为了痛苦。",
+    "pinyin": "Qíshí wǒ juéde, gōngzuò shì wèile shēnghuó, búshì wèile tòngkǔ.",
+    "ko": "사실 내 생각엔, 일은 삶을 위한 건데, 고통받으려고 하는 게 아니잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "可是万一换了新工作也不合适怎么办?",
+    "pinyin": "Kěshì wànyī huàn le xīn gōngzuò yě bù héshì zěnme bàn?",
+    "ko": "근데 만약에 새 직장도 안 맞으면 어떡해?"
+   },
+   {
+    "speaker": "B",
+    "text": "反正你现在已经这么不开心了,试一试也没什么损失。",
+    "pinyin": "Fǎnzhèng nǐ xiànzài yǐjīng zhème bù kāixīn le, shì yi shì yě méi shénme sǔnshī.",
+    "ko": "어차피 지금도 이렇게 안 행복한데, 한번 시도해봐도 손해 볼 거 없잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "你说得对,我再好好想想。",
+    "pinyin": "Nǐ shuō de duì, wǒ zài hǎohāo xiǎngxiang.",
+    "ko": "네 말이 맞아, 다시 잘 생각해볼게."
+   }
+  ],
+  "note": "친구 고민 들어줄 때 其实我觉得로 부드럽게 자기 의견을 꺼내고 反正으로 밀어붙이면 조언이 강요처럼 안 들리고 편하게 들려요."
  },
  {
   "id": "zh2-014",
-  "expression": "突然",
-  "pinyin": "tūrán",
-  "meaning": "갑자기",
-  "example": "他突然就哭了。",
-  "example_pinyin": "Tā tūrán jiù kū le.",
-  "example_ko": "걔가 갑자기 울었어.",
-  "note": "예상치 못하게 발생한 일"
+  "situation": "국내 여행지 추천받기",
+  "key_expressions": [
+   "听说",
+   "要不",
+   "顺便"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "十一假期你有推荐的地方吗?我想去国内玩玩。",
+    "pinyin": "Shíyī jiàqī nǐ yǒu tuījiàn de dìfang ma? Wǒ xiǎng qù guónèi wánwan.",
+    "ko": "국경절 연휴 때 추천할 만한 곳 있어? 국내 여행 좀 가고 싶은데."
+   },
+   {
+    "speaker": "B",
+    "text": "听说丽江最近特别火,风景特别美。",
+    "pinyin": "Tīngshuō Lìjiāng zuìjìn tèbié huǒ, fēngjǐng tèbié měi.",
+    "ko": "듣기로는 리장이 요즘 진짜 핫하대, 풍경이 엄청 예쁘다더라."
+   },
+   {
+    "speaker": "A",
+    "text": "是吗?不过假期人是不是特别多?",
+    "pinyin": "Shì ma? Búguò jiàqī rén shìbushì tèbié duō?",
+    "ko": "그래? 근데 연휴엔 사람 엄청 많지 않아?"
+   },
+   {
+    "speaker": "B",
+    "text": "那倒是,要不你避开假期,提前几天请假去?",
+    "pinyin": "Nà dàoshì, yàobù nǐ bìkāi jiàqī, tíqián jǐ tiān qǐngjià qù?",
+    "ko": "그건 그렇지, 아니면 연휴는 피하고 며칠 미리 휴가 내서 가는 건 어때?"
+   },
+   {
+    "speaker": "A",
+    "text": "这个主意不错,顺便可以避开高价机票。",
+    "pinyin": "Zhè ge zhǔyi búcuò, shùnbiàn kěyǐ bìkāi gāojià jīpiào.",
+    "ko": "그거 괜찮은 생각이네, 겸사겸사 비싼 항공권도 피할 수 있고."
+   },
+   {
+    "speaker": "B",
+    "text": "对啊,我上次就是这么去的,体验特别好。",
+    "pinyin": "Duì a, wǒ shàng cì jiùshì zhème qù de, tǐyàn tèbié hǎo.",
+    "ko": "맞아, 나도 저번에 그렇게 갔었는데, 경험이 진짜 좋았어."
+   }
+  ],
+  "note": "여행지 추천받을 때 听说로 시작하면 '카더라'긴 하지만 관심 있다는 뉘앙스를 자연스럽게 전달할 수 있어요."
  },
  {
   "id": "zh2-015",
-  "expression": "明明",
-  "pinyin": "míngmíng",
-  "meaning": "분명히",
-  "example": "明明是你先动手的。",
-  "example_pinyin": "Míngmíng shì nǐ xiān dòngshǒu de.",
-  "example_ko": "분명히 네가 먼저 손 댔잖아.",
-  "note": "확실한 사실을 강조할 때, 억울함을 표현"
+  "situation": "온라인 쇼핑 환불 문의하기",
+  "key_expressions": [
+   "麻烦",
+   "好像",
+   "退款"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你好,我想咨询一下退款的事情。",
+    "pinyin": "Nǐ hǎo, wǒ xiǎng zīxún yíxià tuìkuǎn de shìqing.",
+    "ko": "안녕하세요, 환불 관련해서 문의 좀 드리고 싶은데요."
+   },
+   {
+    "speaker": "B",
+    "text": "您好,请问是什么问题呢?",
+    "pinyin": "Nín hǎo, qǐngwèn shì shénme wèntí ne?",
+    "ko": "안녕하세요, 어떤 문제이신가요?"
+   },
+   {
+    "speaker": "A",
+    "text": "我收到的衣服好像有点儿破损,跟图片不太一样。",
+    "pinyin": "Wǒ shōudào de yīfu hǎoxiàng yǒudiǎnr pòsǔn, gēn túpiàn bú tài yíyàng.",
+    "ko": "받은 옷이 좀 손상된 것 같고, 사진이랑 좀 다른 것 같아요."
+   },
+   {
+    "speaker": "B",
+    "text": "不好意思给您带来不便,麻烦您上传一下照片,我们核实一下。",
+    "pinyin": "Bù hǎoyìsi gěi nín dàilái búbiàn, máfan nín shàngchuán yíxià zhàopiàn, wǒmen héshí yíxià.",
+    "ko": "불편을 드려 죄송합니다, 번거로우시겠지만 사진 좀 올려주시면, 저희가 확인해보겠습니다."
+   },
+   {
+    "speaker": "A",
+    "text": "好的,我发过去了,大概什么时候能退款?",
+    "pinyin": "Hǎo de, wǒ fā guòqù le, dàgài shénme shíhou néng tuìkuǎn?",
+    "ko": "네, 보냈습니다, 대략 언제쯤 환불되나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "审核通过后,三到五个工作日内会退回您的账户。",
+    "pinyin": "Shěnhé tōngguò hòu, sān dào wǔ ge gōngzuòrì nèi huì tuìhuí nín de zhànghù.",
+    "ko": "심사 통과 후, 영업일 기준 3~5일 안에 계좌로 환불됩니다."
+   },
+   {
+    "speaker": "A",
+    "text": "好的,麻烦你们尽快处理,谢谢。",
+    "pinyin": "Hǎo de, máfan nǐmen jǐnkuài chǔlǐ, xièxie.",
+    "ko": "네, 최대한 빨리 처리해주세요, 감사합니다."
+   }
+  ],
+  "note": "컴플레인할 때도 好像(~인 것 같다)을 붙여서 말하면 단정적으로 따지는 느낌보다 훨씬 부드럽게 들려요."
  },
  {
   "id": "zh2-016",
-  "expression": "到底",
-  "pinyin": "dàodǐ",
-  "meaning": "도대체",
-  "example": "你到底想说什么？",
-  "example_pinyin": "Nǐ dàodǐ xiǎng shuō shénme?",
-  "example_ko": "너 도대체 뭘 말하고 싶은 거야?",
-  "note": "답답함이나 강한 궁금증을 표현"
+  "situation": "새해 결심 이야기하기",
+  "key_expressions": [
+   "反正",
+   "说不定",
+   "坚持"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "新的一年,你有什么计划或者目标吗?",
+    "pinyin": "Xīn de yì nián, nǐ yǒu shénme jìhuà huòzhě mùbiāo ma?",
+    "ko": "새해에 무슨 계획이나 목표 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "我打算今年一定要学会游泳,去年说了一年也没去。",
+    "pinyin": "Wǒ dǎsuàn jīnnián yídìng yào xuéhuì yóuyǒng, qùnián shuō le yì nián yě méi qù.",
+    "ko": "난 올해 꼭 수영 배우려고, 작년엔 말만 하고 한 번도 안 갔거든."
+   },
+   {
+    "speaker": "A",
+    "text": "哈哈,反正每年的新年计划都差不多,是吧?",
+    "pinyin": "Hāhā, fǎnzhèng měinián de xīnnián jìhuà dōu chàbuduō, shì ba?",
+    "ko": "하하, 어차피 매년 새해 계획 다 비슷하지, 안 그래?"
+   },
+   {
+    "speaker": "B",
+    "text": "是啊,不过这次我真的报名健身房了,说不定这次能坚持下来。",
+    "pinyin": "Shì a, búguò zhè cì wǒ zhēn de bàomíng jiànshēnfáng le, shuōbudìng zhè cì néng jiānchí xiàlái.",
+    "ko": "맞아, 근데 이번엔 진짜 헬스장 등록했어, 어쩌면 이번엔 계속할 수 있을지도 몰라."
+   },
+   {
+    "speaker": "A",
+    "text": "那你监督我一下,我也想养成早睡早起的习惯。",
+    "pinyin": "Nà nǐ jiāndū wǒ yíxià, wǒ yě xiǎng yǎngchéng zǎoshuì zǎoqǐ de xíguàn.",
+    "ko": "그럼 나도 좀 감독해줘, 나도 일찍 자고 일찍 일어나는 습관 들이고 싶거든."
+   },
+   {
+    "speaker": "B",
+    "text": "没问题,我们俩互相监督,一起加油!",
+    "pinyin": "Méi wèntí, wǒmen liǎ hùxiāng jiāndū, yìqǐ jiāyóu!",
+    "ko": "문제없어, 우리 둘이 서로 감독하면서, 같이 힘내자!"
+   }
+  ],
+  "note": "说不定(어쩌면 ~일지도 몰라)은 확신은 없지만 살짝 희망을 담아 말할 때 자주 쓰이는 표현이에요, 새해 다짐 얘기할 때 딱이에요."
  },
  {
   "id": "zh2-017",
-  "expression": "简直",
-  "pinyin": "jiǎnzhí",
-  "meaning": "완전히, 그야말로",
-  "example": "这味道简直太好吃了。",
-  "example_pinyin": "Zhè wèidào jiǎnzhí tài hǎochī le.",
-  "example_ko": "이 맛 완전 대박이다.",
-  "note": "과장해서 강조할 때"
+  "situation": "실연한 친구 위로하기",
+  "key_expressions": [
+   "其实",
+   "反正",
+   "过不去"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我们真的分手了,我现在心里特别难受。",
+    "pinyin": "Wǒmen zhēn de fēnshǒu le, wǒ xiànzài xīnli tèbié nánshòu.",
+    "ko": "우리 진짜 헤어졌어, 지금 마음이 너무 힘들어."
+   },
+   {
+    "speaker": "B",
+    "text": "别哭别哭,发生什么事了?",
+    "pinyin": "Bié kū bié kū, fāshēng shénme shì le?",
+    "ko": "울지 마 울지 마, 무슨 일이 있었던 거야?"
+   },
+   {
+    "speaker": "A",
+    "text": "其实早就有征兆了,只是我一直不愿意承认。",
+    "pinyin": "Qíshí zǎo jiù yǒu zhēngzhào le, zhǐshì wǒ yìzhí bú yuànyì chéngrèn.",
+    "ko": "사실 진작에 조짐이 있었는데, 그저 계속 인정하고 싶지 않았던 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "反正他不珍惜你,分开对你来说也许是好事。",
+    "pinyin": "Fǎnzhèng tā bù zhēnxī nǐ, fēnkāi duì nǐ láishuō yěxǔ shì hǎoshì.",
+    "ko": "어차피 그 사람이 널 소중히 여기지 않았으니까, 헤어진 게 너한테는 오히려 잘된 일일 수도 있어."
+   },
+   {
+    "speaker": "A",
+    "text": "我知道,可是心里还是过不去。",
+    "pinyin": "Wǒ zhīdào, kěshì xīnli háishi guòbuqù.",
+    "ko": "알아, 근데 마음은 아직도 힘들어."
+   },
+   {
+    "speaker": "B",
+    "text": "慢慢来,别着急,有我陪着你呢。",
+    "pinyin": "Mànmàn lái, bié zhāojí, yǒu wǒ péizhe nǐ ne.",
+    "ko": "천천히 해, 조급해하지 마, 내가 곁에 있어줄게."
+   },
+   {
+    "speaker": "A",
+    "text": "谢谢你,有你在身边真好。",
+    "pinyin": "Xièxie nǐ, yǒu nǐ zài shēnbiān zhēn hǎo.",
+    "ko": "고마워, 네가 곁에 있어줘서 정말 좋다."
+   }
+  ],
+  "note": "위로할 때 反正他不珍惜你처럼 상대방 잘못을 짚어주면서 위로하면 '네 탓이 아니야'라는 메시지가 자연스럽게 전달돼요."
  },
  {
   "id": "zh2-018",
-  "expression": "索性",
-  "pinyin": "suǒxìng",
-  "meaning": "아예, 차라리",
-  "example": "反正都迟到了，索性再等等。",
-  "example_pinyin": "Fǎnzhèng dōu chídào le, suǒxìng zài děngděng.",
-  "example_ko": "어차피 늦었으니 아예 좀 더 기다리자.",
-  "note": "이왕 이렇게 된 거 하는 결단"
+  "situation": "새로운 취미반 등록 상의하기",
+  "key_expressions": [
+   "要不",
+   "顺便",
+   "感兴趣"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我最近想报个兴趣班,你有什么建议吗?",
+    "pinyin": "Wǒ zuìjìn xiǎng bào ge xìngqù bān, nǐ yǒu shénme jiànyì ma?",
+    "ko": "나 요즘 취미반 등록하고 싶은데, 뭐 추천할 거 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "你对什么感兴趣?画画还是烘焙?",
+    "pinyin": "Nǐ duì shénme gǎn xìngqù? Huàhuà háishi hōngbèi?",
+    "ko": "너 뭐에 관심 있어? 그림이야 아니면 베이킹이야?"
+   },
+   {
+    "speaker": "A",
+    "text": "我一直想学做陶艺,感觉挺解压的。",
+    "pinyin": "Wǒ yìzhí xiǎng xué zuò táoyì, gǎnjué tǐng jiěyā de.",
+    "ko": "나 계속 도예 배우고 싶었어, 스트레스 해소에 좋을 것 같아서."
+   },
+   {
+    "speaker": "B",
+    "text": "要不我们一起报名吧,我也一直想试试看。",
+    "pinyin": "Yàobù wǒmen yìqǐ bàomíng ba, wǒ yě yìzhí xiǎng shìshi kàn.",
+    "ko": "아니면 우리 같이 등록할까, 나도 계속 한번 해보고 싶었거든."
+   },
+   {
+    "speaker": "A",
+    "text": "真的吗?那太好了,一个人去还有点儿紧张呢。",
+    "pinyin": "Zhēn de ma? Nà tài hǎo le, yí ge rén qù hái yǒudiǎnr jǐnzhāng ne.",
+    "ko": "진짜? 그럼 완전 좋다, 혼자 가면 좀 긴장되거든."
+   },
+   {
+    "speaker": "B",
+    "text": "顺便查一下附近有没有口碑好的工作室。",
+    "pinyin": "Shùnbiàn chá yíxià fùjìn yǒu méiyǒu kǒubēi hǎo de gōngzuòshì.",
+    "ko": "겸사겸사 근처에 평판 좋은 공방 있는지 좀 찾아보자."
+   },
+   {
+    "speaker": "A",
+    "text": "好,我今晚就上网找找看。",
+    "pinyin": "Hǎo, wǒ jīnwǎn jiù shàngwǎng zhǎozhao kàn.",
+    "ko": "좋아, 오늘 저녁에 바로 인터넷으로 찾아볼게."
+   }
+  ],
+  "note": "要不我们一起报名吧처럼 친구랑 뭔가 같이 하자고 제안할 때 要不가 들어가면 훨씬 캐주얼하고 친근하게 들려요."
  },
  {
   "id": "zh2-019",
-  "expression": "千万",
-  "pinyin": "qiānwàn",
-  "meaning": "제발, 절대로",
-  "example": "千万别告诉他这件事。",
-  "example_pinyin": "Qiānwàn bié gàosu tā zhè jiàn shì.",
-  "example_ko": "이 일 절대 걔한테 말하지 마.",
-  "note": "강한 당부나 경고를 할 때"
+  "situation": "집들이 음식 준비 상의하기",
+  "key_expressions": [
+   "顺便",
+   "要不",
+   "反正"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "下周六我要办乔迁宴,你能来帮我准备一下吗?",
+    "pinyin": "Xià zhōuliù wǒ yào bàn qiáoqiān yàn, nǐ néng lái bāng wǒ zhǔnbèi yíxià ma?",
+    "ko": "다음 주 토요일에 집들이하려고 하는데, 와서 준비 좀 도와줄 수 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "没问题,准备请多少人啊?",
+    "pinyin": "Méi wèntí, zhǔnbèi qǐng duōshao rén a?",
+    "ko": "문제없어, 몇 명 초대할 예정이야?"
+   },
+   {
+    "speaker": "A",
+    "text": "大概十个人左右,我想做几个家常菜,顺便点点外卖。",
+    "pinyin": "Dàgài shí ge rén zuǒyòu, wǒ xiǎng zuò jǐ ge jiācháng cài, shùnbiàn diǎndian wàimài.",
+    "ko": "대략 10명 정도, 집밥 몇 가지 만들고, 겸사겸사 배달 음식도 좀 시키려고."
+   },
+   {
+    "speaker": "B",
+    "text": "要不我负责做几道凉菜,你专心做主菜?",
+    "pinyin": "Yàobù wǒ fùzé zuò jǐ dào liángcài, nǐ zhuānxīn zuò zhǔcài?",
+    "ko": "아니면 내가 냉채 몇 가지 맡을게, 너는 메인 요리에 집중하고?"
+   },
+   {
+    "speaker": "A",
+    "text": "太好了,那水果和饮料我来准备。",
+    "pinyin": "Tài hǎo le, nà shuǐguǒ hé yǐnliào wǒ lái zhǔnbèi.",
+    "ko": "너무 좋아, 그럼 과일이랑 음료는 내가 준비할게."
+   },
+   {
+    "speaker": "B",
+    "text": "好,反正东西不够我们再临时去买就行。",
+    "pinyin": "Hǎo, fǎnzhèng dōngxi bú gòu wǒmen zài línshí qù mǎi jiù xíng.",
+    "ko": "좋아, 어차피 부족하면 우리가 그때 가서 사면 되니까."
+   }
+  ],
+  "note": "집들이처럼 준비할 게 많은 상황에서 顺便으로 '겸사겸사 이것도'라고 덧붙이면 계획이 훨씬 자연스럽게 짜여요."
  },
  {
   "id": "zh2-020",
-  "expression": "万一",
-  "pinyin": "wànyī",
-  "meaning": "만약에",
-  "example": "万一下雨怎么办？",
-  "example_pinyin": "Wànyī xiàyǔ zěnme bàn?",
-  "example_ko": "만약에 비 오면 어떡해?",
-  "note": "가능성 낮은 상황을 가정할 때"
+  "situation": "인기 드라마 추천받기",
+  "key_expressions": [
+   "听说",
+   "差点儿",
+   "上头"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "最近有什么好看的电视剧吗?我都不知道看什么了。",
+    "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànshìjù ma? Wǒ dōu bù zhīdào kàn shénme le.",
+    "ko": "요즘 볼 만한 드라마 있어? 나 뭐 봐야 할지 모르겠어."
+   },
+   {
+    "speaker": "B",
+    "text": "听说最近那部古装剧特别火,好多人都在追。",
+    "pinyin": "Tīngshuō zuìjìn nà bù gǔzhuāngjù tèbié huǒ, hǎoduō rén dōu zài zhuī.",
+    "ko": "듣기로는 요즘 그 사극이 완전 인기라던데, 많은 사람들이 챙겨 보고 있대."
+   },
+   {
+    "speaker": "A",
+    "text": "是那部讲皇宫的吗?我听说剧情很虐。",
+    "pinyin": "Shì nà bù jiǎng huánggōng de ma? Wǒ tīngshuō jùqíng hěn nüè.",
+    "ko": "궁궐 얘기하는 그거? 스토리가 되게 애타게 만든다고 들었는데."
+   },
+   {
+    "speaker": "B",
+    "text": "对,我昨天看到半夜,差点儿哭出来。",
+    "pinyin": "Duì, wǒ zuótiān kàndào bànyè, chàdiǎnr kū chūlái.",
+    "ko": "맞아, 나 어제 새벽까지 봤는데, 하마터면 울 뻔했어."
+   },
+   {
+    "speaker": "A",
+    "text": "这么好看啊,那我今晚就开始追。",
+    "pinyin": "Zhème hǎokàn a, nà wǒ jīnwǎn jiù kāishǐ zhuī.",
+    "ko": "그렇게 재밌어? 그럼 나 오늘 저녁부터 바로 볼게."
+   },
+   {
+    "speaker": "B",
+    "text": "你一定会上头的,记得别熬夜太晚啊。",
+    "pinyin": "Nǐ yídìng huì shàngtóu de, jìde bié áoyè tài wǎn a.",
+    "ko": "너 완전 빠질걸, 너무 늦게까지 밤새지는 말고."
+   }
+  ],
+  "note": "上头는 요즘 젊은 사람들이 '완전 꽂히다, 헤어나올 수 없다'는 뜻으로 자주 쓰는 신조어 같은 표현이라 드라마나 아이돌 얘기할 때 잘 어울려요."
  },
  {
   "id": "zh2-021",
-  "expression": "巴不得",
-  "pinyin": "bābude",
-  "meaning": "몹시 바라다",
-  "example": "他巴不得马上放假。",
-  "example_pinyin": "Tā bābude mǎshàng fàngjià.",
-  "example_ko": "걔는 당장 방학하기만 바라고 있어.",
-  "note": "간절히 원하는 마음을 강조"
+  "situation": "건강 검진 예약 잡기",
+  "key_expressions": [
+   "顺便",
+   "麻烦",
+   "空腹"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你好,我想预约一下体检,请问怎么安排?",
+    "pinyin": "Nǐ hǎo, wǒ xiǎng yùyuē yíxià tǐjiǎn, qǐngwèn zěnme ānpái?",
+    "ko": "안녕하세요, 건강검진 예약하고 싶은데, 어떻게 하면 되나요?"
+   },
+   {
+    "speaker": "B",
+    "text": "您好,请问您想做基础套餐还是全面体检?",
+    "pinyin": "Nín hǎo, qǐngwèn nín xiǎng zuò jīchǔ tàocān háishi quánmiàn tǐjiǎn?",
+    "ko": "안녕하세요, 기본 패키지로 하시겠어요 아니면 종합검진으로 하시겠어요?"
+   },
+   {
+    "speaker": "A",
+    "text": "我想做全面一点儿的,顺便加一个胃镜检查。",
+    "pinyin": "Wǒ xiǎng zuò quánmiàn yìdiǎnr de, shùnbiàn jiā yí ge wèijìng jiǎnchá.",
+    "ko": "좀 더 종합적으로 하고 싶은데, 겸사겸사 위내시경도 추가할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "好的,那需要提前一天开始清淡饮食,当天要空腹。",
+    "pinyin": "Hǎo de, nà xūyào tíqián yì tiān kāishǐ qīngdàn yǐnshí, dāngtiān yào kōngfù.",
+    "ko": "네, 그럼 하루 전부터 가볍게 드시고, 당일에는 공복이셔야 해요."
+   },
+   {
+    "speaker": "A",
+    "text": "明白,那麻烦帮我约下周三上午吧。",
+    "pinyin": "Míngbai, nà máfan bāng wǒ yuē xià zhōusān shàngwǔ ba.",
+    "ko": "알겠습니다, 그럼 번거로우시겠지만 다음 주 수요일 오전으로 잡아주세요."
+   },
+   {
+    "speaker": "B",
+    "text": "好的,已经帮您预约好了,记得提前十五分钟到。",
+    "pinyin": "Hǎo de, yǐjīng bāng nín yùyuē hǎo le, jìde tíqián shíwǔ fēnzhōng dào.",
+    "ko": "네, 예약 완료해드렸습니다, 15분 일찍 오시는 거 잊지 마세요."
+   }
+  ],
+  "note": "병원이나 서비스 예약할 때 麻烦帮我...는 '번거로우시겠지만 ~좀 해주세요'라는 뜻으로 정중하게 부탁하는 필수 표현이에요."
  },
  {
   "id": "zh2-022",
-  "expression": "恨不得",
-  "pinyin": "hènbude",
-  "meaning": "~하고 싶어 죽겠다",
-  "example": "饿得我恨不得吃下一头牛。",
-  "example_pinyin": "È de wǒ hènbude chīxià yì tóu niú.",
-  "example_ko": "배고파서 소 한 마리라도 먹고 싶은 심정이야.",
-  "note": "과장해서 절실한 심정을 표현"
- },
- {
-  "id": "zh2-023",
-  "expression": "少来",
-  "pinyin": "shǎolái",
-  "meaning": "됐거든, 그런 말 마",
-  "example": "少来了，我才不信呢。",
-  "example_pinyin": "Shǎolái le, wǒ cái bú xìn ne.",
-  "example_ko": "됐거든, 나 그거 안 믿어.",
-  "note": "상대의 말을 가볍게 받아치며 부정할 때"
- },
- {
-  "id": "zh2-024",
-  "expression": "别提了",
-  "pinyin": "bié tí le",
-  "meaning": "말도 마",
-  "example": "别提了，今天倒霉透了。",
-  "example_pinyin": "Bié tí le, jīntiān dǎoméi tòu le.",
-  "example_ko": "말도 마, 오늘 완전 재수 없었어.",
-  "note": "안 좋았던 일을 이야기하기 싫을 때"
- },
- {
-  "id": "zh2-025",
-  "expression": "说白了",
-  "pinyin": "shuōbáile",
-  "meaning": "솔직히 말하면",
-  "example": "说白了，他就是舍不得花钱。",
-  "example_pinyin": "Shuōbáile, tā jiùshì shěbude huāqián.",
-  "example_ko": "솔직히 말하면 걔는 그냥 돈 쓰기 아까운 거야.",
-  "note": "돌려 말하지 않고 본질을 짚을 때"
- },
- {
-  "id": "zh2-026",
-  "expression": "换句话说",
-  "pinyin": "huànjùhuàshuō",
-  "meaning": "다시 말하면",
-  "example": "换句话说，这次机会不能错过。",
-  "example_pinyin": "Huànjùhuàshuō, zhè cì jīhuì bù néng cuòguò.",
-  "example_ko": "다시 말하면 이번 기회는 놓치면 안 된다는 거야.",
-  "note": "앞서 한 말을 다르게 풀어 설명할 때"
- },
- {
-  "id": "zh2-027",
-  "expression": "说来话长",
-  "pinyin": "shuōláihuàcháng",
-  "meaning": "말하자면 길어",
-  "example": "说来话长，我们坐下慢慢说。",
-  "example_pinyin": "Shuōláihuàcháng, wǒmen zuòxià mànman shuō.",
-  "example_ko": "말하자면 길어, 우리 앉아서 천천히 얘기하자.",
-  "note": "사연이 복잡할 때 서두로 쓰는 표현"
- },
- {
-  "id": "zh2-028",
-  "expression": "一言难尽",
-  "pinyin": "yìyánnánjìn",
-  "meaning": "한마디로 말하기 어려워",
-  "example": "这件事一言难尽，别问了。",
-  "example_pinyin": "Zhè jiàn shì yìyánnánjìn, bié wèn le.",
-  "example_ko": "이 일은 한마디로 말하기 어려워, 묻지 마.",
-  "note": "복잡한 사정을 짧게 설명하기 어려울 때"
- },
- {
-  "id": "zh2-029",
-  "expression": "该不会吧",
-  "pinyin": "gāi bú huì ba",
-  "meaning": "설마",
-  "example": "该不会吧，他不可能这么做。",
-  "example_pinyin": "Gāi bú huì ba, tā bù kěnéng zhème zuò.",
-  "example_ko": "설마, 걔가 그럴 리가 없어.",
-  "note": "믿기지 않는 상황에 대한 반응"
- },
- {
-  "id": "zh2-030",
-  "expression": "不见得",
-  "pinyin": "bújiànde",
-  "meaning": "꼭 그런 건 아니야",
-  "example": "贵的不见得就好。",
-  "example_pinyin": "Guì de bújiànde jiù hǎo.",
-  "example_ko": "비싼 게 꼭 좋은 건 아니야.",
-  "note": "일반적인 통념을 부정할 때"
- },
- {
-  "id": "zh2-031",
-  "expression": "只要...就...",
-  "pinyin": "zhǐyào...jiù...",
-  "meaning": "~하기만 하면 ~하다",
-  "example": "只要你努力，就一定能成功。",
-  "example_pinyin": "Zhǐyào nǐ nǔlì, jiù yídìng néng chénggōng.",
-  "example_ko": "네가 노력만 하면 반드시 성공할 거야.",
-  "note": "조건과 결과를 연결하는 회화 패턴"
- },
- {
-  "id": "zh2-032",
-  "expression": "不但...而且...",
-  "pinyin": "búdàn...érqiě...",
-  "meaning": "~뿐만 아니라 ~하기도 하다",
-  "example": "她不但漂亮，而且很聪明。",
-  "example_pinyin": "Tā búdàn piàoliang, érqiě hěn cōngming.",
-  "example_ko": "그녀는 예쁠 뿐만 아니라 똑똑하기도 해.",
-  "note": "점층적으로 내용을 덧붙일 때"
- },
- {
-  "id": "zh2-033",
-  "expression": "一边...一边...",
-  "pinyin": "yìbiān...yìbiān...",
-  "meaning": "~하면서 ~하다",
-  "example": "他一边吃饭一边看手机。",
-  "example_pinyin": "Tā yìbiān chīfàn yìbiān kàn shǒujī.",
-  "example_ko": "걔는 밥 먹으면서 휴대폰을 봐.",
-  "note": "두 동작을 동시에 할 때"
- },
- {
-  "id": "zh2-034",
-  "expression": "又...又...",
-  "pinyin": "yòu...yòu...",
-  "meaning": "~하기도 하고 ~하기도 하다",
-  "example": "这家店又便宜又好吃。",
-  "example_pinyin": "Zhè jiā diàn yòu piányi yòu hǎochī.",
-  "example_ko": "이 가게는 싸기도 하고 맛있기도 해.",
-  "note": "두 특징을 동시에 나열할 때"
- },
- {
-  "id": "zh2-035",
-  "expression": "越...越...",
-  "pinyin": "yuè...yuè...",
-  "meaning": "~할수록 ~하다",
-  "example": "越想越生气。",
-  "example_pinyin": "Yuè xiǎng yuè shēngqì.",
-  "example_ko": "생각할수록 화가 나.",
-  "note": "정도가 점점 심해질 때"
- },
- {
-  "id": "zh2-036",
-  "expression": "与其...不如...",
-  "pinyin": "yǔqí...bùrú...",
-  "meaning": "~하느니 차라리 ~하는 게 낫다",
-  "example": "与其抱怨，不如行动。",
-  "example_pinyin": "Yǔqí bàoyuàn, bùrú xíngdòng.",
-  "example_ko": "불평하느니 차라리 행동하는 게 낫지.",
-  "note": "두 선택지를 비교해 후자를 택할 때"
- },
- {
-  "id": "zh2-037",
-  "expression": "除非...否则...",
-  "pinyin": "chúfēi...fǒuzé...",
-  "meaning": "~하지 않으면 ~하다",
-  "example": "除非你道歉，否则我不会理你。",
-  "example_pinyin": "Chúfēi nǐ dàoqiàn, fǒuzé wǒ bú huì lǐ nǐ.",
-  "example_ko": "네가 사과하지 않으면 난 상대 안 할 거야.",
-  "note": "유일한 조건을 강조할 때"
- },
- {
-  "id": "zh2-038",
-  "expression": "无论...都...",
-  "pinyin": "wúlùn...dōu...",
-  "meaning": "~하든지 간에 모두",
-  "example": "无论发生什么，我都支持你。",
-  "example_pinyin": "Wúlùn fāshēng shénme, wǒ dōu zhīchí nǐ.",
-  "example_ko": "무슨 일이 생기든 간에 난 널 응원해.",
-  "note": "어떤 상황에도 결과가 같음을 강조"
- },
- {
-  "id": "zh2-039",
-  "expression": "不管怎样",
-  "pinyin": "bùguǎn zěnyàng",
-  "meaning": "어쨌든",
-  "example": "不管怎样，先吃饭吧。",
-  "example_pinyin": "Bùguǎn zěnyàng, xiān chīfàn ba.",
-  "example_ko": "어쨌든 일단 밥부터 먹자.",
-  "note": "상황과 상관없이 결론을 내릴 때"
- },
- {
-  "id": "zh2-040",
-  "expression": "看样子",
-  "pinyin": "kàn yàngzi",
-  "meaning": "보아하니",
-  "example": "看样子要下雨了。",
-  "example_pinyin": "Kàn yàngzi yào xiàyǔ le.",
-  "example_ko": "보아하니 비가 올 것 같아.",
-  "note": "눈으로 본 것을 근거로 추측할 때"
- },
- {
-  "id": "zh2-041",
-  "expression": "看来",
-  "pinyin": "kànlái",
-  "meaning": "보아하니",
-  "example": "看来他今天不会来了。",
-  "example_pinyin": "Kànlái tā jīntiān bú huì lái le.",
-  "example_ko": "보아하니 걔 오늘 안 올 것 같아.",
-  "note": "상황을 종합해 추측할 때"
- },
- {
-  "id": "zh2-042",
-  "expression": "依我看",
-  "pinyin": "yī wǒ kàn",
-  "meaning": "내가 보기엔",
-  "example": "依我看，这个方案更好。",
-  "example_pinyin": "Yī wǒ kàn, zhège fāng'àn gèng hǎo.",
-  "example_ko": "내가 보기엔 이 방안이 더 나아.",
-  "note": "자기 의견을 조심스레 꺼낼 때"
- },
- {
-  "id": "zh2-043",
-  "expression": "这么说吧",
-  "pinyin": "zhème shuō ba",
-  "meaning": "이렇게 말할게",
-  "example": "这么说吧，我不太喜欢这个主意。",
-  "example_pinyin": "Zhème shuō ba, wǒ bú tài xǐhuan zhège zhǔyi.",
-  "example_ko": "이렇게 말할게, 나 이 아이디어 별로야.",
-  "note": "말을 정리해서 꺼낼 때"
- },
- {
-  "id": "zh2-044",
-  "expression": "换成是我",
-  "pinyin": "huànchéng shì wǒ",
-  "meaning": "내가 너라면",
-  "example": "换成是我，我早就拒绝了。",
-  "example_pinyin": "Huànchéng shì wǒ, wǒ zǎo jiù jùjué le.",
-  "example_ko": "내가 너였으면 진작 거절했을 거야.",
-  "note": "가정해서 조언할 때"
- },
- {
-  "id": "zh2-045",
-  "expression": "要是我是你",
-  "pinyin": "yàoshi wǒ shì nǐ",
-  "meaning": "내가 너라면",
-  "example": "要是我是你，我不会这么做。",
-  "example_pinyin": "Yàoshi wǒ shì nǐ, wǒ bú huì zhème zuò.",
-  "example_ko": "내가 너라면 이렇게 안 할 거야.",
-  "note": "입장을 바꿔 조언할 때"
- },
- {
-  "id": "zh2-046",
-  "expression": "你猜怎么着",
-  "pinyin": "nǐ cāi zěnmezhe",
-  "meaning": "있잖아, 맞혀봐",
-  "example": "你猜怎么着，我升职了！",
-  "example_pinyin": "Nǐ cāi zěnmezhe, wǒ shēngzhí le!",
-  "example_ko": "있잖아, 나 맞혀봐, 나 승진했어!",
-  "note": "놀라운 소식을 꺼내기 전 던지는 말"
- },
- {
-  "id": "zh2-047",
-  "expression": "说到这个",
-  "pinyin": "shuōdào zhège",
-  "meaning": "이 얘기가 나와서 말인데",
-  "example": "说到这个，我突然想起一件事。",
-  "example_pinyin": "Shuōdào zhège, wǒ tūrán xiǎngqǐ yí jiàn shì.",
-  "example_ko": "이 얘기가 나와서 말인데, 나 갑자기 생각난 게 있어.",
-  "note": "화제를 이어서 새 얘기를 꺼낼 때"
- },
- {
-  "id": "zh2-048",
-  "expression": "顺带一提",
-  "pinyin": "shùndài yìtí",
-  "meaning": "참고로 말하자면",
-  "example": "顺带一提，明天不上班。",
-  "example_pinyin": "Shùndài yìtí, míngtiān bú shàngbān.",
-  "example_ko": "참고로 말하자면, 내일 출근 안 해.",
-  "note": "본론에 덧붙여 정보를 줄 때"
- },
- {
-  "id": "zh2-049",
-  "expression": "一言为定",
-  "pinyin": "yìyánwéidìng",
-  "meaning": "그렇게 하기로 약속한 거야",
-  "example": "那就周末见，一言为定！",
-  "example_pinyin": "Nà jiù zhōumò jiàn, yìyánwéidìng!",
-  "example_ko": "그럼 주말에 보는 걸로, 약속한 거야!",
-  "note": "약속을 확정할 때 쓰는 관용구"
- },
- {
-  "id": "zh2-050",
-  "expression": "说曹操曹操到",
-  "pinyin": "shuō Cáocāo Cáocāo dào",
-  "meaning": "호랑이도 제 말 하면 온다더니",
-  "example": "我们正说他呢，说曹操曹操到。",
-  "example_pinyin": "Wǒmen zhèng shuō tā ne, shuō Cáocāo Cáocāo dào.",
-  "example_ko": "우리 방금 걔 얘기하고 있었는데, 호랑이도 제 말 하면 온다더니.",
-  "note": "화제의 인물이 마침 나타났을 때"
- },
- {
-  "id": "zh2-051",
-  "expression": "入乡随俗",
-  "pinyin": "rùxiāngsuísú",
-  "meaning": "로마에 가면 로마법을 따르라",
-  "example": "入乡随俗，你也试试筷子吧。",
-  "example_pinyin": "Rùxiāngsuísú, nǐ yě shìshi kuàizi ba.",
-  "example_ko": "로마에 가면 로마법을 따르랬으니, 너도 젓가락 써봐.",
-  "note": "현지 관습을 따르라고 할 때"
- },
- {
-  "id": "zh2-052",
-  "expression": "三思而后行",
-  "pinyin": "sānsī érhòu xíng",
-  "meaning": "신중히 생각하고 행동해",
-  "example": "这事儿关系重大，三思而后行。",
-  "example_pinyin": "Zhè shìr guānxi zhòngdà, sānsī érhòu xíng.",
-  "example_ko": "이 일은 중요하니까 신중히 생각하고 행동해.",
-  "note": "경솔한 행동을 말릴 때"
- },
- {
-  "id": "zh2-053",
-  "expression": "有备无患",
-  "pinyin": "yǒubèiwúhuàn",
-  "meaning": "준비해두면 걱정 없다",
-  "example": "多带点钱，有备无患。",
-  "example_pinyin": "Duō dài diǎn qián, yǒubèiwúhuàn.",
-  "example_ko": "돈 좀 더 챙겨, 준비해두면 걱정 없잖아.",
-  "note": "미리 대비하라고 조언할 때"
- },
- {
-  "id": "zh2-054",
-  "expression": "心想事成",
-  "pinyin": "xīnxiǎngshìchéng",
-  "meaning": "소원하는 대로 다 이루어져",
-  "example": "祝你生日快乐，心想事成。",
-  "example_pinyin": "Zhù nǐ shēngrì kuàilè, xīnxiǎngshìchéng.",
-  "example_ko": "생일 축하해, 소원하는 대로 다 이루어지길.",
-  "note": "축하 인사에 자주 쓰는 관용구"
- },
- {
-  "id": "zh2-055",
-  "expression": "一帆风顺",
-  "pinyin": "yìfānfēngshùn",
-  "meaning": "하는 일마다 순조롭길",
-  "example": "祝你新的一年一帆风顺。",
-  "example_pinyin": "Zhù nǐ xīn de yì nián yìfānfēngshùn.",
-  "example_ko": "새해에는 하는 일마다 순조롭길 바라.",
-  "note": "앞날이 순조롭기를 기원할 때"
- },
- {
-  "id": "zh2-056",
-  "expression": "马马虎虎",
-  "pinyin": "mǎmǎhūhū",
-  "meaning": "그저 그래, 대충대충",
-  "example": "最近生意马马虎虎。",
-  "example_pinyin": "Zuìjìn shēngyi mǎmǎhūhū.",
-  "example_ko": "요즘 장사가 그저 그래.",
-  "note": "특별할 것 없는 상태나 대충 하는 태도"
- },
- {
-  "id": "zh2-057",
-  "expression": "半信半疑",
-  "pinyin": "bànxìnbànyí",
-  "meaning": "반신반의하다",
-  "example": "听完他的解释，我还是半信半疑。",
-  "example_pinyin": "Tīngwán tā de jiěshì, wǒ háishi bànxìnbànyí.",
-  "example_ko": "걔 설명 다 듣고도 나 여전히 반신반의해.",
-  "note": "완전히 믿지 못하는 상태"
- },
- {
-  "id": "zh2-058",
-  "expression": "三心二意",
-  "pinyin": "sānxīnèryì",
-  "meaning": "갈팡질팡하다, 딴마음을 품다",
-  "example": "做事别三心二意的。",
-  "example_pinyin": "Zuòshì bié sānxīnèryì de.",
-  "example_ko": "일할 때 딴마음 품지 말고 집중해.",
-  "note": "결단을 못 내리거나 마음이 흔들릴 때"
- },
- {
-  "id": "zh2-059",
-  "expression": "全力以赴",
-  "pinyin": "quánlìyǐfù",
-  "meaning": "최선을 다하다",
-  "example": "这次比赛我一定全力以赴。",
-  "example_pinyin": "Zhè cì bǐsài wǒ yídìng quánlìyǐfù.",
-  "example_ko": "이번 시합엔 반드시 최선을 다할 거야.",
-  "note": "최선을 다짐할 때"
- },
- {
-  "id": "zh2-060",
-  "expression": "有缘分",
-  "pinyin": "yǒu yuánfèn",
-  "meaning": "인연이 있다",
-  "example": "能认识你真是有缘分。",
-  "example_pinyin": "Néng rènshi nǐ zhēnshi yǒu yuánfèn.",
-  "example_ko": "너를 알게 된 거 정말 인연인가 봐.",
-  "note": "만남을 특별하게 표현할 때"
- },
- {
-  "id": "zh2-061",
-  "expression": "一见钟情",
-  "pinyin": "yíjiànzhōngqíng",
-  "meaning": "첫눈에 반하다",
-  "example": "他对她一见钟情。",
-  "example_pinyin": "Tā duì tā yíjiànzhōngqíng.",
-  "example_ko": "그는 그녀에게 첫눈에 반했어.",
-  "note": "사랑에 빠진 순간을 표현할 때"
- },
- {
-  "id": "zh2-062",
-  "expression": "日久生情",
-  "pinyin": "rìjiǔshēngqíng",
-  "meaning": "오래 지내다 보니 정이 들다",
-  "example": "他们是日久生情才在一起的。",
-  "example_pinyin": "Tāmen shì rìjiǔshēngqíng cái zài yìqǐ de.",
-  "example_ko": "걔들은 오래 지내다 정이 들어서 사귀게 된 거야.",
-  "note": "시간이 지나며 사랑이 생겼을 때"
- },
- {
-  "id": "zh2-063",
-  "expression": "情投意合",
-  "pinyin": "qíngtóuyìhé",
-  "meaning": "마음이 잘 맞다",
-  "example": "两人一见面就情投意合。",
-  "example_pinyin": "Liǎng rén yí jiànmiàn jiù qíngtóuyìhé.",
-  "example_ko": "두 사람은 만나자마자 마음이 잘 맞았어.",
-  "note": "성격이나 뜻이 잘 통할 때"
- },
- {
-  "id": "zh2-064",
-  "expression": "心有灵犀",
-  "pinyin": "xīnyǒulíngxī",
-  "meaning": "마음이 통하다",
-  "example": "我俩真是心有灵犀。",
-  "example_pinyin": "Wǒ liǎ zhēnshi xīnyǒulíngxī.",
-  "example_ko": "우리 둘 진짜 마음이 통하네.",
-  "note": "말하지 않아도 통할 때"
- },
- {
-  "id": "zh2-065",
-  "expression": "天生一对",
-  "pinyin": "tiānshēng yíduì",
-  "meaning": "천생연분이다",
-  "example": "你们俩真是天生一对。",
-  "example_pinyin": "Nǐmen liǎ zhēnshi tiānshēng yíduì.",
-  "example_ko": "너희 둘 진짜 천생연분이다.",
-  "note": "잘 어울리는 커플을 볼 때"
- },
- {
-  "id": "zh2-066",
-  "expression": "不打不相识",
-  "pinyin": "bùdǎbùxiāngshí",
-  "meaning": "싸우다 보니 친해졌다",
-  "example": "我俩是不打不相识。",
-  "example_pinyin": "Wǒ liǎ shì bùdǎbùxiāngshí.",
-  "example_ko": "우리 둘은 싸우다가 친해진 사이야.",
-  "note": "다투다가 오히려 친해졌을 때"
- },
- {
-  "id": "zh2-067",
-  "expression": "说到做到",
-  "pinyin": "shuōdàozuòdào",
-  "meaning": "말한 건 반드시 지킨다",
-  "example": "他这个人说到做到。",
-  "example_pinyin": "Tā zhège rén shuōdàozuòdào.",
-  "example_ko": "그 사람은 말한 건 반드시 지켜.",
-  "note": "신뢰할 수 있는 사람을 칭찬할 때"
- },
- {
-  "id": "zh2-068",
-  "expression": "事不过三",
-  "pinyin": "shìbúguòsān",
-  "meaning": "삼세번까지만 봐준다",
-  "example": "事不过三，这是最后一次。",
-  "example_pinyin": "Shìbúguòsān, zhè shì zuìhòu yí cì.",
-  "example_ko": "삼세번까지만이야, 이번이 마지막이야.",
-  "note": "같은 실수를 반복하지 말라고 경고할 때"
- },
- {
-  "id": "zh2-069",
-  "expression": "知足常乐",
-  "pinyin": "zhīzúchánglè",
-  "meaning": "만족할 줄 알면 늘 즐겁다",
-  "example": "别贪心了，知足常乐。",
-  "example_pinyin": "Bié tānxīn le, zhīzúchánglè.",
-  "example_ko": "욕심부리지 마, 만족할 줄 알아야 늘 즐거워.",
-  "note": "욕심을 경계하며 조언할 때"
- },
- {
-  "id": "zh2-070",
-  "expression": "睁一只眼闭一只眼",
-  "pinyin": "zhēng yìzhī yǎn bì yìzhī yǎn",
-  "meaning": "눈감아주다",
-  "example": "这次就睁一只眼闭一只眼吧。",
-  "example_pinyin": "Zhè cì jiù zhēng yìzhī yǎn bì yìzhī yǎn ba.",
-  "example_ko": "이번엔 그냥 눈감아주자.",
-  "note": "잘못을 알고도 모른 척 넘어갈 때"
- },
- {
-  "id": "zh2-071",
-  "expression": "说一不二",
-  "pinyin": "shuōyībúèr",
-  "meaning": "한번 말하면 반드시 지킨다",
-  "example": "我这个人说一不二。",
-  "example_pinyin": "Wǒ zhège rén shuōyībúèr.",
-  "example_ko": "나는 한번 말하면 반드시 지키는 사람이야.",
-  "note": "약속을 굳게 지키는 성격을 말할 때"
- },
- {
-  "id": "zh2-072",
-  "expression": "口是心非",
-  "pinyin": "kǒushìxīnfēi",
-  "meaning": "겉과 속이 다르다",
-  "example": "别口是心非了，说实话。",
-  "example_pinyin": "Bié kǒushìxīnfēi le, shuō shíhuà.",
-  "example_ko": "겉과 속 다르게 굴지 말고 솔직히 말해.",
-  "note": "말과 진심이 다를 때"
- },
- {
-  "id": "zh2-073",
-  "expression": "说不过去",
-  "pinyin": "shuōbuguòqù",
-  "meaning": "말이 안 된다, 이치에 안 맞는다",
-  "example": "这么做实在说不过去。",
-  "example_pinyin": "Zhème zuò shízài shuōbuguòqù.",
-  "example_ko": "이렇게 하는 건 정말 말이 안 돼.",
-  "note": "납득이 안 되는 행동을 지적할 때"
- },
- {
-  "id": "zh2-074",
-  "expression": "想不到",
-  "pinyin": "xiǎngbudào",
-  "meaning": "생각지도 못했어",
-  "example": "想不到你会来接我。",
-  "example_pinyin": "Xiǎngbudào nǐ huì lái jiē wǒ.",
-  "example_ko": "네가 날 데리러 올 줄은 생각지도 못했어.",
-  "note": "의외의 상황에 놀랐을 때"
- },
- {
-  "id": "zh2-075",
-  "expression": "想开点",
-  "pinyin": "xiǎngkāi diǎn",
-  "meaning": "마음을 편히 가져",
-  "example": "过去的事就想开点吧。",
-  "example_pinyin": "Guòqù de shì jiù xiǎngkāi diǎn ba.",
-  "example_ko": "지나간 일은 마음 편히 가져.",
-  "note": "힘든 일을 겪은 사람을 위로할 때"
- },
- {
-  "id": "zh2-076",
-  "expression": "别放在心上",
-  "pinyin": "bié fàngzài xīnshàng",
-  "meaning": "마음에 담아두지 마",
-  "example": "他不是故意的，别放在心上。",
-  "example_pinyin": "Tā bú shì gùyì de, bié fàngzài xīnshàng.",
-  "example_ko": "걔 일부러 그런 거 아니야, 마음에 담아두지 마.",
-  "note": "상대를 위로하며 하는 말"
- },
- {
-  "id": "zh2-077",
-  "expression": "随他去吧",
-  "pinyin": "suí tā qù ba",
-  "meaning": "그냥 냅둬",
-  "example": "他不听劝，随他去吧。",
-  "example_pinyin": "Tā bù tīng quàn, suí tā qù ba.",
-  "example_ko": "걔 말 안 듣는데, 그냥 냅둬.",
-  "note": "더 이상 상관하지 않겠다고 할 때"
- },
- {
-  "id": "zh2-078",
-  "expression": "天知道",
-  "pinyin": "tiān zhīdào",
-  "meaning": "누가 알겠어",
-  "example": "他为什么这么做，天知道。",
-  "example_pinyin": "Tā wèishénme zhème zuò, tiān zhīdào.",
-  "example_ko": "걔가 왜 그러는지 누가 알겠어.",
-  "note": "이유를 알 수 없어 답답할 때"
- },
- {
-  "id": "zh2-079",
-  "expression": "无所谓",
-  "pinyin": "wúsuǒwèi",
-  "meaning": "상관없어",
-  "example": "去不去都无所谓。",
-  "example_pinyin": "Qù bu qù dōu wúsuǒwèi.",
-  "example_ko": "가든 안 가든 상관없어.",
-  "note": "선택에 별 감정이 없을 때"
- },
- {
-  "id": "zh2-080",
-  "expression": "冤家路窄",
-  "pinyin": "yuānjiālùzhǎi",
-  "meaning": "원수는 외나무다리에서 만난다",
-  "example": "真是冤家路窄，又遇见他了。",
-  "example_pinyin": "Zhēnshi yuānjiālùzhǎi, yòu yùjiàn tā le.",
-  "example_ko": "진짜 원수는 외나무다리에서 만난다더니, 또 걔를 만났어.",
-  "note": "싫은 사람을 자꾸 마주칠 때"
- },
- {
-  "id": "zh2-081",
-  "expression": "好事多磨",
-  "pinyin": "hǎoshìduōmó",
-  "meaning": "좋은 일에는 탈이 많다",
-  "example": "别急，好事多磨。",
-  "example_pinyin": "Bié jí, hǎoshìduōmó.",
-  "example_ko": "조급해하지 마, 좋은 일엔 원래 우여곡절이 많아.",
-  "note": "일이 순조롭지 않을 때 위로하는 말"
- },
- {
-  "id": "zh2-082",
-  "expression": "患难见真情",
-  "pinyin": "huànnànjiànzhēnqíng",
-  "meaning": "어려움을 겪어야 진심을 안다",
-  "example": "这次多亏了你，患难见真情啊。",
-  "example_pinyin": "Zhè cì duōkuī le nǐ, huànnànjiànzhēnqíng a.",
-  "example_ko": "이번에 네 덕분이야, 어려울 때 진심을 알겠더라.",
-  "note": "힘든 일을 함께 겪고 우정을 확인할 때"
- },
- {
-  "id": "zh2-083",
-  "expression": "路遥知马力，日久见人心",
-  "pinyin": "lùyáozhīmǎlì, rìjiǔjiànrénxīn",
-  "meaning": "시간이 지나야 사람 진가를 안다",
-  "example": "路遥知马力，日久见人心，慢慢你就懂了。",
-  "example_pinyin": "Lùyáozhīmǎlì, rìjiǔjiànrénxīn, mànman nǐ jiù dǒng le.",
-  "example_ko": "길게 봐야 말의 힘을 알고 오래 지내야 사람 마음을 알지, 천천히 알게 될 거야.",
-  "note": "시간이 지나야 진실을 알 수 있다는 뜻의 속담"
- },
- {
-  "id": "zh2-084",
-  "expression": "各有各的难处",
-  "pinyin": "gè yǒu gè de nánchu",
-  "meaning": "각자 나름의 사정이 있다",
-  "example": "别怪他，各有各的难处。",
-  "example_pinyin": "Bié guài tā, gè yǒu gè de nánchu.",
-  "example_ko": "걔 탓하지 마, 각자 다 나름의 사정이 있는 거야.",
-  "note": "남을 함부로 판단하지 말라고 할 때"
- },
- {
-  "id": "zh2-085",
-  "expression": "人各有志",
-  "pinyin": "réngèyǒuzhì",
-  "meaning": "사람마다 뜻이 다르다",
-  "example": "人各有志，别勉强他。",
-  "example_pinyin": "Réngèyǒuzhì, bié miǎnqiǎng tā.",
-  "example_ko": "사람마다 뜻이 다른 거니까 강요하지 마.",
-  "note": "다른 선택을 존중할 때"
- },
- {
-  "id": "zh2-086",
-  "expression": "破天荒",
-  "pinyin": "pòtiānhuāng",
-  "meaning": "사상 처음으로",
-  "example": "他破天荒地主动道歉了。",
-  "example_pinyin": "Tā pòtiānhuāng de zhǔdòng dàoqiàn le.",
-  "example_ko": "걔가 처음으로 먼저 사과를 하더라.",
-  "note": "전례 없던 일이 일어났을 때"
- },
- {
-  "id": "zh2-087",
-  "expression": "不管三七二十一",
-  "pinyin": "bùguǎn sānqīèrshíyī",
-  "meaning": "앞뒤 안 가리고 무조건",
-  "example": "他不管三七二十一冲了进去。",
-  "example_pinyin": "Tā bùguǎn sānqīèrshíyī chōng le jìnqù.",
-  "example_ko": "걔는 앞뒤 안 가리고 무조건 뛰어들어갔어.",
-  "note": "상황을 따지지 않고 밀어붙일 때"
- },
- {
-  "id": "zh2-088",
-  "expression": "半途而废",
-  "pinyin": "bàntú'érfèi",
-  "meaning": "중도에 포기하다",
-  "example": "做事不能半途而废。",
-  "example_pinyin": "Zuòshì bù néng bàntú'érfèi.",
-  "example_ko": "일을 하다가 중도에 포기하면 안 돼.",
-  "note": "끝까지 하지 않고 그만두는 것을 경계할 때"
- },
- {
-  "id": "zh2-089",
-  "expression": "有志者事竟成",
-  "pinyin": "yǒuzhìzhěshìjìngchéng",
-  "meaning": "뜻이 있는 곳에 길이 있다",
-  "example": "别放弃，有志者事竟成。",
-  "example_pinyin": "Bié fàngqì, yǒuzhìzhěshìjìngchéng.",
-  "example_ko": "포기하지 마, 뜻이 있는 곳에 길이 있어.",
-  "note": "격려할 때 쓰는 속담"
- },
- {
-  "id": "zh2-090",
-  "expression": "时间就是金钱",
-  "pinyin": "shíjiān jiùshì jīnqián",
-  "meaning": "시간이 곧 돈이다",
-  "example": "快点，时间就是金钱。",
-  "example_pinyin": "Kuài diǎn, shíjiān jiùshì jīnqián.",
-  "example_ko": "서둘러, 시간이 곧 돈이야.",
-  "note": "시간의 소중함을 강조할 때"
- },
- {
-  "id": "zh2-091",
-  "expression": "打开天窗说亮话",
-  "pinyin": "dǎkāi tiānchuāng shuō liànghuà",
-  "meaning": "터놓고 솔직히 말하다",
-  "example": "我们打开天窗说亮话吧。",
-  "example_pinyin": "Wǒmen dǎkāi tiānchuāng shuō liànghuà ba.",
-  "example_ko": "우리 그냥 터놓고 솔직히 얘기하자.",
-  "note": "돌려 말하지 않고 직설적으로 대화하자고 할 때"
- },
- {
-  "id": "zh2-092",
-  "expression": "有话直说",
-  "pinyin": "yǒu huà zhí shuō",
-  "meaning": "할 말 있으면 바로 해",
-  "example": "有话直说，别绕弯子。",
-  "example_pinyin": "Yǒu huà zhí shuō, bié rào wānzi.",
-  "example_ko": "할 말 있으면 바로 해, 돌려 말하지 말고.",
-  "note": "솔직하게 말하라고 재촉할 때"
- },
- {
-  "id": "zh2-093",
-  "expression": "换汤不换药",
-  "pinyin": "huàntāngbùhuànyào",
-  "meaning": "겉만 바뀌고 본질은 그대로다",
-  "example": "这个方案换汤不换药。",
-  "example_pinyin": "Zhège fāng'àn huàntāngbùhuànyào.",
-  "example_ko": "이 방안은 겉만 바뀌었지 본질은 똑같아.",
-  "note": "형식만 바뀌고 실질은 그대로일 때"
- },
- {
-  "id": "zh2-094",
-  "expression": "眼见为实",
-  "pinyin": "yǎnjiànwéishí",
-  "meaning": "직접 봐야 믿을 수 있다",
-  "example": "别乱猜了，眼见为实。",
-  "example_pinyin": "Bié luàn cāi le, yǎnjiànwéishí.",
-  "example_ko": "함부로 추측하지 마, 직접 봐야 믿을 수 있어.",
-  "note": "소문보다 직접 확인해야 한다고 할 때"
- },
- {
-  "id": "zh2-095",
-  "expression": "恭喜发财",
-  "pinyin": "gōngxǐfācái",
-  "meaning": "부자 되세요",
-  "example": "新年快乐，恭喜发财！",
-  "example_pinyin": "Xīnnián kuàilè, gōngxǐfācái!",
-  "example_ko": "새해 복 많이 받고, 부자 되세요!",
-  "note": "설날에 흔히 쓰는 인사말"
- },
- {
-  "id": "zh2-096",
-  "expression": "说来也巧",
-  "pinyin": "shuōlái yě qiǎo",
-  "meaning": "마침 공교롭게도",
-  "example": "说来也巧，我们坐同一趟车。",
-  "example_pinyin": "Shuōlái yě qiǎo, wǒmen zuò tóng yí tàng chē.",
-  "example_ko": "공교롭게도 우리 같은 차를 탔네.",
-  "note": "우연히 겹친 상황을 말할 때"
- },
- {
-  "id": "zh2-097",
-  "expression": "一如既往",
-  "pinyin": "yīrújìwǎng",
-  "meaning": "변함없이, 한결같이",
-  "example": "他对朋友一如既往地好。",
-  "example_pinyin": "Tā duì péngyou yīrújìwǎng de hǎo.",
-  "example_ko": "걔는 친구들한테 한결같이 잘해.",
-  "note": "변함없는 태도를 칭찬할 때"
- },
- {
-  "id": "zh2-098",
-  "expression": "无巧不成书",
-  "pinyin": "wúqiǎobùchéngshū",
-  "meaning": "세상에 이런 우연이 다 있나",
-  "example": "无巧不成书，我们又碰面了。",
-  "example_pinyin": "Wúqiǎobùchéngshū, wǒmen yòu pèngmiàn le.",
-  "example_ko": "세상에 이런 우연이, 우리 또 마주쳤네.",
-  "note": "공교로운 우연을 표현할 때"
- },
- {
-  "id": "zh2-099",
-  "expression": "说到点子上",
-  "pinyin": "shuōdào diǎnzi shàng",
-  "meaning": "정곡을 찌르다",
-  "example": "你这话说到点子上了。",
-  "example_pinyin": "Nǐ zhè huà shuōdào diǎnzi shàng le.",
-  "example_ko": "네 말이 정곡을 찌르네.",
-  "note": "핵심을 정확히 짚었을 때"
- },
- {
-  "id": "zh2-100",
-  "expression": "多一事不如少一事",
-  "pinyin": "duō yí shì bùrú shǎo yí shì",
-  "meaning": "괜히 긁어 부스럼 만들지 말자",
-  "example": "算了吧，多一事不如少一事。",
-  "example_pinyin": "Suànle ba, duō yí shì bùrú shǎo yí shì.",
-  "example_ko": "그냥 넘어가자, 괜히 일 만들지 말고.",
-  "note": "귀찮은 일에 얽히고 싶지 않을 때"
+  "situation": "시험 스트레스 나누기",
+  "key_expressions": [
+   "好像",
+   "反正",
+   "压力"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "快考试了,我压力好大,每天都睡不好。",
+    "pinyin": "Kuài kǎoshì le, wǒ yālì hǎo dà, měitiān dōu shuì bu hǎo.",
+    "ko": "곧 시험인데, 나 스트레스가 너무 커서 매일 잠도 잘 못 자."
+   },
+   {
+    "speaker": "B",
+    "text": "我也是,好像复习永远都复习不完的感觉。",
+    "pinyin": "Wǒ yě shì, hǎoxiàng fùxí yǒngyuǎn dōu fùxí bu wán de gǎnjué.",
+    "ko": "나도 그래, 복습이 영원히 안 끝날 것 같은 느낌이야."
+   },
+   {
+    "speaker": "A",
+    "text": "你都复习到哪儿了?我感觉自己进度特别慢。",
+    "pinyin": "Nǐ dōu fùxí dào nǎr le? Wǒ gǎnjué zìjǐ jìndù tèbié màn.",
+    "ko": "너는 어디까지 복습했어? 나는 내 진도가 너무 느린 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "反正大家都差不多,别太逼自己了。",
+    "pinyin": "Fǎnzhèng dàjiā dōu chàbuduō, bié tài bī zìjǐ le.",
+    "ko": "어차피 다들 비슷하니까, 너무 스스로를 몰아붙이지 마."
+   },
+   {
+    "speaker": "A",
+    "text": "说得也是,那我们要不要一起找个地方复习?",
+    "pinyin": "Shuō de yě shì, nà wǒmen yào bu yào yìqǐ zhǎo ge dìfang fùxí?",
+    "ko": "그건 그렇네, 그럼 우리 같이 어디 가서 복습할까?"
+   },
+   {
+    "speaker": "B",
+    "text": "好啊,一起复习效率应该会高一点儿。",
+    "pinyin": "Hǎo a, yìqǐ fùxí xiàolǜ yīnggāi huì gāo yìdiǎnr.",
+    "ko": "좋아, 같이 하면 효율이 좀 더 높아질 거야."
+   }
+  ],
+  "note": "시험 스트레스 나눌 때 反正大家都差不多(어차피 다 비슷해)라고 말해주면 위로가 되면서 부담을 덜어주는 효과가 있어요."
  }
 ]

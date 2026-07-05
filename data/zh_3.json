@@ -1,1002 +1,1346 @@
 [
  {
   "id": "zh3-001",
-  "expression": "靠谱",
-  "pinyin": "kàopǔ",
-  "meaning": "믿을 만하다, 제대로다",
-  "example": "这个人做事很靠谱。",
-  "example_pinyin": "Zhège rén zuòshì hěn kàopǔ.",
-  "example_ko": "이 사람 일 처리 진짜 확실하게 하더라.",
-  "note": "드라마에서 사람이나 계획을 평가할 때 자주 쓰는 말"
+  "situation": "친구의 아부를 놀리기",
+  "key_expressions": [
+   "拍马屁",
+   "靠谱",
+   "算了吧"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你今天怎么一直夸老板？",
+    "pinyin": "Nǐ jīntiān zěnme yìzhí kuā lǎobǎn?",
+    "ko": "너 오늘 왜 계속 사장님 칭찬해?"
+   },
+   {
+    "speaker": "B",
+    "text": "没有啊，我只是说实话。",
+    "pinyin": "Méiyǒu a, wǒ zhǐshì shuō shíhuà.",
+    "ko": "아니야, 그냥 사실을 말한 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "少来，你就是在拍马屁。",
+    "pinyin": "Shǎo lái, nǐ jiùshì zài pāi mǎpì.",
+    "ko": "됐거든, 완전 아부 떠는 거잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "好吧好吧，算了吧，被你发现了。",
+    "pinyin": "Hǎo ba hǎo ba, suàn le ba, bèi nǐ fāxiàn le.",
+    "ko": "알았어 알았어, 됐다, 너한테 딱 걸렸네."
+   },
+   {
+    "speaker": "A",
+    "text": "下次靠谱一点，别这么明显。",
+    "pinyin": "Xiàcì kàopǔ yìdiǎn, bié zhème míngxiǎn.",
+    "ko": "다음엔 좀 자연스럽게 해, 이렇게 티나게 하지 말고."
+   }
+  ],
+  "note": "拍马屁(아부하다)는 중드에서 자주 나오는 놀림 표현, 少来(됐거든)는 믿지 않을 때 쓰는 반응"
  },
  {
   "id": "zh3-002",
-  "expression": "不靠谱",
-  "pinyin": "bú kàopǔ",
-  "meaning": "미덥지 않다",
-  "example": "他说的话一点都不靠谱。",
-  "example_pinyin": "Tā shuō de huà yìdiǎn dōu bú kàopǔ.",
-  "example_ko": "걔가 하는 말 하나도 못 믿겠어.",
-  "note": "믿음이 안 가는 사람이나 상황을 말할 때"
+  "situation": "이별 후 감정 정리하기",
+  "key_expressions": [
+   "分手",
+   "心想事成",
+   "想开点"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我们还是分手吧，这样下去不行。",
+    "pinyin": "Wǒmen háishi fēnshǒu ba, zhèyàng xiàqù bùxíng.",
+    "ko": "우리 그냥 헤어지자, 이렇게는 안 되겠어."
+   },
+   {
+    "speaker": "B",
+    "text": "我知道你受委屈了，对不起。",
+    "pinyin": "Wǒ zhīdào nǐ shòu wěiqu le, duìbuqǐ.",
+    "ko": "네가 억울했던 거 알아, 미안해."
+   },
+   {
+    "speaker": "A",
+    "text": "没事，想开点，我们都会好起来的。",
+    "pinyin": "Méishì, xiǎngkāi diǎn, wǒmen dōu huì hǎo qǐlái de.",
+    "ko": "괜찮아, 마음 편히 가져, 우리 다 잘될 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "祝你以后心想事成。",
+    "pinyin": "Zhù nǐ yǐhòu xīnxiǎngshìchéng.",
+    "ko": "앞으로 원하는 대로 다 이루어지길 바라."
+   }
+  ],
+  "note": "想开点(마음 편히 가져)은 힘든 상황에서 서로를 다독일 때 쓰는 표현"
  },
  {
   "id": "zh3-003",
-  "expression": "吃货",
-  "pinyin": "chīhuò",
-  "meaning": "먹보",
-  "example": "我是个不折不扣的吃货。",
-  "example_pinyin": "Wǒ shì ge bùzhébúkòu de chīhuò.",
-  "example_ko": "나 완전 먹보야.",
-  "note": "먹는 걸 좋아하는 사람을 애정 있게 부르는 말"
+  "situation": "상사한테 아부하는 동료 험담하기",
+  "key_expressions": [
+   "拍马屁",
+   "看不惯",
+   "巴结"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你看小李,又在给老板递咖啡了。",
+    "pinyin": "Nǐ kàn Xiǎo Lǐ, yòu zài gěi lǎobǎn dì kāfēi le.",
+    "ko": "저것 봐 샤오리, 또 사장님한테 커피 갖다 바치네."
+   },
+   {
+    "speaker": "B",
+    "text": "别提了,一天到晚就知道拍马屁,看得我尴尬癌都犯了。",
+    "pinyin": "Bié tí le, yī tiān dào wǎn jiù zhīdào pāi mǎpì, kàn de wǒ gāngà ái dōu fàn le.",
+    "ko": "말도 마, 하루 종일 아부만 떨어서 보는 내가 다 오글거려."
+   },
+   {
+    "speaker": "A",
+    "text": "是啊,上次开会他把功劳全揽自己身上,我们这些干活的都成了空气。",
+    "pinyin": "Shì a, shàng cì kāihuì tā bǎ gōngláo quán lǎn zìjǐ shēnshang, wǒmen zhèxiē gàn huó de dōu chéng le kōngqì.",
+    "ko": "맞아, 저번 회의 때 공을 다 자기가 가로챘잖아, 우리처럼 실제로 일한 사람들은 완전 투명인간 됐어."
+   },
+   {
+    "speaker": "B",
+    "text": "这种人最会来事儿,巴结领导一套一套的。",
+    "pinyin": "Zhè zhǒng rén zuì huì láishìr, bājié lǐngdǎo yī tào yī tào de.",
+    "ko": "저런 애들이 상사한테 잘 보이는 건 진짜 도가 텄다니까."
+   },
+   {
+    "speaker": "A",
+    "text": "我是真看不惯,可又能怎么办,人家升职比谁都快。",
+    "pinyin": "Wǒ shì zhēn kànbùguàn, kě yòu néng zěnme bàn, rénjiā shēngzhí bǐ shéi dōu kuài.",
+    "ko": "나도 진짜 꼴 보기 싫은데, 어쩌겠어, 승진은 또 제일 빠르잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "唉,职场就这样,老实干活的不一定有出路。",
+    "pinyin": "Āi, zhíchǎng jiù zhèyàng, lǎoshi gàn huó de bùyīdìng yǒu chūlù.",
+    "ko": "하... 회사가 다 그렇지 뭐, 성실하게 일한다고 꼭 잘 풀리는 것도 아니고."
+   },
+   {
+    "speaker": "A",
+    "text": "也是,咱俩还是少说两句,小心传到他耳朵里。",
+    "pinyin": "Yěshì, zán liǎ háishì shǎo shuō liǎng jù, xiǎoxīn chuán dào tā ěrduo lǐ.",
+    "ko": "그러게, 우리도 말 좀 아끼자, 걔 귀에 들어가면 곤란해."
+   },
+   {
+    "speaker": "B",
+    "text": "放心,我又不傻,背后吐槽归吐槽,当面还是得客客气气的。",
+    "pinyin": "Fàngxīn, wǒ yòu bù shǎ, bèihòu tǔcáo guī tǔcáo, dāngmiàn háishì děi kèkèqìqì de.",
+    "ko": "걱정 마, 나도 바보 아니야, 뒤에서 욕은 욕이고 앞에서는 그래도 예의는 지켜야지."
+   }
+  ],
+  "note": "拍马屁는 직역하면 '말 엉덩이를 두드리다'인데 아부/아첨을 뜻하는 아주 흔한 관용구예요. 看不惯은 '눈에 거슬리다, 꼴 보기 싫다'는 뜻으로 회사 뒷담화 할 때 자주 써요."
  },
  {
   "id": "zh3-004",
-  "expression": "算了吧",
-  "pinyin": "suàn le ba",
-  "meaning": "됐어, 그만하자",
-  "example": "算了吧，别浪费时间了。",
-  "example_pinyin": "Suàn le ba, bié làngfèi shíjiān le.",
-  "example_ko": "됐어, 시간 낭비하지 말자.",
-  "note": "포기하거나 더 이상 신경 쓰지 않겠다고 할 때"
+  "situation": "여자친구랑 다투고 화해하기",
+  "key_expressions": [
+   "吃醋",
+   "玻璃心",
+   "哄"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "别生气了嘛,是我不对,不该那么说话。",
+    "pinyin": "Bié shēngqì le ma, shì wǒ bùduì, bùgāi nàme shuōhuà.",
+    "ko": "화 좀 풀어, 내가 잘못했어, 그렇게 말하는 게 아니었는데."
+   },
+   {
+    "speaker": "B",
+    "text": "哼,你现在知道错了?刚才干嘛那么凶。",
+    "pinyin": "Hēng, nǐ xiànzài zhīdào cuò le? Gāngcái gànma nàme xiōng.",
+    "ko": "흥, 이제야 잘못한 거 알아? 아까는 왜 그렇게 소리 질렀는데."
+   },
+   {
+    "speaker": "A",
+    "text": "我就是嘴笨,一着急就说重了,你别往心里去。",
+    "pinyin": "Wǒ jiùshì zuǐbèn, yī zháojí jiù shuō zhòng le, nǐ bié wǎng xīnli qù.",
+    "ko": "내가 말주변이 없어서 급하면 말이 세게 나가, 마음에 담아두지 마."
+   },
+   {
+    "speaker": "B",
+    "text": "我这个人玻璃心你又不是不知道,你说话能不能过过脑子。",
+    "pinyin": "Wǒ zhège rén bōli xīn nǐ yòu bùshì bù zhīdào, nǐ shuōhuà néng bùnéng guò guò nǎozi.",
+    "ko": "나 유리멘탈인 거 몰라서 그래? 말 좀 생각하고 하면 안 돼?"
+   },
+   {
+    "speaker": "A",
+    "text": "知道知道,以后我肯定注意,别气了行不行。",
+    "pinyin": "Zhīdào zhīdào, yǐhòu wǒ kěndìng zhùyì, bié qì le xíng bùxíng.",
+    "ko": "알았어 알았어, 앞으로 진짜 조심할게, 이제 화 좀 풀어주면 안 돼?"
+   },
+   {
+    "speaker": "B",
+    "text": "你是不是就是想哄哄我就完事了?",
+    "pinyin": "Nǐ shìbùshì jiùshì xiǎng hǒng hǒng wǒ jiù wánshì le?",
+    "ko": "너 지금 그냥 좀 달래서 넘어가려는 거지?"
+   },
+   {
+    "speaker": "A",
+    "text": "不是哄,是真心认错,走,我请你吃你最爱的火锅赔罪。",
+    "pinyin": "Bùshì hǒng, shì zhēnxīn rèncuò, zǒu, wǒ qǐng nǐ chī nǐ zuì ài de huǒguō péizuì.",
+    "ko": "달래는 게 아니라 진심으로 잘못했다는 거야, 가자, 네가 제일 좋아하는 훠궈 사줄게 사죄의 의미로."
+   },
+   {
+    "speaker": "B",
+    "text": "算你会来事儿,这次就原谅你,下次再这样我可不惯着你。",
+    "pinyin": "Suàn nǐ huì láishìr, zhè cì jiù yuánliàng nǐ, xiàcì zài zhèyàng wǒ kě bù guàn zhe nǐ.",
+    "ko": "눈치는 있네, 이번엔 봐준다, 다음에 또 이러면 진짜 안 봐줘."
+   }
+  ],
+  "note": "玻璃心(유리 멘탈)은 작은 말에도 쉽게 상처받는 사람을 놀리듯 말할 때 쓰는 표현이에요. 哄은 '달래다'라는 뜻으로 연인 사이 다툼 후 화해할 때 자주 등장해요."
  },
  {
   "id": "zh3-005",
-  "expression": "没门儿",
-  "pinyin": "méiménr",
-  "meaning": "어림도 없어",
-  "example": "想让我帮你？没门儿！",
-  "example_pinyin": "Xiǎng ràng wǒ bāng nǐ? Méiménr!",
-  "example_ko": "날 도와달라고? 어림도 없지!",
-  "note": "단호하게 거절할 때 쓰는 구어체 표현"
+  "situation": "실수 책임을 동료에게 떠넘기는 상황",
+  "key_expressions": [
+   "甩锅",
+   "背锅",
+   "冤枉"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你听说了吗,这次项目出错的锅,王总监说是我的问题。",
+    "pinyin": "Nǐ tīngshuō le ma, zhè cì xiàngmù chūcuò de guō, Wáng zǒngjiān shuō shì wǒ de wèntí.",
+    "ko": "너 들었어? 이번 프로젝트 사고 난 거, 왕 팀장이 내 문제라고 했대."
+   },
+   {
+    "speaker": "B",
+    "text": "什么?那个数据明明是老陈弄错的,他怎么好意思甩锅给你。",
+    "pinyin": "Shénme? Nàge shùjù míngmíng shì Lǎo Chén nòngcuò de, tā zěnme hǎoyìsi shuǎiguō gěi nǐ.",
+    "ko": "뭐? 그 데이터 분명 라오천이 잘못 넣은 건데, 어떻게 뻔뻔하게 너한테 덮어씌워."
+   },
+   {
+    "speaker": "A",
+    "text": "我也是气死了,他在会上一直强调是执行环节的问题,矛头全指向我。",
+    "pinyin": "Wǒ yě shì qìsǐ le, tā zài huì shàng yīzhí qiángdiào shì zhíxíng huánjié de wèntí, máotóu quán zhǐxiàng wǒ.",
+    "ko": "나도 진짜 열받아, 회의에서 계속 실행 단계 문제라고 강조하면서 화살을 다 나한테 돌리더라."
+   },
+   {
+    "speaker": "B",
+    "text": "这也太不要脸了吧,自己犯的错让别人背锅。",
+    "pinyin": "Zhè yě tài bù yàoliǎn le ba, zìjǐ fàn de cuò ràng biérén bēiguō.",
+    "ko": "그건 너무 양심 없는 거 아니야, 자기가 저지른 실수를 남한테 뒤집어씌우다니."
+   },
+   {
+    "speaker": "A",
+    "text": "我当时都懵了,想反驳都不知道从哪儿说起。",
+    "pinyin": "Wǒ dāngshí dōu měng le, xiǎng fǎnbó dōu bù zhīdào cóng nǎr shuōqǐ.",
+    "ko": "나 그때 완전 멍했어, 반박하고 싶어도 뭐부터 말해야 할지 모르겠더라."
+   },
+   {
+    "speaker": "B",
+    "text": "你可不能就这么算了,把邮件记录翻出来,证明是他的责任。",
+    "pinyin": "Nǐ kě bùnéng jiù zhème suàn le, bǎ yóujiàn jìlù fān chūlái, zhèngmíng shì tā de zérèn.",
+    "ko": "이렇게 그냥 넘어가면 안 돼, 메일 기록 찾아서 걔 책임이라는 거 증명해."
+   },
+   {
+    "speaker": "A",
+    "text": "对,我这就去整理证据,绝对不能让我白白替他背这个黑锅。",
+    "pinyin": "Duì, wǒ zhè jiù qù zhěnglǐ zhèngjù, juéduì bùnéng ràng wǒ báibái tì tā bēi zhège hēiguō.",
+    "ko": "맞아, 지금 바로 증거 정리하러 가야겠다, 절대 억울하게 대신 뒤집어쓸 순 없지."
+   },
+   {
+    "speaker": "B",
+    "text": "加油,这种人下次肯定还会这么干,得让大家都看清楚。",
+    "pinyin": "Jiāyóu, zhè zhǒng rén xiàcì kěndìng hái huì zhème gàn, děi ràng dàjiā dōu kàn qīngchu.",
+    "ko": "화이팅, 이런 사람들은 다음에도 또 그럴 거야, 다들 확실히 알게 해야 돼."
+   }
+  ],
+  "note": "甩锅는 '냄비를 던지다'가 아니라 책임/잘못을 남에게 떠넘기는 걸 뜻해요. 반대로 억울하게 책임을 뒤집어쓰는 건 背锅라고 해요."
  },
  {
   "id": "zh3-006",
-  "expression": "拍马屁",
-  "pinyin": "pāi mǎpì",
-  "meaning": "아부하다",
-  "example": "他就喜欢拍老板马屁。",
-  "example_pinyin": "Tā jiù xǐhuan pāi lǎobǎn mǎpì.",
-  "example_ko": "걔는 사장님한테 아부 떠는 걸 좋아해.",
-  "note": "윗사람에게 아첨하는 사람을 비꼴 때"
+  "situation": "헤어지자고 통보하기",
+  "key_expressions": [
+   "分手",
+   "将就",
+   "走到头了"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我们......分手吧。",
+    "pinyin": "Wǒmen...... fēnshǒu ba.",
+    "ko": "우리...... 헤어지자."
+   },
+   {
+    "speaker": "B",
+    "text": "你说什么?怎么突然这样?",
+    "pinyin": "Nǐ shuō shénme? Zěnme tūrán zhèyàng?",
+    "ko": "뭐라고? 왜 갑자기 이래?"
+   },
+   {
+    "speaker": "A",
+    "text": "不是突然,这段感情早就走到头了,你自己心里也清楚。",
+    "pinyin": "Bùshì tūrán, zhè duàn gǎnqíng zǎo jiù zǒu dào tóu le, nǐ zìjǐ xīnli yě qīngchu.",
+    "ko": "갑자기가 아니야, 이 관계는 진작에 끝난 거야, 너도 마음속으론 알고 있잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "是因为上次吵架吗?我可以改,你别这样。",
+    "pinyin": "Shì yīnwèi shàng cì chǎojià ma? Wǒ kěyǐ gǎi, nǐ bié zhèyàng.",
+    "ko": "저번에 싸운 것 때문이야? 나 고칠 수 있어, 이러지 마."
+   },
+   {
+    "speaker": "A",
+    "text": "不只是那次,是我们两个早就不合适了,一直是我在将就。",
+    "pinyin": "Bùzhǐ shì nà cì, shì wǒmen liǎng ge zǎo jiù bù héshì le, yīzhí shì wǒ zài jiāngjiù.",
+    "ko": "그것 때문만이 아니야, 우리 둘은 진작부터 안 맞았어, 계속 내가 참고 지낸 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "将就?你竟然用这个词形容我们三年的感情?",
+    "pinyin": "Jiāngjiù? Nǐ jìngrán yòng zhège cí xíngróng wǒmen sān nián de gǎnqíng?",
+    "ko": "참고 지냈다고? 3년 사귄 우리 사이를 그런 말로 표현해?"
+   },
+   {
+    "speaker": "A",
+    "text": "对不起,我知道这样说很伤人,但拖着对谁都不好。",
+    "pinyin": "Duìbuqǐ, wǒ zhīdào zhèyàng shuō hěn shāng rén, dàn tuō zhe duì shéi dōu bù hǎo.",
+    "ko": "미안해, 이 말이 상처된다는 거 알아, 근데 질질 끄는 게 서로한테 안 좋아."
+   },
+   {
+    "speaker": "B",
+    "text": "......行,你想清楚了就好,我不会求你留下来的。",
+    "pinyin": "...... Xíng, nǐ xiǎng qīngchu le jiù hǎo, wǒ bùhuì qiú nǐ liú xiàlái de.",
+    "ko": "...... 그래, 네가 확실히 정했다면 됐어, 붙잡지 않을게."
+   }
+  ],
+  "note": "将就는 '마지못해 맞춰 살다, 억지로 참고 지내다'라는 뜻으로 연애나 결혼 얘기할 때 자주 나와요. 走到头了는 '끝에 다다랐다' 즉 관계가 끝났다는 의미예요."
  },
  {
   "id": "zh3-007",
-  "expression": "抱佛脚",
-  "pinyin": "bào fójiǎo",
-  "meaning": "벼락치기하다",
-  "example": "考试前才抱佛脚。",
-  "example_pinyin": "Kǎoshì qián cái bào fójiǎo.",
-  "example_ko": "시험 직전에야 벼락치기하네.",
-  "note": "평소엔 놀다가 급할 때만 부처님 다리를 붙잡는다는 뜻의 관용구"
+  "situation": "모태솔로 놀림 받고 받아치기",
+  "key_expressions": [
+   "单身狗",
+   "母胎单身",
+   "酸"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "哎,你都二十八了吧,到现在还是单身狗一条?",
+    "pinyin": "Āi, nǐ dōu èrshíbā le ba, dào xiànzài hái shì dāntúgǒu yī tiáo?",
+    "ko": "야, 너 이제 스물여덟이지, 아직도 모태솔로냐?"
+   },
+   {
+    "speaker": "B",
+    "text": "怎么了,单身怎么了,我这叫享受自由。",
+    "pinyin": "Zěnme le, dānshēn zěnme le, wǒ zhè jiào xiǎngshòu zìyóu.",
+    "ko": "왜, 솔로가 뭐 어때서, 이건 자유를 즐기는 거라고 하는 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "别自我安慰了,你这是标准的母胎单身,从小到大没谈过恋爱。",
+    "pinyin": "Bié zìwǒ ānwèi le, nǐ zhè shì biāozhǔn de mǔtāi dānshēn, cóngxiǎo dàodà méi tán guò liàn'ài.",
+    "ko": "자기 위로 그만해, 너 완전 정석 모태솔로잖아, 어릴 때부터 지금까지 연애 한 번도 못해봤으면서."
+   },
+   {
+    "speaker": "B",
+    "text": "你才酸呢,你自己天天跟对象吵架吵得死去活来,还不如我一个人自在。",
+    "pinyin": "Nǐ cái suān ne, nǐ zìjǐ tiāntiān gēn duìxiàng chǎojià chǎo de sǐqùhuólái, hái bùrú wǒ yīgè rén zìzài.",
+    "ko": "너나 배 아파하지 마셔, 너는 맨날 애인이랑 죽어라 싸우던데, 나 혼자가 훨씬 편하겠다."
+   },
+   {
+    "speaker": "A",
+    "text": "哈哈哈,行行行,算你厉害,那你打算单身到什么时候啊?",
+    "pinyin": "Hāhāhā, xíng xíng xíng, suàn nǐ lìhài, nà nǐ dǎsuàn dānshēn dào shénme shíhou a?",
+    "ko": "하하하, 그래 그래, 너 대단하다, 그래서 언제까지 솔로할 건데?"
+   },
+   {
+    "speaker": "B",
+    "text": "缘分到了自然就有了,我又不着急,总比随便找一个凑合强。",
+    "pinyin": "Yuánfèn dào le zìrán jiù yǒu le, wǒ yòu bù zháojí, zǒng bǐ suíbiàn zhǎo yīgè còuhé qiáng.",
+    "ko": "인연이 오면 자연스럽게 생기겠지, 나 급할 것도 없고, 아무나 대충 만나는 것보다 낫지."
+   },
+   {
+    "speaker": "A",
+    "text": "说得好像很有道理的样子,行吧,祝你早日脱单。",
+    "pinyin": "Shuō de hǎoxiàng hěn yǒu dàolǐ de yàngzi, xíng ba, zhù nǐ zǎorì tuōdān.",
+    "ko": "말은 되게 그럴싸하게 하네, 알았어, 얼른 솔로 탈출하길 바랄게."
+   },
+   {
+    "speaker": "B",
+    "text": "谢谢,不过我现在过得挺好的,你少替我操心。",
+    "pinyin": "Xièxie, bùguò wǒ xiànzài guò de tǐng hǎo de, nǐ shǎo tì wǒ cāoxīn.",
+    "ko": "고마워, 근데 나 지금 꽤 잘 지내고 있으니까 걱정 좀 그만해."
+   }
+  ],
+  "note": "单身狗는 자기 비하로 쓰는 '솔로 신세' 표현이고 母胎单身은 '모태솔로'에 딱 맞는 표현이에요. 酸은 원래 '시다'인데 여기선 남 잘되는 거 질투하는 '배 아파하다'는 뜻으로 쓰였어요."
  },
  {
   "id": "zh3-008",
-  "expression": "走后门",
-  "pinyin": "zǒu hòumén",
-  "meaning": "뒷거래로 하다, 연줄로 처리하다",
-  "example": "他是走后门进公司的。",
-  "example_pinyin": "Tā shì zǒu hòumén jìn gōngsī de.",
-  "example_ko": "걔 연줄로 회사 들어간 거야.",
-  "note": "공정하지 않은 방법으로 일을 처리할 때"
+  "situation": "갑자기 연락 끊긴 썸 상대 이야기하기",
+  "key_expressions": [
+   "人间蒸发",
+   "失联",
+   "暧昧"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我跟你说,那个跟我暧昧了两个月的男生,突然人间蒸发了。",
+    "pinyin": "Wǒ gēn nǐ shuō, nàge gēn wǒ àimèi le liǎng ge yuè de nánshēng, tūrán rénjiān zhēngfā le.",
+    "ko": "있잖아, 나랑 두 달 동안 썸 타던 그 남자애, 갑자기 연락이 뚝 끊겼어."
+   },
+   {
+    "speaker": "B",
+    "text": "什么意思,失联了?",
+    "pinyin": "Shénme yìsi, shīlián le?",
+    "ko": "무슨 말이야, 잠수 탄 거야?"
+   },
+   {
+    "speaker": "A",
+    "text": "对,前几天还聊得好好的,说周末要见面,结果这几天消息不回,电话也不接。",
+    "pinyin": "Duì, qián jǐ tiān hái liáo de hǎohāo de, shuō zhōumò yào jiànmiàn, jiéguǒ zhè jǐ tiān xiāoxi bù huí, diànhuà yě bù jiē.",
+    "ko": "응, 며칠 전까지만 해도 잘 얘기하고 주말에 만나자고 했는데, 요 며칠 메시지도 안 읽고 전화도 안 받아."
+   },
+   {
+    "speaker": "B",
+    "text": "这也太过分了吧,好歹说一声啊,搞得跟玩失踪似的。",
+    "pinyin": "Zhè yě tài guòfèn le ba, hǎodǎi shuō yī shēng a, gǎo de gēn wán shīzōng shìde.",
+    "ko": "그건 너무 심하다, 한마디라도 해야지, 완전 잠수 이별이네."
+   },
+   {
+    "speaker": "A",
+    "text": "我一开始还以为他手机坏了,后来发现他朋友圈都还在更新,就是不理我。",
+    "pinyin": "Wǒ yī kāishǐ hái yǐwéi tā shǒujī huài le, hòulái fāxiàn tā péngyǒuquān dōu hái zài gēngxīn, jiùshì bù lǐ wǒ.",
+    "ko": "처음엔 휴대폰 고장 났나 했는데, 나중에 보니까 모멘트는 계속 올리더라고, 그냥 나만 무시하는 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "那就是纯纯的渣男行为,连个交代都不给。",
+    "pinyin": "Nà jiùshì chúnchún de zhānán xíngwéi, lián ge jiāodài dōu bù gěi.",
+    "ko": "그건 그냥 완전 나쁜 남자 짓이네, 최소한의 설명도 안 해주고."
+   },
+   {
+    "speaker": "A",
+    "text": "我也是服了自己,还傻乎乎地等回复,现在想想挺丢人的。",
+    "pinyin": "Wǒ yě shì fúle zìjǐ, hái shǎhūhū de děng huífù, xiànzài xiǎngxiǎng tǐng diūrén de.",
+    "ko": "나도 참 어이없어, 그런 걸 바보같이 답장 기다리고 있었으니, 지금 생각하면 좀 창피해."
+   },
+   {
+    "speaker": "B",
+    "text": "别往心里去,这种说没就没的人,不值得你难过。",
+    "pinyin": "Bié wǎng xīnli qù, zhè zhǒng shuō méi jiù méi de rén, bùzhí de nǐ nánguò.",
+    "ko": "마음에 담아두지 마, 그렇게 갑자기 사라지는 사람은 네가 슬퍼할 가치도 없어."
+   }
+  ],
+  "note": "人间蒸发는 '인간 증발' 즉 갑자기 연락 끊고 사라지는 걸 재미있게 표현한 말이에요. 暧昧는 사귀기 전 애매한 썸 타는 관계를 말할 때 딱 맞는 단어예요."
  },
  {
   "id": "zh3-009",
-  "expression": "吹牛",
-  "pinyin": "chuīniú",
-  "meaning": "허풍떨다",
-  "example": "别吹牛了，谁不知道你啊。",
-  "example_pinyin": "Bié chuīniú le, shéi bù zhīdào nǐ a.",
-  "example_ko": "허풍 좀 그만 떨어, 다들 너 아는데.",
-  "note": "과장해서 말하는 사람을 놀릴 때"
+  "situation": "분위기 파악 못하는 후배 흉보기",
+  "key_expressions": [
+   "不会看眼色",
+   "尴尬",
+   "情商低"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "今天开会的时候你注意到没有,新来的小林又抢话了。",
+    "pinyin": "Jīntiān kāihuì de shíhou nǐ zhùyì dào méiyǒu, xīn lái de Xiǎo Lín yòu qiǎnghuà le.",
+    "ko": "오늘 회의 때 봤어? 새로 온 샤오린 또 말 끊고 끼어들더라."
+   },
+   {
+    "speaker": "B",
+    "text": "何止抢话,领导都皱眉头了他还在那儿滔滔不绝。",
+    "pinyin": "Hézhǐ qiǎnghuà, lǐngdǎo dōu zhòu méitóu le tā hái zài nàr tāotāobùjué.",
+    "ko": "끼어드는 정도가 아니지, 팀장님이 미간을 찌푸리는데도 혼자 계속 떠들던데."
+   },
+   {
+    "speaker": "A",
+    "text": "就是,气氛都尴尬成那样了,他一点都感觉不到。",
+    "pinyin": "Jiùshì, qìfēn dōu gāngà chéng nàyàng le, tā yīdiǎn dōu gǎnjué bùdào.",
+    "ko": "그러니까, 분위기가 그렇게 어색해졌는데 걔는 전혀 눈치를 못 채더라."
+   },
+   {
+    "speaker": "B",
+    "text": "这孩子情商是真的低,完全不会看眼色。",
+    "pinyin": "Zhè háizi qíngshāng shì zhēn de dī, wánquán bùhuì kàn yǎnsè.",
+    "ko": "걔는 진짜 눈치가 없어, 상황 파악을 아예 못해."
+   },
+   {
+    "speaker": "A",
+    "text": "而且他还老爱在大家面前秀自己多厉害,显得特别刺眼。",
+    "pinyin": "Érqiě tā hái lǎo ài zài dàjiā miànqián xiù zìjǐ duō lìhài, xiǎnde tèbié cìyǎn.",
+    "ko": "게다가 맨날 사람들 앞에서 자기 잘난 거 티내려고 하는 게 너무 거슬려."
+   },
+   {
+    "speaker": "B",
+    "text": "我们私下都提醒过他好几次了,他就是记不住。",
+    "pinyin": "Wǒmen sīxià dōu tíxǐng guò tā hǎo jǐ cì le, tā jiùshì jìbùzhù.",
+    "ko": "우리가 몰래 몇 번이나 알려줬는데도, 걔는 계속 기억을 못 하더라."
+   },
+   {
+    "speaker": "A",
+    "text": "唉,新人嘛,慢慢磨吧,不然以后指定要吃亏。",
+    "pinyin": "Āi, xīnrén ma, mànmàn mó ba, bùrán yǐhòu zhǐdìng yào chīkuī.",
+    "ko": "하... 신입이니까 천천히 다듬어지겠지, 안 그러면 나중에 분명 손해 볼 텐데."
+   },
+   {
+    "speaker": "B",
+    "text": "但愿他能早点开窍,不然真的挺让人头疼的。",
+    "pinyin": "Dànyuàn tā néng zǎodiǎn kāiqiào, bùrán zhēnde tǐng ràng rén tóuténg de.",
+    "ko": "빨리 철 좀 들었으면 좋겠다, 안 그러면 진짜 골치 아프겠어."
+   }
+  ],
+  "note": "看眼色는 '눈치를 보다/살피다'라는 뜻으로 분위기 파악 못하는 사람 얘기할 때 자주 나와요. 情商低는 '감성지수(EQ)가 낮다' 즉 눈치 없고 배려 없는 사람을 가리켜요."
  },
  {
   "id": "zh3-010",
-  "expression": "忽悠",
-  "pinyin": "hūyou",
-  "meaning": "속이다, 구슬리다",
-  "example": "别被他忽悠了。",
-  "example_pinyin": "Bié bèi tā hūyou le.",
-  "example_ko": "걔한테 속지 마.",
-  "note": "동북 사투리에서 유래한 아주 흔한 구어체 동사"
+  "situation": "승진 탈락 후 자조하기",
+  "key_expressions": [
+   "内卷",
+   "摆烂",
+   "emo了"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "升职名单出来了,又没有我。",
+    "pinyin": "Shēngzhí míngdān chūlái le, yòu méiyǒu wǒ.",
+    "ko": "승진자 명단 나왔는데, 또 나는 없어."
+   },
+   {
+    "speaker": "B",
+    "text": "啊?不是说你这次呼声最高吗?",
+    "pinyin": "À? Bùshì shuō nǐ zhè cì hūshēng zuì gāo ma?",
+    "ko": "어? 이번엔 네가 제일 유력하다고 하지 않았어?"
+   },
+   {
+    "speaker": "A",
+    "text": "呼声高有什么用,最后还是被空降的人截胡了。",
+    "pinyin": "Hūshēng gāo yǒu shénme yòng, zuìhòu háishì bèi kōngjiàng de rén jiéhú le.",
+    "ko": "유력하면 뭐 해, 결국 낙하산으로 온 사람한테 가로채였는데."
+   },
+   {
+    "speaker": "B",
+    "text": "太气人了,你辛辛苦苦干了一年,凭什么。",
+    "pinyin": "Tài qìrén le, nǐ xīnxīnkǔkǔ gàn le yī nián, píng shénme.",
+    "ko": "진짜 열받네, 너 일 년 동안 그렇게 고생했는데 왜."
+   },
+   {
+    "speaker": "A",
+    "text": "没办法,现在职场内卷成这样,努力都不一定有回报。",
+    "pinyin": "Méi bànfǎ, xiànzài zhíchǎng nèijuǎn chéng zhèyàng, nǔlì dōu bùyīdìng yǒu huíbào.",
+    "ko": "어쩔 수 없지, 요즘 회사가 워낙 다들 과열 경쟁이라, 노력한다고 꼭 보상받는 것도 아니고."
+   },
+   {
+    "speaker": "B",
+    "text": "你别太emo了,这次没成,下次机会还多着呢。",
+    "pinyin": "Nǐ bié tài emo le, zhè cì méi chéng, xiàcì jīhuì hái duō zhe ne.",
+    "ko": "너무 우울해하지 마, 이번에 안 됐어도 다음 기회는 또 많아."
+   },
+   {
+    "speaker": "A",
+    "text": "算了,我最近干脆就摆烂了,反正努力也不一定被看见。",
+    "pinyin": "Suànle, wǒ zuìjìn gāncuì jiù bǎilàn le, fǎnzhèng nǔlì yě bùyīdìng bèi kànjiàn.",
+    "ko": "됐어, 나 요즘 그냥 될 대로 되라는 심정이야, 어차피 노력해도 안 보이나 봐."
+   },
+   {
+    "speaker": "B",
+    "text": "话不能这么说,你先缓两天,别真的自暴自弃了。",
+    "pinyin": "Huà bùnéng zhème shuō, nǐ xiān huǎn liǎng tiān, bié zhēnde zìbàozìqì le.",
+    "ko": "그렇게 말하지 마, 며칠 쉬면서 마음 좀 추스르고, 진짜로 자포자기하진 마."
+   }
+  ],
+  "note": "内卷은 '제로섬 경쟁, 과열 경쟁'을 뜻하는 요즘 뜨는 신조어이고 摆烂은 '그냥 대충 살자, 노력 포기' 느낌의 자조적 표현이에요. emo了는 영어 emo에서 온 신조어로 '우울해지다'라는 뜻이에요."
  },
  {
   "id": "zh3-011",
-  "expression": "坑人",
-  "pinyin": "kēng rén",
-  "meaning": "남을 등쳐먹다",
-  "example": "这家店太坑人了。",
-  "example_pinyin": "Zhè jiā diàn tài kēng rén le.",
-  "example_ko": "이 가게 진짜 사람 뒤통수치네.",
-  "note": "부당하게 이득을 취하는 상황을 비판할 때"
+  "situation": "친구 뒷담화 듣고 맞장구치기",
+  "key_expressions": [
+   "塑料姐妹情",
+   "背后",
+   "装"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "跟你说个事儿,你可别往外传啊。",
+    "pinyin": "Gēn nǐ shuō ge shì, nǐ kě bié wǎngwài chuán a.",
+    "ko": "내가 얘기 하나 할 건데, 너 절대 밖에 말하면 안 돼."
+   },
+   {
+    "speaker": "B",
+    "text": "放心,你说,我嘴严着呢。",
+    "pinyin": "Fàngxīn, nǐ shuō, wǒ zuǐ yán zhe ne.",
+    "ko": "걱정 마, 말해봐, 내 입 무거운 거 알잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "就是小美,上次当着我的面夸我衣服好看,结果转头就跟别人说我审美差。",
+    "pinyin": "Jiùshì Xiǎoměi, shàng cì dāngzhe wǒ de miàn kuā wǒ yīfu hǎokàn, jiéguǒ zhuǎntóu jiù gēn biérén shuō wǒ shěnměi chà.",
+    "ko": "다름 아니라 샤오메이 있잖아, 저번에 내 앞에서는 옷 예쁘다고 칭찬해놓고, 돌아서서는 다른 사람한테 내 안목 별로라고 했대."
+   },
+   {
+    "speaker": "B",
+    "text": "真的假的?她当面一套背后一套啊。",
+    "pinyin": "Zhēn de jiǎ de? Tā dāngmiàn yī tào bèihòu yī tào a.",
+    "ko": "진짜? 앞에서랑 뒤에서랑 완전 다르네."
+   },
+   {
+    "speaker": "A",
+    "text": "可不是嘛,我们俩认识这么久,我一直以为她真心待我。",
+    "pinyin": "Kě bùshì ma, wǒmen liǎ rènshi zhème jiǔ, wǒ yīzhí yǐwéi tā zhēnxīn dài wǒ.",
+    "ko": "그러니까 말이야, 우리 알고 지낸 지 이렇게 오래됐는데, 난 걔가 진심으로 대해주는 줄 알았어."
+   },
+   {
+    "speaker": "B",
+    "text": "这就是典型的塑料姐妹情啊,表面上好得穿一条裤子,背地里互相捅刀子。",
+    "pinyin": "Zhè jiùshì diǎnxíng de sùliào jiěmèi qíng a, biǎomiàn shàng hǎo de chuān yī tiáo kùzi, bèidì lǐ hùxiāng tǒng dāozi.",
+    "ko": "그게 딱 전형적인 겉만 친한 척하는 우정이지, 겉으론 완전 붙어다니면서 뒤에서는 서로 칼 꽂는 거잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "我现在想想以前的事儿,好多细节都对上了,她根本没把我当朋友。",
+    "pinyin": "Wǒ xiànzài xiǎngxiǎng yǐqián de shìr, hǎoduō xìjié dōu duì shàng le, tā gēnběn méi bǎ wǒ dàng péngyǒu.",
+    "ko": "지금 생각해보니까 예전 일들도 여러 개 딱 들어맞더라, 걔는 애초에 나를 친구로 생각 안 했던 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "你也别太难过,这种人早晚会让别人看清她的真面目。",
+    "pinyin": "Nǐ yě bié tài nánguò, zhè zhǒng rén zǎowǎn huì ràng biérén kànqīng tā de zhēnmiànmù.",
+    "ko": "너무 속상해하지 마, 그런 애들은 언젠가 다른 사람들도 본모습을 알게 될 거야."
+   }
+  ],
+  "note": "塑料姐妹情는 '플라스틱 자매애'라는 뜻으로 겉으로만 친한 척하는 가짜 우정을 비꼬는 요즘 유행어예요. 一套一套는 여기서 '앞뒤가 다르다'는 뉘앙스로 쓰였어요."
  },
  {
   "id": "zh3-012",
-  "expression": "老油条",
-  "pinyin": "lǎoyóutiáo",
-  "meaning": "능구렁이 같은 사람",
-  "example": "他在职场混了十年，是个老油条。",
-  "example_pinyin": "Tā zài zhíchǎng hùn le shí nián, shì ge lǎoyóutiáo.",
-  "example_ko": "걔 직장 생활 10년 해서 완전 능구렁이야.",
-  "note": "경험 많고 요령이 많은 사람을 살짝 비꼴 때"
+  "situation": "회사에서 부당한 지시 받고 하소연하기",
+  "key_expressions": [
+   "甩锅",
+   "憋屈",
+   "穿小鞋"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我们领导今天又给我派了个烂摊子,还不是我的活儿。",
+    "pinyin": "Wǒmen lǐngdǎo jīntiān yòu gěi wǒ pài le ge làntānzi, hái bùshì wǒ de huór.",
+    "ko": "우리 팀장님이 오늘 또 나한테 골치 아픈 일 떠넘겼어, 원래 내 일도 아닌데."
+   },
+   {
+    "speaker": "B",
+    "text": "怎么回事,详细说说。",
+    "pinyin": "Zěnme huí shì, xiángxì shuōshuo.",
+    "ko": "무슨 일인데, 자세히 말해봐."
+   },
+   {
+    "speaker": "A",
+    "text": "就是别的部门搞砸的项目,领导直接甩锅让我来收拾,加班加点地干。",
+    "pinyin": "Jiùshì bié de bùmén gǎozá de xiàngmù, lǐngdǎo zhíjiē shuǎiguō ràng wǒ lái shōushi, jiābāndiǎn de gàn.",
+    "ko": "다른 부서에서 망친 프로젝트인데, 팀장님이 그냥 나한테 떠넘기면서 수습하라는 거야, 야근까지 해가면서."
+   },
+   {
+    "speaker": "B",
+    "text": "这不合理啊,凭什么让你背这个锅。",
+    "pinyin": "Zhè bù hélǐ a, píng shénme ràng nǐ bēi zhège guō.",
+    "ko": "그건 말이 안 되잖아, 왜 네가 그걸 뒤집어써."
+   },
+   {
+    "speaker": "A",
+    "text": "我也想反驳,可领导一句话堵回来,说这是锻炼我的机会。",
+    "pinyin": "Wǒ yě xiǎng fǎnbó, kě lǐngdǎo yī jù huà dǔ huílái, shuō zhè shì duànliàn wǒ de jīhuì.",
+    "ko": "나도 반박하고 싶었지, 근데 팀장님이 한마디로 막아버리더라, 이게 널 단련시키는 기회라고."
+   },
+   {
+    "speaker": "B",
+    "text": "什么锻炼机会,分明就是欺负你老实。",
+    "pinyin": "Shénme duànliàn jīhuì, fēnmíng jiùshì qīfù nǐ lǎoshi.",
+    "ko": "무슨 단련 기회야, 그냥 네가 착해서 만만하게 보는 거지."
+   },
+   {
+    "speaker": "A",
+    "text": "我现在真的很憋屈,干得多错得多,功劳还都是别人的。",
+    "pinyin": "Wǒ xiànzài zhēnde hěn biēqu, gàn de duō cuò de duō, gōngláo hái dōu shì biérén de.",
+    "ko": "나 지금 진짜 억울해, 할수록 실수만 늘고, 공은 다 남이 가져가고."
+   },
+   {
+    "speaker": "B",
+    "text": "你要是一直忍着,以后这种事只会越来越多,得学会拒绝。",
+    "pinyin": "Nǐ yàoshi yīzhí rěn zhe, yǐhòu zhè zhǒng shì zhǐhuì yuèláiyuè duō, děi xuéhuì jùjué.",
+    "ko": "계속 참고만 있으면 앞으로 이런 일 더 많아질 거야, 거절하는 법도 배워야 해."
+   },
+   {
+    "speaker": "A",
+    "text": "我知道,可真到跟前又不敢说,怕被穿小鞋。",
+    "pinyin": "Wǒ zhīdào, kě zhēn dào gēnqián yòu bùgǎn shuō, pà bèi chuān xiǎoxié.",
+    "ko": "나도 알아, 근데 막상 눈앞에 닥치면 말을 못 하겠어, 찍힐까 봐 무섭기도 하고."
+   }
+  ],
+  "note": "甩锅는 여기서도 '책임 떠넘기기'로 쓰였고, 穿小鞋는 '작은 신발을 신기다'가 원뜻인데 윗사람이 뒤에서 불이익을 주는 것을 뜻하는 관용구예요."
  },
  {
   "id": "zh3-013",
-  "expression": "二百五",
-  "pinyin": "èrbǎiwǔ",
-  "meaning": "멍청이",
-  "example": "你别理他，他就是个二百五。",
-  "example_pinyin": "Nǐ bié lǐ tā, tā jiùshì ge èrbǎiwǔ.",
-  "example_ko": "걔 신경 쓰지 마, 그냥 멍청이야.",
-  "note": "눈치 없고 어리석은 사람을 놀리는 속어"
+  "situation": "소원해진 옛 친구와 재회하기",
+  "key_expressions": [
+   "生疏",
+   "默契",
+   "疏远"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "哎,好久不见,都快五年了吧。",
+    "pinyin": "Āi, hǎojiǔ bùjiàn, dōu kuài wǔ nián le ba.",
+    "ko": "야, 오랜만이다, 거의 5년 만이지."
+   },
+   {
+    "speaker": "B",
+    "text": "是啊,时间过得真快,你都没怎么变。",
+    "pinyin": "Shì a, shíjiān guò de zhēn kuài, nǐ dōu méi zěnme biàn.",
+    "ko": "그러게, 시간 진짜 빠르다, 너는 별로 안 변했네."
+   },
+   {
+    "speaker": "A",
+    "text": "你也是,就是感觉咱俩现在见面有点生疏了。",
+    "pinyin": "Nǐ yě shì, jiùshì gǎnjué zán liǎ xiànzài jiànmiàn yǒudiǎn shēngshū le.",
+    "ko": "너도 그래, 근데 우리 지금 좀 서먹서먹해진 느낌이야."
+   },
+   {
+    "speaker": "B",
+    "text": "确实,以前天天腻在一起,现在见一面都得提前预约。",
+    "pinyin": "Quèshí, yǐqián tiāntiān nì zài yīqǐ, xiànzài jiàn yī miàn dōu děi tíqián yùyuē.",
+    "ko": "맞아, 예전엔 매일 붙어 다녔는데, 지금은 한 번 만나는 것도 미리 약속을 잡아야 하네."
+   },
+   {
+    "speaker": "A",
+    "text": "也不是故意疏远,就是各自忙,慢慢就联系少了。",
+    "pinyin": "Yě bùshì gùyì shūyuǎn, jiùshì gèzì máng, mànmàn jiù liánxì shǎo le.",
+    "ko": "일부러 멀어진 건 아니고, 각자 바쁘다 보니까 자연스럽게 연락이 줄었어."
+   },
+   {
+    "speaker": "B",
+    "text": "我明白,大家都有自己的生活,没法像学生时代那样。",
+    "pinyin": "Wǒ míngbái, dàjiā dōu yǒu zìjǐ de shēnghuó, méi fǎ xiàng xuéshēng shídài nàyàng.",
+    "ko": "이해해, 다들 자기 삶이 있으니까, 학창 시절처럼 지낼 순 없지."
+   },
+   {
+    "speaker": "A",
+    "text": "不过今天见到你还是挺开心的,感觉那种默契还在。",
+    "pinyin": "Bùguò jīntiān jiàndào nǐ háishì tǐng kāixīn de, gǎnjué nà zhǒng mòqì hái zài.",
+    "ko": "그래도 오늘 너 만나니까 진짜 반갑다, 그 예전 케미는 여전한 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "对啊,以后可别再断了联系,多联系联系。",
+    "pinyin": "Duì a, yǐhòu kě bié zài duàn le liánxì, duō liánxì liánxì.",
+    "ko": "맞아, 앞으로 다시는 연락 끊기지 말자, 자주 연락하자."
+   }
+  ],
+  "note": "生疏는 '서먹서먹하다, 낯설어지다'라는 뜻으로 오랜만에 만난 사이의 어색함을 표현할 때 잘 어울려요. 默契는 '말 안 해도 통하는 호흡, 케미'를 뜻해요."
  },
  {
   "id": "zh3-014",
-  "expression": "马大哈",
-  "pinyin": "mǎdàhā",
-  "meaning": "덜렁이",
-  "example": "我是个马大哈，总丢东西。",
-  "example_pinyin": "Wǒ shì ge mǎdàhā, zǒng diū dōngxi.",
-  "example_ko": "나 완전 덜렁이라 맨날 물건을 잃어버려.",
-  "note": "꼼꼼하지 못한 성격을 가리키는 말"
+  "situation": "헤어진 애인 SNS 몰래 보다 걸리기",
+  "key_expressions": [
+   "朋友圈",
+   "破防了",
+   "屏蔽"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你在看什么呢,看你手机看得这么入神。",
+    "pinyin": "Nǐ zài kàn shénme ne, kàn nǐ shǒujī kàn de zhème rùshén.",
+    "ko": "너 뭐 보는데 그렇게 휴대폰에 몰입해 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "没...没什么,就随便刷刷朋友圈。",
+    "pinyin": "Méi... méi shénme, jiù suíbiàn shuā shuā péngyǒuquān.",
+    "ko": "아... 아무것도 아니야, 그냥 모멘트 좀 훑어보는 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "我看你刚才明明在看你前任的主页,别瞒我了。",
+    "pinyin": "Wǒ kàn nǐ gāngcái míngmíng zài kàn nǐ qiánrèn de zhǔyè, bié mán wǒ le.",
+    "ko": "아까 딱 보니까 너 전남친 프로필 보고 있던데, 나 속이지 마."
+   },
+   {
+    "speaker": "B",
+    "text": "好吧,被你发现了,我就是忍不住点进去看了一眼。",
+    "pinyin": "Hǎo ba, bèi nǐ fāxiàn le, wǒ jiùshì rěnbuzhù diǎn jìnqù kàn le yī yǎn.",
+    "ko": "그래, 들켰네, 나도 모르게 눌러서 한 번 봤어."
+   },
+   {
+    "speaker": "A",
+    "text": "你俩都分手半年了,还天天偷偷看人家朋友圈,图什么啊。",
+    "pinyin": "Nǐ liǎ dōu fēnshǒu bàn nián le, hái tiāntiān tōutōu kàn rénjiā péngyǒuquān, tú shénme a.",
+    "ko": "너네 헤어진 지 반년이나 됐는데 아직도 매일 몰래 걔 모멘트 보고, 뭐 하러 그래."
+   },
+   {
+    "speaker": "B",
+    "text": "我也不知道,就是看到他发的照片跟别人在一起,心里突然特别不是滋味。",
+    "pinyin": "Wǒ yě bù zhīdào, jiùshì kàndào tā fā de zhàopiàn gēn biérén zài yīqǐ, xīnli tūrán tèbié bùshì zīwèi.",
+    "ko": "나도 모르겠어, 걔가 다른 사람이랑 같이 있는 사진 올린 거 보니까 갑자기 기분이 진짜 이상했어."
+   },
+   {
+    "speaker": "A",
+    "text": "你这不是自己给自己找罪受吗,看完了破防了吧。",
+    "pinyin": "Nǐ zhè bùshì zìjǐ gěi zìjǐ zhǎo zuìshòu ma, kàn wán le pòfáng le ba.",
+    "ko": "그거 완전 너 스스로 사서 고생하는 거 아니야, 다 보고 나니 완전 멘붕 왔지."
+   },
+   {
+    "speaker": "B",
+    "text": "是啊,我这心态是真的挺矛盾的,明明说好了要放下。",
+    "pinyin": "Shì a, wǒ zhè xīntài shì zhēnde tǐng máodùn de, míngmíng shuō hǎo le yào fàngxià.",
+    "ko": "맞아, 내 마음이 진짜 모순적이야, 분명 놓아준다고 해놓고서."
+   },
+   {
+    "speaker": "A",
+    "text": "建议你直接屏蔽了吧,眼不见心不烦,别再折磨自己了。",
+    "pinyin": "Jiànyì nǐ zhíjiē píngbì le ba, yǎn bùjiàn xīn bùfán, bié zài zhémó zìjǐ le.",
+    "ko": "그냥 차단하는 거 추천할게, 안 보이면 마음도 덜 시끄러워지지, 더 이상 자신을 괴롭히지 마."
+   },
+   {
+    "speaker": "B",
+    "text": "你说得对,我这就去把他删了,不能再这么作践自己了。",
+    "pinyin": "Nǐ shuō de duì, wǒ zhè jiù qù bǎ tā shān le, bùnéng zài zhème zuòjiàn zìjǐ le.",
+    "ko": "네 말이 맞아, 지금 바로 가서 삭제할게, 더는 이렇게 스스로를 못살게 굴면 안 되지."
+   }
+  ],
+  "note": "破防了는 원래 게임 용어인데 '멘탈 붕괴, 감정 무너짐'을 뜻하는 요즘 유행어로 자주 쓰여요. 朋友圈은 위챗의 SNS 피드로, 한국의 카톡 프로필이나 인스타 스토리와 비슷한 개념이에요."
  },
  {
   "id": "zh3-015",
-  "expression": "死心眼",
-  "pinyin": "sǐxīnyǎn",
-  "meaning": "융통성 없는 사람",
-  "example": "你别这么死心眼，变通一下。",
-  "example_pinyin": "Nǐ bié zhème sǐxīnyǎn, biàntōng yíxià.",
-  "example_ko": "그렇게 꽉 막히지 말고 좀 융통성 있게 해.",
-  "note": "고집스럽고 융통성 없는 사람을 말할 때"
+  "situation": "회식자리에서 상사 눈치보기",
+  "key_expressions": [
+   "察言观色",
+   "敬酒",
+   "哪壶不开提哪壶"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "领导今天心情好像不太好,你注意到没有。",
+    "pinyin": "Lǐngdǎo jīntiān xīnqíng hǎoxiàng bùtài hǎo, nǐ zhùyì dào méiyǒu.",
+    "ko": "팀장님 오늘 기분이 별로 안 좋아 보이던데, 너도 눈치챘어?"
+   },
+   {
+    "speaker": "B",
+    "text": "看出来了,一直不怎么说话,脸也板着。",
+    "pinyin": "Kàn chūlái le, yīzhí bù zěnme shuōhuà, liǎn yě bǎn zhe.",
+    "ko": "나도 봤어, 계속 말도 별로 없고 표정도 굳어 있더라."
+   },
+   {
+    "speaker": "A",
+    "text": "那我们等会儿敬酒是不是得注意点分寸。",
+    "pinyin": "Nà wǒmen děng huǐr jìngjiǔ shìbùshì děi zhùyì diǎn fēncùn.",
+    "ko": "그럼 이따 술 따를 때 우리 좀 조심해야 하는 거 아니야?"
+   },
+   {
+    "speaker": "B",
+    "text": "肯定得注意,别哪句话说错了触了霉头。",
+    "pinyin": "Kěndìng děi zhùyì, bié nǎ jù huà shuōcuò le chù le méitóu.",
+    "ko": "당연히 조심해야지, 말 잘못했다가 괜히 심기 건드릴라."
+   },
+   {
+    "speaker": "A",
+    "text": "待会儿他要是让我们表演节目,咱俩可怎么办。",
+    "pinyin": "Dāihuǐr tā yàoshi ràng wǒmen biǎoyǎn jiémù, zán liǎ kě zěnme bàn.",
+    "ko": "이따가 우리한테 장기자랑 시키면 어떡하지."
+   },
+   {
+    "speaker": "B",
+    "text": "到时候看情况呗,气氛不对咱就装喝多了溜边儿。",
+    "pinyin": "Dàoshíhòu kàn qíngkuàng bei, qìfēn bùduì zán jiù zhuāng hēduō le liū biānr.",
+    "ko": "그때 가서 상황 봐야지, 분위기 이상하면 우리 취한 척하고 슬쩍 빠지자."
+   },
+   {
+    "speaker": "A",
+    "text": "你可真行,还会这一招。",
+    "pinyin": "Nǐ kě zhēn xíng, hái huì zhè yī zhāo.",
+    "ko": "너 진짜 대단하다, 그런 수법까지 쓸 줄 알고."
+   },
+   {
+    "speaker": "B",
+    "text": "没办法,在职场混,这种察言观色的本事必须得有。",
+    "pinyin": "Méi bànfǎ, zài zhíchǎng hùn, zhè zhǒng cháyánguānsè de běnshì bìxū děi yǒu.",
+    "ko": "어쩔 수 없지, 회사 생활 하려면 이런 눈치 보는 능력은 필수야."
+   },
+   {
+    "speaker": "A",
+    "text": "说得也是,那我先去敬他一杯,活跃一下气氛。",
+    "pinyin": "Shuō de yěshì, nà wǒ xiān qù jìng tā yī bēi, huóyuè yīxià qìfēn.",
+    "ko": "그건 그래, 그럼 나 먼저 가서 한 잔 올릴게, 분위기 좀 띄워봐야지."
+   },
+   {
+    "speaker": "B",
+    "text": "去吧去吧,注意说话方式,别哪壶不开提哪壶。",
+    "pinyin": "Qù ba qù ba, zhùyì shuōhuà fāngshì, bié nǎhú bùkāi tí nǎhú.",
+    "ko": "가봐 가봐, 말투 조심하고, 아픈 곳 건드리지 말고."
+   }
+  ],
+  "note": "察言观色는 '말과 표정을 살피다' 즉 눈치를 보는 능력을 뜻하는 사자성어예요. 哪壶不开提哪壶는 하필 아픈 곳을 콕 집어 말한다는 뜻의 재미있는 관용구예요."
  },
  {
   "id": "zh3-016",
-  "expression": "拖后腿",
-  "pinyin": "tuō hòutuǐ",
-  "meaning": "발목을 잡다",
-  "example": "别在关键时刻拖我后腿。",
-  "example_pinyin": "Bié zài guānjiàn shíkè tuō wǒ hòutuǐ.",
-  "example_ko": "중요할 때 내 발목 잡지 마.",
-  "note": "방해가 되는 상황을 표현할 때"
+  "situation": "무임승차하는 팀원 뒷담화하기",
+  "key_expressions": [
+   "划水",
+   "摸鱼",
+   "蹭"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "这次团队项目,你说小张是不是又在划水啊。",
+    "pinyin": "Zhè cì tuánduì xiàngmù, nǐ shuō Xiǎo Zhāng shìbùshì yòu zài huáshuǐ a.",
+    "ko": "이번 팀 프로젝트에서 샤오장 또 농땡이 부리는 거 같지 않아?"
+   },
+   {
+    "speaker": "B",
+    "text": "何止划水,根本就是全程摸鱼,报告都是我们几个熬夜写的。",
+    "pinyin": "Hézhǐ huáshuǐ, gēnběn jiùshì quánchéng mōyú, bàogào dōu shì wǒmen jǐ ge áoyè xiě de.",
+    "ko": "농땡이 정도가 아니지, 완전 처음부터 끝까지 땡땡이야, 보고서도 다 우리끼리 밤새서 쓴 거잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "对啊,开会的时候他倒是发言积极,真到干活的时候就没影了。",
+    "pinyin": "Duì a, kāihuì de shíhou tā dàoshì fāyán jījí, zhēn dào gàn huó de shíhou jiù méi yǐng le.",
+    "ko": "맞아, 회의할 때는 발언은 또 열심히 하더니, 막상 일할 때 되면 그림자도 안 보여."
+   },
+   {
+    "speaker": "B",
+    "text": "最后评优他还想跟我们一起蹭功劳,想得美。",
+    "pinyin": "Zuìhòu píngyōu tā hái xiǎng gēn wǒmen yīqǐ cèng gōngláo, xiǎng de měi.",
+    "ko": "마지막에 우수사원 뽑을 때는 우리랑 같이 공로 묻어가려고 하더라, 꿈도 야무지지."
+   },
+   {
+    "speaker": "A",
+    "text": "我是真的服了,一分力没出,好处一点不落下。",
+    "pinyin": "Wǒ shì zhēnde fú le, yī fēn lì méi chū, hǎochù yīdiǎn bù luòxià.",
+    "ko": "나도 진짜 어이없어, 힘 하나도 안 보탰으면서 좋은 건 하나도 안 놓치려고 하고."
+   },
+   {
+    "speaker": "B",
+    "text": "这种人就是典型的白嫖型队友,得治治他。",
+    "pinyin": "Zhè zhǒng rén jiùshì diǎnxíng de báipiáo xíng duìyǒu, děi zhìzhi tā.",
+    "ko": "그런 사람이 딱 전형적인 무임승차형 팀원이지, 손 좀 봐줘야 해."
+   },
+   {
+    "speaker": "A",
+    "text": "下次分工必须写清楚,谁干了什么一目了然,让他没法混。",
+    "pinyin": "Xiàcì fēngōng bìxū xiě qīngchu, shéi gàn le shénme yīmùliǎorán, ràng tā méifǎ hùn.",
+    "ko": "다음엔 역할 분담을 확실히 써놔야 해, 누가 뭘 했는지 한눈에 보이게, 걔가 묻어갈 수 없게."
+   },
+   {
+    "speaker": "B",
+    "text": "支持,不然老实干活的人永远吃亏。",
+    "pinyin": "Zhīchí, bùrán lǎoshi gàn huó de rén yǒngyuǎn chīkuī.",
+    "ko": "찬성이야, 안 그러면 성실하게 일하는 사람만 늘 손해 보잖아."
+   }
+  ],
+  "note": "划水와 摸鱼는 둘 다 '농땡이 부리다, 일 안 하고 시간만 때우다'라는 뜻의 흔한 회사 슬랭이에요. 蹭은 '묻어가다, 무임승차하다'는 뜻으로 남의 성과에 슬쩍 숟가락 얹는 상황에 쓰여요."
  },
  {
   "id": "zh3-017",
-  "expression": "打退堂鼓",
-  "pinyin": "dǎ tuìtánggǔ",
-  "meaning": "중도에 포기하다",
-  "example": "才刚开始就想打退堂鼓？",
-  "example_pinyin": "Cái gāng kāishǐ jiù xiǎng dǎ tuìtánggǔ?",
-  "example_ko": "이제 막 시작했는데 벌써 포기하려고?",
-  "note": "의지가 약해져 그만두려는 사람을 나무랄 때"
+  "situation": "이혼 소식 친구에게 전하기",
+  "key_expressions": [
+   "离婚",
+   "将就",
+   "塑料假笑"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我跟你说件事,你别太惊讶,我跟我老公离婚了。",
+    "pinyin": "Wǒ gēn nǐ shuō jiàn shì, nǐ bié tài jīngyà, wǒ gēn wǒ lǎogōng líhūn le.",
+    "ko": "나 얘기할 거 있는데, 너무 놀라지 마, 나 남편이랑 이혼했어."
+   },
+   {
+    "speaker": "B",
+    "text": "什么?你俩不是上个月还一起出去旅游了吗,怎么突然就离婚了。",
+    "pinyin": "Shénme? Nǐ liǎ bùshì shàng ge yuè hái yīqǐ chūqù lǚyóu le ma, zěnme tūrán jiù líhūn le.",
+    "ko": "뭐라고? 너네 저번 달에 같이 여행도 다녀오지 않았어? 왜 갑자기 이혼이야."
+   },
+   {
+    "speaker": "A",
+    "text": "那次旅游其实就是最后一次为了孩子装样子,回来没多久就签字了。",
+    "pinyin": "Nà cì lǚyóu qíshí jiùshì zuìhòu yī cì wèile háizi zhuāng yàngzi, huílái méi duōjiǔ jiù qiānzì le.",
+    "ko": "그 여행이 사실 애 때문에 마지막으로 티 안 내려고 간 거였어, 돌아오고 얼마 안 돼서 바로 도장 찍었어."
+   },
+   {
+    "speaker": "B",
+    "text": "天呐,我完全没看出来,你俩平时看着挺恩爱的啊。",
+    "pinyin": "Tiān na, wǒ wánquán méi kàn chūlái, nǐ liǎ píngshí kànzhe tǐng ēn'ài de a.",
+    "ko": "세상에, 나 전혀 눈치 못 챘어, 너네 평소엔 되게 금슬 좋아 보였는데."
+   },
+   {
+    "speaker": "A",
+    "text": "装的呗,其实我们俩早就过不下去了,一直都是在将就。",
+    "pinyin": "Zhuāng de bei, qíshí wǒmen liǎ zǎo jiù guòbùxiàqù le, yīzhí dōu shì zài jiāngjiù.",
+    "ko": "그런 척한 거지 뭐, 사실 우리 둘 진작에 더 이상 못 살겠더라고, 계속 억지로 참고 지낸 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "那你还好吗,心里肯定不好受吧。",
+    "pinyin": "Nà nǐ hái hǎo ma, xīnli kěndìng bù hǎoshòu ba.",
+    "ko": "그럼 너는 괜찮아? 마음이 많이 힘들겠다."
+   },
+   {
+    "speaker": "A",
+    "text": "说实话,松了一口气比难过更多,总比两个人天天塑料假笑强。",
+    "pinyin": "Shuō shíhuà, sōng le yī kǒu qì bǐ nánguò gèng duō, zǒng bǐ liǎng ge rén tiāntiān sùliào jiǎxiào qiáng.",
+    "ko": "솔직히 말하면 속상한 것보다 후련한 게 더 커, 둘이서 매일 가짜 웃음 짓는 것보다야 낫지."
+   },
+   {
+    "speaker": "B",
+    "text": "你能想开就好,以后有什么需要尽管跟我说,我陪着你。",
+    "pinyin": "Nǐ néng xiǎngkāi jiù hǎo, yǐhòu yǒu shénme xūyào jǐnguǎn gēn wǒ shuō, wǒ péi zhe nǐ.",
+    "ko": "마음 잘 추스른 것 같아서 다행이다, 앞으로 필요한 거 있으면 뭐든지 얘기해, 내가 옆에 있을게."
+   }
+  ],
+  "note": "装样子는 '겉으로만 그런 척하다'라는 뜻으로 여기선 이혼 전 남들 눈 의식해서 부부인 척한 상황을 표현했어요. 塑料假笑는 塑料姐妹情처럼 '가짜, 억지스러운'이라는 의미의 塑料를 응용한 표현이에요."
  },
  {
   "id": "zh3-018",
-  "expression": "泼冷水",
-  "pinyin": "pō lěngshuǐ",
-  "meaning": "찬물을 끼얹다",
-  "example": "别老是给我泼冷水。",
-  "example_pinyin": "Bié lǎoshi gěi wǒ pō lěngshuǐ.",
-  "example_ko": "자꾸 나한테 찬물 끼얹지 좀 마.",
-  "note": "의욕을 꺾는 말을 할 때 쓰는 표현"
+  "situation": "회사 정치질에 대해 냉소적으로 말하기",
+  "key_expressions": [
+   "站队",
+   "内卷",
+   "出头鸟"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你发现没有,这公司最近站队站得特别明显。",
+    "pinyin": "Nǐ fāxiàn méiyǒu, zhè gōngsī zuìjìn zhànduì zhàn de tèbié míngxiǎn.",
+    "ko": "너 눈치챘어? 요즘 회사에서 편 가르기가 진짜 노골적이야."
+   },
+   {
+    "speaker": "B",
+    "text": "可不是嘛,一边是老张的人,一边是老刘的人,泾渭分明。",
+    "pinyin": "Kě bùshì ma, yī biān shì Lǎo Zhāng de rén, yī biān shì Lǎo Liú de rén, jìngwèi fēnmíng.",
+    "ko": "그러니까 말이야, 한쪽은 라오장 사람, 한쪽은 라오리우 사람, 완전 확실하게 갈라졌어."
+   },
+   {
+    "speaker": "A",
+    "text": "谁也不敢公开表态,私底下却都在拍马屁抢资源。",
+    "pinyin": "Shéi yě bùgǎn gōngkāi biǎotài, sīdǐxià què dōu zài pāi mǎpì qiǎng zīyuán.",
+    "ko": "아무도 대놓고 입장은 안 밝히면서 뒤에서는 다 아부하면서 자원 챙기려고 하지."
+   },
+   {
+    "speaker": "B",
+    "text": "说白了就是内卷加办公室政治,谁跟对了人谁就上位。",
+    "pinyin": "Shuōbái le jiùshì nèijuǎn jiā bàngōngshì zhèngzhì, shéi gēnduì le rén shéi jiù shàngwèi.",
+    "ko": "쉽게 말하면 과열 경쟁에 사내 정치까지 겹친 거지, 줄을 잘 서야 위로 올라가는 거고."
+   },
+   {
+    "speaker": "A",
+    "text": "我是真心累了,天天不是想着怎么做事,而是想着怎么站队。",
+    "pinyin": "Wǒ shì zhēnxīn lèi le, tiāntiān bùshì xiǎngzhe zěnme zuòshì, ér shì xiǎngzhe zěnme zhànduì.",
+    "ko": "나는 진짜 지친다, 매일 어떻게 일할지가 아니라 어느 편에 설지를 고민하게 돼."
+   },
+   {
+    "speaker": "B",
+    "text": "这种环境待久了人都会变得不像自己,挺可悲的。",
+    "pinyin": "Zhè zhǒng huánjìng dàijiǔ le rén dōu huì biàn de bù xiàng zìjǐ, tǐng kěbēi de.",
+    "ko": "이런 환경에 오래 있으면 사람이 자기답지 않게 변해, 참 씁쓸하다."
+   },
+   {
+    "speaker": "A",
+    "text": "是啊,可现实就是这样,不站队你连表现的机会都没有。",
+    "pinyin": "Shì a, kě xiànshí jiùshì zhèyàng, bù zhànduì nǐ lián biǎoxiàn de jīhuì dōu méiyǒu.",
+    "ko": "그러게, 근데 현실이 그런걸, 줄을 안 서면 나설 기회조차도 없잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "唉,说到底还是要看清形势,该低调低调,别当出头鸟。",
+    "pinyin": "Āi, shuōdàodǐ háishì yào kànqīng xíngshì, gāi dīdiào dīdiào, bié dāng chūtóuniǎo.",
+    "ko": "하... 결국은 상황 파악을 잘해야 해, 조용히 있을 땐 조용히 있고, 괜히 튀지 말고."
+   }
+  ],
+  "note": "站队는 '줄을 서다' 즉 사내 정치에서 특정 세력 편에 서는 걸 뜻해요. 出头鸟는 '먼저 튀어나온 새가 총 맞는다'는 속담에서 온 표현으로, 너무 나서다가 표적이 되는 사람을 가리켜요."
  },
  {
   "id": "zh3-019",
-  "expression": "添油加醋",
-  "pinyin": "tiānyóujiācù",
-  "meaning": "살을 붙여 과장하다",
-  "example": "这故事被他添油加醋说得离谱。",
-  "example_pinyin": "Zhè gùshi bèi tā tiānyóujiācù shuō de lípǔ.",
-  "example_ko": "이 얘기 걔가 살 붙여서 완전 말도 안 되게 됐어.",
-  "note": "소문이나 이야기를 과장해서 전할 때"
+  "situation": "짝사랑 고백했다가 차인 이야기",
+  "key_expressions": [
+   "表白",
+   "好人卡",
+   "打脸"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我昨天跟她表白了。",
+    "pinyin": "Wǒ zuótiān gēn tā biǎobái le.",
+    "ko": "나 어제 걔한테 고백했어."
+   },
+   {
+    "speaker": "B",
+    "text": "然后呢,结果怎么样?",
+    "pinyin": "Ránhòu ne, jiéguǒ zěnmeyàng?",
+    "ko": "그래서, 결과가 어떻게 됐어?"
+   },
+   {
+    "speaker": "A",
+    "text": "还能怎么样,直接被发了好人卡呗。",
+    "pinyin": "Hái néng zěnmeyàng, zhíjiē bèi fā le hǎorén kǎ bei.",
+    "ko": "뭐 어떻게 되긴, 그냥 바로 좋은 사람 카드 받았지."
+   },
+   {
+    "speaker": "B",
+    "text": "她怎么说的?",
+    "pinyin": "Tā zěnme shuō de?",
+    "ko": "걔가 뭐라고 했는데?"
+   },
+   {
+    "speaker": "A",
+    "text": "她说我人特别好,但对我没有那种感觉,只能当好朋友。",
+    "pinyin": "Tā shuō wǒ rén tèbié hǎo, dàn duì wǒ méiyǒu nà zhǒng gǎnjué, zhǐnéng dāng hǎo péngyǒu.",
+    "ko": "나 사람은 진짜 좋은데, 그런 감정은 안 느껴진대, 좋은 친구로만 지내재."
+   },
+   {
+    "speaker": "B",
+    "text": "这不就是标准的委婉拒绝嘛,听着挺打脸的。",
+    "pinyin": "Zhè bùjiù shì biāozhǔn de wěiwǎn jùjué ma, tīngzhe tǐng dǎliǎn de.",
+    "ko": "그거 완전 정석 완곡한 거절이잖아, 듣기만 해도 뼈아프네."
+   },
+   {
+    "speaker": "A",
+    "text": "可不是嘛,我准备了那么久,结果一句话就被打回原形。",
+    "pinyin": "Kě bùshì ma, wǒ zhǔnbèi le nàme jiǔ, jiéguǒ yī jù huà jiù bèi dǎ huí yuánxíng.",
+    "ko": "그러니까 말이야, 그렇게 오래 준비했는데, 한마디에 완전 원점으로 돌아갔어."
+   },
+   {
+    "speaker": "B",
+    "text": "你别太难受,喜欢一个人本来就是有风险的,不试试怎么知道。",
+    "pinyin": "Nǐ bié tài nánshòu, xǐhuān yī ge rén běnlái jiùshì yǒu fēngxiǎn de, bù shìshi zěnme zhīdào.",
+    "ko": "너무 속상해하지 마, 누군가를 좋아하는 건 원래 리스크가 있는 거잖아, 시도 안 해보면 어떻게 알아."
+   },
+   {
+    "speaker": "A",
+    "text": "道理我都懂,可这心里还是挺不是滋味的,毕竟喜欢了她一年多。",
+    "pinyin": "Dàolǐ wǒ dōu dǒng, kě zhè xīnli háishì tǐng bùshì zīwèi de, bìjìng xǐhuān le tā yī nián duō.",
+    "ko": "이치는 다 아는데, 그래도 마음은 참 씁쓸하다, 어쨌든 걔를 일 년 넘게 좋아했으니까."
+   },
+   {
+    "speaker": "B",
+    "text": "那就先放一放,该emo就emo一阵,过了这段就好了。",
+    "pinyin": "Nà jiù xiān fàng yī fàng, gāi emo jiù emo yī zhèn, guò le zhè duàn jiù hǎo le.",
+    "ko": "그럼 일단 좀 내려놔, 우울할 땐 좀 우울해하고, 이 시기 지나면 괜찮아질 거야."
+   }
+  ],
+  "note": "好人卡는 '착한 사람 카드'라는 뜻으로 고백했다가 거절당할 때 듣는 전형적인 완곡한 멘트를 가리키는 재밌는 신조어예요. 打脸은 원래 '따귀를 때리다'인데 여기선 기대와 다른 창피한 결과를 맞았다는 의미로 쓰였어요."
  },
  {
   "id": "zh3-020",
-  "expression": "添乱",
-  "pinyin": "tiānluàn",
-  "meaning": "폐를 끼치다, 일을 그르치다",
-  "example": "我不帮忙就算了，别再添乱了。",
-  "example_pinyin": "Wǒ bù bāngmáng jiù suàn le, bié zài tiānluàn le.",
-  "example_ko": "도와주지도 못할 거면 그냥 폐나 끼치지 마.",
-  "note": "괜히 나서서 일을 더 복잡하게 만들 때"
+  "situation": "번아웃 와서 퇴사 고민 나누기",
+  "key_expressions": [
+   "emo了",
+   "摆烂",
+   "裸辞"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "我最近是真的撑不住了,一想到上班就emo。",
+    "pinyin": "Wǒ zuìjìn shì zhēnde chēngbuzhù le, yī xiǎngdào shàngbān jiù emo.",
+    "ko": "나 요즘 진짜 못 버티겠어, 출근 생각만 해도 우울해져."
+   },
+   {
+    "speaker": "B",
+    "text": "怎么了,又加班了?",
+    "pinyin": "Zěnme le, yòu jiābān le?",
+    "ko": "왜 그래, 또 야근했어?"
+   },
+   {
+    "speaker": "A",
+    "text": "何止加班,感觉整个人都被工作掏空了,一点热情都没有了。",
+    "pinyin": "Hézhǐ jiābān, gǎnjué zhěnggè rén dōu bèi gōngzuò tāokōng le, yīdiǎn rèqíng dōu méiyǒu le.",
+    "ko": "야근 정도가 아니야, 완전 일에 다 빨려서 텅 빈 느낌이야, 열정이 하나도 안 남았어."
+   },
+   {
+    "speaker": "B",
+    "text": "你这是典型的职业倦怠啊,得注意休息了。",
+    "pinyin": "Nǐ zhè shì diǎnxíng de zhíyè juàndài a, děi zhùyì xiūxi le.",
+    "ko": "그거 완전 전형적인 번아웃이네, 좀 쉬어야겠다."
+   },
+   {
+    "speaker": "A",
+    "text": "我现在每天都是能摆烂就摆烂,反正干多干少结果都一样。",
+    "pinyin": "Wǒ xiànzài měitiān dōu shì néng bǎilàn jiù bǎilàn, fǎnzhèng gàn duō gàn shǎo jiéguǒ dōu yīyàng.",
+    "ko": "나 요즘 매일 될 대로 되라는 식이야, 어차피 열심히 하나 대충 하나 결과는 똑같으니까."
+   },
+   {
+    "speaker": "B",
+    "text": "那你有没有想过干脆裸辞,先歇一阵子?",
+    "pinyin": "Nà nǐ yǒu méiyǒu xiǎngguò gāncuì luǒcí, xiān xiē yī zhènzi?",
+    "ko": "그럼 차라리 아무 대책 없이 그냥 퇴사하고 좀 쉬는 건 생각해봤어?"
+   },
+   {
+    "speaker": "A",
+    "text": "想是想过,可又怕辞了之后找不到更好的工作,更焦虑。",
+    "pinyin": "Xiǎng shì xiǎngguò, kě yòu pà cí le zhīhòu zhǎo bùdào gèng hǎo de gōngzuò, gèng jiāolǜ.",
+    "ko": "생각은 해봤는데, 그만두고 나서 더 좋은 일 못 찾을까 봐 더 불안해."
+   },
+   {
+    "speaker": "B",
+    "text": "也是,不过身体和心理垮了才是最大的损失,钱以后还能再挣。",
+    "pinyin": "Yěshì, bùguò shēntǐ hé xīnlǐ kuǎ le cái shì zuìdà de sǔnshī, qián yǐhòu hái néng zài zhèng.",
+    "ko": "그것도 그런데, 몸이랑 마음이 무너지는 게 제일 큰 손해야, 돈은 나중에 또 벌면 되잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "你说得对,我这两天认真想想,是不是该给自己放个假了。",
+    "pinyin": "Nǐ shuō de duì, wǒ zhè liǎng tiān rènzhēn xiǎngxiǎng, shìbùshì gāi gěi zìjǐ fàng ge jià le.",
+    "ko": "네 말이 맞아, 요 며칠 진지하게 생각해봐야겠다, 나한테 휴가 좀 줘야 하나."
+   },
+   {
+    "speaker": "B",
+    "text": "嗯,该休息就休息,别硬撑,人不是机器。",
+    "pinyin": "Èn, gāi xiūxi jiù xiūxi, bié yìngchēng, rén bùshì jīqì.",
+    "ko": "응, 쉴 땐 쉬어야지, 억지로 버티지 마, 사람이 기계는 아니잖아."
+   }
+  ],
+  "note": "裸辞는 '다음 계획 없이 그냥 무작정 퇴사하는 것'을 뜻하는 요즘 신조어예요. 摆烂은 여기서도 '포기하고 대충 하기'라는 의미로 자연스럽게 쓰였어요."
  },
  {
   "id": "zh3-021",
-  "expression": "甩锅",
-  "pinyin": "shuǎiguō",
-  "meaning": "책임을 떠넘기다",
-  "example": "出了事就知道甩锅。",
-  "example_pinyin": "Chū le shì jiù zhīdào shuǎiguō.",
-  "example_ko": "일 터지면 책임 떠넘길 줄만 알지.",
-  "note": "자기 잘못을 남에게 미루는 사람을 비판할 때"
+  "situation": "잘난 척하는 친구 참아주기",
+  "key_expressions": [
+   "显摆",
+   "玻璃心",
+   "撕破脸"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你说小赵是不是又开始显摆了,朋友圈全是他新买的车。",
+    "pinyin": "Nǐ shuō Xiǎo Zhào shìbùshì yòu kāishǐ xiǎnbǎi le, péngyǒuquān quán shì tā xīn mǎi de chē.",
+    "ko": "샤오자오 또 잘난 척 시작한 거 같지 않아, 모멘트가 온통 새로 산 차 사진이야."
+   },
+   {
+    "speaker": "B",
+    "text": "别提了,昨天聚会他还一直炫耀自己升职加薪的事,说了得有半小时。",
+    "pinyin": "Bié tí le, zuótiān jùhuì tā hái yīzhí xuànyào zìjǐ shēngzhí jiāxīn de shì, shuō le děi yǒu bàn xiǎoshí.",
+    "ko": "말도 마, 어제 모임에서도 승진하고 월급 오른 얘기 계속 자랑하더라, 한 30분은 얘기했어."
+   },
+   {
+    "speaker": "A",
+    "text": "我们就在旁边附和,其实心里已经翻白眼了。",
+    "pinyin": "Wǒmen jiù zài pángbiān fùhè, qíshí xīnli yǐjīng fān báiyǎn le.",
+    "ko": "우리는 옆에서 맞장구쳐줬는데, 사실 속으로는 이미 눈 뒤집어졌지."
+   },
+   {
+    "speaker": "B",
+    "text": "没办法,他这个人就这样,虚荣心重,总想让别人羡慕他。",
+    "pinyin": "Méi bànfǎ, tā zhège rén jiù zhèyàng, xūróngxīn zhòng, zǒng xiǎng ràng biérén xiànmù tā.",
+    "ko": "어쩔 수 없어, 걔 원래 그런 사람이야, 허영심이 강해서 늘 남이 부러워해주길 바라잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "而且他玻璃心还特别重,你稍微反驳一句他就不高兴。",
+    "pinyin": "Érqiě tā bōli xīn hái tèbié zhòng, nǐ shāowēi fǎnbó yī jù tā jiù bù gāoxìng.",
+    "ko": "게다가 유리멘탈까지 심해서, 조금만 반박해도 바로 기분 나빠해."
+   },
+   {
+    "speaker": "B",
+    "text": "所以大家都学乖了,他说什么咱就顺着夸两句,省得他闹脾气。",
+    "pinyin": "Suǒyǐ dàjiā dōu xuéguāi le, tā shuō shénme zán jiù shùn zhe kuā liǎng jù, shěngde tā nào píqì.",
+    "ko": "그래서 다들 요령이 생겼어, 뭐라고 하든 그냥 맞춰서 칭찬 몇 마디 해줘, 삐지지 않게."
+   },
+   {
+    "speaker": "A",
+    "text": "唉,朋友嘛,有点小毛病也就忍了,总不能真跟他撕破脸。",
+    "pinyin": "Āi, péngyǒu ma, yǒudiǎn xiǎo máobìng yě jiù rěn le, zǒng bùnéng zhēn gēn tā sīpò liǎn.",
+    "ko": "하... 친구니까 이런 자잘한 결점 정도는 참아야지, 진짜로 걔랑 척질 수는 없잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "也是,当他自己嗨呢,咱们该干嘛干嘛。",
+    "pinyin": "Yěshì, dàng tā zìjǐ hāi ne, zánmen gāi gànma gànma.",
+    "ko": "그렇지, 걔 혼자 신났다고 치고, 우리는 우리 할 일 하면 되지."
+   }
+  ],
+  "note": "显摆는 '과시하다, 자랑질하다'라는 뜻의 구어체 표현이에요. 撕破脸은 '얼굴을 찢다' 즉 관계를 완전히 틀어지게 만드는 걸 뜻하는 관용구예요."
  },
  {
   "id": "zh3-022",
-  "expression": "背黑锅",
-  "pinyin": "bēi hēiguō",
-  "meaning": "누명을 쓰다",
-  "example": "凭什么让我一个人背黑锅？",
-  "example_pinyin": "Píng shénme ràng wǒ yí ge rén bēi hēiguō?",
-  "example_ko": "왜 나 혼자 누명을 써야 해?",
-  "note": "억울하게 책임을 뒤집어쓸 때"
- },
- {
-  "id": "zh3-023",
-  "expression": "打小报告",
-  "pinyin": "dǎ xiǎobàogào",
-  "meaning": "고자질하다",
-  "example": "别跟老师打小报告。",
-  "example_pinyin": "Bié gēn lǎoshī dǎ xiǎobàogào.",
-  "example_ko": "선생님한테 고자질하지 마.",
-  "note": "남 몰래 윗사람에게 일러바칠 때"
- },
- {
-  "id": "zh3-024",
-  "expression": "吃醋",
-  "pinyin": "chīcù",
-  "meaning": "질투하다",
-  "example": "看到她跟别的男生说话，我就吃醋。",
-  "example_pinyin": "Kàndào tā gēn bié de nánshēng shuōhuà, wǒ jiù chīcù.",
-  "example_ko": "걔가 다른 남자애랑 얘기하는 거 보면 질투 나.",
-  "note": "연인 사이의 질투를 표현할 때"
- },
- {
-  "id": "zh3-025",
-  "expression": "撒娇",
-  "pinyin": "sājiāo",
-  "meaning": "애교부리다",
-  "example": "她一撒娇，男朋友什么都答应。",
-  "example_pinyin": "Tā yì sājiāo, nánpéngyou shénme dōu dāying.",
-  "example_ko": "걔가 애교 부리면 남자친구는 다 들어줘.",
-  "note": "귀엽게 조르거나 애교를 부릴 때"
- },
- {
-  "id": "zh3-026",
-  "expression": "装傻",
-  "pinyin": "zhuāng shǎ",
-  "meaning": "바보인 척하다",
-  "example": "别装傻了，你明明知道。",
-  "example_pinyin": "Bié zhuāng shǎ le, nǐ míngmíng zhīdào.",
-  "example_ko": "바보인 척하지 마, 너 분명히 알잖아.",
-  "note": "알면서 모르는 척할 때"
- },
- {
-  "id": "zh3-027",
-  "expression": "装蒜",
-  "pinyin": "zhuāngsuàn",
-  "meaning": "시치미 떼다",
-  "example": "你少跟我装蒜。",
-  "example_pinyin": "Nǐ shǎo gēn wǒ zhuāngsuàn.",
-  "example_ko": "나한테 시치미 떼지 마.",
-  "note": "뻔히 아는데 모르는 척하는 걸 지적할 때"
- },
- {
-  "id": "zh3-028",
-  "expression": "摆架子",
-  "pinyin": "bǎi jiàzi",
-  "meaning": "거만 떨다",
-  "example": "红了以后他就开始摆架子。",
-  "example_pinyin": "Hóng le yǐhòu tā jiù kāishǐ bǎi jiàzi.",
-  "example_ko": "유명해지고 나더니 거만 떨기 시작하네.",
-  "note": "지위나 명성을 내세우며 거만하게 굴 때"
- },
- {
-  "id": "zh3-029",
-  "expression": "耍大牌",
-  "pinyin": "shuǎ dàpái",
-  "meaning": "갑질하다, 거만 떨다",
-  "example": "一点小成就就开始耍大牌了。",
-  "example_pinyin": "Yìdiǎn xiǎo chéngjiù jiù kāishǐ shuǎ dàpái le.",
-  "example_ko": "조그만 성과 하나 냈다고 벌써 갑질이네.",
-  "note": "연예인이나 지위 있는 사람이 거드름 필 때"
- },
- {
-  "id": "zh3-030",
-  "expression": "耍赖",
-  "pinyin": "shuǎlài",
-  "meaning": "생떼 부리다",
-  "example": "输了就别耍赖。",
-  "example_pinyin": "Shū le jiù bié shuǎlài.",
-  "example_ko": "졌으면 생떼 부리지 마.",
-  "note": "약속이나 규칙을 어기며 억지 부릴 때"
- },
- {
-  "id": "zh3-031",
-  "expression": "撒谎",
-  "pinyin": "sāhuǎng",
-  "meaning": "거짓말하다",
-  "example": "你又在撒谎了。",
-  "example_pinyin": "Nǐ yòu zài sāhuǎng le.",
-  "example_ko": "너 또 거짓말하네.",
-  "note": "거짓말하는 상황을 직접적으로 지적할 때"
- },
- {
-  "id": "zh3-032",
-  "expression": "花心",
-  "pinyin": "huāxīn",
-  "meaning": "바람둥이 기질이 있다",
-  "example": "他是出了名的花心。",
-  "example_pinyin": "Tā shì chū le míng de huāxīn.",
-  "example_ko": "걔 바람둥이로 아주 유명해.",
-  "note": "이성 관계가 문란한 사람을 가리킬 때"
- },
- {
-  "id": "zh3-033",
-  "expression": "备胎",
-  "pinyin": "bèitāi",
-  "meaning": "예비 애인",
-  "example": "我才不要当谁的备胎。",
-  "example_pinyin": "Wǒ cái bú yào dāng shéi de bèitāi.",
-  "example_ko": "나는 누구의 예비 애인 따위는 되기 싫어.",
-  "note": "연애 관계에서 대체용으로 취급되는 사람"
- },
- {
-  "id": "zh3-034",
-  "expression": "闪婚",
-  "pinyin": "shǎnhūn",
-  "meaning": "초스피드 결혼",
-  "example": "他们俩闪婚闪离，把大家都吓到了。",
-  "example_pinyin": "Tāmen liǎ shǎnhūn shǎnlí, bǎ dàjiā dōu xiàdào le.",
-  "example_ko": "둘이 초스피드로 결혼했다 이혼해서 다들 놀랐어.",
-  "note": "만난 지 얼마 안 돼 급하게 결혼할 때"
- },
- {
-  "id": "zh3-035",
-  "expression": "甩了",
-  "pinyin": "shuǎi le",
-  "meaning": "차였다",
-  "example": "听说他被女朋友甩了。",
-  "example_pinyin": "Tīngshuō tā bèi nǚpéngyou shuǎi le.",
-  "example_ko": "걔 여자친구한테 차였다더라.",
-  "note": "연인 관계가 끝났을 때, 특히 일방적으로 차인 경우"
- },
- {
-  "id": "zh3-036",
-  "expression": "脚踏两只船",
-  "pinyin": "jiǎotàliǎngzhīchuán",
-  "meaning": "양다리 걸치다",
-  "example": "发现他脚踏两只船，我立马分手了。",
-  "example_pinyin": "Fāxiàn tā jiǎotàliǎngzhīchuán, wǒ lìmǎ fēnshǒu le.",
-  "example_ko": "걔가 양다리 걸치는 거 알고 바로 헤어졌어.",
-  "note": "연애에서 양다리를 걸치는 것을 가리킴"
- },
- {
-  "id": "zh3-037",
-  "expression": "剩女",
-  "pinyin": "shèngnǚ",
-  "meaning": "노처녀",
-  "example": "都三十多了还没结婚，家里人总说她是剩女。",
-  "example_pinyin": "Dōu sānshí duō le hái méi jiéhūn, jiālǐrén zǒng shuō tā shì shèngnǚ.",
-  "example_ko": "서른이 넘도록 결혼 안 했다고 집에서 자꾸 노처녀라고 해.",
-  "note": "결혼하지 않은 나이 든 여성을 가리키는 속어, 다소 부정적 어감"
- },
- {
-  "id": "zh3-038",
-  "expression": "单身狗",
-  "pinyin": "dānshēngǒu",
-  "meaning": "모태솔로, 솔로",
-  "example": "过节最惨的就是我们这些单身狗。",
-  "example_pinyin": "Guòjié zuì cǎn de jiùshì wǒmen zhèxiē dānshēngǒu.",
-  "example_ko": "명절에 제일 서러운 게 우리 같은 솔로들이지.",
-  "note": "솔로인 자신을 자조적으로 부르는 인터넷 유행어"
- },
- {
-  "id": "zh3-039",
-  "expression": "吃瓜群众",
-  "pinyin": "chīguāqúnzhòng",
-  "meaning": "구경꾼, 방관자",
-  "example": "我只是个吃瓜群众，别问我。",
-  "example_pinyin": "Wǒ zhǐshì ge chīguāqúnzhòng, bié wèn wǒ.",
-  "example_ko": "나는 그냥 구경꾼일 뿐이야, 나한테 묻지 마.",
-  "note": "남의 일을 그냥 흥미롭게 지켜보는 사람들"
- },
- {
-  "id": "zh3-040",
-  "expression": "蹭饭",
-  "pinyin": "cèngfàn",
-  "meaning": "밥을 얻어먹다",
-  "example": "又来我家蹭饭啊？",
-  "example_pinyin": "Yòu lái wǒ jiā cèngfàn a?",
-  "example_ko": "또 우리 집 와서 밥 얻어먹으려고?",
-  "note": "친한 사이에 장난스럽게 쓰는 표현"
- },
- {
-  "id": "zh3-041",
-  "expression": "打酱油",
-  "pinyin": "dǎ jiàngyóu",
-  "meaning": "그냥 지나가는 사람이다",
-  "example": "这件事跟我没关系，我就是打酱油的。",
-  "example_pinyin": "Zhè jiàn shì gēn wǒ méi guānxi, wǒ jiùshì dǎ jiàngyóu de.",
-  "example_ko": "이 일 나랑 상관없어, 난 그냥 지나가던 사람이야.",
-  "note": "자신과 무관한 일에 관여 안 함을 익살스럽게 표현"
- },
- {
-  "id": "zh3-042",
-  "expression": "摸鱼",
-  "pinyin": "mōyú",
-  "meaning": "농땡이 부리다",
-  "example": "上班时间别老摸鱼。",
-  "example_pinyin": "Shàngbān shíjiān bié lǎo mōyú.",
-  "example_ko": "근무 시간에 자꾸 농땡이 부리지 마.",
-  "note": "일은 안 하고 딴짓하는 것을 가리키는 신조어"
- },
- {
-  "id": "zh3-043",
-  "expression": "划水",
-  "pinyin": "huáshuǐ",
-  "meaning": "대충 일하다, 농땡이 피우다",
-  "example": "这个项目他一直在划水。",
-  "example_pinyin": "Zhège xiàngmù tā yìzhí zài huáshuǐ.",
-  "example_ko": "이 프로젝트에서 걔 계속 대충 하고 있어.",
-  "note": "성의 없이 대충 하는 태도를 가리킴"
- },
- {
-  "id": "zh3-044",
-  "expression": "磨洋工",
-  "pinyin": "móyánggōng",
-  "meaning": "일부러 꾸물대다",
-  "example": "别磨洋工了，快点干活。",
-  "example_pinyin": "Bié móyánggōng le, kuài diǎn gànhuó.",
-  "example_ko": "꾸물대지 말고 빨리 일해.",
-  "note": "일부러 시간을 끌며 일을 미루는 것"
- },
- {
-  "id": "zh3-045",
-  "expression": "出风头",
-  "pinyin": "chū fēngtou",
-  "meaning": "튀다, 나서다",
-  "example": "他就是喜欢出风头。",
-  "example_pinyin": "Tā jiùshì xǐhuan chū fēngtou.",
-  "example_ko": "걔는 그냥 나서기 좋아하는 애야.",
-  "note": "자기를 드러내고 싶어 나서는 사람을 가리킬 때"
- },
- {
-  "id": "zh3-046",
-  "expression": "抢风头",
-  "pinyin": "qiǎng fēngtou",
-  "meaning": "주목을 가로채다",
-  "example": "你别老抢我风头。",
-  "example_pinyin": "Nǐ bié lǎo qiǎng wǒ fēngtou.",
-  "example_ko": "자꾸 내 주목을 가로채지 마.",
-  "note": "다른 사람의 관심이나 인기를 뺏을 때"
- },
- {
-  "id": "zh3-047",
-  "expression": "露馅儿",
-  "pinyin": "lòuxiànr",
-  "meaning": "들통나다",
-  "example": "他一开口就露馅儿了。",
-  "example_pinyin": "Tā yì kāikǒu jiù lòuxiànr le.",
-  "example_ko": "걔 입 열자마자 바로 들통났어.",
-  "note": "숨기던 것이 드러날 때"
- },
- {
-  "id": "zh3-048",
-  "expression": "穿帮",
-  "pinyin": "chuānbāng",
-  "meaning": "들통나다, 실수가 드러나다",
-  "example": "这场戏穿帮了，重新拍一遍。",
-  "example_pinyin": "Zhè chǎng xì chuānbāng le, chóngxīn pāi yí biàn.",
-  "example_ko": "이 장면 NG 났어, 다시 찍자.",
-  "note": "연기나 촬영에서 실수가 드러날 때, 거짓말이 들통날 때도 씀"
- },
- {
-  "id": "zh3-049",
-  "expression": "卖关子",
-  "pinyin": "mài guānzi",
-  "meaning": "뜸 들이다",
-  "example": "别卖关子了，快说吧。",
-  "example_pinyin": "Bié mài guānzi le, kuài shuō ba.",
-  "example_ko": "뜸 들이지 말고 빨리 말해.",
-  "note": "일부러 궁금하게 만들며 말을 아낄 때"
- },
- {
-  "id": "zh3-050",
-  "expression": "兜圈子",
-  "pinyin": "dōu quānzi",
-  "meaning": "빙빙 돌려 말하다",
-  "example": "有话直说，别兜圈子。",
-  "example_pinyin": "Yǒu huà zhí shuō, bié dōu quānzi.",
-  "example_ko": "할 말 있으면 바로 해, 돌려 말하지 말고.",
-  "note": "핵심을 피하고 말을 돌릴 때"
- },
- {
-  "id": "zh3-051",
-  "expression": "打哈哈",
-  "pinyin": "dǎ hāha",
-  "meaning": "얼버무리다",
-  "example": "问他什么他都打哈哈。",
-  "example_pinyin": "Wèn tā shénme tā dōu dǎ hāha.",
-  "example_ko": "뭘 물어봐도 걔는 계속 얼버무려.",
-  "note": "정색하지 않고 웃으며 넘기려 할 때"
- },
- {
-  "id": "zh3-052",
-  "expression": "敷衍",
-  "pinyin": "fūyǎn",
-  "meaning": "대충 얼버무리다",
-  "example": "别敷衍我，我是认真的。",
-  "example_pinyin": "Bié fūyǎn wǒ, wǒ shì rènzhēn de.",
-  "example_ko": "나 대충 얼버무리지 마, 나 진지해.",
-  "note": "성의 없이 대충 대응할 때"
- },
- {
-  "id": "zh3-053",
-  "expression": "装模作样",
-  "pinyin": "zhuāngmúzuòyàng",
-  "meaning": "젠체하다, 짐짓 그런 척하다",
-  "example": "别装模作样了，我都看穿了。",
-  "example_pinyin": "Bié zhuāngmúzuòyàng le, wǒ dōu kànchuān le.",
-  "example_ko": "젠체하지 마, 나 이미 다 꿰뚫어 봤어.",
-  "note": "가식적인 태도를 지적할 때"
- },
- {
-  "id": "zh3-054",
-  "expression": "得意忘形",
-  "pinyin": "déyìwàngxíng",
-  "meaning": "우쭐대다",
-  "example": "别得意忘形，这才刚开始。",
-  "example_pinyin": "Bié déyìwàngxíng, zhè cái gāng kāishǐ.",
-  "example_ko": "우쭐대지 마, 이제 겨우 시작이야.",
-  "note": "성과에 취해 자만할 때"
- },
- {
-  "id": "zh3-055",
-  "expression": "臭美",
-  "pinyin": "chòuměi",
-  "meaning": "자기도취하다, 꾸미고 뽐내다",
-  "example": "你就知道臭美。",
-  "example_pinyin": "Nǐ jiù zhīdào chòuměi.",
-  "example_ko": "넌 꾸미고 뽐낼 줄만 알지.",
-  "note": "외모를 지나치게 뽐내는 사람을 놀릴 때"
- },
- {
-  "id": "zh3-056",
-  "expression": "自作多情",
-  "pinyin": "zìzuòduōqíng",
-  "meaning": "혼자 착각하다",
-  "example": "别自作多情了，人家没那意思。",
-  "example_pinyin": "Bié zìzuòduōqíng le, rénjiā méi nà yìsi.",
-  "example_ko": "혼자 착각하지 마, 상대는 그런 뜻 없어.",
-  "note": "상대의 호감을 착각할 때"
- },
- {
-  "id": "zh3-057",
-  "expression": "自讨没趣",
-  "pinyin": "zìtǎoméiqù",
-  "meaning": "혼자 무안 당하다",
-  "example": "去了肯定自讨没趣，别去了。",
-  "example_pinyin": "Qù le kěndìng zìtǎoméiqù, bié qù le.",
-  "example_ko": "가봤자 무안만 당할 게 뻔해, 가지 마.",
-  "note": "분위기 파악 못하고 나섰다가 무안당할 때"
- },
- {
-  "id": "zh3-058",
-  "expression": "活该",
-  "pinyin": "huógāi",
-  "meaning": "꼴 좋다, 자업자득이다",
-  "example": "你自己惹的事，活该。",
-  "example_pinyin": "Nǐ zìjǐ rě de shì, huógāi.",
-  "example_ko": "네가 자초한 일이잖아, 꼴 좋다.",
-  "note": "자업자득인 상황에 냉소적으로 반응할 때"
- },
- {
-  "id": "zh3-059",
-  "expression": "报应",
-  "pinyin": "bàoyìng",
-  "meaning": "업보다, 벌 받다",
-  "example": "这就是报应。",
-  "example_pinyin": "Zhè jiùshì bàoyìng.",
-  "example_ko": "이게 바로 업보지.",
-  "note": "나쁜 짓의 대가를 받았을 때"
- },
- {
-  "id": "zh3-060",
-  "expression": "倒霉",
-  "pinyin": "dǎoméi",
-  "meaning": "재수 없다",
-  "example": "今天真倒霉，手机丢了。",
-  "example_pinyin": "Jīntiān zhēn dǎoméi, shǒujī diū le.",
-  "example_ko": "오늘 진짜 재수 없어, 휴대폰을 잃어버렸어.",
-  "note": "안 좋은 일이 생겼을 때"
- },
- {
-  "id": "zh3-061",
-  "expression": "走运",
-  "pinyin": "zǒuyùn",
-  "meaning": "운이 좋다",
-  "example": "你今天挺走运的。",
-  "example_pinyin": "Nǐ jīntiān tǐng zǒuyùn de.",
-  "example_ko": "너 오늘 운이 꽤 좋네.",
-  "note": "운이 좋은 상황을 표현할 때"
- },
- {
-  "id": "zh3-062",
-  "expression": "撞大运",
-  "pinyin": "zhuàng dàyùn",
-  "meaning": "대박이 터지다, 운으로 되다",
-  "example": "这次能成功真是撞大运了。",
-  "example_pinyin": "Zhè cì néng chénggōng zhēnshi zhuàng dàyùn le.",
-  "example_ko": "이번에 성공한 건 진짜 운이 좋았던 거야.",
-  "note": "실력보다 운으로 잘된 상황"
- },
- {
-  "id": "zh3-063",
-  "expression": "中招",
-  "pinyin": "zhòngzhāo",
-  "meaning": "당하다, 걸려들다",
-  "example": "小心点，别又中招了。",
-  "example_pinyin": "Xiǎoxīn diǎn, bié yòu zhòngzhāo le.",
-  "example_ko": "조심해, 또 당하지 말고.",
-  "note": "함정이나 속임수에 걸릴 때"
- },
- {
-  "id": "zh3-064",
-  "expression": "上当",
-  "pinyin": "shàngdàng",
-  "meaning": "속아 넘어가다",
-  "example": "我又上当了。",
-  "example_pinyin": "Wǒ yòu shàngdàng le.",
-  "example_ko": "나 또 속았어.",
-  "note": "사기나 속임수에 걸렸을 때"
- },
- {
-  "id": "zh3-065",
-  "expression": "栽了",
-  "pinyin": "zāi le",
-  "meaning": "망했다, 실패했다",
-  "example": "这次真是栽了。",
-  "example_pinyin": "Zhè cì zhēnshi zāi le.",
-  "example_ko": "이번엔 진짜 제대로 망했다.",
-  "note": "크게 실패하거나 곤경에 빠졌을 때"
- },
- {
-  "id": "zh3-066",
-  "expression": "翻车",
-  "pinyin": "fānchē",
-  "meaning": "실패하다, 망하다",
-  "example": "这次直播彻底翻车了。",
-  "example_pinyin": "Zhè cì zhíbō chèdǐ fānchē le.",
-  "example_ko": "이번 라이브 방송 완전히 망했어.",
-  "note": "일이 예상치 못하게 크게 실패할 때 쓰는 신조어"
- },
- {
-  "id": "zh3-067",
-  "expression": "搞砸了",
-  "pinyin": "gǎozá le",
-  "meaning": "망쳤다",
-  "example": "对不起，我把事情搞砸了。",
-  "example_pinyin": "Duìbuqǐ, wǒ bǎ shìqing gǎozá le.",
-  "example_ko": "미안해, 내가 일을 망쳤어.",
-  "note": "일을 잘못 처리했을 때"
- },
- {
-  "id": "zh3-068",
-  "expression": "完蛋了",
-  "pinyin": "wándàn le",
-  "meaning": "망했다, 큰일 났다",
-  "example": "糟了，这下完蛋了。",
-  "example_pinyin": "Zāo le, zhè xià wándàn le.",
-  "example_ko": "이런, 이제 완전 망했다.",
-  "note": "심각한 상황에 처했을 때"
- },
- {
-  "id": "zh3-069",
-  "expression": "泡汤了",
-  "pinyin": "pàotāng le",
-  "meaning": "물거품이 되다",
-  "example": "这次旅行计划泡汤了。",
-  "example_pinyin": "Zhè cì lǚxíng jìhuà pàotāng le.",
-  "example_ko": "이번 여행 계획 물거품이 됐어.",
-  "note": "계획이 무산됐을 때"
- },
- {
-  "id": "zh3-070",
-  "expression": "黄了",
-  "pinyin": "huáng le",
-  "meaning": "무산되다, 깨졌다",
-  "example": "这笔生意黄了。",
-  "example_pinyin": "Zhè bǐ shēngyi huáng le.",
-  "example_ko": "이 거래 무산됐어.",
-  "note": "일이나 거래, 약속이 성사되지 않고 끝날 때"
- },
- {
-  "id": "zh3-071",
-  "expression": "崩溃",
-  "pinyin": "bēngkuì",
-  "meaning": "멘붕이다",
-  "example": "连续加班一周，我快崩溃了。",
-  "example_pinyin": "Liánxù jiābān yì zhōu, wǒ kuài bēngkuì le.",
-  "example_ko": "일주일 내내 야근했더니 나 진짜 멘붕이야.",
-  "note": "정신적으로 무너질 것 같을 때"
- },
- {
-  "id": "zh3-072",
-  "expression": "抓狂",
-  "pinyin": "zhuākuáng",
-  "meaning": "미쳐버리겠다",
-  "example": "这噪音吵得我抓狂。",
-  "example_pinyin": "Zhè zàoyīn chǎo de wǒ zhuākuáng.",
-  "example_ko": "이 소음 때문에 미쳐버리겠어.",
-  "note": "극도로 짜증나거나 화가 날 때"
- },
- {
-  "id": "zh3-073",
-  "expression": "郁闷",
-  "pinyin": "yùmèn",
-  "meaning": "답답하다",
-  "example": "最近工作不顺，好郁闷。",
-  "example_pinyin": "Zuìjìn gōngzuò bú shùn, hǎo yùmèn.",
-  "example_ko": "요즘 일이 잘 안 풀려서 너무 답답해.",
-  "note": "기분이 우울하고 답답할 때"
- },
- {
-  "id": "zh3-074",
-  "expression": "憋屈",
-  "pinyin": "biēqu",
-  "meaning": "억울하고 답답하다",
-  "example": "被冤枉了，心里真憋屈。",
-  "example_pinyin": "Bèi yuānwang le, xīnli zhēn biēqu.",
-  "example_ko": "억울한 누명을 써서 마음이 진짜 답답해.",
-  "note": "억울함을 표현할 때"
- },
- {
-  "id": "zh3-075",
-  "expression": "窝火",
-  "pinyin": "wōhuǒ",
-  "meaning": "화가 치밀다",
-  "example": "这事想起来就窝火。",
-  "example_pinyin": "Zhè shì xiǎngqǐlái jiù wōhuǒ.",
-  "example_ko": "이 일 생각만 하면 화가 치밀어.",
-  "note": "분노가 속에서 쌓일 때"
- },
- {
-  "id": "zh3-076",
-  "expression": "气死我了",
-  "pinyin": "qìsǐ wǒ le",
-  "meaning": "열받아 죽겠다",
-  "example": "他这么说，真是气死我了。",
-  "example_pinyin": "Tā zhème shuō, zhēnshi qìsǐ wǒ le.",
-  "example_ko": "걔가 그렇게 말하다니, 진짜 열받아 죽겠어.",
-  "note": "극도로 화가 났을 때 과장해서 쓰는 표현"
- },
- {
-  "id": "zh3-077",
-  "expression": "服了",
-  "pinyin": "fú le",
-  "meaning": "두 손 두 발 다 들었다",
-  "example": "我真是服了你了。",
-  "example_pinyin": "Wǒ zhēnshi fú le nǐ le.",
-  "example_ko": "나 진짜 너한테 두 손 두 발 다 들었다.",
-  "note": "어이없거나 놀라서 항복할 때, 감탄과 어이없음 모두에 사용"
- },
- {
-  "id": "zh3-078",
-  "expression": "佩服",
-  "pinyin": "pèifú",
-  "meaning": "감탄스럽다, 존경스럽다",
-  "example": "不得不佩服你的耐心。",
-  "example_pinyin": "Bùdébù pèifú nǐ de nàixīn.",
-  "example_ko": "네 인내심에는 정말 감탄할 수밖에 없어.",
-  "note": "상대의 능력이나 태도에 진심으로 감탄할 때"
- },
- {
-  "id": "zh3-079",
-  "expression": "牛逼",
-  "pinyin": "niúbī",
-  "meaning": "대박이다, 쩐다",
-  "example": "这操作也太牛逼了吧。",
-  "example_pinyin": "Zhè cāozuò yě tài niúbī le ba.",
-  "example_ko": "이 실력 완전 쩐다.",
-  "note": "강한 속어이므로 친한 사이에서만 사용 권장"
- },
- {
-  "id": "zh3-080",
-  "expression": "厉害了",
-  "pinyin": "lìhài le",
-  "meaning": "대단하다",
-  "example": "厉害了，一个人搞定了所有事。",
-  "example_pinyin": "Lìhài le, yí ge rén gǎodìng le suǒyǒu shì.",
-  "example_ko": "대단하네, 혼자서 다 해결했어.",
-  "note": "감탄할 때 쓰는 캐주얼한 표현"
- },
- {
-  "id": "zh3-081",
-  "expression": "摆谱",
-  "pinyin": "bǎipǔ",
-  "meaning": "허세 부리다",
-  "example": "没钱还摆谱。",
-  "example_pinyin": "Méi qián hái bǎipǔ.",
-  "example_ko": "돈도 없으면서 허세는.",
-  "note": "형편에 맞지 않게 허세 부리는 사람을 비꼴 때"
- },
- {
-  "id": "zh3-082",
-  "expression": "炫耀",
-  "pinyin": "xuànyào",
-  "meaning": "자랑하다",
-  "example": "他老是炫耀自己的成绩。",
-  "example_pinyin": "Tā lǎoshi xuànyào zìjǐ de chéngjì.",
-  "example_ko": "걔는 맨날 자기 성적 자랑해.",
-  "note": "자기 것을 내세워 자랑할 때"
- },
- {
-  "id": "zh3-083",
-  "expression": "小气",
-  "pinyin": "xiǎoqi",
-  "meaning": "쩨쩨하다",
-  "example": "别这么小气，请我吃顿饭嘛。",
-  "example_pinyin": "Bié zhème xiǎoqi, qǐng wǒ chī dùn fàn ma.",
-  "example_ko": "그렇게 쩨쩨하게 굴지 말고 밥 한 끼 사줘.",
-  "note": "인색한 성격을 가리킬 때"
- },
- {
-  "id": "zh3-084",
-  "expression": "抠门",
-  "pinyin": "kōumén",
-  "meaning": "짠돌이다",
-  "example": "他特别抠门，从不请客。",
-  "example_pinyin": "Tā tèbié kōumén, cóng bù qǐngkè.",
-  "example_ko": "걔 완전 짠돌이라 밥 한 번을 안 사.",
-  "note": "돈 쓰는 데 인색한 사람을 가리키는 구어"
- },
- {
-  "id": "zh3-085",
-  "expression": "大方",
-  "pinyin": "dàfang",
-  "meaning": "통이 크다, 화끈하다",
-  "example": "他这个人特别大方。",
-  "example_pinyin": "Tā zhège rén tèbié dàfang.",
-  "example_ko": "이 사람 진짜 통이 커.",
-  "note": "돈이나 태도에 있어 인색하지 않을 때"
- },
- {
-  "id": "zh3-086",
-  "expression": "爽快",
-  "pinyin": "shuǎngkuai",
-  "meaning": "화끈하다, 시원시원하다",
-  "example": "他做事很爽快，从不拖拉。",
-  "example_pinyin": "Tā zuòshì hěn shuǎngkuai, cóng bù tuōlā.",
-  "example_ko": "그 사람은 일 처리가 시원시원해서 절대 안 질질 끌어.",
-  "note": "성격이나 태도가 시원시원할 때"
- },
- {
-  "id": "zh3-087",
-  "expression": "磨蹭",
-  "pinyin": "móceng",
-  "meaning": "꾸물거리다",
-  "example": "你怎么磨蹭了这么久？",
-  "example_pinyin": "Nǐ zěnme móceng le zhème jiǔ?",
-  "example_ko": "너 왜 이렇게 오래 꾸물거려?",
-  "note": "시간을 끌며 느릿느릿할 때"
- },
- {
-  "id": "zh3-088",
-  "expression": "拖拖拉拉",
-  "pinyin": "tuōtuōlālā",
-  "meaning": "질질 끌다",
-  "example": "别拖拖拉拉的，赶紧决定。",
-  "example_pinyin": "Bié tuōtuōlālā de, gǎnjǐn juédìng.",
-  "example_ko": "질질 끌지 말고 빨리 결정해.",
-  "note": "일 처리가 느리고 미적거릴 때"
- },
- {
-  "id": "zh3-089",
-  "expression": "三天打鱼两天晒网",
-  "pinyin": "sān tiān dǎyú liǎng tiān shàiwǎng",
-  "meaning": "작심삼일이다",
-  "example": "健身别三天打鱼两天晒网。",
-  "example_pinyin": "Jiànshēn bié sān tiān dǎyú liǎng tiān shàiwǎng.",
-  "example_ko": "운동은 작심삼일로 하지 마.",
-  "note": "꾸준하지 못하고 오래가지 못하는 습관을 지적할 때"
- },
- {
-  "id": "zh3-090",
-  "expression": "三分钟热度",
-  "pinyin": "sān fēnzhōng rèdù",
-  "meaning": "작심삼일, 반짝 열정",
-  "example": "他做什么都是三分钟热度。",
-  "example_pinyin": "Tā zuò shénme dōu shì sān fēnzhōng rèdù.",
-  "example_ko": "걔는 뭘 해도 반짝 열정으로 끝나.",
-  "note": "오래 지속되지 못하는 열정을 가리킬 때"
- },
- {
-  "id": "zh3-091",
-  "expression": "死皮赖脸",
-  "pinyin": "sǐpílàiliǎn",
-  "meaning": "뻔뻔하게 달라붙다",
-  "example": "他死皮赖脸地非要跟着我们。",
-  "example_pinyin": "Tā sǐpílàiliǎn de fēi yào gēnzhe wǒmen.",
-  "example_ko": "걔가 뻔뻔하게 계속 우리 따라오려고 하네.",
-  "note": "염치없이 계속 달라붙는 행동을 가리킬 때"
- },
- {
-  "id": "zh3-092",
-  "expression": "脸皮厚",
-  "pinyin": "liǎnpí hòu",
-  "meaning": "낯이 두껍다",
-  "example": "他脸皮真厚，一点都不害臊。",
-  "example_pinyin": "Tā liǎnpí zhēn hòu, yìdiǎn dōu bú hàisào.",
-  "example_ko": "걔 낯짝 진짜 두껍다, 하나도 안 부끄러워해.",
-  "note": "염치없는 행동을 하는 사람을 가리킬 때"
- },
- {
-  "id": "zh3-093",
-  "expression": "嘴硬",
-  "pinyin": "zuǐyìng",
-  "meaning": "말로는 안 진다, 고집 부리다",
-  "example": "明明错了还嘴硬。",
-  "example_pinyin": "Míngmíng cuò le hái zuǐyìng.",
-  "example_ko": "분명 틀렸는데도 끝까지 우기네.",
-  "note": "잘못을 인정하지 않고 끝까지 우길 때"
- },
- {
-  "id": "zh3-094",
-  "expression": "嘴甜",
-  "pinyin": "zuǐtián",
-  "meaning": "말을 예쁘게 하다, 입에 발린 말을 잘하다",
-  "example": "这孩子嘴甜，见人就问好。",
-  "example_pinyin": "Zhè háizi zuǐtián, jiàn rén jiù wènhǎo.",
-  "example_ko": "이 애는 말을 참 예쁘게 해, 사람만 보면 인사해.",
-  "note": "듣기 좋게 말을 잘하는 사람을 칭찬할 때"
- },
- {
-  "id": "zh3-095",
-  "expression": "犯困",
-  "pinyin": "fànkùn",
-  "meaning": "졸리다",
-  "example": "一到下午就犯困。",
-  "example_pinyin": "Yí dào xiàwǔ jiù fànkùn.",
-  "example_ko": "오후만 되면 졸려.",
-  "note": "졸음이 몰려오는 상태를 표현할 때"
- },
- {
-  "id": "zh3-096",
-  "expression": "犯懒",
-  "pinyin": "fànlǎn",
-  "meaning": "게을러지다",
-  "example": "今天特别犯懒，不想动。",
-  "example_pinyin": "Jīntiān tèbié fànlǎn, bù xiǎng dòng.",
-  "example_ko": "오늘 완전 귀찮아서 움직이기 싫어.",
-  "note": "몸이 게을러지고 움직이기 싫을 때"
- },
- {
-  "id": "zh3-097",
-  "expression": "较真",
-  "pinyin": "jiàozhēn",
-  "meaning": "진지하게 따지다",
-  "example": "别较真了，我就是开玩笑的。",
-  "example_pinyin": "Bié jiàozhēn le, wǒ jiùshì kāiwánxiào de.",
-  "example_ko": "진지하게 따지지 마, 그냥 농담이었어.",
-  "note": "사소한 일에 지나치게 진지하게 반응할 때"
- },
- {
-  "id": "zh3-098",
-  "expression": "抬杠",
-  "pinyin": "táigàng",
-  "meaning": "말꼬리 잡고 따지다",
-  "example": "你别老跟我抬杠。",
-  "example_pinyin": "Nǐ bié lǎo gēn wǒ táigàng.",
-  "example_ko": "자꾸 나한테 말꼬리 잡고 따지지 마.",
-  "note": "일부러 반대 의견을 내며 다투는 것"
- },
- {
-  "id": "zh3-099",
-  "expression": "找茬",
-  "pinyin": "zhǎochá",
-  "meaning": "트집 잡다",
-  "example": "他就是故意找茬。",
-  "example_pinyin": "Tā jiùshì gùyì zhǎochá.",
-  "example_ko": "걔는 그냥 일부러 트집 잡는 거야.",
-  "note": "괜히 시비를 걸거나 문제 삼을 때"
- },
- {
-  "id": "zh3-100",
-  "expression": "穿小鞋",
-  "pinyin": "chuān xiǎoxié",
-  "meaning": "은근히 괴롭히다, 불이익을 주다",
-  "example": "得罪了领导，以后有你穿小鞋的。",
-  "example_pinyin": "Dézuì le lǐngdǎo, yǐhòu yǒu nǐ chuān xiǎoxié de.",
-  "example_ko": "상사한테 밉보였으니 앞으로 은근히 시달릴 거야.",
-  "note": "권력 있는 사람이 몰래 괴롭히는 상황"
+  "situation": "소개팅 앱에서 바람맞은 이야기",
+  "key_expressions": [
+   "放鸽子",
+   "相亲",
+   "尴尬"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "你猜我昨天怎么了,相亲软件上约的那个人直接把我放鸽子了。",
+    "pinyin": "Nǐ cāi wǒ zuótiān zěnme le, xiāngqīn ruǎnjiàn shàng yuē de nàge rén zhíjiē bǎ wǒ fàng gēzi le.",
+    "ko": "내가 어제 무슨 일 있었는지 맞춰봐, 소개팅 앱에서 만나기로 한 사람이 나 바람맞혔어."
+   },
+   {
+    "speaker": "B",
+    "text": "什么?你俩不是聊了挺久,还约好见面时间地点了吗?",
+    "pinyin": "Shénme? Nǐ liǎ bùshì liáo le tǐng jiǔ, hái yuē hǎo jiànmiàn shíjiān dìdiǎn le ma?",
+    "ko": "뭐라고? 너네 꽤 오래 얘기하고 만날 시간이랑 장소까지 다 정했잖아?"
+   },
+   {
+    "speaker": "A",
+    "text": "就是啊,我提前半小时就到了,结果等了一个多小时,人影都没有。",
+    "pinyin": "Jiùshì a, wǒ tíqián bàn xiǎoshí jiù dào le, jiéguǒ děng le yī ge duō xiǎoshí, rényǐng dōu méiyǒu.",
+    "ko": "그니까 말이야, 나는 30분 일찍 도착했는데, 한 시간 넘게 기다려도 사람 그림자도 안 보이더라."
+   },
+   {
+    "speaker": "B",
+    "text": "也太过分了吧,好歹提前说一声取消啊。",
+    "pinyin": "Yě tài guòfèn le ba, hǎodǎi tíqián shuō yī shēng qǔxiāo a.",
+    "ko": "그건 너무 심하다, 최소한 미리 취소한다고 말은 해야지."
+   },
+   {
+    "speaker": "A",
+    "text": "我发消息问他,他也不回,估计是嫌我照片和本人差距太大,直接怂了。",
+    "pinyin": "Wǒ fā xiāoxi wèn tā, tā yě bùhuí, gūjì shì xián wǒ zhàopiàn hé běnrén chājù tài dà, zhíjiē sóng le.",
+    "ko": "메시지 보내서 물어봤는데 답장도 없어, 아마 사진이랑 실물 차이가 너무 커서 그냥 겁먹고 도망간 거 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "这种人真的是,连基本的尊重都没有,放鸽子还不吭一声。",
+    "pinyin": "Zhè zhǒng rén zhēnde shì, lián jīběn de zūnzhòng dōu méiyǒu, fàng gēzi hái bù kēng yī shēng.",
+    "ko": "그런 사람들은 진짜, 기본적인 예의도 없이 바람맞히고 한마디도 안 하다니."
+   },
+   {
+    "speaker": "A",
+    "text": "我当时坐在那儿,感觉整个餐厅的人都在看我一个人傻等,尴尬死了。",
+    "pinyin": "Wǒ dāngshí zuò zài nàr, gǎnjué zhěnggè cāntīng de rén dōu zài kàn wǒ yī gè rén shǎ děng, gāngà sǐ le.",
+    "ko": "나 그때 앉아서, 식당에 있는 사람들이 다 나 혼자 바보같이 기다리는 거 쳐다보는 느낌이었어, 진짜 창피해 죽는 줄."
+   },
+   {
+    "speaker": "B",
+    "text": "别往心里去,这种一开始就不靠谱的人,躲过一劫也挺好的。",
+    "pinyin": "Bié wǎng xīnli qù, zhè zhǒng yī kāishǐ jiù bù kàopǔ de rén, duǒguò yī jié yě tǐng hǎo de.",
+    "ko": "마음에 담아두지 마, 그렇게 처음부터 못 믿을 사람이면 차라리 그 위기를 피한 게 다행이야."
+   },
+   {
+    "speaker": "A",
+    "text": "说得也是,以后相亲软件上的人,我可得多留个心眼了。",
+    "pinyin": "Shuō de yěshì, yǐhòu xiāngqīn ruǎnjiàn shàng de rén, wǒ kě děi duō liú ge xīnyǎn le.",
+    "ko": "그건 그래, 앞으로 소개팅 앱에서 만나는 사람은 좀 더 조심해야겠어."
+   },
+   {
+    "speaker": "B",
+    "text": "对,先视频聊聊再约见面,省得又被放鸽子。",
+    "pinyin": "Duì, xiān shìpín liáoliao zài yuē jiànmiàn, shěngde yòu bèi fàng gēzi.",
+    "ko": "맞아, 먼저 영상통화로 좀 얘기해보고 만나야지, 또 바람맞지 않게."
+   }
+  ],
+  "note": "放鸽子는 '비둘기를 날리다'가 아니라 약속을 어기고 바람맞히는 것을 뜻하는 아주 흔한 관용구예요. 怂了는 원래 '겁먹다'인데 여기선 나타나지 않고 도망간 소심한 행동을 가리켜요."
  }
 ]

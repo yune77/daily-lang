@@ -1,102 +1,951 @@
 [
-{"id":"en3-001","expression":"throw someone under the bus","meaning":"(자기 이익을 위해) 남을 희생시키다","example":"He threw me under the bus to save his own job.","example_ko":"걔 자기 자리 지키려고 나를 팔았어.","note":"직장 드라마 초빈출"},
-{"id":"en3-002","expression":"read the room","meaning":"분위기를 파악하다","example":"Dude, read the room. Nobody wants to hear that now.","example_ko":"야, 분위기 파악 좀 해. 지금 그 얘기 듣고 싶은 사람 없어.","note":"한국어 '눈치 챙겨'에 가장 가까운 표현"},
-{"id":"en3-003","expression":"throw shade","meaning":"은근히 디스하다","example":"Did she just throw shade at my outfit?","example_ko":"쟤 방금 내 옷 은근히 깐 거야?","note":"직접적이지 않은 비꼼"},
-{"id":"en3-004","expression":"ghost someone","meaning":"연락을 뚝 끊고 잠수 타다","example":"We went on two dates, and then he ghosted me.","example_ko":"두 번 데이트하고 걔가 잠수 탔어.","note":"연애 미드 필수 신조어"},
-{"id":"en3-005","expression":"spill the tea","meaning":"뒷이야기를 털어놓다","example":"Okay, spill the tea. What happened at the party?","example_ko":"자, 다 털어놔 봐. 파티에서 무슨 일 있었어?","note":"tea = 가십. spill the beans의 신조어 버전"},
-{"id":"en3-006","expression":"beat someone to the punch","meaning":"선수를 치다, 한발 앞서다","example":"I was going to apply, but she beat me to the punch.","example_ko":"내가 지원하려고 했는데 걔가 선수를 쳤어.","note":"권투에서 먼저 주먹을 뻗는 이미지"},
-{"id":"en3-007","expression":"take the high road","meaning":"(맞대응 않고) 품위 있게 행동하다","example":"He insulted you, but you took the high road. Respect.","example_ko":"걔가 널 모욕했는데도 넌 품위 있게 넘겼잖아. 존경한다.","note":"갈등 상황의 성숙한 대응"},
-{"id":"en3-008","expression":"double down","meaning":"(비판에도) 더 밀어붙이다","example":"Instead of apologizing, he doubled down on his claim.","example_ko":"걔는 사과는커녕 자기 주장을 더 밀어붙였어.","note":"블랙잭 용어에서 유래, 뉴스에도 자주"},
-{"id":"en3-009","expression":"gaslight","meaning":"교묘하게 사람을 조종해 스스로를 의심하게 만들다","example":"Stop gaslighting me. I know what I saw.","example_ko":"나 가스라이팅하지 마. 내가 본 건 확실해.","note":"영화 Gaslight에서 유래, 한국어로도 정착"},
-{"id":"en3-010","expression":"the elephant in the room","meaning":"모두 알지만 말 안 꺼내는 문제","example":"Let's address the elephant in the room: the budget cuts.","example_ko":"다들 피하는 그 얘기부터 하자. 예산 삭감 말이야.","note":"회의 장면 단골"},
-{"id":"en3-011","expression":"play devil's advocate","meaning":"일부러 반대 입장에서 따져 보다","example":"Let me play devil's advocate: what if the plan fails?","example_ko":"일부러 반대로 따져볼게. 계획이 실패하면 어쩔 건데?","note":"토론에서 반박 전에 붙이는 쿠션"},
-{"id":"en3-012","expression":"cut to the chase","meaning":"본론으로 바로 들어가다","example":"I'll cut to the chase: we're not renewing your contract.","example_ko":"단도직입적으로 말할게요. 계약 연장은 없습니다.","note":"영화 추격 장면으로 바로 넘어간다는 데서 유래"},
-{"id":"en3-013","expression":"have a chip on your shoulder","meaning":"피해의식·억울함을 안고 살다","example":"He's had a chip on his shoulder since he got passed over.","example_ko":"걔 승진 누락된 뒤로 계속 꼬여 있어.","note":"시비 걸 준비가 된 태도"},
-{"id":"en3-014","expression":"jump on the bandwagon","meaning":"유행에 편승하다","example":"Everyone's jumping on the AI bandwagon these days.","example_ko":"요즘 다들 AI 유행에 올라타고 있어.","note":"비판적 뉘앙스가 살짝 있음"},
-{"id":"en3-015","expression":"burn bridges","meaning":"관계를 완전히 끊다 (되돌릴 수 없게)","example":"Don't burn bridges when you quit a job.","example_ko":"퇴사할 때 관계까지 다 태워버리진 마.","note":"경력 조언 단골"},
-{"id":"en3-016","expression":"bite the bullet","meaning":"이 악물고 하다","example":"I bit the bullet and told her the truth.","example_ko":"이 악물고 걔한테 사실대로 말했어.","note":"마취 없이 총알을 물고 수술하던 데서 유래"},
-{"id":"en3-017","expression":"get the short end of the stick","meaning":"손해 보는 쪽이 되다","example":"In that deal, we got the short end of the stick.","example_ko":"그 거래에서 우리가 손해 보는 쪽이었어.","note":"불공평한 분배의 피해자"},
-{"id":"en3-018","expression":"keep your cards close to your chest","meaning":"속내를 드러내지 않다","example":"She keeps her cards close to her chest at work.","example_ko":"걔는 회사에서 속내를 잘 안 드러내.","note":"포커에서 유래"},
-{"id":"en3-019","expression":"move the goalposts","meaning":"(불리해지자) 기준을 바꾸다","example":"Every time I meet the target, they move the goalposts.","example_ko":"목표를 달성할 때마다 회사가 기준을 바꿔.","note":"불공정함에 대한 불만 표현"},
-{"id":"en3-020","expression":"a wake-up call","meaning":"경종, 정신 들게 하는 사건","example":"The health scare was a wake-up call for him.","example_ko":"그 건강 이상이 걔한테는 경종이 됐어.","note":"인생 전환점 서사에 유용"},
-{"id":"en3-021","expression":"salty","meaning":"삐진, 꽁한","example":"He's still salty about losing the game.","example_ko":"걔 아직도 게임 진 것 때문에 꽁해 있어.","note":"짠맛이 아니라 감정 상태"},
-{"id":"en3-022","expression":"flaky","meaning":"약속을 잘 어기는, 변덕스러운","example":"She's so flaky. She canceled on me twice this week.","example_ko":"걔 진짜 약속 잘 깨. 이번 주에만 두 번 취소했어.","note":"flake on someone = 바람맞히다"},
-{"id":"en3-023","expression":"passive-aggressive","meaning":"돌려서 공격적인, 소심하게 화내는","example":"Leaving those sticky notes was so passive-aggressive.","example_ko":"그 포스트잇 붙여놓은 거 완전 소심한 복수잖아.","note":"현대 직장 드라마 필수 어휘"},
-{"id":"en3-024","expression":"have thick skin","meaning":"비판에 무디다, 멘탈이 강하다","example":"You need thick skin to work in customer service.","example_ko":"고객 서비스 일을 하려면 멘탈이 강해야 해.","note":"반대는 thin-skinned(예민한)"},
-{"id":"en3-025","expression":"the last straw","meaning":"인내심의 한계를 넘게 한 결정타","example":"Being late again was the last straw. She quit.","example_ko":"또 지각한 게 결정타였어. 걔 그만뒀어.","note":"낙타 등을 부러뜨린 마지막 지푸라기"},
-{"id":"en3-026","expression":"go cold turkey","meaning":"(중독 등을) 단칼에 끊다","example":"I quit coffee cold turkey, and the headaches were brutal.","example_ko":"커피를 단칼에 끊었더니 두통이 장난 아니었어.","note":"금연·금주 이야기 단골"},
-{"id":"en3-027","expression":"beat a dead horse","meaning":"이미 끝난 얘기를 계속 우려먹다","example":"We've decided already. Stop beating a dead horse.","example_ko":"이미 결정 났잖아. 끝난 얘기 그만 우려먹어.","note":"소모적인 반복 논쟁"},
-{"id":"en3-028","expression":"in the doghouse","meaning":"(잘못해서) 눈 밖에 나 있다","example":"I forgot our anniversary, so I'm in the doghouse.","example_ko":"결혼기념일을 까먹어서 지금 완전 찍혀 있어.","note":"부부·연인 코미디 단골"},
-{"id":"en3-029","expression":"wing it","meaning":"준비 없이 즉흥으로 하다","example":"I didn't prepare a speech. I'll just wing it.","example_ko":"연설 준비 안 했어. 그냥 즉흥으로 할래.","note":"무대 옆(wing)에서 대사를 훔쳐보던 데서 유래"},
-{"id":"en3-030","expression":"pull strings","meaning":"연줄을 쓰다","example":"His uncle pulled some strings to get him the internship.","example_ko":"걔 삼촌이 연줄 써서 인턴 자리 만들어줬어.","note":"인형극 조종 줄에서 유래"},
-{"id":"en3-031","expression":"a slap on the wrist","meaning":"솜방망이 처벌","example":"He only got a slap on the wrist for the violation.","example_ko":"걔는 그 위반으로 솜방망이 처벌만 받았어.","note":"뉴스·법정 드라마 표현"},
-{"id":"en3-032","expression":"open a can of worms","meaning":"긁어 부스럼을 만들다","example":"Asking about the inheritance opened a can of worms.","example_ko":"유산 얘기를 꺼냈다가 온갖 문제가 터져 나왔어.","note":"복잡한 문제의 뚜껑을 여는 이미지"},
-{"id":"en3-033","expression":"throw a wrench in","meaning":"(계획을) 틀어지게 하다","example":"The rain threw a wrench in our picnic plans.","example_ko":"비 때문에 소풍 계획이 다 틀어졌어.","note":"영국식은 throw a spanner in the works"},
-{"id":"en3-034","expression":"come out of your shell","meaning":"마음을 열고 적극적으로 변하다","example":"She's really come out of her shell since college.","example_ko":"걔 대학 간 뒤로 성격이 완전 밝아졌어.","note":"내향적인 사람의 변화 묘사"},
-{"id":"en3-035","expression":"rub someone the wrong way","meaning":"신경을 거스르다","example":"I can't explain it, but he rubs me the wrong way.","example_ko":"설명은 못 하겠는데 걔는 그냥 거슬려.","note":"이유 없는 비호감 표현"},
-{"id":"en3-036","expression":"have a soft spot for","meaning":"~에 약하다, 유독 아끼다","example":"Grandma has a soft spot for her youngest grandchild.","example_ko":"할머니는 막내 손주한테 유독 약하셔.","note":"애정 어린 편애"},
-{"id":"en3-037","expression":"play hardball","meaning":"강경하게 나가다","example":"If they won't negotiate, we'll play hardball.","example_ko":"협상에 안 응하면 우리도 강경하게 나갈 거야.","note":"비즈니스 협상 드라마 단골"},
-{"id":"en3-038","expression":"get wind of","meaning":"소문을 얻어듣다, 낌새를 채다","example":"The press got wind of the merger before the announcement.","example_ko":"발표 전에 언론이 합병 소식을 냄새 맡았어.","note":"바람결에 들었다는 이미지"},
-{"id":"en3-039","expression":"off the record","meaning":"비공식적으로, 기록에 남기지 않고","example":"Off the record, I think the CEO is stepping down.","example_ko":"비공식적으로 말하면, CEO가 물러날 것 같아.","note":"기자 드라마 필수"},
-{"id":"en3-040","expression":"sweep something under the rug","meaning":"문제를 은폐하다, 덮다","example":"They tried to sweep the scandal under the rug.","example_ko":"그들은 스캔들을 덮으려고 했어.","note":"카펫 밑에 먼지를 쓸어 넣는 이미지"},
-{"id":"en3-041","expression":"a double-edged sword","meaning":"양날의 검","example":"Fame is a double-edged sword.","example_ko":"유명세는 양날의 검이야.","note":"장단점이 공존하는 것"},
-{"id":"en3-042","expression":"bend over backwards","meaning":"(남을 위해) 안간힘을 쓰다","example":"She bent over backwards to make the guests comfortable.","example_ko":"걔는 손님들 편하게 해주려고 갖은 애를 다 썼어.","note":"과할 정도의 노력"},
-{"id":"en3-043","expression":"keep someone at arm's length","meaning":"적당히 거리를 두다","example":"After what happened, I keep him at arm's length.","example_ko":"그 일 이후로 걔랑은 적당히 거리 두고 지내.","note":"경계하는 인간관계"},
-{"id":"en3-044","expression":"the tip of the iceberg","meaning":"빙산의 일각","example":"These complaints are just the tip of the iceberg.","example_ko":"이 불만들은 빙산의 일각일 뿐이야.","note":"숨겨진 문제가 더 크다는 암시"},
-{"id":"en3-045","expression":"go down the rabbit hole","meaning":"(검색·생각에) 끝없이 빠져들다","example":"I went down a YouTube rabbit hole until 3 a.m.","example_ko":"유튜브 알고리즘에 빠져서 새벽 3시까지 봤어.","note":"이상한 나라의 앨리스에서 유래"},
-{"id":"en3-046","expression":"put someone on the spot","meaning":"곤란한 질문으로 몰아세우다","example":"Sorry to put you on the spot, but what's your answer?","example_ko":"곤란하게 해서 미안한데, 네 대답은 뭐야?","note":"즉답을 강요당하는 상황"},
-{"id":"en3-047","expression":"talk someone into","meaning":"설득해서 ~하게 만들다","example":"She talked me into joining the gym.","example_ko":"걔가 꼬셔서 나 헬스장 등록했어.","note":"반대는 talk out of(설득해서 그만두게 하다)"},
-{"id":"en3-048","expression":"a blessing and a curse","meaning":"축복이자 저주","example":"Being a perfectionist is a blessing and a curse.","example_ko":"완벽주의는 축복이자 저주야.","note":"자기 성격 묘사에 세련된 표현"},
-{"id":"en3-049","expression":"hit rock bottom","meaning":"바닥을 치다, 최악에 이르다","example":"He hit rock bottom before turning his life around.","example_ko":"걔는 바닥까지 갔다가 인생을 완전히 바꿨어.","note":"회복 서사의 출발점"},
-{"id":"en3-050","expression":"rise to the occasion","meaning":"위기에서 제 실력을 발휘하다","example":"Nobody expected her to rise to the occasion like that.","example_ko":"걔가 그렇게 위기에서 활약할 줄 아무도 몰랐어.","note":"스포츠·업무 상황 모두"},
-{"id":"en3-051","expression":"cut someone some slack","meaning":"좀 봐주다, 너그럽게 대하다","example":"Cut him some slack. It's his first week.","example_ko":"걔 좀 봐줘. 이제 첫 주잖아.","note":"밧줄을 느슨하게 풀어준다는 이미지"},
-{"id":"en3-052","expression":"steal someone's thunder","meaning":"주목받을 기회를 가로채다","example":"She announced her engagement at my birthday party, stealing my thunder.","example_ko":"걔가 내 생일 파티에서 약혼 발표를 해서 내 주인공 자리를 뺏었어.","note":"연극 효과음 도용 사건에서 유래"},
-{"id":"en3-053","expression":"know the ropes","meaning":"업무 요령을 훤히 알다","example":"Ask Sarah. She knows the ropes around here.","example_ko":"사라한테 물어봐. 여기 돌아가는 건 걔가 다 알아.","note":"신입에게 알려주는 건 show the ropes"},
-{"id":"en3-054","expression":"a backhanded compliment","meaning":"칭찬을 가장한 무례","example":"'You look great for your age' is such a backhanded compliment.","example_ko":"'나이에 비해 좋아 보인다'는 완전 뼈 있는 칭찬이지.","note":"돌려까기의 정확한 영어 표현"},
-{"id":"en3-055","expression":"weather the storm","meaning":"고비를 견뎌내다","example":"The company weathered the storm and came back stronger.","example_ko":"그 회사는 위기를 견디고 더 강해져서 돌아왔어.","note":"폭풍을 버텨낸 배의 이미지"},
-{"id":"en3-056","expression":"push someone's buttons","meaning":"일부러 화를 돋우다","example":"My little brother knows exactly how to push my buttons.","example_ko":"내 동생은 내 화를 돋우는 법을 정확히 알아.","note":"가족 코미디 단골"},
-{"id":"en3-057","expression":"live paycheck to paycheck","meaning":"월급으로 겨우겨우 살다","example":"Half the city lives paycheck to paycheck.","example_ko":"이 도시 절반은 월급날만 바라보며 살아.","note":"경제 뉴스에도 자주 등장"},
-{"id":"en3-058","expression":"the writing on the wall","meaning":"불길한 조짐, 예견된 결말","example":"The layoffs? We all saw the writing on the wall.","example_ko":"정리해고? 우리 다 조짐을 봤었잖아.","note":"성경에서 유래"},
-{"id":"en3-059","expression":"give someone the cold shoulder","meaning":"쌀쌀맞게 대하다, 무시하다","example":"She's been giving me the cold shoulder since the argument.","example_ko":"말다툼한 뒤로 걔가 나한테 쌀쌀맞게 굴어.","note":"차가운 어깨를 보인다는 이미지"},
-{"id":"en3-060","expression":"be out of your depth","meaning":"능력 밖의 상황에 있다","example":"In that meeting, I was completely out of my depth.","example_ko":"그 회의에서 난 완전히 수준 밖이었어.","note":"발이 안 닿는 깊은 물의 이미지"},
-{"id":"en3-061","expression":"land on your feet","meaning":"(위기에서도) 잘 헤쳐 나오다","example":"Don't worry about her. She always lands on her feet.","example_ko":"걔 걱정 마. 항상 잘 헤쳐 나오니까.","note":"고양이가 발로 착지하는 이미지"},
-{"id":"en3-062","expression":"a chip off the old block","meaning":"부모를 쏙 빼닮은 자식","example":"He's stubborn like his dad—a chip off the old block.","example_ko":"걔 고집 센 게 아빠랑 똑같아. 완전 붕어빵이야.","note":"성격·재능의 대물림"},
-{"id":"en3-063","expression":"add insult to injury","meaning":"설상가상으로 만들다","example":"They fired him and, to add insult to injury, docked his last paycheck.","example_ko":"걔를 해고하고, 설상가상으로 마지막 월급까지 깎았어.","note":"to add insult to injury 형태로 문두에 자주"},
-{"id":"en3-064","expression":"fly under the radar","meaning":"눈에 띄지 않게 지내다","example":"He flew under the radar until the final round.","example_ko":"걔는 결승전까지 조용히 실력을 숨기고 있었어.","note":"레이더에 안 잡히는 저공비행"},
-{"id":"en3-065","expression":"stir the pot","meaning":"분란을 부추기다","example":"She loves to stir the pot at family gatherings.","example_ko":"걔는 가족 모임에서 분란 일으키는 걸 즐겨.","note":"드라마 빌런의 특기"},
-{"id":"en3-066","expression":"take the fall","meaning":"(남 대신) 책임을 뒤집어쓰다","example":"He took the fall for his boss's mistake.","example_ko":"걔가 상사 실수를 대신 뒤집어썼어.","note":"범죄 드라마 필수"},
-{"id":"en3-067","expression":"keep up appearances","meaning":"겉치레를 유지하다","example":"They're broke but keep up appearances for the neighbors.","example_ko":"걔네 사실 돈 없는데 이웃들 앞에서 있는 척해.","note":"체면 문화 묘사에 딱"},
-{"id":"en3-068","expression":"a storm in a teacup","meaning":"찻잔 속의 태풍, 별것 아닌 소동","example":"That office drama was just a storm in a teacup.","example_ko":"그 사무실 소동은 그냥 찻잔 속 태풍이었어.","note":"미국식은 a tempest in a teapot"},
-{"id":"en3-069","expression":"go off the deep end","meaning":"이성을 잃다, 폭주하다","example":"When he saw the bill, he went off the deep end.","example_ko":"청구서 보더니 걔 완전 폭발했어.","note":"수영장 깊은 쪽으로 뛰어드는 이미지"},
-{"id":"en3-070","expression":"have skin in the game","meaning":"직접 이해관계가 걸려 있다","example":"I trust his advice—he has skin in the game.","example_ko":"걔 조언은 믿어. 자기 돈도 걸려 있거든.","note":"투자·비즈니스 맥락"},
-{"id":"en3-071","expression":"hold your horses","meaning":"서두르지 마, 진정해","example":"Hold your horses! We haven't even confirmed the date.","example_ko":"진정해! 아직 날짜 확정도 안 했잖아.","note":"마차 시대에서 유래한 유쾌한 제지"},
-{"id":"en3-072","expression":"a snowball's chance in hell","meaning":"가능성 제로","example":"He has a snowball's chance in hell of winning.","example_ko":"걔가 이길 가능성은 지옥에서 눈덩이가 버틸 확률이야.","note":"강한 부정의 유머러스 표현"},
-{"id":"en3-073","expression":"milk something for all it's worth","meaning":"단물 빠질 때까지 우려먹다","example":"He's milking that injury for all it's worth.","example_ko":"걔 그 부상을 아주 우려먹고 있어.","note":"동정·이득을 최대한 뽑아내는 것"},
-{"id":"en3-074","expression":"the pot calling the kettle black","meaning":"똥 묻은 개가 겨 묻은 개 나무란다","example":"Him calling me lazy? That's the pot calling the kettle black.","example_ko":"걔가 나보고 게으르다고? 사돈 남 말 하네.","note":"위선 지적의 정석"},
-{"id":"en3-075","expression":"bury the hatchet","meaning":"화해하다, 묵은 갈등을 접다","example":"After ten years, the brothers finally buried the hatchet.","example_ko":"10년 만에 형제가 드디어 화해했어.","note":"도끼를 땅에 묻는 아메리카 원주민 의식에서 유래"},
-{"id":"en3-076","expression":"jump ship","meaning":"(더 좋은 곳으로) 갈아타다, 이직하다","example":"Half the team jumped ship to the competitor.","example_ko":"팀 절반이 경쟁사로 이직했어.","note":"침몰하는 배에서 뛰어내리는 이미지"},
-{"id":"en3-077","expression":"smoke and mirrors","meaning":"눈속임, 연막","example":"Their marketing is all smoke and mirrors.","example_ko":"걔네 마케팅은 다 눈속임이야.","note":"마술 무대 기법에서 유래"},
-{"id":"en3-078","expression":"come full circle","meaning":"돌고 돌아 제자리로 오다","example":"Starting my own bakery—my career has come full circle.","example_ko":"내 빵집을 차리다니, 내 커리어가 돌고 돌아 제자리로 왔어.","note":"인생 서사 마무리에 세련됨"},
-{"id":"en3-079","expression":"leave someone high and dry","meaning":"곤경에 빠뜨리고 나 몰라라 하다","example":"The contractor left us high and dry mid-project.","example_ko":"시공업자가 공사 중간에 우릴 버리고 튀었어.","note":"썰물에 배가 얹힌 이미지"},
-{"id":"en3-080","expression":"by the skin of your teeth","meaning":"간신히, 아슬아슬하게","example":"I caught the last train by the skin of my teeth.","example_ko":"막차를 정말 간신히 탔어.","note":"성경에서 유래한 과장"},
-{"id":"en3-081","expression":"have an axe to grind","meaning":"(숨은) 불만·꿍꿍이가 있다","example":"Ignore his review. He has an axe to grind with the owner.","example_ko":"걔 리뷰는 무시해. 사장한테 사적 원한이 있거든.","note":"공정하지 않은 의견의 배경"},
-{"id":"en3-082","expression":"put lipstick on a pig","meaning":"포장해도 본질은 그대로다","example":"New logo, same bad service—putting lipstick on a pig.","example_ko":"로고만 바꿨지 서비스는 그대로야. 돼지에 립스틱 바른 격이지.","note":"신랄한 비판 표현"},
-{"id":"en3-083","expression":"throw caution to the wind","meaning":"에라 모르겠다 하고 저지르다","example":"She threw caution to the wind and booked a one-way ticket.","example_ko":"걔는 에라 모르겠다 하고 편도 티켓을 끊었어.","note":"낭만적 결단 묘사"},
-{"id":"en3-084","expression":"the straw that broke the camel's back","meaning":"한계를 넘게 한 마지막 한 방","example":"The pay cut was the straw that broke the camel's back.","example_ko":"임금 삭감이 결정타였어.","note":"the last straw의 풀버전"},
-{"id":"en3-085","expression":"live rent-free in someone's head","meaning":"머릿속에서 떠나지 않다","example":"That embarrassing moment lives rent-free in my head.","example_ko":"그 쪽팔린 순간이 머릿속에서 떠나질 않아.","note":"밈에서 시작해 일상어로 정착"},
-{"id":"en3-086","expression":"move mountains","meaning":"불가능해 보이는 일을 해내다","example":"A mother's love can move mountains.","example_ko":"엄마의 사랑은 산도 움직여.","note":"감동 서사 표현"},
-{"id":"en3-087","expression":"cry over spilled milk","meaning":"엎질러진 물을 두고 후회하다","example":"It's done. No use crying over spilled milk.","example_ko":"이미 끝난 일이야. 엎질러진 물이라고.","note":"주로 no use와 세트"},
-{"id":"en3-088","expression":"the apple doesn't fall far from the tree","meaning":"그 부모에 그 자식","example":"He argues just like his mom. The apple doesn't fall far from the tree.","example_ko":"걔 말싸움하는 게 엄마랑 똑같아. 그 부모에 그 자식이지.","note":"칭찬과 비꼼 모두 가능"},
-{"id":"en3-089","expression":"walk on eggshells","meaning":"눈치 보며 조심조심하다","example":"Everyone walks on eggshells around the new manager.","example_ko":"다들 새 매니저 눈치 보느라 살얼음판이야.","note":"달걀 껍데기 위를 걷는 이미지"},
-{"id":"en3-090","expression":"a leopard can't change its spots","meaning":"사람은 안 변한다","example":"He says he's changed, but a leopard can't change its spots.","example_ko":"걔가 변했다는데, 사람은 쉽게 안 변해.","note":"회의적 인간관 표현"},
-{"id":"en3-091","expression":"get your ducks in a row","meaning":"만반의 준비를 갖추다","example":"Get your ducks in a row before the audit.","example_ko":"감사 전에 만반의 준비를 해둬.","note":"새끼 오리들이 줄지어 가는 이미지"},
-{"id":"en3-092","expression":"bark up the wrong tree","meaning":"헛다리를 짚다","example":"If you think I took it, you're barking up the wrong tree.","example_ko":"내가 가져갔다고 생각하면 완전 헛다리 짚은 거야.","note":"사냥개가 엉뚱한 나무에 짖는 이미지"},
-{"id":"en3-093","expression":"the ship has sailed","meaning":"이미 늦었다, 기회는 지나갔다","example":"Want to invest now? Sorry, that ship has sailed.","example_ko":"지금 투자하고 싶다고? 미안하지만 그 배는 떠났어.","note":"miss the boat의 결과형"},
-{"id":"en3-094","expression":"eat humble pie","meaning":"잘못을 인정하고 굽히다","example":"After his prediction failed, he had to eat humble pie.","example_ko":"예측이 빗나가자 걔는 고개를 숙여야 했어.","note":"공개적 사과 상황"},
-{"id":"en3-095","expression":"a dime a dozen","meaning":"흔해 빠진 것","example":"Coffee shops are a dime a dozen in this neighborhood.","example_ko":"이 동네에 카페는 널리고 널렸어.","note":"10센트에 12개라는 뜻"},
-{"id":"en3-096","expression":"burn the candle at both ends","meaning":"무리해서 몸을 혹사하다","example":"You're burning the candle at both ends. Slow down.","example_ko":"너 지금 몸을 양쪽에서 태우고 있어. 좀 쉬어.","note":"과로 경고의 정석"},
-{"id":"en3-097","expression":"let sleeping dogs lie","meaning":"긁어 부스럼 만들지 않다","example":"Don't bring up the old fight. Let sleeping dogs lie.","example_ko":"옛날 싸움 얘기 꺼내지 마. 잠자는 개는 건드리는 게 아니야.","note":"open a can of worms의 예방책"},
-{"id":"en3-098","expression":"the best of both worlds","meaning":"두 마리 토끼, 양쪽의 장점","example":"Working from a cafe gives me the best of both worlds.","example_ko":"카페에서 일하면 두 마리 토끼를 다 잡는 거지.","note":"장점 결합 상황"},
-{"id":"en3-099","expression":"when pigs fly","meaning":"절대 그럴 리 없다","example":"He'll apologize when pigs fly.","example_ko":"걔가 사과한다고? 해가 서쪽에서 뜨겠다.","note":"불가능의 유머러스 표현"},
-{"id":"en3-100","expression":"go out on a limb","meaning":"위험을 무릅쓰고 나서다","example":"I'll go out on a limb and say this startup will succeed.","example_ko":"위험을 무릅쓰고 말하는데, 이 스타트업은 성공할 거야.","note":"나뭇가지 끝까지 나간 이미지"}
+ {
+  "id": "en3-001",
+  "situation": "직장에서 뒷담화 눈치채기",
+  "key_expressions": [
+   "read the room",
+   "throw someone under the bus",
+   "play devil's advocate"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Did you hear what happened in the meeting?",
+    "ko": "회의에서 무슨 일 있었는지 들었어?"
+   },
+   {
+    "speaker": "B",
+    "text": "No, what happened?",
+    "ko": "아니, 무슨 일인데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Mark totally threw Sarah under the bus.",
+    "ko": "마크가 사라를 완전히 팔아넘겼어."
+   },
+   {
+    "speaker": "B",
+    "text": "Seriously? He needs to read the room sometimes.",
+    "ko": "진짜? 걔는 가끔 분위기 파악을 좀 해야 해."
+   },
+   {
+    "speaker": "A",
+    "text": "I know. Though, playing devil's advocate, maybe he panicked.",
+    "ko": "그러니까. 근데 반대로 생각하면, 당황해서 그랬을 수도 있어."
+   },
+   {
+    "speaker": "B",
+    "text": "Still doesn't excuse it.",
+    "ko": "그래도 그게 변명이 되진 않지."
+   }
+  ],
+  "note": "throw under the bus(책임 전가)와 read the room(분위기 파악)은 직장 드라마 필수 표현"
+ },
+ {
+  "id": "en3-002",
+  "situation": "연인과 서운함 표현하기",
+  "key_expressions": [
+   "ghost me",
+   "give me the cold shoulder",
+   "talk it out"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "You've been kind of distant lately.",
+    "ko": "요즘 너 좀 거리 두는 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "I know. I'm sorry I've been giving you the cold shoulder.",
+    "ko": "알아. 너한테 쌀쌀맞게 굴어서 미안해."
+   },
+   {
+    "speaker": "A",
+    "text": "I thought you were going to ghost me.",
+    "ko": "나 잠수 타는 줄 알았잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "No, never. I've just been stressed about work.",
+    "ko": "아니, 절대 아니야. 그냥 요즘 일 때문에 스트레스 받았어."
+   },
+   {
+    "speaker": "A",
+    "text": "Can we talk it out instead of you shutting down?",
+    "ko": "네가 마음 닫는 대신 우리 얘기로 풀면 안 될까?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah. You're right. Let's talk.",
+    "ko": "응. 네 말이 맞아. 얘기하자."
+   }
+  ],
+  "note": "give someone the cold shoulder(쌀쌀맞게 대하다), ghost(잠수타다)는 연애 상황 필수 표현"
+ },
+ {
+  "id": "en3-003",
+  "situation": "직장 상사 뒷담화하기",
+  "key_expressions": [
+   "throw someone under the bus",
+   "suck-up",
+   "it is what it is"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Did you hear what happened in the meeting today? Our boss basically threw Daniel under the bus in front of the whole team.",
+    "ko": "오늘 회의에서 무슨 일 있었는지 들었어? 우리 부장님이 다니엘을 팀 전체 앞에서 완전 팔아넘겼잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "Seriously? I mean, he does that all the time, but that was next level.",
+    "ko": "진짜? 원래 그러긴 하는데, 이번엔 진짜 선 넘었더라."
+   },
+   {
+    "speaker": "A",
+    "text": "He took credit for Daniel's idea last month and now he's blaming him for the delay. Like, make up your mind.",
+    "ko": "지난달엔 다니엘 아이디어 자기가 낸 척하더니 이번엔 딜레이 책임까지 씌우네. 어느 장단에 맞추라는 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "Classic. He's such a suck-up to upper management though, so nobody's gonna call him out.",
+    "ko": "완전 전형적이지. 근데 윗사람들한테는 또 얼마나 아부를 떠는지, 아무도 대놓고 뭐라 못 해."
+   },
+   {
+    "speaker": "A",
+    "text": "It is what it is, I guess. I just feel bad for Daniel.",
+    "ko": "뭐 어쩌겠어. 그냥 다니엘이 안됐다."
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah. He should start covering himself in writing from now on.",
+    "ko": "그니까. 이제부터라도 메일로 다 증거 남겨야 될 듯."
+   }
+  ],
+  "note": "throw ~ under the bus는 남한테 책임 떠넘기고 자기만 쏙 빠지는 거 말할 때 딱이에요. 회사 뒷담화에 자주 등장."
+ },
+ {
+  "id": "en3-004",
+  "situation": "연인과 다투고 화해하기",
+  "key_expressions": [
+   "sweep under the rug",
+   "hash it out",
+   "meet me halfway"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Look, I'm sorry about last night. I shouldn't have snapped at you like that.",
+    "ko": "있잖아, 어젯밤 일은 미안해. 그렇게 화낼 일이 아니었는데."
+   },
+   {
+    "speaker": "B",
+    "text": "You really hurt my feelings, Liam. I felt like you weren't even listening to me.",
+    "ko": "진짜 상처받았어, 리암. 내 말은 아예 안 듣는 것처럼 느껴졌다고."
+   },
+   {
+    "speaker": "A",
+    "text": "I know. I was stressed about work and I took it out on you, which wasn't fair.",
+    "ko": "알아. 일 때문에 스트레스 받은 걸 너한테 풀었네, 그건 진짜 아니었어."
+   },
+   {
+    "speaker": "B",
+    "text": "I don't want to keep fighting about the same thing every week. Can we actually talk instead of just sweeping it under the rug?",
+    "ko": "매주 똑같은 걸로 계속 싸우고 싶지 않아. 그냥 덮어두지 말고 진짜 얘기 좀 하면 안 될까?"
+   },
+   {
+    "speaker": "A",
+    "text": "Yeah, you're right. Let's actually hash it out this time instead of pretending everything's fine.",
+    "ko": "맞아, 네 말이 맞아. 이번엔 그냥 괜찮은 척하지 말고 제대로 풀어보자."
+   },
+   {
+    "speaker": "B",
+    "text": "Okay. I love you, I just need you to meet me halfway.",
+    "ko": "알겠어. 사랑하는 거 알지, 근데 너도 나한테 좀 맞춰줬으면 좋겠어."
+   }
+  ],
+  "note": "sweep under the rug는 문제를 안 풀고 그냥 덮어버리는 거. 커플싸움 화해할 때 진짜 많이 써요."
+ },
+ {
+  "id": "en3-005",
+  "situation": "은근히 아부하는 동료 눈치채기",
+  "key_expressions": [
+   "kiss up to",
+   "fall for it",
+   "read the room"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Did you notice how Kevin's been complimenting the manager's every single decision lately?",
+    "ko": "요즘 케빈이 팀장님 결정마다 칭찬 세례 퍼붓는 거 눈치챘어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Oh, one hundred percent. He's totally kissing up to her before the promotion review.",
+    "ko": "완전. 승진 심사 앞두고 완전 아부하는 거지."
+   },
+   {
+    "speaker": "A",
+    "text": "It's so obvious though. Like, nobody talks about someone's brilliant email that many times unless they want something.",
+    "ko": "근데 너무 티나잖아. 누가 이메일 하나 갖고 천재적이라고 그렇게 여러 번 말하냐고, 뭔가 바라는 거 아니면."
+   },
+   {
+    "speaker": "B",
+    "text": "Right, and she's totally falling for it. She keeps giving him the good projects now.",
+    "ko": "맞아, 근데 팀장님도 완전 넘어가는 중. 요즘 좋은 프로젝트 다 케빈한테 주잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "I just wish people could read the room and see how transparent that is.",
+    "ko": "사람들이 눈치 좀 채고 저게 얼마나 뻔한 건지 좀 알았으면 좋겠다."
+   },
+   {
+    "speaker": "B",
+    "text": "Honestly, at this point I'm half tempted to start doing it too.",
+    "ko": "솔직히 이쯤 되면 나도 그냥 아부나 떨어볼까 싶어."
+   }
+  ],
+  "note": "kiss up to는 윗사람한테 잘 보이려고 아부 떠는 거. 오피스 정치 얘기할 때 빠지면 섭섭한 표현이에요."
+ },
+ {
+  "id": "en3-006",
+  "situation": "이별 통보하기",
+  "key_expressions": [
+   "drifting apart",
+   "calling it quits",
+   "give someone space"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Mia, we need to talk. I don't think this is working anymore.",
+    "ko": "미아, 우리 얘기 좀 해야 될 것 같아. 나 이제 이거 잘 안 되는 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "Wait, what? Where is this coming from?",
+    "ko": "잠깐, 뭐라고? 갑자기 왜 이래?"
+   },
+   {
+    "speaker": "A",
+    "text": "It's not sudden for me. I've felt like we've been drifting apart for months.",
+    "ko": "나한테는 갑자기가 아니야. 몇 달 전부터 우리 사이가 점점 멀어지는 게 느껴졌어."
+   },
+   {
+    "speaker": "B",
+    "text": "So you're just calling it quits? Just like that?",
+    "ko": "그러니까 그냥 이렇게 끝내겠다는 거야? 이렇게 갑자기?"
+   },
+   {
+    "speaker": "A",
+    "text": "I'm not trying to hurt you, I promise. I just think we both deserve better than this.",
+    "ko": "너 아프게 하려는 거 아니야, 진짜로. 그냥 우리 둘 다 이것보다는 나은 걸 받을 자격이 있다고 생각해."
+   },
+   {
+    "speaker": "B",
+    "text": "I need some time. Can you just give me some space right now?",
+    "ko": "나 시간이 좀 필요해. 지금은 그냥 좀 혼자 있게 해줄래?"
+   },
+   {
+    "speaker": "A",
+    "text": "Of course. Take all the time you need.",
+    "ko": "당연하지. 필요한 만큼 다 가져."
+   }
+  ],
+  "note": "call it quits는 관계나 일을 그만 끝내자는 뜻. 이별 통보할 때 자주 나오는 표현이에요."
+ },
+ {
+  "id": "en3-007",
+  "situation": "실연 후 자조적 유머로 넘기기",
+  "key_expressions": [
+   "living the dream",
+   "lose it",
+   "over it"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So how are you holding up after the breakup?",
+    "ko": "이별하고 좀 어때, 버틸 만해?"
+   },
+   {
+    "speaker": "B",
+    "text": "Oh, you know, living the dream. Crying in the shower, eating cereal for dinner, the whole package.",
+    "ko": "아 뭐, 완전 꿈꾸던 삶이지. 샤워하면서 울고, 저녁으로 시리얼 먹고, 풀세트야."
+   },
+   {
+    "speaker": "A",
+    "text": "Classic. At least you're consistent.",
+    "ko": "역시. 그래도 일관성은 있네."
+   },
+   {
+    "speaker": "B",
+    "text": "Honestly I'm just trying to laugh about it because if I don't, I'll actually lose it.",
+    "ko": "솔직히 그냥 웃으려고 하는 거야, 안 그러면 진짜 무너질 것 같아서."
+   },
+   {
+    "speaker": "A",
+    "text": "That's fair. You'll get there. It just takes time.",
+    "ko": "그럴 만해. 시간이 좀 지나면 괜찮아질 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, yeah. Ask me again in six months when I'm over it.",
+    "ko": "그래그래. 6개월 뒤에 다시 물어봐, 그때쯤엔 다 극복했다고 하겠지."
+   }
+  ],
+  "note": "living the dream은 원래 좋은 뜻인데 이렇게 비꼬듯 쓰면 완전 반대 의미의 웃픈 자조개그가 돼요."
+ },
+ {
+  "id": "en3-008",
+  "situation": "친구가 책임 떠넘기는 것에 대해 이야기하기",
+  "key_expressions": [
+   "throw someone under the bus",
+   "make a scene",
+   "get away with it"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I'm still annoyed about what happened with the group project.",
+    "ko": "나 아직도 그 조모임 프로젝트 일 생각하면 열받아."
+   },
+   {
+    "speaker": "B",
+    "text": "What happened?",
+    "ko": "무슨 일 있었는데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Sarah completely threw me under the bus when the professor asked who missed the deadline. It was her part that was late!",
+    "ko": "사라가 교수님이 누가 마감 놓쳤냐고 물어보니까 완전 나한테 책임 떠넘기더라. 자기 파트가 늦은 거였는데!"
+   },
+   {
+    "speaker": "B",
+    "text": "Wow, that's messed up. Did you say anything?",
+    "ko": "와, 진짜 어이없다. 뭐라고 했어?"
+   },
+   {
+    "speaker": "A",
+    "text": "I just stood there. I froze up because I didn't want to make a scene, but I've been fuming about it since.",
+    "ko": "그냥 가만히 있었어. 소란 만들기 싫어서 얼어붙었는데, 그 이후로 계속 열받아 있어."
+   },
+   {
+    "speaker": "B",
+    "text": "You should've called her out on it. Next time, don't let her get away with it.",
+    "ko": "그때 바로 지적했어야지. 다음엔 절대 그냥 넘어가게 두지 마."
+   }
+  ],
+  "note": "get away with it은 잘못하고도 처벌 없이 넘어가는 거. 억울한 상황 얘기할 때 자주 써요."
+ },
+ {
+  "id": "en3-009",
+  "situation": "갑자기 연락 끊긴 상대에 대해 얘기하기",
+  "key_expressions": [
+   "ghost",
+   "radio silence",
+   "his loss"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So, update on the guy from the dating app. He straight up ghosted me.",
+    "ko": "아, 그 데이팅 앱남 업데이트, 나 완전 잠수 이별 당했어."
+   },
+   {
+    "speaker": "B",
+    "text": "No way. After three months of talking every day?",
+    "ko": "말도 안 돼. 매일 세 달 동안 얘기하다가?"
+   },
+   {
+    "speaker": "A",
+    "text": "Yep. One day he was texting me good morning, the next day radio silence. It's been two weeks now.",
+    "ko": "응. 어제까지 굿모닝 문자 보내다가 그다음 날부터 완전 무응답. 벌써 2주째야."
+   },
+   {
+    "speaker": "B",
+    "text": "That's brutal. Did you try reaching out again?",
+    "ko": "진짜 심하다. 다시 연락해봤어?"
+   },
+   {
+    "speaker": "A",
+    "text": "I sent one more text and then I told myself I'm not chasing someone who can't even send a paragraph explaining why.",
+    "ko": "문자 한 번 더 보내고, 그다음엔 그냥 이유 한 줄도 못 쓰는 사람 쫓아다니지 말자고 마음먹었어."
+   },
+   {
+    "speaker": "B",
+    "text": "Good. His loss. You deserve someone who actually shows up.",
+    "ko": "잘했어. 걔 손해지. 넌 진짜 곁에 있어주는 사람 만날 자격 있어."
+   }
+  ],
+  "note": "ghost는 이제 거의 필수 슬랭이에요. 연락 뚝 끊고 사라지는 거, 데이팅 얘기할 때 무조건 나와요."
+ },
+ {
+  "id": "en3-010",
+  "situation": "분위기 파악 못하는 동료 흉보기",
+  "key_expressions": [
+   "read the room",
+   "pull someone aside",
+   "cringe"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Did you see Peter cracking jokes during the layoff announcement meeting?",
+    "ko": "피터가 정리해고 발표 회의 중에 농담 던지는 거 봤어?"
+   },
+   {
+    "speaker": "B",
+    "text": "I couldn't believe it. People were literally in tears and he's over there doing stand-up comedy.",
+    "ko": "진짜 못 믿겠더라. 사람들은 완전 울고 있는데 걔는 저기서 스탠드업 코미디 하고 있고."
+   },
+   {
+    "speaker": "A",
+    "text": "He seriously cannot read the room. It's like he lives on a different planet.",
+    "ko": "걔는 진짜 분위기 파악을 못 해. 다른 행성에서 사는 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "I know. Someone needs to pull him aside and explain that timing matters.",
+    "ko": "그니까. 누가 좀 따로 불러서 타이밍이라는 게 있다고 설명해줘야 돼."
+   },
+   {
+    "speaker": "A",
+    "text": "Honestly at this point I just cringe every time he opens his mouth.",
+    "ko": "솔직히 이제는 걔가 입 열 때마다 그냥 오글거려."
+   },
+   {
+    "speaker": "B",
+    "text": "Same. Let's just hope he doesn't say anything at the town hall next week.",
+    "ko": "나도 그래. 다음 주 전체 회의 때는 제발 아무 말도 안 했으면 좋겠다."
+   }
+  ],
+  "note": "read the room은 분위기 파악한다는 뜻, 못 읽는 사람 얘기할 땐 can't read the room으로 쓰면 돼요."
+ },
+ {
+  "id": "en3-011",
+  "situation": "회사 승진 탈락 후 위로하기",
+  "key_expressions": [
+   "take it personally",
+   "burn out",
+   "over (something)"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, I heard about the promotion. I'm really sorry, Alicia.",
+    "ko": "저기, 승진 소식 들었어. 진짜 안됐다, 알리샤."
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah. Three years of overtime and they gave it to the guy who joined last year.",
+    "ko": "응. 3년 동안 야근했는데 작년에 들어온 사람한테 자리를 줬어."
+   },
+   {
+    "speaker": "A",
+    "text": "That's rough. Did they give you any real reason?",
+    "ko": "그거 진짜 힘들겠다. 제대로 된 이유는 말해줬어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Just some vague nonsense about leadership potential. I'm trying not to take it personally, but honestly, I'm crushed.",
+    "ko": "그냥 리더십 잠재력 어쩌고 하는 애매한 소리뿐이었어. 개인적으로 받아들이지 않으려고 하는데, 솔직히 그냥 무너지겠어."
+   },
+   {
+    "speaker": "A",
+    "text": "You have every right to be upset. Just don't let it burn you out completely. You're better than this place gives you credit for.",
+    "ko": "속상해할 자격 충분해. 그래도 이것 때문에 완전 번아웃되진 마. 넌 이 회사가 인정하는 것보다 훨씬 나은 사람이야."
+   },
+   {
+    "speaker": "B",
+    "text": "Thanks. I might just start looking elsewhere. I'm so over playing this game.",
+    "ko": "고마워. 그냥 다른 데 알아볼까 봐. 이 게임 하는 거 진짜 지쳤어."
+   }
+  ],
+  "note": "I'm so over ~는 뭔가에 완전히 질렸다, 지쳤다는 감정 표현할 때 딱 맞는 캐주얼한 표현이에요."
+ },
+ {
+  "id": "en3-012",
+  "situation": "친구의 뒷담화를 듣고 반응하기",
+  "key_expressions": [
+   "talk behind someone's back",
+   "take over",
+   "deserve to know"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Okay, I have to tell you something, but please don't say I told you.",
+    "ko": "저기, 나 뭐 하나 말해줄 게 있는데, 내가 말했다고는 하지 마."
+   },
+   {
+    "speaker": "B",
+    "text": "Now I'm nervous. What's going on?",
+    "ko": "이제 긴장되네. 무슨 일인데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Someone told me Chloe's been talking behind your back about the trip you planned.",
+    "ko": "누가 그러던데 클로이가 네가 계획한 여행 얘기 뒷담화하고 다닌대."
+   },
+   {
+    "speaker": "B",
+    "text": "Seriously? What did she say?",
+    "ko": "진짜? 뭐라고 했는데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Apparently she said you always take over and never ask anyone what they actually want to do.",
+    "ko": "네가 항상 다 좌지우지하고 다른 사람들이 뭘 원하는지는 물어본 적도 없다고 했대."
+   },
+   {
+    "speaker": "B",
+    "text": "Wow. If she had a problem, she should've just told me instead of talking behind my back.",
+    "ko": "와. 문제가 있었으면 뒷담화할 게 아니라 그냥 나한테 말했어야지."
+   },
+   {
+    "speaker": "A",
+    "text": "I agree. I just thought you deserved to know.",
+    "ko": "나도 그렇게 생각해. 그냥 너도 알아야 할 것 같아서."
+   }
+  ],
+  "note": "talk behind someone's back은 당사자 없는 데서 욕하거나 흉보는 것. 친구 뒷담화 얘기할 때 기본 표현이에요."
+ },
+ {
+  "id": "en3-013",
+  "situation": "직장에서 부당한 대우 항의하기",
+  "key_expressions": [
+   "leave someone out",
+   "get the short end of the stick",
+   "treated fairly"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Frank, I need to talk to you about how the client complaint was handled.",
+    "ko": "프랭크, 저번 고객 컴플레인 처리 방식에 대해서 얘기 좀 해야 할 것 같아요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, what's on your mind?",
+    "ko": "그래, 무슨 얘긴데?"
+   },
+   {
+    "speaker": "A",
+    "text": "I was the one who fixed the issue, but in the email to the client, you only credited the team lead. That's not okay.",
+    "ko": "문제 해결한 건 저였는데, 고객한테 보낸 메일에는 팀장님만 언급하셨더라고요. 그건 좀 아니라고 생각해요."
+   },
+   {
+    "speaker": "B",
+    "text": "I didn't mean to leave you out, I just summarized it quickly.",
+    "ko": "일부러 뺀 건 아니고 그냥 빨리 요약하다 보니까 그렇게 됐어."
+   },
+   {
+    "speaker": "A",
+    "text": "With respect, this isn't the first time. I feel like I keep getting the short end of the stick on credit.",
+    "ko": "죄송하지만, 이번이 처음이 아니에요. 저는 계속 공을 제대로 못 받는 것 같아요."
+   },
+   {
+    "speaker": "B",
+    "text": "That's fair feedback. Let me send a follow-up giving you proper credit.",
+    "ko": "맞는 지적이네. 정정 메일 보내서 제대로 크레딧 넣을게."
+   },
+   {
+    "speaker": "A",
+    "text": "I'd appreciate that. I just want to be treated fairly here.",
+    "ko": "그래 주시면 감사하겠어요. 그냥 여기서 공정하게 대우받고 싶어요."
+   }
+  ],
+  "note": "short end of the stick은 불공평하게 손해 보는 쪽에 있다는 뜻. 회사에서 부당한 대우 항의할 때 유용해요."
+ },
+ {
+  "id": "en3-014",
+  "situation": "오래된 친구와 서먹해진 사이 이야기하기",
+  "key_expressions": [
+   "drift apart",
+   "no hard feelings",
+   "fizzle out"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "It's kind of weird seeing you after all this time. Feels different, right?",
+    "ko": "이렇게 오랜만에 보니까 좀 이상하다. 뭔가 달라진 느낌이지?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, honestly. We used to talk every single day and now it's like we're catching up like acquaintances.",
+    "ko": "응, 솔직히. 예전엔 매일 얘기했는데 지금은 그냥 아는 사람들처럼 근황 얘기하고 있네."
+   },
+   {
+    "speaker": "A",
+    "text": "I don't know when exactly we drifted apart. Life just got in the way, I guess.",
+    "ko": "정확히 언제부터 우리가 멀어졌는지 모르겠어. 그냥 각자 사는 게 바빠졌나 봐."
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, no hard feelings though. It's just what happens sometimes.",
+    "ko": "그래, 그래도 서운한 감정은 없어. 그냥 가끔 이런 일이 생기는 거지."
+   },
+   {
+    "speaker": "A",
+    "text": "I do miss how close we used to be. Maybe we should actually make an effort this time.",
+    "ko": "그래도 예전만큼 가까웠던 게 그립긴 해. 이번엔 진짜 노력 좀 해볼까."
+   },
+   {
+    "speaker": "B",
+    "text": "I'd like that. Let's not let it fizzle out again.",
+    "ko": "나도 좋아. 이번엔 흐지부지되지 않게 하자."
+   }
+  ],
+  "note": "fizzle out은 관계나 열정이 서서히 흐지부지 식어버리는 거. 오래된 관계 얘기할 때 쓰기 좋아요."
+ },
+ {
+  "id": "en3-015",
+  "situation": "전 애인 SNS 염탐 고백하기",
+  "key_expressions": [
+   "spiral",
+   "stalk someone's page",
+   "move on"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Okay, don't judge me, but I may have looked through my ex's Instagram for like an hour last night.",
+    "ko": "저기, 판단하지 말고 들어줘, 근데 나 어제 전 남친 인스타 한 시간 정도 염탐했을지도 몰라."
+   },
+   {
+    "speaker": "B",
+    "text": "Hannah. You broke up eight months ago.",
+    "ko": "한나. 헤어진 지 8개월이나 됐잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "I know, I know! I just saw he posted a photo with someone new and I completely spiraled.",
+    "ko": "알아, 알아! 근데 새로운 사람이랑 찍은 사진 올린 거 보고 완전 멘붕 왔단 말이야."
+   },
+   {
+    "speaker": "B",
+    "text": "Girl, you have to stop stalking his page. It's not doing you any good.",
+    "ko": "야, 이제 그 계정 그만 좀 염탐해. 너한테 하나도 도움 안 돼."
+   },
+   {
+    "speaker": "A",
+    "text": "You're right. I'm blocking him tonight. I need to actually move on for real this time.",
+    "ko": "네 말이 맞아. 오늘 밤에 차단할게. 이번엔 진짜로 마음 정리해야겠어."
+   },
+   {
+    "speaker": "B",
+    "text": "Good. You deserve better than living in the past.",
+    "ko": "잘했어. 과거에 사는 거 말고 더 나은 걸 누릴 자격 있어."
+   }
+  ],
+  "note": "spiral은 감정이 걷잡을 수 없이 무너지는 걸 말해요. 전 애인 얘기할 때 감정 폭발 표현으로 딱이에요."
+ },
+ {
+  "id": "en3-016",
+  "situation": "회식 자리 눈치싸움",
+  "key_expressions": [
+   "read the room",
+   "make the first move",
+   "call it a night"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Is it just me or is everyone waiting for the boss to leave before they actually relax?",
+    "ko": "나만 그런가, 다들 부장님 가시기만 기다리는 것 같은데 그제서야 진짜 편해질 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh, definitely. Everyone's just nodding along and laughing at his jokes way too hard.",
+    "ko": "어 완전. 다들 그냥 고개 끄덕이면서 농담에 너무 오버해서 웃고 있잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "I keep trying to read the room to figure out when it's okay to actually order another round.",
+    "ko": "나는 계속 눈치 보면서 언제 한 잔 더 시켜도 되는지 타이밍 재는 중이야."
+   },
+   {
+    "speaker": "B",
+    "text": "Same. I don't want to be the first one to leave, but I also don't want to be stuck here till midnight.",
+    "ko": "나도. 제일 먼저 나가는 사람 되긴 싫은데, 그렇다고 자정까지 여기 갇혀있기도 싫고."
+   },
+   {
+    "speaker": "A",
+    "text": "Let's just wait for someone senior to make the first move.",
+    "ko": "그냥 윗사람 중 누가 먼저 움직일 때까지 기다리자."
+   },
+   {
+    "speaker": "B",
+    "text": "Deal. Fingers crossed he calls it a night soon.",
+    "ko": "콜. 빨리 오늘 여기서 끝내주시길."
+   }
+  ],
+  "note": "call it a night는 오늘은 여기까지 하고 끝내자는 뜻. 회식 자리 눈치싸움엔 필수 표현이에요."
+ },
+ {
+  "id": "en3-017",
+  "situation": "팀 프로젝트에서 무임승차하는 동료 흉보기",
+  "key_expressions": [
+   "lose one's mind",
+   "freeload",
+   "pull an all-nighter"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I'm losing my mind over this project. Derek hasn't done a single thing in three weeks.",
+    "ko": "나 이 프로젝트 때문에 미치겠어. 데릭이 3주 동안 아무것도 안 했어."
+   },
+   {
+    "speaker": "B",
+    "text": "I noticed. He shows up to every meeting just to nod and take notes he never uses.",
+    "ko": "나도 느꼈어. 회의마다 나타나서 고개만 끄덕이고 절대 쓰지도 않을 노트나 적고 있고."
+   },
+   {
+    "speaker": "A",
+    "text": "He's basically freeloading off the rest of us while we're pulling all-nighters.",
+    "ko": "우리는 밤새 일하는데 걔는 완전 무임승차하는 거지."
+   },
+   {
+    "speaker": "B",
+    "text": "You should bring it up with the manager before the deadline. Otherwise he'll take equal credit for zero work.",
+    "ko": "마감 전에 팀장님한테 얘기해야 돼. 안 그러면 아무것도 안 하고 똑같이 공로 챙겨갈 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "Honestly I'm done covering for him. Let him explain himself for once.",
+    "ko": "솔직히 이제 그만 감싸줄래. 이번엔 걔가 직접 설명하게 놔두자."
+   }
+  ],
+  "note": "freeload는 남한테 묻어가면서 자기는 노력 안 하는 거. 무임승차 팀원 얘기할 때 딱 맞는 단어예요."
+ },
+ {
+  "id": "en3-018",
+  "situation": "이혼 소식 전하기",
+  "key_expressions": [
+   "grow apart",
+   "get to the point where",
+   "for the best"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I have some news, and I need you to not freak out.",
+    "ko": "나 소식 하나 있는데, 놀라지 말고 들어줘."
+   },
+   {
+    "speaker": "B",
+    "text": "Okay, you're scaring me. What is it?",
+    "ko": "알겠어, 무서워지네. 뭔데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Mark and I are getting a divorce. We filed the papers last week.",
+    "ko": "마크랑 나 이혼해. 지난주에 서류 접수했어."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh my god, Karen. Are you okay? I had no idea things were that bad.",
+    "ko": "세상에, 캐런. 괜찮아? 상황이 그렇게 안 좋은 줄 몰랐어."
+   },
+   {
+    "speaker": "A",
+    "text": "We'd been growing apart for years, honestly. It just finally got to the point where we both knew it was over.",
+    "ko": "솔직히 몇 년 동안 서서히 멀어졌어. 결국 둘 다 끝났다는 걸 인정할 수밖에 없는 지점까지 온 거지."
+   },
+   {
+    "speaker": "B",
+    "text": "I'm really sorry. If you need anything at all, I'm here for you.",
+    "ko": "정말 안됐다. 뭐든 필요하면 내가 곁에 있을게."
+   },
+   {
+    "speaker": "A",
+    "text": "Thank you. It's going to be an adjustment, but honestly, I think it's for the best.",
+    "ko": "고마워. 적응하는 데 시간은 좀 걸리겠지만, 솔직히 이게 서로를 위해 나은 선택인 것 같아."
+   }
+  ],
+  "note": "for the best는 힘든 결정이지만 결과적으론 잘한 선택이라는 뉘앙스. 이혼처럼 무거운 얘기에도 위로하듯 쓸 수 있어요."
+ },
+ {
+  "id": "en3-019",
+  "situation": "사내 정치에 대해 냉소적으로 이야기하기",
+  "key_expressions": [
+   "play the game",
+   "alliance",
+   "default setting"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "You know what's funny? The people who get promoted here are never the ones who actually do the work.",
+    "ko": "웃긴 게 뭔지 알아? 여기서 승진하는 사람들은 절대 실제로 일 열심히 한 사람들이 아니야."
+   },
+   {
+    "speaker": "B",
+    "text": "Tell me about it. It's all about who plays the game best.",
+    "ko": "말도 마. 결국 다 누가 이 게임을 잘 하느냐의 문제야."
+   },
+   {
+    "speaker": "A",
+    "text": "I used to think if I just worked hard, I'd get noticed. Now I know it's all politics.",
+    "ko": "예전엔 그냥 열심히 하면 눈에 띌 거라고 생각했어. 근데 이제 보니까 다 정치더라."
+   },
+   {
+    "speaker": "B",
+    "text": "Yep. Half these people couldn't survive without their little alliances upstairs.",
+    "ko": "맞아. 저 사람들 절반은 위에다 만들어놓은 인맥 없으면 살아남지도 못할걸."
+   },
+   {
+    "speaker": "A",
+    "text": "It's exhausting pretending to care about the game when all I want to do is just do good work.",
+    "ko": "그냥 일 잘하고 싶을 뿐인데 이 게임에 신경 쓰는 척하는 것도 지친다."
+   },
+   {
+    "speaker": "B",
+    "text": "Welcome to corporate life. Cynical is basically the default setting here.",
+    "ko": "회사생활에 온 걸 환영해. 여기선 냉소적인 게 그냥 기본값이야."
+   }
+  ],
+  "note": "play the game은 사내정치 얘기할 때 거의 관용구처럼 쓰여요. 능력보다 처세가 중요하다는 뉘앙스예요."
+ },
+ {
+  "id": "en3-020",
+  "situation": "짝사랑 고백 실패담 나누기",
+  "key_expressions": [
+   "word-vomit",
+   "code for",
+   "put yourself out there"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So remember I told you I was gonna confess to Emma at the party?",
+    "ko": "저번에 파티에서 엠마한테 고백할 거라고 했던 거 기억나?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, how'd it go?",
+    "ko": "응, 어떻게 됐어?"
+   },
+   {
+    "speaker": "A",
+    "text": "Let's just say it did not go the way I planned. I basically word-vomited for two minutes and she just stood there.",
+    "ko": "그냥 계획대로 안 됐다고만 해두자. 나 거의 2분 동안 말 폭탄 쏟아냈고 걔는 그냥 가만히 서 있었어."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh no. What did she say?",
+    "ko": "헐 어떡해. 걔가 뭐래?"
+   },
+   {
+    "speaker": "A",
+    "text": "She said she wasn't looking for anything right now, which we both know is code for no.",
+    "ko": "지금은 뭘 시작할 생각이 없다고 하더라, 근데 그거 그냥 거절이라는 거 우리 둘 다 알잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "Man, that's rough. But hey, at least you put yourself out there.",
+    "ko": "아 진짜 힘들었겠다. 근데 그래도 용기 낸 건 잘한 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "Yeah, I guess. I'm just gonna laugh about it in a few weeks. Right now it just stings a little.",
+    "ko": "그렇겠지. 몇 주 지나면 그냥 웃으면서 얘기하겠지. 지금은 그냥 좀 따끔거려."
+   }
+  ],
+  "note": "put yourself out there는 거절당할 위험 감수하고 용기 내서 시도한다는 뜻. 고백 실패담엔 꼭 나오는 위로 표현이에요."
+ },
+ {
+  "id": "en3-021",
+  "situation": "번아웃 고백하기",
+  "key_expressions": [
+   "burnt out",
+   "dread",
+   "hit pause"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I think I need to admit something. I'm completely burnt out.",
+    "ko": "나 뭐 하나 인정해야 할 것 같아. 나 완전 번아웃 왔어."
+   },
+   {
+    "speaker": "B",
+    "text": "I could kind of tell. You've seemed off for weeks.",
+    "ko": "어쩐지. 몇 주째 뭔가 이상해 보이긴 했어."
+   },
+   {
+    "speaker": "A",
+    "text": "I wake up dreading work, I can't focus, and I just feel numb about everything.",
+    "ko": "아침에 일어나면 출근하기 싫고, 집중도 안 되고, 그냥 모든 게 무감각하게 느껴져."
+   },
+   {
+    "speaker": "B",
+    "text": "That sounds serious, Amy. Have you thought about taking some time off?",
+    "ko": "심각하게 들린다, 에이미. 좀 쉬는 거 생각해봤어?"
+   },
+   {
+    "speaker": "A",
+    "text": "I've been putting it off because I felt guilty, but I think I actually need to hit pause before I break down completely.",
+    "ko": "죄책감 때문에 계속 미뤄왔는데, 완전히 무너지기 전에 진짜 좀 멈춰야 할 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "Do it. Your health matters more than any deadline. Nobody's gonna remember that one project in five years.",
+    "ko": "그렇게 해. 네 건강이 어떤 마감보다 중요해. 5년 뒤엔 그 프로젝트 하나 아무도 기억 안 해."
+   }
+  ],
+  "note": "burnt out은 이제 거의 일상 단어가 됐어요. 번아웃 고백할 때 자기감정 솔직히 표현하는 데 자주 쓰여요."
+ },
+ {
+  "id": "en3-022",
+  "situation": "친구의 과도한 자랑 참아주기",
+  "key_expressions": [
+   "falling into place",
+   "read the room",
+   "get carried away"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So anyway, my new apartment has floor-to-ceiling windows and honestly the view is insane, like something out of a magazine.",
+    "ko": "아무튼 우리 새 아파트가 바닥부터 천장까지 창문인데 진짜 뷰가 미쳤어, 무슨 잡지에 나올 법한 느낌이야."
+   },
+   {
+    "speaker": "B",
+    "text": "Wow, that sounds really nice.",
+    "ko": "와, 진짜 좋아 보인다."
+   },
+   {
+    "speaker": "A",
+    "text": "And did I mention my boyfriend surprised me with a trip to Bali for our anniversary? Like, who does that?",
+    "ko": "아 그리고 내 남친이 기념일에 발리 여행 서프라이즈로 준비해준 거 말했나? 그런 걸 누가 해주냐고."
+   },
+   {
+    "speaker": "B",
+    "text": "You mentioned it. Twice, actually.",
+    "ko": "말했어. 사실 두 번이나."
+   },
+   {
+    "speaker": "A",
+    "text": "Sorry, I'm just so happy right now, everything's just kind of falling into place.",
+    "ko": "미안, 그냥 요즘 너무 행복해서 그런지, 뭐든 다 잘 풀리는 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "No, I'm happy for you, I really am. I just need you to read the room a little, some of us are going through it right now.",
+    "ko": "아니야, 나도 진짜 기뻐. 근데 눈치 좀 챙겨줬으면 좋겠어, 나 요즘 힘든 시기거든."
+   },
+   {
+    "speaker": "A",
+    "text": "Oh gosh, you're right, I'm sorry. I got carried away.",
+    "ko": "아 맞다, 미안해. 나 혼자 너무 신났었네."
+   }
+  ],
+  "note": "get carried away는 신나서 정신없이 계속하다가 선을 넘는 거. 자랑 늘어놓다 눈치 없어질 때 딱 맞는 표현이에요."
+ }
 ]

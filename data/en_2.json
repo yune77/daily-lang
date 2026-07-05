@@ -1,102 +1,1051 @@
 [
-{"id":"en2-001","expression":"hit the sack","meaning":"자러 가다","example":"I'm beat. Time to hit the sack.","example_ko":"완전 지쳤어. 이제 자야겠다.","note":"hit the hay도 같은 뜻"},
-{"id":"en2-002","expression":"be on the fence","meaning":"결정을 못 하고 망설이다","example":"I'm still on the fence about moving abroad.","example_ko":"해외 이주에 대해 아직도 결정을 못 하겠어.","note":"울타리 위에 앉아 어느 쪽으로도 안 내려온 이미지"},
-{"id":"en2-003","expression":"cut corners","meaning":"대충 하다, 절차를 건너뛰다","example":"Don't cut corners on safety checks.","example_ko":"안전 점검은 대충 넘어가지 마.","note":"비용·시간을 아끼려 질을 희생하는 뉘앙스"},
-{"id":"en2-004","expression":"call it a day","meaning":"오늘은 여기까지 하다","example":"We've done enough. Let's call it a day.","example_ko":"충분히 했어. 오늘은 여기까지 하자.","note":"직장 미드 단골 표현"},
-{"id":"en2-005","expression":"under the weather","meaning":"몸이 좀 안 좋다","example":"I'm feeling a bit under the weather today.","example_ko":"오늘 몸이 좀 안 좋네.","note":"심각한 병이 아닌 가벼운 컨디션 난조"},
-{"id":"en2-006","expression":"break the ice","meaning":"어색한 분위기를 깨다","example":"He told a joke to break the ice.","example_ko":"그가 어색한 분위기를 깨려고 농담을 했어.","note":"icebreaker는 어색함을 푸는 활동"},
-{"id":"en2-007","expression":"cost an arm and a leg","meaning":"엄청나게 비싸다","example":"That new phone costs an arm and a leg.","example_ko":"그 새 폰 엄청 비싸.","note":"팔과 다리를 내줄 만큼 비싸다는 과장"},
-{"id":"en2-008","expression":"get cold feet","meaning":"막판에 겁먹다, 주저하다","example":"He got cold feet right before the interview.","example_ko":"걔 면접 직전에 겁먹었어.","note":"결혼식 직전 장면에서 특히 자주 나옴"},
-{"id":"en2-009","expression":"hit it off","meaning":"만나자마자 잘 통하다","example":"We hit it off on the first day.","example_ko":"우리 첫날부터 완전 잘 통했어.","note":"연애·우정 모두 사용"},
-{"id":"en2-010","expression":"be swamped","meaning":"일에 파묻혀 있다","example":"I can't meet today. I'm swamped with work.","example_ko":"오늘 못 만나. 일이 산더미야.","note":"swamp(늪)에 빠진 이미지"},
-{"id":"en2-011","expression":"sleep on it","meaning":"하룻밤 자며 생각해 보다","example":"It's a big decision. Sleep on it.","example_ko":"중요한 결정이잖아. 하룻밤 자면서 생각해 봐.","note":"즉답을 피할 때도 유용"},
-{"id":"en2-012","expression":"in the same boat","meaning":"같은 처지다","example":"Don't worry, we're all in the same boat.","example_ko":"걱정 마, 우리 다 같은 처지야.","note":"동병상련의 뉘앙스"},
-{"id":"en2-013","expression":"play it by ear","meaning":"상황 봐서 정하다","example":"No plans yet. Let's play it by ear.","example_ko":"아직 계획 없어. 상황 봐서 하자.","note":"악보 없이 귀로 연주한다는 데서 유래"},
-{"id":"en2-014","expression":"ring a bell","meaning":"들어본 것 같다, 낯익다","example":"That name rings a bell, but I can't place it.","example_ko":"그 이름 들어본 것 같은데 기억이 안 나.","note":"어렴풋한 기억에 사용"},
-{"id":"en2-015","expression":"be fed up with","meaning":"~에 진절머리가 나다","example":"I'm fed up with his excuses.","example_ko":"걔 변명에 아주 질렸어.","note":"sick of, tired of보다 강한 느낌"},
-{"id":"en2-016","expression":"go the extra mile","meaning":"한층 더 노력하다","example":"She always goes the extra mile for her clients.","example_ko":"그녀는 고객을 위해 항상 한 발 더 뛰어.","note":"OPIc에서 자기 강점 말할 때 유용"},
-{"id":"en2-017","expression":"off the top of my head","meaning":"당장 떠오르는 대로","example":"Off the top of my head, I'd say around fifty.","example_ko":"당장 떠오르는 대로 말하면 50개 정도?","note":"정확하지 않다는 전제를 깔 때"},
-{"id":"en2-018","expression":"beat around the bush","meaning":"빙빙 돌려 말하다","example":"Stop beating around the bush and tell me.","example_ko":"빙빙 돌리지 말고 그냥 말해.","note":"단도직입은 get to the point"},
-{"id":"en2-019","expression":"burn out","meaning":"번아웃되다, 완전히 지치다","example":"If you keep working like this, you'll burn out.","example_ko":"이렇게 계속 일하면 번아웃 올 거야.","note":"명사형 burnout은 한국어로도 정착"},
-{"id":"en2-020","expression":"keep an eye on","meaning":"지켜보다, 봐 주다","example":"Can you keep an eye on my bag for a second?","example_ko":"잠깐 내 가방 좀 봐줄래?","note":"감시·돌봄 둘 다 가능"},
-{"id":"en2-021","expression":"be a people person","meaning":"사람들과 잘 어울리는 성격이다","example":"She's a people person, perfect for sales.","example_ko":"걔는 사람을 좋아해서 영업에 딱이야.","note":"OPIc 자기소개 단골"},
-{"id":"en2-022","expression":"pull an all-nighter","meaning":"밤을 새우다","example":"I pulled an all-nighter to finish the project.","example_ko":"프로젝트 끝내느라 밤샜어.","note":"stay up all night의 명사형 관용구"},
-{"id":"en2-023","expression":"on second thought","meaning":"다시 생각해 보니","example":"On second thought, let's stay home tonight.","example_ko":"다시 생각해 보니 오늘은 집에 있자.","note":"마음을 바꿀 때 자연스러운 연결어"},
-{"id":"en2-024","expression":"give someone the benefit of the doubt","meaning":"일단 믿어 주다","example":"He's new, so let's give him the benefit of the doubt.","example_ko":"걔 신입이니까 일단 믿어 주자.","note":"의심스럽지만 선의로 해석한다는 뜻"},
-{"id":"en2-025","expression":"be over the moon","meaning":"뛸 듯이 기쁘다","example":"She was over the moon about the promotion.","example_ko":"걔 승진해서 완전 날아갈 듯 기뻐했어.","note":"very happy의 관용 표현"},
-{"id":"en2-026","expression":"speak of the devil","meaning":"호랑이도 제 말 하면 온다더니","example":"Speak of the devil! We were just talking about you.","example_ko":"호랑이도 제 말 하면 온다더니! 방금 네 얘기 하고 있었어.","note":"당사자가 나타났을 때"},
-{"id":"en2-027","expression":"get the hang of","meaning":"요령을 익히다","example":"You'll get the hang of it in a week.","example_ko":"일주일이면 요령이 생길 거야.","note":"새 기술·업무 배울 때 필수"},
-{"id":"en2-028","expression":"be up in the air","meaning":"아직 미정이다","example":"Our travel plans are still up in the air.","example_ko":"우리 여행 계획은 아직 미정이야.","note":"공중에 떠 있어 결정 안 된 상태"},
-{"id":"en2-029","expression":"make ends meet","meaning":"근근이 먹고살다","example":"It's hard to make ends meet in this city.","example_ko":"이 도시에서는 먹고살기 빠듯해.","note":"수입과 지출의 끝을 맞춘다는 이미지"},
-{"id":"en2-030","expression":"throw in the towel","meaning":"포기하다","example":"Don't throw in the towel yet. We're so close.","example_ko":"아직 포기하지 마. 거의 다 왔어.","note":"권투에서 수건을 던지는 데서 유래"},
-{"id":"en2-031","expression":"once in a blue moon","meaning":"아주 가끔","example":"I only see him once in a blue moon.","example_ko":"걔는 정말 어쩌다 한 번 봐.","note":"rarely의 관용 표현"},
-{"id":"en2-032","expression":"a blessing in disguise","meaning":"전화위복","example":"Losing that job was a blessing in disguise.","example_ko":"그 일을 그만둔 게 오히려 전화위복이었어.","note":"OPIc 경험담 마무리에 쓰기 좋음"},
-{"id":"en2-033","expression":"bite off more than you can chew","meaning":"능력 밖의 일을 벌이다","example":"I bit off more than I could chew with this project.","example_ko":"이 프로젝트는 내가 감당 못 할 일을 벌였어.","note":"씹을 수 있는 것보다 많이 물었다는 이미지"},
-{"id":"en2-034","expression":"keep me posted","meaning":"소식 계속 알려줘","example":"Keep me posted on the interview results.","example_ko":"면접 결과 나오면 계속 알려줘.","note":"비즈니스 메일에서도 활용 가능"},
-{"id":"en2-035","expression":"be second to none","meaning":"최고다, 누구에게도 뒤지지 않다","example":"Her cooking is second to none.","example_ko":"그녀의 요리 실력은 최고야.","note":"칭찬 강화 표현"},
-{"id":"en2-036","expression":"drive someone crazy","meaning":"~을 미치게 하다","example":"This noise is driving me crazy!","example_ko":"이 소음 때문에 미치겠어!","note":"drive me nuts도 같은 뜻"},
-{"id":"en2-037","expression":"in the long run","meaning":"장기적으로 보면","example":"Exercising pays off in the long run.","example_ko":"운동은 장기적으로 보면 이득이야.","note":"단기는 in the short run"},
-{"id":"en2-038","expression":"get out of hand","meaning":"감당할 수 없게 되다","example":"The party got out of hand last night.","example_ko":"어젯밤 파티가 걷잡을 수 없어졌어.","note":"통제를 벗어난 상황"},
-{"id":"en2-039","expression":"be torn between","meaning":"~ 사이에서 갈등하다","example":"I'm torn between the two job offers.","example_ko":"두 회사 제안 사이에서 고민 중이야.","note":"선택 장애 상황 필수 표현"},
-{"id":"en2-040","expression":"a no-brainer","meaning":"고민할 필요도 없는 일","example":"Taking that offer was a no-brainer.","example_ko":"그 제안을 받아들이는 건 고민할 것도 없었어.","note":"뇌를 쓸 필요가 없다는 뜻"},
-{"id":"en2-041","expression":"put off","meaning":"미루다","example":"Stop putting off the dentist appointment.","example_ko":"치과 예약 그만 미뤄.","note":"procrastinate의 구어체"},
-{"id":"en2-042","expression":"come in handy","meaning":"쓸모가 있다, 유용하다","example":"This app comes in handy when traveling.","example_ko":"이 앱은 여행할 때 유용해.","note":"물건·기술 추천할 때"},
-{"id":"en2-043","expression":"be down to earth","meaning":"소탈하다, 겸손하다","example":"She's famous but really down to earth.","example_ko":"걔는 유명한데도 진짜 소탈해.","note":"사람 성격 묘사 단골"},
-{"id":"en2-044","expression":"lose track of time","meaning":"시간 가는 줄 모르다","example":"I lost track of time playing games.","example_ko":"게임하다가 시간 가는 줄 몰랐어.","note":"취미 얘기할 때 유용 (OPIc)"},
-{"id":"en2-045","expression":"the icing on the cake","meaning":"금상첨화","example":"Great food, and the view was the icing on the cake.","example_ko":"음식도 맛있는데 경치까지 금상첨화였어.","note":"cherry on top도 같은 뜻"},
-{"id":"en2-046","expression":"rain or shine","meaning":"무슨 일이 있어도","example":"I jog every morning, rain or shine.","example_ko":"난 비가 오든 해가 뜨든 매일 아침 조깅해.","note":"루틴 설명에 좋은 표현"},
-{"id":"en2-047","expression":"be second nature","meaning":"몸에 배어 있다","example":"Driving is second nature to me now.","example_ko":"이제 운전은 몸에 완전히 뱄어.","note":"익숙함의 최고 단계"},
-{"id":"en2-048","expression":"run errands","meaning":"볼일을 보다, 심부름하다","example":"I spent the morning running errands.","example_ko":"오전 내내 볼일 보러 다녔어.","note":"장보기·은행 등 자잘한 일들"},
-{"id":"en2-049","expression":"be on the same page","meaning":"생각이 같다, 뜻이 통하다","example":"Let's make sure we're on the same page.","example_ko":"우리 생각이 같은지 확인하고 가자.","note":"회의 영어 필수"},
-{"id":"en2-050","expression":"jump to conclusions","meaning":"성급하게 결론 내리다","example":"Don't jump to conclusions before hearing him out.","example_ko":"걔 얘기 다 듣기 전에 성급하게 결론 내리지 마.","note":"hear out(끝까지 듣다)과 세트로 기억"},
-{"id":"en2-051","expression":"have a lot on my plate","meaning":"할 일이 산더미다","example":"I can't take on more work. I have a lot on my plate.","example_ko":"일 더 못 맡아. 지금도 할 일이 산더미야.","note":"접시에 음식이 가득한 이미지"},
-{"id":"en2-052","expression":"steal the show","meaning":"주인공보다 더 주목받다","example":"The little kid totally stole the show.","example_ko":"그 꼬마가 완전히 주인공이 됐어.","note":"scene-stealer의 어원"},
-{"id":"en2-053","expression":"go with the flow","meaning":"흐름에 맡기다","example":"I don't plan much. I just go with the flow.","example_ko":"난 계획 별로 안 세워. 그냥 흐름에 맡겨.","note":"성격 묘사에도 사용"},
-{"id":"en2-054","expression":"be worn out","meaning":"녹초가 되다 / 닳다","example":"After the marathon, I was completely worn out.","example_ko":"마라톤 뛰고 나서 완전 녹초가 됐어.","note":"물건에 쓰면 '낡았다'"},
-{"id":"en2-055","expression":"food for thought","meaning":"생각할 거리","example":"Her lecture gave me a lot of food for thought.","example_ko":"그녀의 강연은 생각할 거리를 많이 줬어.","note":"지적인 대화 마무리용"},
-{"id":"en2-056","expression":"out of the blue","meaning":"난데없이, 갑자기","example":"He called me out of the blue after five years.","example_ko":"걔가 5년 만에 난데없이 전화했어.","note":"맑은 하늘에서 번개 치듯"},
-{"id":"en2-057","expression":"take something with a grain of salt","meaning":"걸러 듣다","example":"Take online reviews with a grain of salt.","example_ko":"인터넷 후기는 걸러서 들어.","note":"100% 믿지 말라는 뜻"},
-{"id":"en2-058","expression":"be hooked on","meaning":"~에 중독되다, 빠지다","example":"I'm hooked on this new series.","example_ko":"나 이 새 드라마에 완전 빠졌어.","note":"binge-watch(정주행)와 세트로 유용"},
-{"id":"en2-059","expression":"give someone a hand","meaning":"도와주다","example":"Can you give me a hand with these boxes?","example_ko":"이 상자들 옮기는 것 좀 도와줄래?","note":"박수 치다(give a big hand)와 구분"},
-{"id":"en2-060","expression":"in a nutshell","meaning":"한마디로 요약하면","example":"In a nutshell, the project was a success.","example_ko":"한마디로, 프로젝트는 성공이었어.","note":"요약할 때 발표에서도 활용"},
-{"id":"en2-061","expression":"hit the road","meaning":"출발하다, 길을 나서다","example":"It's getting late. Let's hit the road.","example_ko":"늦었다. 이제 출발하자.","note":"hit the gym(운동 가다)도 같은 패턴"},
-{"id":"en2-062","expression":"be a piece of cake","meaning":"식은 죽 먹기다","example":"The test was a piece of cake.","example_ko":"시험 완전 식은 죽 먹기였어.","note":"a walk in the park도 같은 뜻"},
-{"id":"en2-063","expression":"burn the midnight oil","meaning":"밤늦게까지 일하다/공부하다","example":"I burned the midnight oil before the exam.","example_ko":"시험 전에 밤늦게까지 공부했어.","note":"등잔 기름을 태우던 시절에서 유래"},
-{"id":"en2-064","expression":"see eye to eye","meaning":"의견이 일치하다","example":"We don't always see eye to eye, but we respect each other.","example_ko":"우린 항상 의견이 같진 않지만 서로 존중해.","note":"주로 부정문으로 많이 씀"},
-{"id":"en2-065","expression":"be caught off guard","meaning":"허를 찔리다, 당황하다","example":"Her question caught me off guard.","example_ko":"그녀의 질문에 허를 찔렸어.","note":"예상 못 한 상황 묘사"},
-{"id":"en2-066","expression":"think outside the box","meaning":"틀을 깨고 생각하다","example":"This problem needs us to think outside the box.","example_ko":"이 문제는 발상의 전환이 필요해.","note":"창의성 이야기의 단골"},
-{"id":"en2-067","expression":"be on thin ice","meaning":"위태로운 상황이다","example":"After that mistake, he's on thin ice with the boss.","example_ko":"그 실수 이후로 걔는 상사한테 찍혀서 위태위태해.","note":"얇은 얼음 위 이미지"},
-{"id":"en2-068","expression":"let the cat out of the bag","meaning":"비밀을 누설하다","example":"Who let the cat out of the bag about the party?","example_ko":"파티 얘기 누가 흘렸어?","note":"spill the beans도 같은 뜻"},
-{"id":"en2-069","expression":"get carried away","meaning":"신나서 도를 넘다","example":"Sorry, I got carried away with the shopping.","example_ko":"미안, 쇼핑하다가 나도 모르게 과했어.","note":"흥분해서 지나쳤을 때"},
-{"id":"en2-070","expression":"a win-win situation","meaning":"모두에게 이득인 상황","example":"Remote work is a win-win for everyone.","example_ko":"재택근무는 모두에게 윈윈이야.","note":"협상·설득에 유용"},
-{"id":"en2-071","expression":"read between the lines","meaning":"행간을 읽다, 숨은 뜻을 파악하다","example":"Read between the lines. She's not really okay.","example_ko":"행간을 읽어봐. 걔 사실 안 괜찮아.","note":"눈치의 영어식 표현"},
-{"id":"en2-072","expression":"be up for","meaning":"~할 마음이 있다","example":"Are you up for a hike this weekend?","example_ko":"이번 주말에 등산 갈 생각 있어?","note":"be down for와 같은 뜻"},
-{"id":"en2-073","expression":"miss the boat","meaning":"기회를 놓치다","example":"I missed the boat on those concert tickets.","example_ko":"그 콘서트 티켓 살 기회를 놓쳤어.","note":"배가 떠나버린 이미지"},
-{"id":"en2-074","expression":"pull yourself together","meaning":"정신 차리다, 추스르다","example":"Pull yourself together. We have work to do.","example_ko":"정신 차려. 우리 할 일이 있잖아.","note":"무너진 사람에게 하는 말"},
-{"id":"en2-075","expression":"the ball is in your court","meaning":"이제 네 차례다, 네 결정에 달렸다","example":"I made my offer. The ball is in your court.","example_ko":"내 제안은 했어. 이제 네가 결정할 차례야.","note":"테니스에서 유래"},
-{"id":"en2-076","expression":"know something like the back of my hand","meaning":"손바닥 보듯 훤히 알다","example":"I know this neighborhood like the back of my hand.","example_ko":"이 동네는 내 손바닥 보듯 훤해.","note":"지역·업무 숙련도 표현"},
-{"id":"en2-077","expression":"be a long shot","meaning":"가능성이 낮은 시도다","example":"It's a long shot, but let's apply anyway.","example_ko":"가능성은 낮지만 그래도 지원해 보자.","note":"먼 거리 사격에서 유래"},
-{"id":"en2-078","expression":"blow off steam","meaning":"스트레스를 풀다","example":"I go boxing to blow off steam.","example_ko":"난 스트레스 풀러 복싱하러 가.","note":"let off steam도 같은 뜻"},
-{"id":"en2-079","expression":"cross that bridge when we come to it","meaning":"그 일은 닥치면 생각하자","example":"Don't worry about next year. We'll cross that bridge when we come to it.","example_ko":"내년 일은 걱정 마. 닥치면 생각하자.","note":"지금 걱정할 필요 없다는 위로"},
-{"id":"en2-080","expression":"have mixed feelings","meaning":"마음이 복잡하다","example":"I have mixed feelings about moving out.","example_ko":"독립하는 것에 대해 마음이 복잡해.","note":"좋기도 하고 아쉽기도 한 상태"},
-{"id":"en2-081","expression":"work like a charm","meaning":"기가 막히게 잘 되다","example":"That trick worked like a charm.","example_ko":"그 방법 완전 기가 막히게 통했어.","note":"해결책이 잘 통했을 때"},
-{"id":"en2-082","expression":"be glued to","meaning":"~에서 눈을 못 떼다","example":"The kids were glued to the screen all day.","example_ko":"애들이 하루 종일 화면에서 눈을 못 뗐어.","note":"접착제(glue)처럼 붙어 있는 이미지"},
-{"id":"en2-083","expression":"tie the knot","meaning":"결혼하다","example":"They're finally tying the knot next month!","example_ko":"걔네 드디어 다음 달에 결혼해!","note":"get married의 관용 표현"},
-{"id":"en2-084","expression":"break the bank","meaning":"큰돈이 들다, 무리한 지출이 되다","example":"A nice dinner doesn't have to break the bank.","example_ko":"근사한 저녁이라고 꼭 큰돈 들 필요는 없어.","note":"주로 부정문: won't break the bank(부담 없다)"},
-{"id":"en2-085","expression":"catch someone red-handed","meaning":"현장에서 딱 걸리다","example":"He was caught red-handed eating my cake.","example_ko":"걔 내 케이크 먹다가 딱 걸렸어.","note":"손에 피가 묻은 채 잡힌 데서 유래"},
-{"id":"en2-086","expression":"a rule of thumb","meaning":"경험상의 법칙, 대략의 기준","example":"As a rule of thumb, save 20% of your income.","example_ko":"경험칙으로는 수입의 20%는 저축하는 게 좋아.","note":"조언할 때 서두로 좋음"},
-{"id":"en2-087","expression":"go back to square one","meaning":"원점으로 돌아가다","example":"The plan failed, so we're back to square one.","example_ko":"계획이 실패해서 다시 원점이야.","note":"보드게임 첫 칸으로 돌아가는 이미지"},
-{"id":"en2-088","expression":"give someone a heads-up","meaning":"미리 귀띔해 주다","example":"Just giving you a heads-up: the boss is in a bad mood.","example_ko":"미리 말해두는데, 상사 기분 안 좋아.","note":"비즈니스 영어 필수"},
-{"id":"en2-089","expression":"not my cup of tea","meaning":"내 취향이 아니다","example":"Horror movies are not my cup of tea.","example_ko":"공포 영화는 내 취향이 아니야.","note":"정중하게 거절·비선호 표현"},
-{"id":"en2-090","expression":"be in hot water","meaning":"곤경에 처하다","example":"He's in hot water for missing the deadline.","example_ko":"걔 마감 못 지켜서 큰일 났어.","note":"in trouble의 관용 버전"},
-{"id":"en2-091","expression":"kill two birds with one stone","meaning":"일석이조","example":"Biking to work kills two birds with one stone.","example_ko":"자전거 출근은 일석이조야.","note":"운동+교통비 절약 같은 상황"},
-{"id":"en2-092","expression":"stay on track","meaning":"계획대로 진행되다","example":"Weekly check-ins help us stay on track.","example_ko":"주간 점검 덕분에 계획대로 갈 수 있어.","note":"반대는 get off track"},
-{"id":"en2-093","expression":"a game changer","meaning":"판도를 바꾸는 것","example":"This new app is a total game changer.","example_ko":"이 새 앱은 완전 게임 체인저야.","note":"혁신적인 것 강조"},
-{"id":"en2-094","expression":"wrap up","meaning":"마무리하다","example":"Let's wrap up the meeting in ten minutes.","example_ko":"10분 안에 회의 마무리하자.","note":"회의 영어 필수"},
-{"id":"en2-095","expression":"be too good to be true","meaning":"너무 좋아서 의심스럽다","example":"That deal sounds too good to be true.","example_ko":"그 조건은 너무 좋아서 오히려 수상해.","note":"사기 조심 맥락에서 자주 등장"},
-{"id":"en2-096","expression":"look on the bright side","meaning":"긍정적인 면을 보다","example":"Look on the bright side: at least you tried.","example_ko":"좋게 생각해. 최소한 시도는 했잖아.","note":"위로의 정석 표현"},
-{"id":"en2-097","expression":"get a taste of your own medicine","meaning":"자기가 한 대로 당하다","example":"He finally got a taste of his own medicine.","example_ko":"걔도 드디어 당해봤네.","note":"인과응보 뉘앙스"},
-{"id":"en2-098","expression":"be all ears","meaning":"경청할 준비가 되어 있다","example":"Tell me everything. I'm all ears.","example_ko":"다 말해봐. 완전 집중해서 들을게.","note":"온몸이 귀라는 과장"},
-{"id":"en2-099","expression":"better late than never","meaning":"늦더라도 안 하는 것보다 낫다","example":"You finally started exercising? Better late than never!","example_ko":"드디어 운동 시작했어? 늦게라도 하는 게 낫지!","note":"격려와 살짝 놀림 둘 다 가능"},
-{"id":"en2-100","expression":"call the shots","meaning":"결정권을 쥐다","example":"In this house, mom calls the shots.","example_ko":"우리 집에선 엄마가 결정권자야.","note":"be in charge의 관용 버전"}
+ {
+  "id": "en2-001",
+  "situation": "늦어서 사과하기",
+  "key_expressions": [
+   "I'm so sorry",
+   "traffic was insane",
+   "I'll make it up to you"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I'm so sorry I'm late. Traffic was insane.",
+    "ko": "늦어서 정말 미안해. 차가 미쳤더라고."
+   },
+   {
+    "speaker": "B",
+    "text": "It's fine, but you said that last time too.",
+    "ko": "괜찮은데, 저번에도 그렇게 말했잖아."
+   },
+   {
+    "speaker": "A",
+    "text": "I know, I know. I'll make it up to you.",
+    "ko": "알아, 알아. 내가 갚을게."
+   },
+   {
+    "speaker": "B",
+    "text": "How exactly?",
+    "ko": "어떻게 갚을 건데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Dinner's on me tonight. My treat.",
+    "ko": "오늘 저녁은 내가 살게. 내가 쏜다."
+   },
+   {
+    "speaker": "B",
+    "text": "Alright, I'll let it slide this time.",
+    "ko": "좋아, 이번엔 그냥 넘어가 줄게."
+   }
+  ],
+  "note": "let it slide(넘어가주다)는 가벼운 잘못을 용서할 때 자주 쓰는 구어체"
+ },
+ {
+  "id": "en2-002",
+  "situation": "주말 계획 이야기하기",
+  "key_expressions": [
+   "I'm thinking of",
+   "that works for me",
+   "count me in"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Any plans this weekend?",
+    "ko": "이번 주말에 뭐 계획 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Not really. I'm thinking of just staying in.",
+    "ko": "딱히 없어. 그냥 집에 있으려고."
+   },
+   {
+    "speaker": "A",
+    "text": "Want to come hiking with us instead?",
+    "ko": "그러지 말고 우리랑 등산 갈래?"
+   },
+   {
+    "speaker": "B",
+    "text": "When were you thinking?",
+    "ko": "언제 갈 생각인데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Saturday morning, around eight.",
+    "ko": "토요일 아침, 8시쯤."
+   },
+   {
+    "speaker": "B",
+    "text": "That works for me. Count me in!",
+    "ko": "그 시간 괜찮아. 나도 낄게!"
+   }
+  ],
+  "note": "count me in(나도 낄게)은 제안에 흔쾌히 합류할 때 쓰는 표현"
+ },
+ {
+  "id": "en2-003",
+  "situation": "회의에 지각해서 사과하기",
+  "key_expressions": [
+   "I'm so sorry I'm late",
+   "It won't happen again",
+   "Traffic was insane"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Ben, hey, you're missing the whole first half of the meeting.",
+    "ko": "벤, 저기, 너 회의 전반부를 완전히 놓쳤어."
+   },
+   {
+    "speaker": "B",
+    "text": "I know, I know, I'm so sorry I'm late. Traffic was insane on the highway.",
+    "ko": "알아, 알아, 늦어서 진짜 미안해. 고속도로가 완전 미쳤더라고."
+   },
+   {
+    "speaker": "A",
+    "text": "It's the third time this month, though.",
+    "ko": "근데 이번 달만 벌써 세 번째잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "You're right, I hear you. It won't happen again, I promise.",
+    "ko": "맞아, 무슨 말인지 알아. 다시는 안 그럴게, 약속해."
+   },
+   {
+    "speaker": "A",
+    "text": "Okay, just grab a seat, we're on slide three.",
+    "ko": "알겠어, 일단 앉아, 지금 3페이지 하고 있어."
+   },
+   {
+    "speaker": "B",
+    "text": "Got it, thanks for bearing with me.",
+    "ko": "알겠어, 참아줘서 고마워."
+   }
+  ],
+  "note": "지각해서 사과할 때는 'I'm so sorry I'm late'로 바로 사과부터 하고, 이유는 뒤에 짧게 붙이는 게 자연스러워. 'It won't happen again'은 진짜 다짐할 때 쓰는 국룰 표현이야."
+ },
+ {
+  "id": "en2-004",
+  "situation": "주말 계획 물어보기",
+  "key_expressions": [
+   "What are you up to this weekend?",
+   "I'm thinking about",
+   "Wanna tag along?"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, what are you up to this weekend?",
+    "ko": "야, 이번 주말에 뭐 해?"
+   },
+   {
+    "speaker": "B",
+    "text": "Not much, honestly. I'm thinking about just catching up on sleep.",
+    "ko": "솔직히 별거 없어. 그냥 밀린 잠이나 잘까 생각 중이야."
+   },
+   {
+    "speaker": "A",
+    "text": "Same old, huh? I was gonna check out that new hiking trail Saturday morning.",
+    "ko": "맨날 똑같네 그럼. 나는 토요일 아침에 새로 생긴 등산로 가보려고 했는데."
+   },
+   {
+    "speaker": "B",
+    "text": "Ooh, that sounds nice actually. Wanna tag along, or is this a solo thing?",
+    "ko": "오 그거 괜찮은데. 나도 따라가도 돼, 아니면 혼자 가는 거야?"
+   },
+   {
+    "speaker": "A",
+    "text": "No, come along! The more the merrier.",
+    "ko": "아니야, 같이 가자! 사람 많을수록 좋지."
+   },
+   {
+    "speaker": "B",
+    "text": "Alright, count me in. What time are we talking?",
+    "ko": "좋아, 나도 낄게. 몇 시쯤인데?"
+   },
+   {
+    "speaker": "A",
+    "text": "Probably around 8, before it gets too hot.",
+    "ko": "너무 더워지기 전에 8시쯤일 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "Deal. I'll bring snacks.",
+    "ko": "콜. 내가 간식 챙겨갈게."
+   }
+  ],
+  "note": "'What are you up to this weekend?'은 주말 계획 물을 때 진짜 자주 쓰는 표현이야. 같이 가고 싶을 때는 'Wanna tag along?'처럼 가볍게 물어보면 부담 없이 들려."
+ },
+ {
+  "id": "en2-005",
+  "situation": "직장 동료와 스몰토크하기",
+  "key_expressions": [
+   "long time no see",
+   "How's it going",
+   "same old, same old"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey Jen, long time no see! How's it going?",
+    "ko": "젠, 오랜만이야! 요즘 어때?"
+   },
+   {
+    "speaker": "B",
+    "text": "Oh, hey Tom! Pretty good, just swamped with this new project. You?",
+    "ko": "어, 톰! 나쁘지 않아, 새 프로젝트 때문에 정신없어. 너는?"
+   },
+   {
+    "speaker": "A",
+    "text": "Same old, same old. Coffee's the only thing keeping me going today.",
+    "ko": "맨날 똑같지 뭐. 오늘은 커피 덕분에 겨우 버티는 중이야."
+   },
+   {
+    "speaker": "B",
+    "text": "Tell me about it. This machine is basically my best friend at this point.",
+    "ko": "완전 공감. 이 커피머신이 이제 거의 내 절친 수준이야."
+   },
+   {
+    "speaker": "A",
+    "text": "Ha, right? So how was your trip to Busan last month?",
+    "ko": "하 맞아. 그나저나 지난달 부산 여행은 어땠어?"
+   },
+   {
+    "speaker": "B",
+    "text": "It was amazing, actually. We should grab lunch sometime and I'll fill you in.",
+    "ko": "완전 좋았어. 언제 점심 같이 먹으면서 자세히 얘기해줄게."
+   },
+   {
+    "speaker": "A",
+    "text": "For sure, let's do that this week.",
+    "ko": "좋아, 이번 주에 한번 잡자."
+   }
+  ],
+  "note": "'long time no see'는 오랜만에 만난 동료한테 캐주얼하게 인사할 때 딱이고, 'same old, same old'는 별일 없다고 답할 때 자주 쓰는 표현이야."
+ },
+ {
+  "id": "en2-006",
+  "situation": "친구의 부탁을 완곡하게 거절하기",
+  "key_expressions": [
+   "I'd love to, but",
+   "to be honest",
+   "raincheck"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, so this might be a weird ask, but could I borrow your car this weekend? Mine's in the shop.",
+    "ko": "저기, 좀 이상한 부탁일 수 있는데, 이번 주말에 네 차 좀 빌려도 될까? 내 차가 수리 맡겨져 있어서."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh man, I'd love to, but I'm actually using it myself this weekend.",
+    "ko": "아 이런, 진짜 빌려주고 싶은데, 이번 주말엔 나도 차를 써야 해서."
+   },
+   {
+    "speaker": "A",
+    "text": "Ah, no worries, I figured I'd ask.",
+    "ko": "아 괜찮아, 그냥 혹시나 해서 물어본 거야."
+   },
+   {
+    "speaker": "B",
+    "text": "To be honest, I'm kind of paranoid about lending it out since the last time someone dinged it.",
+    "ko": "솔직히 말하면, 지난번에 누가 긁고 나서부터 차 빌려주는 거 좀 예민해졌어."
+   },
+   {
+    "speaker": "A",
+    "text": "Totally get it, don't even worry about it.",
+    "ko": "완전 이해해, 신경 쓰지 마."
+   },
+   {
+    "speaker": "B",
+    "text": "Can I give you a raincheck though? Maybe I can help you find a rental instead.",
+    "ko": "대신 다음에 갚아도 될까? 렌트카 찾는 거 도와줄 수는 있어."
+   },
+   {
+    "speaker": "A",
+    "text": "That'd be great, actually. Thanks for thinking of it.",
+    "ko": "오 그거 진짜 좋다. 신경 써줘서 고마워."
+   }
+  ],
+  "note": "부탁을 거절할 때 'I'd love to, but...'로 시작하면 훨씬 부드럽게 들려. 'raincheck'은 지금은 안 되지만 다음에 대신 해주겠다는 뉘앙스야."
+ },
+ {
+  "id": "en2-007",
+  "situation": "스트레스 받은 하루 털어놓기",
+  "key_expressions": [
+   "I'm gonna vent for a sec",
+   "at the end of my rope",
+   "let off some steam"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Ugh, today was just the worst, sorry, I'm gonna vent for a sec.",
+    "ko": "아 진짜 오늘 최악이었어, 미안한데 잠깐 하소연 좀 할게."
+   },
+   {
+    "speaker": "B",
+    "text": "Go for it, what happened?",
+    "ko": "얼마든지, 무슨 일 있었는데?"
+   },
+   {
+    "speaker": "A",
+    "text": "My boss dumped three extra reports on me an hour before I was supposed to leave.",
+    "ko": "퇴근하기 한 시간 전에 팀장이 보고서 세 개를 더 던져줬어."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh no, that's rough.",
+    "ko": "헐, 진짜 힘들었겠다."
+   },
+   {
+    "speaker": "A",
+    "text": "I swear, I'm at the end of my rope with that guy.",
+    "ko": "진짜 그 사람 때문에 인내심 바닥났어."
+   },
+   {
+    "speaker": "B",
+    "text": "Do you wanna go for a walk or something, let off some steam?",
+    "ko": "산책이라도 하면서 스트레스 좀 풀래?"
+   },
+   {
+    "speaker": "A",
+    "text": "Actually yeah, that sounds perfect right now.",
+    "ko": "어 진짜, 지금 딱 그게 필요해."
+   },
+   {
+    "speaker": "B",
+    "text": "Come on, let's go, my treat on ice cream after.",
+    "ko": "가자, 산책하고 아이스크림은 내가 살게."
+   }
+  ],
+  "note": "친구한테 하소연 시작할 때 'I'm gonna vent for a sec'라고 미리 말하면 상대도 마음의 준비를 하고 들어줘. 'at the end of my rope'는 인내심이 거의 바닥났다는 뜻이야."
+ },
+ {
+  "id": "en2-008",
+  "situation": "이사 도와달라고 부탁하기",
+  "key_expressions": [
+   "Do you mind giving me a hand",
+   "I owe you one",
+   "pizza's on me"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey Dave, so I'm moving next Saturday, do you mind giving me a hand?",
+    "ko": "데이브, 나 다음 주 토요일에 이사하는데, 혹시 좀 도와줄 수 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, sure, what time should I show up?",
+    "ko": "어, 당연하지, 몇 시까지 가면 돼?"
+   },
+   {
+    "speaker": "A",
+    "text": "Maybe around 10? We just need to load the truck and unload at the new place.",
+    "ko": "한 10시쯤? 트럭에 짐 싣고 새 집에서 내리기만 하면 돼."
+   },
+   {
+    "speaker": "B",
+    "text": "Sounds doable. Is it just boxes or furniture too?",
+    "ko": "할 만하네. 박스만이야 아니면 가구도 있어?"
+   },
+   {
+    "speaker": "A",
+    "text": "Mostly boxes, but there's a couch and a dresser.",
+    "ko": "대부분 박스인데, 소파랑 서랍장이 좀 있어."
+   },
+   {
+    "speaker": "B",
+    "text": "No problem, I'll bring my dolly.",
+    "ko": "문제없어, 손수레 가져갈게."
+   },
+   {
+    "speaker": "A",
+    "text": "You're a lifesaver, I owe you one.",
+    "ko": "진짜 은인이다, 신세 졌어."
+   },
+   {
+    "speaker": "B",
+    "text": "Just make sure pizza's on you afterward.",
+    "ko": "대신 나중에 피자는 네가 사는 거다."
+   },
+   {
+    "speaker": "A",
+    "text": "Deal, pizza's on me, promise.",
+    "ko": "콜, 피자 내가 살게, 약속."
+   }
+  ],
+  "note": "도움 요청할 땐 'Do you mind giving me a hand'가 부담 없이 자연스러운 표현이야. 도와준 대가로 'pizza's on me'처럼 소소하게 갚겠다고 하는 게 미국식 유머야."
+ },
+ {
+  "id": "en2-009",
+  "situation": "다이어트 작심삼일 이야기하기",
+  "key_expressions": [
+   "fell off the wagon",
+   "caved in",
+   "back on track"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So how's the diet going?",
+    "ko": "그래서 다이어트는 잘 돼가?"
+   },
+   {
+    "speaker": "B",
+    "text": "Don't even ask. I fell off the wagon like two days in.",
+    "ko": "말도 마. 이틀 만에 완전 무너졌어."
+   },
+   {
+    "speaker": "A",
+    "text": "Ha, the classic three-day thing, huh?",
+    "ko": "하, 딱 작심삼일이네?"
+   },
+   {
+    "speaker": "B",
+    "text": "Exactly, I made it to day three and then totally caved in at the pizza place.",
+    "ko": "맞아, 3일째 되니까 피자집에서 완전 무너졌어."
+   },
+   {
+    "speaker": "A",
+    "text": "It happens to the best of us.",
+    "ko": "누구나 그런 적 있지 뭐."
+   },
+   {
+    "speaker": "B",
+    "text": "I'm just gonna get back on track tomorrow, for real this time.",
+    "ko": "내일부터 다시 제대로 시작할 거야, 이번엔 진짜로."
+   },
+   {
+    "speaker": "A",
+    "text": "That's what you said last week.",
+    "ko": "그거 지난주에도 했던 말인데."
+   },
+   {
+    "speaker": "B",
+    "text": "Ha, fair point. Okay, tomorrow, I mean it this time.",
+    "ko": "하, 맞는 말이네. 그래, 내일부터, 이번엔 진짜야."
+   }
+  ],
+  "note": "'fell off the wagon'은 원래 금주 실패할 때 많이 쓰는데, 다이어트나 운동 작심삼일 얘기할 때도 자연스럽게 써. 'back on track'은 다시 제대로 시작한다는 의미로 세트처럼 붙여 쓰면 좋아."
+ },
+ {
+  "id": "en2-010",
+  "situation": "룸메이트와 생활 규칙 정하기",
+  "key_expressions": [
+   "hash out some ground rules",
+   "on the same page",
+   "pull their weight"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, since we're moving in together, let's hash out some ground rules.",
+    "ko": "우리 같이 살 거니까, 기본 규칙 좀 정해놓자."
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, good idea, I wanna make sure we're on the same page.",
+    "ko": "어 좋은 생각이야, 서로 생각이 다르지 않게 확실히 해두고 싶어."
+   },
+   {
+    "speaker": "A",
+    "text": "Cool, so like, cleaning schedule, who does dishes when.",
+    "ko": "좋아, 예를 들면 청소 순서라던가, 설거지는 누가 언제 할지."
+   },
+   {
+    "speaker": "B",
+    "text": "I'm fine splitting it by week. As long as everyone pulls their weight.",
+    "ko": "일주일씩 번갈아 하는 거 괜찮아. 서로 각자 몫만 제대로 하면 돼."
+   },
+   {
+    "speaker": "A",
+    "text": "Agreed. Also, can we talk about having guests over?",
+    "ko": "좋아. 그리고 손님 초대하는 것도 얘기해도 될까?"
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, maybe just a heads-up text before anyone comes by?",
+    "ko": "당연하지, 누구 오기 전에 그냥 미리 문자 한 통 주는 걸로 하자."
+   },
+   {
+    "speaker": "A",
+    "text": "Perfect, that works for me.",
+    "ko": "완벽해, 나도 좋아."
+   }
+  ],
+  "note": "새로 같이 살기 시작할 때 'hash out some ground rules'라고 하면 규칙을 진지하게 정한다는 뉘앙스가 잘 살아. 'pull your weight'는 자기 몫을 제대로 한다는 뜻이라 룸메이트 얘기할 때 자주 나와."
+ },
+ {
+  "id": "en2-011",
+  "situation": "소개팅 후기 나누기",
+  "key_expressions": [
+   "hit it off",
+   "no spark",
+   "not my type"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So? How'd the blind date go last night?",
+    "ko": "그래서? 어제 소개팅 어땠어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Honestly, we just didn't hit it off.",
+    "ko": "솔직히, 서로 잘 안 맞더라고."
+   },
+   {
+    "speaker": "A",
+    "text": "Really? What happened?",
+    "ko": "진짜? 뭔 일 있었는데?"
+   },
+   {
+    "speaker": "B",
+    "text": "He was nice enough, but there was just no spark, you know?",
+    "ko": "사람 자체는 괜찮았는데, 그냥 뭔가 설렘이 없었어."
+   },
+   {
+    "speaker": "A",
+    "text": "Ah, that's too bad. Was he not your type or something?",
+    "ko": "아 아쉽다. 네 타입이 아니었나 보네?"
+   },
+   {
+    "speaker": "B",
+    "text": "Kind of, yeah. He talked about work the entire time.",
+    "ko": "뭐 그런 것 같아. 계속 일 얘기만 하더라."
+   },
+   {
+    "speaker": "A",
+    "text": "Ha, classic. Well, there's always next time.",
+    "ko": "하 흔한 패턴이네. 뭐, 다음 기회도 있잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "True, I'm not giving up yet.",
+    "ko": "맞아, 아직 포기 안 했어."
+   }
+  ],
+  "note": "'hit it off'은 처음 만났는데 죽이 잘 맞았다는 뜻이라 소개팅 얘기할 때 딱이야. 반대로 'no spark'는 설렘이 없었다는 걸 자연스럽게 돌려 말하는 표현이야."
+ },
+ {
+  "id": "en2-012",
+  "situation": "상사에게 연차 요청하기",
+  "key_expressions": [
+   "Would it be okay if",
+   "take a day off",
+   "wrap it up"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, do you have a minute? Would it be okay if I took a day off next Friday?",
+    "ko": "저기, 잠깐 시간 되세요? 혹시 다음 주 금요일에 연차 써도 될까요?"
+   },
+   {
+    "speaker": "B",
+    "text": "Sure, is everything alright?",
+    "ko": "네, 별일 없으신 거죠?"
+   },
+   {
+    "speaker": "A",
+    "text": "Yeah, just a family thing I need to take care of.",
+    "ko": "네, 그냥 집안일 좀 처리할 게 있어서요."
+   },
+   {
+    "speaker": "B",
+    "text": "No problem at all. Just make sure the client report is done before then.",
+    "ko": "전혀 문제없어요. 대신 그 전에 클라이언트 보고서만 끝내 주세요."
+   },
+   {
+    "speaker": "A",
+    "text": "Absolutely, I'll wrap it up by Thursday.",
+    "ko": "당연하죠, 목요일까지 마무리할게요."
+   },
+   {
+    "speaker": "B",
+    "text": "Sounds good. Enjoy your day off.",
+    "ko": "좋아요. 연차 잘 보내고 오세요."
+   },
+   {
+    "speaker": "A",
+    "text": "Thanks so much, I really appreciate it.",
+    "ko": "정말 감사합니다, 진심으로요."
+   }
+  ],
+  "note": "상사한테 연차 요청할 땐 'Would it be okay if...'로 시작하면 훨씬 공손하게 들려. 업무 마무리 얘기할 땐 'wrap it up'을 쓰면 자연스러워."
+ },
+ {
+  "id": "en2-013",
+  "situation": "친구의 고민 들어주기",
+  "key_expressions": [
+   "vent to someone",
+   "I'm all ears",
+   "get it off your chest"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, do you have a sec? I need to vent to someone.",
+    "ko": "야, 시간 좀 있어? 누구한테 좀 털어놔야 할 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "Of course, I'm all ears. What's going on?",
+    "ko": "당연하지, 다 들을게. 무슨 일이야?"
+   },
+   {
+    "speaker": "A",
+    "text": "I just feel so behind compared to everyone else at work.",
+    "ko": "그냥 회사에서 다른 사람들보다 너무 뒤처지는 느낌이야."
+   },
+   {
+    "speaker": "B",
+    "text": "I get that, but honestly, everyone feels that way sometimes.",
+    "ko": "그 마음 알아, 근데 솔직히 다들 가끔 그런 느낌 받아."
+   },
+   {
+    "speaker": "A",
+    "text": "Maybe, but it's been eating at me for weeks.",
+    "ko": "그럴 수도 있는데, 몇 주째 계속 신경 쓰이더라고."
+   },
+   {
+    "speaker": "B",
+    "text": "Have you talked to your manager about it?",
+    "ko": "팀장한테 그거 얘기해봤어?"
+   },
+   {
+    "speaker": "A",
+    "text": "Not yet, I'm kind of scared to.",
+    "ko": "아직 안 했어, 좀 무섭기도 하고."
+   },
+   {
+    "speaker": "B",
+    "text": "I think you should. It'll work itself out once you get it off your chest.",
+    "ko": "말해보는 게 좋을 것 같아. 일단 털어놓으면 자연스럽게 풀릴 거야."
+   }
+  ],
+  "note": "친구가 고민 얘기할 때 'I'm all ears'라고 하면 진심으로 다 들어줄 준비 됐다는 느낌이 확 살아. 'get it off your chest'는 마음속에 담아둔 걸 털어놓는다는 뜻이야."
+ },
+ {
+  "id": "en2-014",
+  "situation": "여행 일정 상의하기",
+  "key_expressions": [
+   "play it by ear",
+   "pack too much into",
+   "wing it"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Okay so for the trip, should we plan every single day or just wing it?",
+    "ko": "그래서 여행 말인데, 하루하루 다 계획할까 아니면 그냥 즉흥적으로 갈까?"
+   },
+   {
+    "speaker": "B",
+    "text": "I kind of wanna play it by ear, honestly.",
+    "ko": "솔직히 나는 그때그때 상황 봐서 정하고 싶어."
+   },
+   {
+    "speaker": "A",
+    "text": "Yeah, but we also don't wanna pack too much into one day and burn out.",
+    "ko": "그래, 근데 하루에 너무 많이 몰아넣어서 지치는 것도 싫잖아."
+   },
+   {
+    "speaker": "B",
+    "text": "True. How about we just book the flights and hotel, and figure out the rest there?",
+    "ko": "맞아. 그럼 항공권이랑 숙소만 예약하고, 나머지는 가서 정하는 건 어때?"
+   },
+   {
+    "speaker": "A",
+    "text": "That works for me. Maybe just pin a few must-see spots.",
+    "ko": "나는 좋아. 꼭 가야 할 곳 몇 군데만 정해두자."
+   },
+   {
+    "speaker": "B",
+    "text": "Deal. Let's not overplan this one.",
+    "ko": "콜. 이번엔 너무 빡빡하게 짜지 말자."
+   }
+  ],
+  "note": "'play it by ear'는 미리 정하지 않고 상황 봐가며 결정한다는 뜻이라 여행 일정 얘기할 때 자주 나와. 'wing it'도 즉흥적으로 한다는 비슷한 뉘앙스야."
+ },
+ {
+  "id": "en2-015",
+  "situation": "배달 실수에 대해 항의하기",
+  "key_expressions": [
+   "this isn't what I ordered",
+   "make it right",
+   "I'd appreciate it if"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hi, I just got my order and this isn't what I ordered at all.",
+    "ko": "안녕하세요, 방금 주문한 거 받았는데 제가 시킨 거랑 완전 다른 게 왔어요."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh no, I'm really sorry to hear that. What did you receive?",
+    "ko": "아, 정말 죄송합니다. 어떤 게 오셨나요?"
+   },
+   {
+    "speaker": "A",
+    "text": "I ordered the bulgogi bowl, but I got bibimbap instead.",
+    "ko": "불고기덮밥 시켰는데, 비빔밥이 왔더라고요."
+   },
+   {
+    "speaker": "B",
+    "text": "That's on us, I apologize. We'd like to make it right.",
+    "ko": "저희 실수예요, 죄송합니다. 제대로 바로잡아 드리고 싶어요."
+   },
+   {
+    "speaker": "A",
+    "text": "I'd appreciate it if you could send the correct order, or just refund me.",
+    "ko": "제대로 된 주문 다시 보내주시거나, 아니면 그냥 환불해주시면 감사하겠어요."
+   },
+   {
+    "speaker": "B",
+    "text": "We'll get the right one out to you right away, no charge, and I'll refund the mistake too.",
+    "ko": "제대로 된 걸로 바로 다시 보내드릴게요, 무료로요, 그리고 실수한 부분은 환불도 해드릴게요."
+   },
+   {
+    "speaker": "A",
+    "text": "Thank you, I appreciate you handling it so fast.",
+    "ko": "감사합니다, 이렇게 빨리 처리해주셔서 고마워요."
+   }
+  ],
+  "note": "항의할 때 화내지 않고도 확실하게 말하려면 'this isn't what I ordered'로 사실만 담백하게 말하는 게 좋아. 'I'd appreciate it if'는 요청을 정중하게 할 때 쓰는 표현이야."
+ },
+ {
+  "id": "en2-016",
+  "situation": "운동 습관 만들기 이야기",
+  "key_expressions": [
+   "get into the swing of",
+   "beat myself up",
+   "baby steps"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "So are you still going to the gym?",
+    "ko": "그래서 헬스장은 계속 다니고 있어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Trying to. It's taken a while to get into the swing of it.",
+    "ko": "노력 중이야. 근데 적응하는 데 시간이 좀 걸리네."
+   },
+   {
+    "speaker": "A",
+    "text": "That's normal, don't beat yourself up over it.",
+    "ko": "그거 원래 그래, 너무 자책하지 마."
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, I'm just doing baby steps, like three times a week for now.",
+    "ko": "응, 그냥 조금씩 시작하는 중이야, 일단 일주일에 세 번 정도로."
+   },
+   {
+    "speaker": "A",
+    "text": "That's honestly a great start.",
+    "ko": "그 정도면 진짜 좋은 시작이지."
+   },
+   {
+    "speaker": "B",
+    "text": "Thanks, I used to go all in and burn out in a week.",
+    "ko": "고마워, 예전엔 너무 무리해서 일주일 만에 지쳐버렸었거든."
+   },
+   {
+    "speaker": "A",
+    "text": "Slow and steady wins the race, right?",
+    "ko": "천천히 꾸준히 하는 게 결국 이기는 거잖아, 그치?"
+   }
+  ],
+  "note": "새 습관에 적응 중일 때 'get into the swing of it'을 쓰면 자연스러워. 'baby steps'는 무리하지 않고 조금씩 해나간다는 느낌을 잘 살려줘."
+ },
+ {
+  "id": "en2-017",
+  "situation": "친구의 이별 위로하기",
+  "key_expressions": [
+   "it's okay to not be okay",
+   "take it one day at a time",
+   "I'm here for you"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I don't know, man, I just feel kind of numb since the breakup.",
+    "ko": "모르겠어, 그냥 헤어지고 나서부터 아무 감정도 안 느껴지는 것 같아."
+   },
+   {
+    "speaker": "B",
+    "text": "That's completely normal. It's okay to not be okay right now.",
+    "ko": "완전 정상이야. 지금 안 괜찮아도 괜찮아."
+   },
+   {
+    "speaker": "A",
+    "text": "I keep thinking I should be over it by now.",
+    "ko": "이제 좀 괜찮아져야 하는데 자꾸 그런 생각이 들어."
+   },
+   {
+    "speaker": "B",
+    "text": "There's no timeline for this stuff. Just take it one day at a time.",
+    "ko": "이런 건 정해진 기간 같은 거 없어. 그냥 하루하루 넘기면 돼."
+   },
+   {
+    "speaker": "A",
+    "text": "Thanks, I really needed to hear that.",
+    "ko": "고마워, 진짜 그 말이 필요했어."
+   },
+   {
+    "speaker": "B",
+    "text": "Of course. I'm here for you, whatever you need.",
+    "ko": "당연하지. 뭐든 필요하면 내가 옆에 있을게."
+   },
+   {
+    "speaker": "A",
+    "text": "Maybe just distract me with something dumb tonight.",
+    "ko": "오늘 밤은 그냥 별생각 없이 딴 데 신경 좀 돌리게 해줘."
+   },
+   {
+    "speaker": "B",
+    "text": "Say no more, I'm ordering pizza and picking a terrible movie.",
+    "ko": "더 말할 필요 없어, 피자 시키고 완전 유치한 영화 하나 골라볼게."
+   }
+  ],
+  "note": "이별로 힘들어하는 친구한테는 'it's okay to not be okay'처럼 감정을 억지로 추스르라고 하지 않는 위로가 좋아. 'I'm here for you'는 진심으로 곁에 있어주겠다는 표현이야."
+ },
+ {
+  "id": "en2-018",
+  "situation": "새로운 취미 추천받기",
+  "key_expressions": [
+   "right up your alley",
+   "give it a shot",
+   "get into"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "I've been so bored lately, I need a new hobby.",
+    "ko": "요즘 너무 심심해서, 새로운 취미가 필요해."
+   },
+   {
+    "speaker": "B",
+    "text": "You should get into pottery, honestly. I think it'd be right up your alley.",
+    "ko": "솔직히 도자기 공예 한번 해봐. 딱 네 취향일 것 같아."
+   },
+   {
+    "speaker": "A",
+    "text": "Really? I've never done anything like that.",
+    "ko": "진짜? 그런 거 한 번도 안 해봤는데."
+   },
+   {
+    "speaker": "B",
+    "text": "That's the fun part, just give it a shot. There's a beginner class near my place.",
+    "ko": "그게 재밌는 부분이지, 그냥 한번 해봐. 우리 동네에 초보자 클래스 있어."
+   },
+   {
+    "speaker": "A",
+    "text": "Okay, you've sold me. Send me the info?",
+    "ko": "좋아, 완전 설득됐어. 정보 좀 보내줄래?"
+   },
+   {
+    "speaker": "B",
+    "text": "Will do. Fair warning though, you'll probably get clay everywhere.",
+    "ko": "그럴게. 근데 미리 말해두는데, 온몸에 흙 다 묻을 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "Ha, I can live with that.",
+    "ko": "하, 그 정도는 감수할 수 있어."
+   }
+  ],
+  "note": "누군가한테 잘 어울릴 것 같은 걸 추천할 때 'right up your alley'라고 하면 딱 맞는 취향이라는 느낌이 잘 살아. 'give it a shot'은 부담 없이 한번 해보라고 할 때 쓰는 표현이야."
+ },
+ {
+  "id": "en2-019",
+  "situation": "집들이 초대하기",
+  "key_expressions": [
+   "swing by",
+   "bring anything",
+   "can't wait to show you around"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, I'm finally having my housewarming this Saturday, you should swing by.",
+    "ko": "야, 나 드디어 이번 주 토요일에 집들이 하는데, 너도 놀러 와."
+   },
+   {
+    "speaker": "B",
+    "text": "Oh nice, congrats on the new place! What time?",
+    "ko": "오 좋다, 새집 축하해! 몇 시야?"
+   },
+   {
+    "speaker": "A",
+    "text": "Around 7. Just a casual thing, some food and drinks.",
+    "ko": "7시쯤. 그냥 편하게 음식이랑 음료 정도만 준비했어."
+   },
+   {
+    "speaker": "B",
+    "text": "I'm in. Should I bring anything?",
+    "ko": "갈게. 뭐 가져가야 할 거 있어?"
+   },
+   {
+    "speaker": "A",
+    "text": "Just yourself, honestly, but if you wanna bring something, maybe dessert?",
+    "ko": "솔직히 그냥 몸만 와도 되는데, 뭔가 가져오고 싶으면 디저트 정도?"
+   },
+   {
+    "speaker": "B",
+    "text": "Got it, I'll grab a cake on the way.",
+    "ko": "알겠어, 오는 길에 케이크 사갈게."
+   },
+   {
+    "speaker": "A",
+    "text": "Perfect, can't wait to show you around.",
+    "ko": "완벽해, 집 구경시켜줄 생각에 벌써 기대돼."
+   }
+  ],
+  "note": "가볍게 놀러오라고 할 때 'swing by'를 쓰면 격식 없이 자연스러워. 집들이에서 손님이 뭘 가져갈지 물어보면 'Just yourself'라고 답하는 게 미국식 매너야."
+ },
+ {
+  "id": "en2-020",
+  "situation": "드라마 정주행 이야기하기",
+  "key_expressions": [
+   "binge-watch",
+   "on the edge of my seat",
+   "spoil it"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Have you started that new drama everyone's talking about?",
+    "ko": "다들 얘기하는 그 새 드라마 봤어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Oh my gosh, yes. I binge-watched the whole season in like two days.",
+    "ko": "어머, 봤지. 시즌 전체를 이틀 만에 정주행했어."
+   },
+   {
+    "speaker": "A",
+    "text": "No way, already? How is it?",
+    "ko": "말도 안 돼, 벌써? 어때, 재밌어?"
+   },
+   {
+    "speaker": "B",
+    "text": "So good, I was on the edge of my seat the entire time.",
+    "ko": "완전 재밌어, 처음부터 끝까지 손에 땀을 쥐고 봤어."
+   },
+   {
+    "speaker": "A",
+    "text": "Don't spoil it, I just started episode two.",
+    "ko": "스포하지 마, 나 이제 2화 시작했어."
+   },
+   {
+    "speaker": "B",
+    "text": "My lips are sealed, but trust me, episode five will wreck you.",
+    "ko": "입 다물게, 근데 진짜 5화 보면 멘탈 나갈 거야."
+   },
+   {
+    "speaker": "A",
+    "text": "Okay now I'm scared and excited.",
+    "ko": "이제 무섭기도 하고 기대되기도 하네."
+   }
+  ],
+  "note": "드라마 몰아본 얘기할 때 'binge-watch'가 정주행이랑 딱 맞는 표현이야. 'on the edge of my seat'은 긴장감 있게 봤다는 걸 생생하게 전달해줘."
+ },
+ {
+  "id": "en2-021",
+  "situation": "건강검진 결과 나누기",
+  "key_expressions": [
+   "get the results back",
+   "nothing to worry about",
+   "wake-up call"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "Hey, did you get your checkup results back yet?",
+    "ko": "저기, 건강검진 결과 받았어?"
+   },
+   {
+    "speaker": "B",
+    "text": "Yeah, just got them yesterday. Cholesterol's a little high, but nothing to worry about too much.",
+    "ko": "응, 어제 받았어. 콜레스테롤이 좀 높은데, 그렇게 크게 걱정할 정도는 아니래."
+   },
+   {
+    "speaker": "A",
+    "text": "Ah, that's still good to catch it early though.",
+    "ko": "아 그래도 일찍 알아챈 게 다행이네."
+   },
+   {
+    "speaker": "B",
+    "text": "For real, it was kind of a wake-up call. I'm cutting back on fried food.",
+    "ko": "진짜, 그게 좀 경각심을 주더라고. 튀긴 음식 줄이려고."
+   },
+   {
+    "speaker": "A",
+    "text": "Good for you. I need to go get mine done too, honestly.",
+    "ko": "잘됐네. 솔직히 나도 검진 받으러 가야 하는데."
+   },
+   {
+    "speaker": "B",
+    "text": "You really should, better safe than sorry.",
+    "ko": "진짜 받아봐, 나중에 후회하는 것보다 낫잖아."
+   }
+  ],
+  "note": "건강검진 결과 얘기할 때 'nothing to worry about'으로 안심시키는 뉘앙스를 담을 수 있어. 'wake-up call'은 뭔가 계기가 돼서 생활습관을 바꾸게 됐다는 뜻으로 자주 써."
+ },
+ {
+  "id": "en2-022",
+  "situation": "마감 압박감 나누기",
+  "key_expressions": [
+   "down to the wire",
+   "burning the midnight oil",
+   "crunch time"
+  ],
+  "lines": [
+   {
+    "speaker": "A",
+    "text": "How's the report coming along?",
+    "ko": "보고서는 잘 돼가?"
+   },
+   {
+    "speaker": "B",
+    "text": "Honestly, it's down to the wire. I've been burning the midnight oil all week.",
+    "ko": "솔직히, 시간이 진짜 촉박해. 이번 주 내내 밤새 일하고 있어."
+   },
+   {
+    "speaker": "A",
+    "text": "Yeah, this is definitely crunch time for all of us.",
+    "ko": "그래, 지금 다들 진짜 마감 압박 시기지."
+   },
+   {
+    "speaker": "B",
+    "text": "I just hope I can get it done before the deadline tomorrow.",
+    "ko": "그냥 내일 마감 전까지 끝낼 수 있길 바랄 뿐이야."
+   },
+   {
+    "speaker": "A",
+    "text": "You've got this. Let me know if you need another set of eyes.",
+    "ko": "넌 할 수 있어. 누가 한번 봐줘야 하면 말해."
+   },
+   {
+    "speaker": "B",
+    "text": "I might take you up on that later tonight.",
+    "ko": "오늘 밤늦게 그 제안 받아들일 수도 있어."
+   },
+   {
+    "speaker": "A",
+    "text": "Anytime, we're all in this together.",
+    "ko": "언제든지, 우리 다 같이 힘내는 거지."
+   }
+  ],
+  "note": "마감 임박했을 때 'down to the wire'라고 하면 진짜 아슬아슬한 상황이라는 게 잘 전달돼. 'burning the midnight oil'은 밤늦게까지 일한다는 뜻으로 자주 쓰는 관용 표현이야."
+ }
 ]
