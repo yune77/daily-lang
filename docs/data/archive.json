@@ -110,16 +110,16 @@
   "quote": {
    "en": {
     "id": "qen-001",
-    "text": "The secret of getting ahead is getting started.",
-    "source": "Mark Twain",
-    "ko": "시작이 반이다."
+    "text": "Everything blooms in its own time.",
+    "source": "Modern Proverb",
+    "ko": "시간이 되면 모든 것은 저절로 피어난다."
    },
    "zh": {
     "id": "qzh-001",
-    "text": "学而时习之，不亦说乎？",
-    "pinyin": "Xué ér shí xí zhī, bù yì yuè hū?",
-    "source": "论语 (孔子)",
-    "ko": "배우고 때때로 익히면 또한 기쁘지 아니한가?"
+    "text": "花开有时，花落有时，一切自有安排。",
+    "pinyin": "Huā kāi yǒu shí, huā luò yǒu shí, yíqiè zì yǒu ānpái.",
+    "source": "现代语录",
+    "ko": "피어나는 것도, 지는 것도 모두 자기만의 때가 있으니, 모든 것에는 이미 안배가 있다."
    }
   }
  }
