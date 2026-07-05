@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-매일 오후 9시(KST) 실행되는 학습 발송 스크립트.
-1) 오늘의 표현 선정 (영어 5 + 중국어 5, 레벨별 순차 진행)
-2) 음성(MP3) 생성 — edge-tts (실패해도 발송은 계속, 웹에서 브라우저 음성으로 대체)
+매일 오후 9시(KST) 실행되는 학습 발송 스크립트. (회화 대화 버전)
+1) 오늘의 상황별 대화 선정 (언어당 1개, 레벨별 순차 진행)
+2) 음성(MP3) 생성 — edge-tts, 대사 줄마다·화자마다 다른 목소리
 3) 웹 아카이브(docs/data/archive.json)와 진도(state.json) 갱신
-4) 텔레그램 요약 메시지 + 버튼 2개(웹에서 보기 / Claude 회화 연습) 발송
+4) 텔레그램에 대화 전문 발송 + 버튼 2개(웹에서 보기 / Claude 회화 연습)
 """
 import json
 import os
@@ -26,11 +26,15 @@ DATA = ROOT / "data"
 WEB_DATA = ROOT / "docs" / "data"
 AUDIO_DIR = ROOT / "docs" / "audio"
 
-PER_DAY = 5  # 언어별 하루 새 표현 개수
+PER_DAY = 1  # 언어당 하루 새 대화 개수 (대화 1개 = 여러 문장·표현 포함)
 LEVEL_NAMES = {1: "초급", 2: "중급", 3: "고급"}
 LANG_LABEL = {"en": "영어", "zh": "중국어"}
 LANG_FLAG = {"en": "\U0001F1FA\U0001F1F8", "zh": "\U0001F1E8\U0001F1F3"}
-VOICES = {"en": "en-US-JennyNeural", "zh": "zh-CN-XiaoxiaoNeural"}
+# 화자 A/B에 각각 다른 목소리를 배정 (실제 대화처럼 들리게)
+VOICES = {
+    "en": {"A": "en-US-JennyNeural", "B": "en-US-GuyNeural"},
+    "zh": {"A": "zh-CN-XiaoxiaoNeural", "B": "zh-CN-YunxiNeural"},
+}
 
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
@@ -66,16 +70,17 @@ def load_level(lang, level):
     return json.loads(p.read_text(encoding="utf-8"))
 
 
-def migrate(state):
-    """구버전 state(index 방식)를 레벨별 진도(pos) 방식으로 변환"""
+def ensure_state_shape(state):
+    """state.json 필드 보정 (회화 버전 스키마: level/pos/done/learned/tg_offset/kb_sent)"""
     for lang in ("en", "zh"):
-        st = state[lang]
-        if "pos" not in st:
-            st["pos"] = {"1": 0, "2": 0, "3": 0}
-            st["pos"][str(st.get("level", 1))] = st.pop("index", 0)
-        st.pop("total", None)
+        st = state.setdefault(lang, {})
+        st.setdefault("level", 1)
+        st.setdefault("pos", {"1": 0, "2": 0, "3": 0})
+        st.setdefault("done", False)
         st.setdefault("learned", 0)
     state.setdefault("tg_offset", 0)
+    state.setdefault("days", 0)
+    state.setdefault("last_sent", None)
 
 
 def process_commands(state):
@@ -134,7 +139,7 @@ def ensure_keyboard(state):
 
 
 def pick_today(lang, state):
-    """오늘 배울 표현을 뽑고 진도를 갱신. (items, levelup, all_done) 반환"""
+    """오늘 배울 대화를 뽑고 진도를 갱신. (items, levelup, all_done) 반환"""
     st = state[lang]
     if st.get("done"):
         return [], False, True
@@ -159,19 +164,19 @@ def pick_today(lang, state):
     return picked, levelup, st.get("done", False)
 
 
-def make_audio(lang, items):
-    """표현/예문 MP3 생성. 실패해도 전체 발송은 막지 않는다."""
+def make_audio(lang, dialogues):
+    """대화의 각 줄을 화자별 목소리로 MP3 생성. 실패해도 전체 발송은 막지 않는다."""
     outdir = AUDIO_DIR / lang
     outdir.mkdir(parents=True, exist_ok=True)
-    voice = VOICES[lang]
-    for it in items:
-        for suffix, text in (("", it["expression"]), ("x", it["example"])):
-            out = outdir / f"{it['id']}{suffix}.mp3"
+    for d in dialogues:
+        for i, line in enumerate(d["lines"]):
+            voice = VOICES[lang].get(line.get("speaker", "A"), VOICES[lang]["A"])
+            out = outdir / f"{d['id']}-L{i}.mp3"
             if out.exists():
                 continue
             try:
                 subprocess.run(
-                    ["edge-tts", "--voice", voice, "--text", text,
+                    ["edge-tts", "--voice", voice, "--text", line["text"],
                      "--write-media", str(out)],
                     check=True, timeout=60,
                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
@@ -194,113 +199,43 @@ def telegram(method, payload):
 
 def build_message(entry):
     d = datetime.date.fromisoformat(entry["date"])
-    lines = [f"\U0001F4DA <b>{d.month}월 {d.day}일 오늘의 표현</b>", ""]
+    lines = [f"\U0001F4DA <b>{d.month}월 {d.day}일 오늘의 회화</b>", ""]
     for lang in ("en", "zh"):
         sec = entry[lang]
         if not sec["items"]:
             lines.append(f"{LANG_FLAG[lang]} {LANG_LABEL[lang]}: 모든 레벨 완주! \U0001F3C6")
             lines.append("")
             continue
+        dlg = sec["items"][0]
         lines.append(f"{LANG_FLAG[lang]} <b>{LANG_LABEL[lang]} · {sec['level_name']}</b>"
-                     f" ({sec['progress']}/{sec['total']})")
-        for it in sec["items"]:
-            if lang == "zh":
-                lines.append(f"• {it['expression']} ({it['pinyin']}) — {it['meaning']}")
-            else:
-                lines.append(f"• {it['expression']} — {it['meaning']}")
+                     f" ({sec['progress']}/{sec['total']}) — {dlg['situation']}")
+        for ln in dlg["lines"]:
+            tag = "A" if ln["speaker"] == "A" else "B"
+            lines.append(f"<b>{tag}</b> {ln['text']}")
+            lines.append(f"    {ln['ko']}")
         if sec.get("levelup"):
             lines.append(f"\U0001F389 <b>미션 컴플리트! {sec['next_level_name']}으로 레벨업!</b>")
         lines.append("")
-    lines.append("\U0001F50A 발음 듣기 · 예문 · 복습 퀴즈는 웹에서!")
+    lines.append("\U0001F50A 대사별 발음 듣기 · 쉐도잉은 웹에서!")
     lines.append("<i>레벨 변경: 이 채팅에 '영어 고급'처럼 보내면 다음 발송부터 적용</i>")
     return "\n".join(lines)
 
 
 def build_claude_url(entry):
-    en_list = ", ".join(i["expression"] for i in entry["en"]["items"]) or "없음"
-    zh_list = ", ".join(i["expression"] for i in entry["zh"]["items"]) or "없음"
-    prompt = (
-        f"오늘 배운 표현으로 회화 연습을 하고 싶어. "
-        f"영어 표현: {en_list}. 중국어 표현: {zh_list}. "
-        f"네가 원어민 친구 역할을 맡아 자연스러운 상황극을 만들어 주고, "
-        f"내가 이 표현들을 직접 써 볼 수 있게 대화를 이끌어줘. "
-        f"내 문장에 어색한 부분이 있으면 그때그때 자연스럽게 교정해줘. "
-        f"영어부터 시작하고, 끝나면 중국어(병음 포함)로 넘어가자."
-    )
-    return "https://claude.ai/new?q=" + urllib.parse.quote(prompt)
-
-
-def send(entry):
-    keyboard = {"inline_keyboard": [
-        [{"text": "\U0001F4D6 웹에서 보기", "url": f"{SITE}/?d={entry['date']}"}],
-        [{"text": "\U0001F4AC Claude로 회화 연습", "url": build_claude_url(entry)}],
-    ]}
-    if DRY_RUN:
-        print("=== DRY RUN: 발송할 메시지 ===")
-        print(build_message(entry))
-        print("버튼1:", keyboard["inline_keyboard"][0][0]["url"])
-        print("버튼2:", keyboard["inline_keyboard"][1][0]["url"][:120], "...")
-        return
-    telegram("sendMessage", {
-        "chat_id": CHAT_ID,
-        "text": build_message(entry),
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True,
-        "reply_markup": keyboard,
-    })
-
-
-def main():
-    state = read_json(WEB_DATA / "state.json", None)
-    if state is None:
-        print("state.json이 없습니다.", file=sys.stderr)
-        sys.exit(1)
-    migrate(state)
-    process_commands(state)
-    ensure_keyboard(state)
-    archive = read_json(WEB_DATA / "archive.json", [])
-
-    # 오늘 이미 발송했으면: 기본은 건너뛰기, force면 같은 내용 재발송(진도 중복 진행 없음)
-    existing = next((e for e in archive if e["date"] == TODAY), None)
-    if existing:
-        write_json(WEB_DATA / "state.json", state)  # 레벨 명령 처리분 저장
-        if FORCE:
-            print("오늘 항목 재발송(force).")
-            send(existing)
-        else:
-            print("오늘은 이미 발송했습니다. 건너뜁니다.")
-        return
-
-    entry = {"date": TODAY}
+    parts = []
     for lang in ("en", "zh"):
-        before_level = state[lang]["level"]
-        items, levelup, done = pick_today(lang, state)
-        make_audio(lang, items)
-        entry[lang] = {
-            "level": before_level,
-            "level_name": LEVEL_NAMES.get(before_level, str(before_level)),
-            "items": items,
-            "levelup": levelup,
-            "next_level_name": LEVEL_NAMES.get(state[lang]["level"], ""),
-            "progress": state[lang]["pos"].get(str(before_level), 0),
-            "total": len(load_level(lang, before_level) or []),
-            "done": done,
-        }
-        # 레벨업/완주 시에는 그 레벨을 전부 끝낸 것이므로 전체 완료로 표기
-        if levelup or done:
-            entry[lang]["progress"] = entry[lang]["total"]
-
-    archive.insert(0, entry)  # 최신이 앞
-    state["last_sent"] = TODAY
-    state["days"] = state.get("days", 0) + 1
-
-    write_json(WEB_DATA / "archive.json", archive)
-    write_json(WEB_DATA / "state.json", state)
-
-    send(entry)
-    print(f"{TODAY} 발송 완료: 영어 {len(entry['en']['items'])}개, "
-          f"중국어 {len(entry['zh']['items'])}개")
-
-
-if __name__ == "__main__":
-    main()
+        items = entry[lang]["items"]
+        if not items:
+            continue
+        d = items[0]
+        label = LANG_LABEL[lang]
+        exprs = ", ".join(d.get("key_expressions", [])) or "없음"
+        parts.append(f"{label} 상황: {d['situation']} (핵심 표현: {exprs})")
+    situations = " / ".join(parts) or "자유 주제"
+    prompt = (
+        f"오늘 배운 대화 상황으로 회화 연습을 하고 싶어. {situations}. "
+        f"네가 원어민 친구 역할을 맡아서 이 상황을 자연스러운 롤플레이로 이어가 줘. "
+        f"내가 직접 대사를 말해보게 유도하고, 어색한 부분은 그때그때 자연스럽게 교정해줘. "
+        f"영어 상황부터 시작하고, 끝나면 중국어(병음 포함)로 넘어가자."
+    )
+    return
