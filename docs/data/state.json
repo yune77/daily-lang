@@ -1,8 +1,26 @@
 {
- "en": {"level": 1, "pos": {"1": 0, "2": 0, "3": 0}, "done": false, "learned": 0},
- "zh": {"level": 1, "pos": {"1": 0, "2": 0, "3": 0}, "done": false, "learned": 0},
+ "en": {
+  "level": 1,
+  "pos": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  },
+  "done": false,
+  "learned": 1
+ },
+ "zh": {
+  "level": 1,
+  "pos": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  },
+  "done": false,
+  "learned": 1
+ },
  "tg_offset": 0,
  "kb_sent": true,
- "days": 0,
- "last_sent": null
+ "days": 1,
+ "last_sent": "2026-07-05"
 }

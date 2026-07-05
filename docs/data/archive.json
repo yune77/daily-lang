@@ -1,1 +1,111 @@
-[]
+[
+ {
+  "date": "2026-07-05",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-001",
+     "situation": "카페에서 커피 주문하기",
+     "key_expressions": [
+      "Can I get",
+      "for here or to go",
+      "Keep the change"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, can I get a small iced americano?",
+       "ko": "안녕하세요, 스몰 아이스 아메리카노 하나 주시겠어요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. For here or to go?",
+       "ko": "네. 매장에서 드시나요, 포장이신가요?"
+      },
+      {
+       "speaker": "A",
+       "text": "To go, please.",
+       "ko": "포장으로 할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "That'll be four fifty.",
+       "ko": "4달러 50센트입니다."
+      },
+      {
+       "speaker": "A",
+       "text": "Here you go. Keep the change.",
+       "ko": "여기요. 잔돈은 됐어요."
+      },
+      {
+       "speaker": "B",
+       "text": "Thanks! Have a good one.",
+       "ko": "감사합니다! 좋은 하루 보내세요."
+      }
+     ],
+     "note": "for here or to go는 미국 카페 어디서나 듣는 필수 질문. Keep the change는 팁 문화권 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 1,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-001",
+     "situation": "친구와 안부 인사하기",
+     "key_expressions": [
+      "好久不见",
+      "最近怎么样",
+      "你吃了吗"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "好久不见！最近怎么样？",
+       "pinyin": "Hǎojiǔ bújiàn! Zuìjìn zěnmeyàng?",
+       "ko": "오랜만이야! 요즘 어때?"
+      },
+      {
+       "speaker": "B",
+       "text": "还不错，就是有点忙。你呢？",
+       "pinyin": "Hái búcuò, jiùshì yǒudiǎn máng. Nǐ ne?",
+       "ko": "괜찮아, 그냥 좀 바빠. 너는?"
+      },
+      {
+       "speaker": "A",
+       "text": "我也是，天天加班。",
+       "pinyin": "Wǒ yěshì, tiāntiān jiābān.",
+       "ko": "나도. 맨날 야근이야."
+      },
+      {
+       "speaker": "B",
+       "text": "你吃了吗？一起吃饭吧。",
+       "pinyin": "Nǐ chī le ma? Yìqǐ chīfàn ba.",
+       "ko": "밥 먹었어? 같이 밥 먹자."
+      },
+      {
+       "speaker": "A",
+       "text": "还没呢，走吧！",
+       "pinyin": "Hái méi ne, zǒu ba!",
+       "ko": "아직 안 먹었어, 가자!"
+      }
+     ],
+     "note": "你吃了吗(밥 먹었어?)는 실제 식사 여부보다 안부를 묻는 중국식 인사"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 1,
+   "total": 22,
+   "done": false
+  }
+ }
+]
