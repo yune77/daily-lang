@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -88,6 +87,7 @@ details.arch .card{border:none;border-top:1px solid var(--line);border-radius:0;
 .quote-card .pinyin{font-size:.85rem;color:var(--accent);font-weight:600;margin-top:6px}
 .quote-card .ko{font-size:.88rem;color:var(--muted);margin-top:8px}
 .quote-source{margin-top:12px;font-size:.78rem;color:var(--muted)}
+.quote-card .quote-play{margin-top:14px}
 .empty{color:var(--muted);text-align:center;padding:40px 0;font-size:.9rem}
 footer{margin-top:30px;text-align:center;color:var(--muted);font-size:.75rem}
 </style>
@@ -282,22 +282,44 @@ function renderLang(lang){
   }
 }
 
-/* ---------- 오늘의 글귀 (명언·속담·성경구절, 매일 누적) ---------- */
+/* ---------- 오늘의 글귀 (인생 잠언·감성 문구, 매일 누적) ---------- */
 function quoteBodyHTML(entry){
   const q = entry.quote || {};
   let html = "";
   for(const lang of ["en","zh"]){
     const item = q[lang];
     if(!item) continue;
-    html += `<div class="card quote-card">
+    html += `<div class="card quote-card" data-qlang="${lang}" data-qid="${item.id}">
       <div class="quote-flag">${FLAG[lang]} ${LANGNAME[lang]}</div>
       <div class="quote-text">${esc(item.text)}</div>
       ${item.pinyin?`<div class="pinyin">${esc(item.pinyin)}</div>`:""}
       <div class="ko">${esc(item.ko)}</div>
       <div class="quote-source">— ${esc(item.source)}</div>
+      <button class="mini-play quote-play" title="글귀 듣기">🔊</button>
     </div>`;
   }
   return html;
+}
+function bindQuoteCards(root, entryByDate){
+  root.querySelectorAll(".quote-card").forEach(card=>{
+    const btn = card.querySelector(".quote-play");
+    if(!btn) return;
+    btn.onclick = ()=>{
+      stopAudio();
+      const lang = card.dataset.qlang, id = card.dataset.qid;
+      const date = card.closest("[data-date]")?.dataset.date;
+      const entry = entryByDate[date] || entryByDate.latest;
+      const item = entry?.quote?.[lang];
+      if(!item) return;
+      playQuote(lang, id, item.text);
+    };
+  });
+}
+function playQuote(lang, id, text){
+  const audio = new Audio(`audio/quotes/${lang}/${id}.mp3`);
+  audio.onerror = ()=> speak(text, lang, 1);
+  currentAudio = audio;
+  audio.play().catch(()=> speak(text, lang, 1));
 }
 function renderQuotes(){
   const c = $("#content");
@@ -320,6 +342,9 @@ function renderQuotes(){
     }
   }
   c.innerHTML = html;
+  const entryByDate = {latest};
+  for(const e of withQuotes) entryByDate[e.date] = e;
+  bindQuoteCards(c, entryByDate);
 }
 
 /* ---------- 탭 ---------- */
