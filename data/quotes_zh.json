@@ -1,282 +1,275 @@
 [
  {
   "id": "qzh-001",
-  "text": "学而时习之，不亦说乎？",
-  "pinyin": "Xué ér shí xí zhī, bù yì yuè hū?",
-  "source": "论语 (孔子)",
-  "ko": "배우고 때때로 익히면 또한 기쁘지 아니한가?"
+  "text": "花开有时，花落有时，一切自有安排。",
+  "pinyin": "Huā kāi yǒu shí, huā luò yǒu shí, yíqiè zì yǒu ānpái.",
+  "source": "现代语录",
+  "ko": "피어나는 것도, 지는 것도 모두 자기만의 때가 있으니, 모든 것에는 이미 안배가 있다."
  },
  {
   "id": "qzh-002",
-  "text": "三人行，必有我师焉。",
-  "pinyin": "Sān rén xíng, bì yǒu wǒ shī yān.",
-  "source": "论语 (孔子)",
-  "ko": "세 사람이 길을 가면 그중에 반드시 내 스승이 있다."
+  "text": "但行好事，莫问前程。",
+  "pinyin": "Dàn xíng hǎo shì, mò wèn qián chéng.",
+  "source": "现代语录",
+  "ko": "그저 좋은 일을 하며 걸어가라, 앞날은 굳이 묻지 말라."
  },
  {
   "id": "qzh-003",
-  "text": "千里之行，始于足下。",
-  "pinyin": "Qiānlǐ zhī xíng, shǐ yú zúxià.",
-  "source": "老子",
-  "ko": "천 리 길도 한 걸음부터."
+  "text": "人生如茶，不必太满。",
+  "pinyin": "Rénshēng rú chá, bú bì tài mǎn.",
+  "source": "现代语录",
+  "ko": "인생은 차와 같으니, 너무 가득 채울 필요는 없다."
  },
  {
   "id": "qzh-004",
-  "text": "上善若水。",
-  "pinyin": "Shàng shàn ruò shuǐ.",
-  "source": "老子",
-  "ko": "최고의 선은 물과 같다."
+  "text": "慢慢来，比较快。",
+  "pinyin": "Màn man lái, bǐjiào kuài.",
+  "source": "现代语录",
+  "ko": "천천히 가는 것이 오히려 더 빠르다."
  },
  {
   "id": "qzh-005",
-  "text": "生于忧患，死于安乐。",
-  "pinyin": "Shēng yú yōuhuàn, sǐ yú ānlè.",
-  "source": "孟子",
-  "ko": "우환 속에서 살아나고, 안락 속에서 죽는다."
+  "text": "你若盛开，清风自来。",
+  "pinyin": "Nǐ ruò shèngkāi, qīngfēng zì lái.",
+  "source": "现代语录",
+  "ko": "네가 활짝 피면, 맑은 바람은 저절로 찾아온다."
  },
  {
   "id": "qzh-006",
-  "text": "活到老，学到老。",
-  "pinyin": "Huó dào lǎo, xué dào lǎo.",
-  "source": "谚语",
-  "ko": "늙어 죽을 때까지 배운다."
+  "text": "岁月不曾亏待过谁。",
+  "pinyin": "Suìyuè bù céng kuīdài guo shéi.",
+  "source": "现代语录",
+  "ko": "세월은 그 누구도 저버린 적이 없다."
  },
  {
   "id": "qzh-007",
-  "text": "熟能生巧。",
-  "pinyin": "Shú néng shēng qiǎo.",
-  "source": "谚语",
-  "ko": "숙달되면 요령이 생긴다."
+  "text": "该来的都会来，该走的留不住。",
+  "pinyin": "Gāi lái de dōu huì lái, gāi zǒu de liú bu zhù.",
+  "source": "现代语录",
+  "ko": "와야 할 것은 결국 오고, 가야 할 것은 붙잡을 수 없다."
  },
  {
   "id": "qzh-008",
-  "text": "有志者事竟成。",
-  "pinyin": "Yǒu zhì zhě shì jìng chéng.",
-  "source": "谚语",
-  "ko": "뜻이 있는 자는 결국 이룬다."
+  "text": "你不用完美，你只需要真实。",
+  "pinyin": "Nǐ búyòng wánměi, nǐ zhǐ xūyào zhēnshí.",
+  "source": "现代语录",
+  "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
  },
  {
   "id": "qzh-009",
-  "text": "一分耕耘，一分收获。",
-  "pinyin": "Yī fēn gēngyún, yī fēn shōuhuò.",
-  "source": "谚语",
-  "ko": "노력한 만큼 거둔다."
+  "text": "允许一切发生。",
+  "pinyin": "Yǔnxǔ yíqiè fāshēng.",
+  "source": "现代语录",
+  "ko": "모든 일이 일어나도록 그대로 두어라."
  },
  {
   "id": "qzh-010",
-  "text": "失败乃成功之母。",
-  "pinyin": "Shībài nǎi chénggōng zhī mǔ.",
-  "source": "谚语",
-  "ko": "실패는 성공의 어머니."
+  "text": "生活明朗，万物可爱。",
+  "pinyin": "Shēnghuó mínglǎng, wànwù kě'ài.",
+  "source": "现代语录",
+  "ko": "삶이 밝으면, 만물이 사랑스러워 보인다."
  },
  {
   "id": "qzh-011",
-  "text": "近朱者赤，近墨者黑。",
-  "pinyin": "Jìn zhū zhě chì, jìn mò zhě hēi.",
-  "source": "谚语",
-  "ko": "주사를 가까이하면 붉어지고, 먹을 가까이하면 검어진다 (환경의 영향)."
+  "text": "世界很大，慢慢去看。",
+  "pinyin": "Shìjiè hěn dà, màn man qù kàn.",
+  "source": "现代语录",
+  "ko": "세상은 넓으니, 천천히 둘러봐도 된다."
  },
  {
   "id": "qzh-012",
-  "text": "画蛇添足。",
-  "pinyin": "Huà shé tiān zú.",
-  "source": "成语",
-  "ko": "뱀을 그리는데 다리를 더하다 (쓸데없는 짓을 하다)."
+  "text": "心宽一寸，路宽一丈。",
+  "pinyin": "Xīn kuān yí cùn, lù kuān yí zhàng.",
+  "source": "现代语录",
+  "ko": "마음이 한 치 넓어지면, 길은 한 장만큼 넓어진다."
  },
  {
   "id": "qzh-013",
-  "text": "亡羊补牢，为时未晚。",
-  "pinyin": "Wáng yáng bǔ láo, wéi shí wèi wǎn.",
-  "source": "成语",
-  "ko": "양을 잃고 우리를 고쳐도 늦지 않다."
+  "text": "不急不躁，静待花开。",
+  "pinyin": "Bù jí bú zào, jìng dài huā kāi.",
+  "source": "现代语录",
+  "ko": "조급해하지 말고, 고요히 꽃 피기를 기다려라."
  },
  {
   "id": "qzh-014",
-  "text": "水滴石穿。",
-  "pinyin": "Shuǐ dī shí chuān.",
-  "source": "成语",
-  "ko": "물방울이 돌을 뚫는다 (꾸준함이 결국 이긴다)."
+  "text": "时间会给你答案。",
+  "pinyin": "Shíjiān huì gěi nǐ dá'àn.",
+  "source": "现代语录",
+  "ko": "시간이 너에게 답을 줄 것이다."
  },
  {
   "id": "qzh-015",
-  "text": "欲速则不达。",
-  "pinyin": "Yù sù zé bù dá.",
-  "source": "论语 (孔子)",
-  "ko": "서두르면 도달하지 못한다."
+  "text": "走慢一点，风景不会跑。",
+  "pinyin": "Zǒu màn yìdiǎn, fēngjǐng bú huì pǎo.",
+  "source": "现代语录",
+  "ko": "조금 천천히 걸어도, 풍경은 도망가지 않는다."
  },
  {
   "id": "qzh-016",
-  "text": "笑一笑，十年少。",
-  "pinyin": "Xiào yí xiào, shí nián shào.",
-  "source": "谚语",
-  "ko": "한 번 웃으면 십 년은 젊어진다."
+  "text": "越努力，越幸运。",
+  "pinyin": "Yuè nǔlì, yuè xìngyùn.",
+  "source": "现代语录",
+  "ko": "노력할수록, 운도 따라온다."
  },
  {
   "id": "qzh-017",
-  "text": "书山有路勤为径。",
-  "pinyin": "Shū shān yǒu lù qín wéi jìng.",
-  "source": "谚语",
-  "ko": "책의 산에 이르는 길은 부지런함이 지름길이다."
+  "text": "你要相信，总有人在等你。",
+  "pinyin": "Nǐ yào xiāngxìn, zǒng yǒu rén zài děng nǐ.",
+  "source": "现代语录",
+  "ko": "믿어봐, 언제나 누군가는 너를 기다리고 있어."
  },
  {
   "id": "qzh-018",
-  "text": "三思而后行。",
-  "pinyin": "Sān sī ér hòu xíng.",
-  "source": "论语 (孔子)",
-  "ko": "세 번 생각한 후에 행동하라."
+  "text": "做自己，比什么都重要。",
+  "pinyin": "Zuò zìjǐ, bǐ shénme dōu zhòngyào.",
+  "source": "现代语录",
+  "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
  },
  {
   "id": "qzh-019",
-  "text": "知己知彼，百战不殆。",
-  "pinyin": "Zhī jǐ zhī bǐ, bǎi zhàn bù dài.",
-  "source": "孙子兵法",
-  "ko": "나를 알고 상대를 알면 백 번 싸워도 위태롭지 않다."
+  "text": "每一天都是重新开始的机会。",
+  "pinyin": "Měi yì tiān dōu shì chóngxīn kāishǐ de jīhuì.",
+  "source": "现代语录",
+  "ko": "매일은 다시 시작할 수 있는 기회다."
  },
  {
   "id": "qzh-020",
-  "text": "凡事都有定期，天下万务都有定时。",
-  "pinyin": "Fánshì dōu yǒu dìngqī, tiānxià wànwù dōu yǒu dìngshí.",
-  "source": "传道书 3:1 (和合本)",
-  "ko": "범사에 기한이 있고 천하만사에 다 때가 있다."
+  "text": "简单一点，快乐才会多一点。",
+  "pinyin": "Jiǎndān yìdiǎn, kuàilè cái huì duō yìdiǎn.",
+  "source": "现代语录",
+  "ko": "단순하게 살수록, 행복은 더 많아진다."
  },
  {
   "id": "qzh-021",
-  "text": "你所作的，要交托耶和华，你所谋的，就必成立。",
-  "pinyin": "Nǐ suǒ zuò de, yào jiāotuō Yēhéhuá, nǐ suǒ móu de, jiù bì chénglì.",
-  "source": "箴言 16:3 (和合本)",
-  "ko": "너의 행사를 여호와께 맡기라 그리하면 네가 경영하는 것이 이루어지리라."
+  "text": "你已经很努力了，辛苦了。",
+  "pinyin": "Nǐ yǐjīng hěn nǔlì le, xīnkǔ le.",
+  "source": "现代语录",
+  "ko": "넌 이미 충분히 애썼어, 고생했어."
  },
  {
   "id": "qzh-022",
-  "text": "我靠着那加给我力量的，凡事都能作。",
-  "pinyin": "Wǒ kàozhe nà jiā gěi wǒ lìliang de, fánshì dōu néng zuò.",
-  "source": "腓立比书 4:13 (和合本)",
-  "ko": "내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라."
+  "text": "阳光总在风雨后。",
+  "pinyin": "Yángguāng zǒng zài fēngyǔ hòu.",
+  "source": "现代语录",
+  "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
  },
  {
   "id": "qzh-023",
-  "text": "神是我们的避难所，是我们的力量，是我们在患难中随时的帮助。",
-  "pinyin": "Shén shì wǒmen de bìnànsuǒ, shì wǒmen de lìliang, shì wǒmen zài huànnàn zhōng suíshí de bāngzhù.",
-  "source": "诗篇 46:1 (和合本)",
-  "ko": "하나님은 우리의 피난처시요 힘이시니 환난 중에 만날 큰 도움이시라."
+  "text": "学会放手，也是一种成长。",
+  "pinyin": "Xuéhuì fàngshǒu, yě shì yì zhǒng chéngzhǎng.",
+  "source": "现代语录",
+  "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
  },
  {
   "id": "qzh-024",
-  "text": "路遥知马力，日久见人心。",
-  "pinyin": "Lù yáo zhī mǎlì, rì jiǔ jiàn rénxīn.",
-  "source": "谚语",
-  "ko": "먼 길을 가봐야 말의 힘을 알고, 오래 지내봐야 사람의 마음을 안다."
+  "text": "你不必赶路，只需要在路上。",
+  "pinyin": "Nǐ bú bì gǎn lù, zhǐ xūyào zài lù shàng.",
+  "source": "现代语录",
+  "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
  },
  {
   "id": "qzh-025",
-  "text": "不入虎穴，焉得虎子。",
-  "pinyin": "Bú rù hǔxué, yān dé hǔzǐ.",
-  "source": "谚语",
-  "ko": "호랑이굴에 들어가지 않으면 어찌 호랑이 새끼를 얻으랴."
+  "text": "所有的失去，都会以另一种方式归来。",
+  "pinyin": "Suǒyǒu de shīqù, dōu huì yǐ lìng yì zhǒng fāngshì guīlái.",
+  "source": "现代语录",
+  "ko": "모든 잃어버린 것은 다른 방식으로 다시 돌아온다."
  },
  {
   "id": "qzh-026",
-  "text": "十年树木，百年树人。",
-  "pinyin": "Shí nián shù mù, bǎi nián shù rén.",
-  "source": "谚语",
-  "ko": "나무를 기르는 데 십 년, 사람을 기르는 데 백 년."
+  "text": "与其焦虑明天，不如做好今天。",
+  "pinyin": "Yǔqí jiāolǜ míngtiān, bùrú zuò hǎo jīntiān.",
+  "source": "现代语录",
+  "ko": "내일을 걱정하기보다, 오늘을 잘 살아내는 편이 낫다."
  },
  {
   "id": "qzh-027",
-  "text": "机不可失，时不再来。",
-  "pinyin": "Jī bù kě shī, shí bú zài lái.",
-  "source": "谚语",
-  "ko": "기회는 놓칠 수 없고, 때는 다시 오지 않는다."
+  "text": "你要成为自己的光。",
+  "pinyin": "Nǐ yào chéngwéi zìjǐ de guāng.",
+  "source": "现代语录",
+  "ko": "너 자신의 빛이 되어야 한다."
  },
  {
   "id": "qzh-028",
-  "text": "留得青山在，不怕没柴烧。",
-  "pinyin": "Liú dé qīngshān zài, bú pà méi chái shāo.",
-  "source": "谚语",
-  "ko": "청산을 남겨두면 땔감 없을까 걱정하지 않는다."
+  "text": "慢慢走，欣赏一路的风景。",
+  "pinyin": "Màn man zǒu, xīnshǎng yí lù de fēngjǐng.",
+  "source": "现代语录",
+  "ko": "천천히 걸으며, 가는 길의 풍경을 감상하라."
  },
  {
   "id": "qzh-029",
-  "text": "天生我材必有用。",
-  "pinyin": "Tiān shēng wǒ cái bì yǒu yòng.",
-  "source": "李白 《将进酒》",
-  "ko": "하늘이 나를 내었으니 반드시 쓸모가 있다."
+  "text": "你值得被温柔以待。",
+  "pinyin": "Nǐ zhídé bèi wēnróu yǐ dài.",
+  "source": "现代语录",
+  "ko": "너는 다정하게 대접받을 자격이 있다."
  },
  {
   "id": "qzh-030",
-  "text": "人无远虑，必有近忧。",
-  "pinyin": "Rén wú yuǎnlǜ, bì yǒu jìnyōu.",
-  "source": "论语 (孔子)",
-  "ko": "사람이 멀리 생각하지 않으면 반드시 가까운 근심이 있다."
+  "text": "心若安好，便是晴天。",
+  "pinyin": "Xīn ruò ānhǎo, biàn shì qíngtiān.",
+  "source": "现代语录",
+  "ko": "마음이 평온하면, 그것이 곧 맑은 날이다."
  },
  {
   "id": "qzh-031",
-  "text": "读万卷书，行万里路。",
-  "pinyin": "Dú wàn juàn shū, xíng wàn lǐ lù.",
-  "source": "谚语",
-  "ko": "만 권의 책을 읽고, 만 리 길을 가라."
+  "text": "别把小事放大，别把心事放太久。",
+  "pinyin": "Bié bǎ xiǎoshì fàngdà, bié bǎ xīnshì fàng tài jiǔ.",
+  "source": "现代语录",
+  "ko": "작은 일을 크게 만들지 말고, 마음의 짐을 너무 오래 담아두지 마라."
  },
  {
   "id": "qzh-032",
-  "text": "吃一堑，长一智。",
-  "pinyin": "Chī yí qiàn, zhǎng yí zhì.",
-  "source": "谚语",
-  "ko": "한 번 넘어지면 한 번 지혜가 는다."
+  "text": "做喜欢的事，成为想成为的人。",
+  "pinyin": "Zuò xǐhuan de shì, chéngwéi xiǎng chéngwéi de rén.",
+  "source": "现代语录",
+  "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
  },
  {
   "id": "qzh-033",
-  "text": "海内存知己，天涯若比邻。",
-  "pinyin": "Hǎinèi cún zhījǐ, tiānyá ruò bǐlín.",
-  "source": "王勃 《送杜少府之任蜀州》",
-  "ko": "세상에 지기가 있으면 하늘 끝도 이웃과 같다."
+  "text": "你走过的路，都算数。",
+  "pinyin": "Nǐ zǒu guò de lù, dōu suànshù.",
+  "source": "现代语录",
+  "ko": "네가 걸어온 길은 모두 의미가 있다."
  },
  {
   "id": "qzh-034",
-  "text": "梅花香自苦寒来。",
-  "pinyin": "Méihuā xiāng zì kǔhán lái.",
-  "source": "谚语",
-  "ko": "매화 향기는 혹독한 추위에서 나온다 (고생 끝에 낙이 온다)."
+  "text": "不是所有的努力都立刻有回报，但都不会白费。",
+  "pinyin": "Bú shì suǒyǒu de nǔlì dōu lìkè yǒu huíbào, dàn dōu bú huì báifèi.",
+  "source": "现代语录",
+  "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
  },
  {
   "id": "qzh-035",
-  "text": "你们祈求，就给你们；寻找，就寻见；叩门，就给你们开门。",
-  "pinyin": "Nǐmen qíqiú, jiù gěi nǐmen; xúnzhǎo, jiù xúnjiàn; kòumén, jiù gěi nǐmen kāimén.",
-  "source": "马太福音 7:7 (和合本)",
-  "ko": "구하라 그리하면 너희에게 주실 것이요 찾으라 그리하면 찾아낼 것이요 문을 두드리라 그리하면 너희에게 열릴 것이니."
+  "text": "与自己和解，是最好的成长。",
+  "pinyin": "Yǔ zìjǐ héjiě, shì zuì hǎo de chéngzhǎng.",
+  "source": "现代语录",
+  "ko": "자기 자신과 화해하는 것이 가장 좋은 성장이다."
  },
  {
   "id": "qzh-036",
-  "text": "百闻不如一见。",
-  "pinyin": "Bǎi wén bù rú yí jiàn.",
-  "source": "谚语",
-  "ko": "백 번 듣는 것이 한 번 보는 것만 못하다."
+  "text": "生活不会辜负每一个认真的人。",
+  "pinyin": "Shēnghuó bú huì gūfù měi yí gè rènzhēn de rén.",
+  "source": "现代语录",
+  "ko": "삶은 진지하게 살아가는 사람을 저버리지 않는다."
  },
  {
   "id": "qzh-037",
-  "text": "众人拾柴火焰高。",
-  "pinyin": "Zhòngrén shí chái huǒyàn gāo.",
-  "source": "谚语",
-  "ko": "여러 사람이 땔감을 주우면 불꽃이 높아진다 (뭉치면 힘이 커진다)."
+  "text": "给自己一点时间，慢慢变好。",
+  "pinyin": "Gěi zìjǐ yìdiǎn shíjiān, màn man biàn hǎo.",
+  "source": "现代语录",
+  "ko": "자신에게 시간을 조금 주고, 천천히 나아지면 된다."
  },
  {
   "id": "qzh-038",
-  "text": "有付出，才有收获。",
-  "pinyin": "Yǒu fùchū, cái yǒu shōuhuò.",
-  "source": "谚语",
-  "ko": "노력이 있어야 수확이 있다."
+  "text": "平凡的日子，也值得被认真对待。",
+  "pinyin": "Píngfán de rìzi, yě zhídé bèi rènzhēn duìdài.",
+  "source": "现代语录",
+  "ko": "평범한 나날도 진지하게 대할 가치가 있다."
  },
  {
   "id": "qzh-039",
-  "text": "路是人走出来的。",
-  "pinyin": "Lù shì rén zǒu chūlái de.",
-  "source": "谚语",
-  "ko": "길은 사람이 걸어서 만드는 것이다."
- },
- {
-  "id": "qzh-040",
-  "text": "少壮不努力，老大徒伤悲。",
-  "pinyin": "Shàozhuàng bù nǔlì, lǎodà tú shāngbēi.",
-  "source": "汉乐府 《长歌行》",
-  "ko": "젊어서 노력하지 않으면 늙어서 헛되이 슬퍼한다."
+  "text": "你不是一个人在努力。",
+  "pinyin": "Nǐ bú shì yí gè rén zài nǔlì.",
+  "source": "现代语录",
+  "ko": "혼자 애쓰고 있는 게 아니야."
  }
 ]
