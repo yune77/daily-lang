@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-매일 오후 9시(KST) 실행되는 학습 발송 스크립트. (회화 대화 버전)
+매일 오후 9시(KST) 실행되는 학습 발송 스크립트. (회화 대화 + 오늘의 글귀 버전)
 1) 오늘의 상황별 대화 선정 (언어당 1개, 레벨별 순차 진행)
-2) 음성(MP3) 생성 — edge-tts, 대사 줄마다·화자마다 다른 목소리
-3) 웹 아카이브(docs/data/archive.json)와 진도(state.json) 갱신
-4) 텔레그램에 대화 전문 발송 + 버튼 2개(웹에서 보기 / Claude 회화 연습)
+2) 오늘의 글귀 선정 (언어당 1개, 명언/속담/성경구절 순환)
+3) 음성(MP3) 생성 — edge-tts, 대사 줄마다·화자마다 다른 목소리
+4) 웹 아카이브(docs/data/archive.json)와 진도(state.json) 갱신
+5) 텔레그램에 대화 전문 + 오늘의 글귀 발송 + 버튼 2개(웹에서 보기 / Claude 회화 연습)
 """
 import json
 import os
@@ -70,6 +71,17 @@ def load_level(lang, level):
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+_QUOTES_CACHE = {}
+
+
+def load_quotes(lang):
+    """오늘의 글귀 풀 로드 (레벨 구분 없이 언어당 하나의 목록). 캐시해서 재사용."""
+    if lang not in _QUOTES_CACHE:
+        p = DATA / f"quotes_{lang}.json"
+        _QUOTES_CACHE[lang] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+    return _QUOTES_CACHE[lang]
+
+
 def ensure_state_shape(state):
     """state.json 필드 보정 (회화 버전 스키마: level/pos/done/learned/tg_offset/kb_sent)"""
     for lang in ("en", "zh"):
@@ -78,6 +90,9 @@ def ensure_state_shape(state):
         st.setdefault("pos", {"1": 0, "2": 0, "3": 0})
         st.setdefault("done", False)
         st.setdefault("learned", 0)
+    quote_state = state.setdefault("quote", {})
+    for lang in ("en", "zh"):
+        quote_state.setdefault(lang, {}).setdefault("pos", 0)
     state.setdefault("tg_offset", 0)
     state.setdefault("days", 0)
     state.setdefault("last_sent", None)
@@ -164,6 +179,17 @@ def pick_today(lang, state):
     return picked, levelup, st.get("done", False)
 
 
+def pick_quote(lang, state):
+    """오늘의 글귀 하나를 순환 선택(레벨 구분 없음, 끝까지 가면 처음부터 다시 순환)."""
+    pool = load_quotes(lang)
+    if not pool:
+        return None
+    st = state["quote"][lang]
+    idx = st.get("pos", 0) % len(pool)
+    st["pos"] = idx + 1
+    return pool[idx]
+
+
 def make_audio(lang, dialogues):
     """대화의 각 줄을 화자별 목소리로 MP3 생성. 실패해도 전체 발송은 막지 않는다."""
     outdir = AUDIO_DIR / lang
@@ -216,7 +242,21 @@ def build_message(entry):
         if sec.get("levelup"):
             lines.append(f"\U0001F389 <b>미션 컴플리트! {sec['next_level_name']}으로 레벨업!</b>")
         lines.append("")
-    lines.append("\U0001F50A 대사별 발음 듣기 · 쉐도잉은 웹에서!")
+
+    quote = entry.get("quote") or {}
+    if quote.get("en") or quote.get("zh"):
+        lines.append("\U00002728 <b>오늘의 글귀</b>")
+        for lang in ("en", "zh"):
+            q = quote.get(lang)
+            if not q:
+                continue
+            lines.append(f"{LANG_FLAG[lang]} {q['text']}")
+            if q.get("pinyin"):
+                lines.append(f"    {q['pinyin']}")
+            lines.append(f"    {q['ko']} — {q['source']}")
+        lines.append("")
+
+    lines.append("\U0001F50A 대사별 발음 듣기는 웹에서!")
     lines.append("<i>레벨 변경: 이 채팅에 '영어 고급'처럼 보내면 다음 발송부터 적용</i>")
     return "\n".join(lines)
 
@@ -300,6 +340,8 @@ def main():
         # 레벨업/완주 시에는 그 레벨을 전부 끝낸 것이므로 전체 완료로 표기
         if levelup or done:
             entry[lang]["progress"] = entry[lang]["total"]
+
+    entry["quote"] = {lang: pick_quote(lang, state) for lang in ("en", "zh")}
 
     archive.insert(0, entry)  # 최신이 앞
     state["last_sent"] = TODAY
