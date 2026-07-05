@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -80,16 +81,13 @@ details.arch[open]>summary::after{content:"▴"}
 details.arch .inner{padding:0 12px 12px}
 details.arch .card{border:none;border-top:1px solid var(--line);border-radius:0;margin:0}
 
-/* 쉐도잉 */
-.quiz-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;text-align:center}
-.quiz-q{font-size:1.15rem;font-weight:800;margin:14px 0 4px}
-.quiz-sub{color:var(--muted);font-size:.85rem;margin-bottom:14px}
-.quiz-meta{font-size:.8rem;color:var(--muted);margin-top:14px}
-.big-btn{margin-top:14px;padding:12px 22px;border-radius:99px;border:none;background:var(--accent);
-  color:#fff;font-weight:800;font-size:.95rem;cursor:pointer}
-.shadow-card{text-align:left;margin-top:16px}
-.done-btn{margin-top:12px;width:100%;padding:12px;border-radius:10px;border:none;
-  background:var(--ok);color:#fff;font-weight:800;font-size:.95rem;cursor:pointer}
+/* 오늘의 글귀 */
+.quote-card{text-align:center;padding:22px 18px}
+.quote-flag{font-size:.8rem;font-weight:700;color:var(--accent);margin-bottom:10px}
+.quote-text{font-size:1.08rem;font-weight:700;line-height:1.6}
+.quote-card .pinyin{font-size:.85rem;color:var(--accent);font-weight:600;margin-top:6px}
+.quote-card .ko{font-size:.88rem;color:var(--muted);margin-top:8px}
+.quote-source{margin-top:12px;font-size:.78rem;color:var(--muted)}
 .empty{color:var(--muted);text-align:center;padding:40px 0;font-size:.9rem}
 footer{margin-top:30px;text-align:center;color:var(--muted);font-size:.75rem}
 </style>
@@ -117,7 +115,7 @@ footer{margin-top:30px;text-align:center;color:var(--muted);font-size:.75rem}
   <div class="tabs" role="tablist">
     <button class="tab active" data-tab="en">🇺🇸 영어</button>
     <button class="tab" data-tab="zh">🇨🇳 중국어</button>
-    <button class="tab" data-tab="quiz">🗣️ 복습 쉐도잉</button>
+    <button class="tab" data-tab="quotes">✨ 오늘의 글귀</button>
   </div>
 
   <main id="content"><div class="empty">불러오는 중…</div></main>
@@ -128,8 +126,8 @@ footer{margin-top:30px;text-align:center;color:var(--muted);font-size:.75rem}
 "use strict";
 const $ = s => document.querySelector(s);
 const LANGNAME = {en:"영어", zh:"중국어"};
+const FLAG = {en:"🇺🇸", zh:"🇨🇳"};
 const TTSLANG = {en:"en-US", zh:"zh-CN"};
-const SRS_INTERVALS = [1,3,7,21];
 let ARCHIVE = [], STATE = null, TAB = "en";
 const urlDate = new URLSearchParams(location.search).get("d");
 
@@ -284,130 +282,50 @@ function renderLang(lang){
   }
 }
 
-/* ---------- 복습 쉐도잉 (SRS: 1·3·7·21일, 정답 없이 반복 연습) ---------- */
-function srsLoad(){ try{ return JSON.parse(localStorage.getItem("srs-dlg-v1"))||{}; }catch(e){ return {}; } }
-function srsSave(s){ localStorage.setItem("srs-dlg-v1", JSON.stringify(s)); }
-function addDays(dateStr, n){
-  const d = new Date(dateStr+"T00:00:00");
-  d.setDate(d.getDate()+n);
-  return d.toISOString().slice(0,10);
+/* ---------- 오늘의 글귀 (명언·속담·성경구절, 매일 누적) ---------- */
+function quoteBodyHTML(entry){
+  const q = entry.quote || {};
+  let html = "";
+  for(const lang of ["en","zh"]){
+    const item = q[lang];
+    if(!item) continue;
+    html += `<div class="card quote-card">
+      <div class="quote-flag">${FLAG[lang]} ${LANGNAME[lang]}</div>
+      <div class="quote-text">${esc(item.text)}</div>
+      ${item.pinyin?`<div class="pinyin">${esc(item.pinyin)}</div>`:""}
+      <div class="ko">${esc(item.ko)}</div>
+      <div class="quote-source">— ${esc(item.source)}</div>
+    </div>`;
+  }
+  return html;
 }
-function dialoguePool(){
-  const pool = [];
-  for(const e of ARCHIVE)
-    for(const lang of ["en","zh"])
-      if(e[lang]) for(const d of e[lang].items) pool.push({...d, lang, learned:e.date});
-  return pool;
-}
-function dueDialogues(){
-  const srs = srsLoad(), today = todayKST();
-  return dialoguePool().filter(d=>{
-    const rec = srs[d.id];
-    const due = rec ? rec.due : addDays(d.learned, SRS_INTERVALS[0]);
-    return due <= today;
-  });
-}
-let shadowQueue = [], shadowIdx = 0;
-function renderQuiz(){
+function renderQuotes(){
   const c = $("#content");
-  const due = dueDialogues();
-  if(!due.length){
-    const total = dialoguePool().length;
-    c.innerHTML = `<div class="quiz-box"><div style="font-size:2.2rem">🌱</div>
-      <div class="quiz-q">오늘 복습할 대화가 없어요</div>
-      <div class="quiz-sub">${total ? "복습은 배운 다음 날부터 1·3·7·21일 간격으로 나와요." : "먼저 대화를 배우면 다음 날부터 여기서 복습할 수 있어요."}</div></div>`;
+  const withQuotes = ARCHIVE.filter(e=>e.quote && (e.quote.en || e.quote.zh));
+  if(!withQuotes.length){
+    c.innerHTML = `<div class="empty">아직 쌓인 글귀가 없어요.<br>첫 발송(매일 21:00) 후에 여기에 쌓입니다.</div>`;
     return;
   }
-  c.innerHTML = `<div class="quiz-box"><div style="font-size:2.2rem">🗣️</div>
-    <div class="quiz-q">오늘 복습할 대화 ${due.length}개</div>
-    <div class="quiz-sub">정답을 맞히는 게 아니라, 듣고 따라 말하며 입에 붙이는 시간이에요.<br>간격 반복(1·3·7·21일)으로 다시 나와요.</div>
-    <button class="big-btn" id="startQuiz">쉐도잉 시작</button></div>`;
-  $("#startQuiz").onclick = ()=>{
-    shadowQueue = due.sort(()=>Math.random()-0.5);
-    shadowIdx = 0;
-    nextShadow();
-  };
-}
-function nextShadow(){
-  if(shadowIdx >= shadowQueue.length){ return shadowDone(); }
-  const d = shadowQueue[shadowIdx];
-  const c = $("#content");
-  c.innerHTML = `<div class="quiz-box">
-    <div class="quiz-meta">${shadowIdx+1} / ${shadowQueue.length}</div>
-    <div class="shadow-card">${dialogueHTML(d.lang, d)}</div>
-    <button class="done-btn" id="doneBtn">✅ 복습 완료 (다음 대화로)</button>
-  </div>`;
-  const card = c.querySelector(".card");
-  bindDialogueCard(card, d.lang, d);
-  $("#doneBtn").onclick = ()=>{
-    stopAudio();
-    gradeReview(d);
-    shadowIdx++;
-    nextShadow();
-  };
-}
-function gradeReview(d){
-  const srs = srsLoad(), today = todayKST();
-  const rec = srs[d.id] || {step:0};
-  rec.step = Math.min(rec.step+1, SRS_INTERVALS.length);
-  rec.due = rec.step >= SRS_INTERVALS.length
-    ? addDays(today, 60)  // 4단계 모두 마치면 장기 보관(60일 뒤 한 번 더)
-    : addDays(today, SRS_INTERVALS[rec.step]);
-  srs[d.id] = rec; srsSave(srs);
-}
-
-const QUOTES = [
-  "언어는 재능이 아니라 매일의 습관이 만든다.",
-  "오늘 외운 한 대화가 언젠가 진짜 대화의 문을 연다.",
-  "천 리 길도 한 문장부터. 千里之行，始于足下。",
-  "어제의 나보다 대화 하나만큼 더 유창해졌다.",
-  "유창함은 완벽한 하루가 아니라 빠지지 않은 하루들의 합이다.",
-  "The secret of getting ahead is getting started. 시작이 반이다.",
- "실수하는 입만이 새 언어를 얻는다. 어색해도 소리 내어 말해보는 것이 진짜 연습이다.",
-  "매일 밤 9시의 작은 약속이 1년 뒤의 나를 바꾼다.",
-  "Little by little, a little becomes a lot. 티끌 모아 태산.",
-  "포기하지 않는 한, 늦은 시작은 없다.",
-  "오늘의 쉐도잉이 내일의 자연스러운 한마디다.",
-  "坚持就是胜利。버티는 것이 곧 이기는 것이다.",
-  "외국어는 다른 인생을 하나 더 사는 일이다.",
-  "완벽한 문장보다 용감하게 뱉은 문장이 먼저다.",
-  "지금 이 순간에도 당신의 뇌는 새 회로를 만들고 있다."
-];
-function claudeUrl(){
-  const latest = ARCHIVE[0];
-  if(!latest) return "https://claude.ai/new";
-  const parts = [];
-  for(const lang of ["en","zh"]){
-    const items = latest[lang]?.items||[];
-    if(!items.length) continue;
-    const d = items[0];
-    const exprs = (d.key_expressions||[]).join(", ") || "없음";
-    parts.push(`${LANGNAME[lang]} 상황: ${d.situation} (핵심 표현: ${exprs})`);
+  const [latest, ...past] = withQuotes;
+  const isToday = latest.date === todayKST();
+  let html = `<div class="day-title">${fmtDate(latest.date)} ${isToday?'<span class="badge">오늘</span>':""}</div>`;
+  html += quoteBodyHTML(latest);
+  if(past.length){
+    html += `<div class="day-title" style="margin-top:26px">지난 글귀</div>`;
+    for(const e of past){
+      html += `<details class="arch" data-date="${e.date}">
+        <summary>${fmtDate(e.date)}</summary>
+        <div class="inner">${quoteBodyHTML(e)}</div>
+      </details>`;
+    }
   }
-  const situations = parts.join(" / ") || "자유 주제";
-  const prompt = `오늘 배운 대화 상황으로 회화 연습을 하고 싶어. ${situations}. `
-    + `네가 원어민 친구 역할을 맡아서 이 상황을 자연스러운 롤플레이로 이어가 줘. `
-    + `내가 직접 대사를 말해보게 유도하고, 어색한 부분은 그때그때 자연스럽게 교정해줘. `
-    + `영어 상황부터 시작하고, 끝나면 중국어(병음 포함)로 넘어가자.`;
-  return "https://claude.ai/new?q=" + encodeURIComponent(prompt);
-}
-function shadowDone(){
-  const quote = QUOTES[Math.floor(Math.random()*QUOTES.length)];
-  $("#content").innerHTML = `<div class="quiz-box">
-    <div style="font-size:2.6rem">🎉</div>
-    <div class="quiz-q">오늘 학습 완료!</div>
-    <div class="quiz-sub">대화 ${shadowQueue.length}개 쉐도잉을 마쳤어요.</div>
-    <div style="margin:18px 8px;padding:16px;background:var(--accent-soft);border-radius:12px;
-      font-weight:700;font-size:.95rem;line-height:1.7">"${quote}"</div>
-    <a href="${claudeUrl()}" target="_blank" style="text-decoration:none">
-      <button class="big-btn">💬 오늘 표현으로 Claude와 회화 연습</button></a>
-    <div class="quiz-meta">내일 밤 9시에 새로운 대화로 만나요 🌙</div></div>`;
+  c.innerHTML = html;
 }
 
 /* ---------- 탭 ---------- */
 function render(){
   stopAudio();
-  if(TAB==="quiz") renderQuiz(); else renderLang(TAB);
+  if(TAB==="quotes") renderQuotes(); else renderLang(TAB);
 }
 document.querySelectorAll(".tab").forEach(t=>{
   t.onclick = ()=>{
