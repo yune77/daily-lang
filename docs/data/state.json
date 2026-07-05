@@ -2,33 +2,33 @@
  "en": {
   "level": 1,
   "pos": {
-   "1": 1,
+   "1": 2,
    "2": 0,
    "3": 0
   },
   "done": false,
-  "learned": 1
+  "learned": 2
  },
  "zh": {
   "level": 1,
   "pos": {
-   "1": 1,
+   "1": 2,
    "2": 0,
    "3": 0
   },
   "done": false,
-  "learned": 1
+  "learned": 2
  },
  "tg_offset": 0,
  "kb_sent": true,
- "days": 1,
- "last_sent": "2026-07-05",
+ "days": 2,
+ "last_sent": "2026-07-06",
  "quote": {
   "en": {
-   "pos": 1
+   "pos": 2
   },
   "zh": {
-   "pos": 1
+   "pos": 2
   }
  }
 }

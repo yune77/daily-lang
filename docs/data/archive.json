@@ -1,5 +1,129 @@
 [
  {
+  "date": "2026-07-06",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-002",
+     "situation": "친구와 약속 잡기",
+     "key_expressions": [
+      "Are you free",
+      "How about",
+      "sounds good"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, are you free this Saturday?",
+       "ko": "야, 이번 주 토요일에 시간 돼?"
+      },
+      {
+       "speaker": "B",
+       "text": "I think so. What's up?",
+       "ko": "될 것 같은데. 왜?"
+      },
+      {
+       "speaker": "A",
+       "text": "Want to grab dinner? How about 7?",
+       "ko": "저녁 같이 먹을래? 7시 어때?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sounds good. Where should we go?",
+       "ko": "좋아. 어디로 갈까?"
+      },
+      {
+       "speaker": "A",
+       "text": "That new pasta place downtown?",
+       "ko": "시내에 새로 생긴 파스타집 어때?"
+      },
+      {
+       "speaker": "B",
+       "text": "Perfect. See you there!",
+       "ko": "완벽해. 거기서 봐!"
+      }
+     ],
+     "note": "약속 잡을 때 가장 흔한 대화 흐름: 시간 확인 → 제안 → 장소 정하기"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 2,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-002",
+     "situation": "식당에서 주문하기",
+     "key_expressions": [
+      "我要",
+      "不要辣",
+      "买单"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "服务员，我要一份炒饭。",
+       "pinyin": "Fúwùyuán, wǒ yào yí fèn chǎofàn.",
+       "ko": "저기요, 볶음밥 하나 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，要辣的吗？",
+       "pinyin": "Hǎo de, yào là de ma?",
+       "ko": "네, 맵게 해드릴까요?"
+      },
+      {
+       "speaker": "A",
+       "text": "不要辣，谢谢。",
+       "pinyin": "Bú yào là, xièxie.",
+       "ko": "안 맵게요, 감사합니다."
+      },
+      {
+       "speaker": "B",
+       "text": "好，马上就好。",
+       "pinyin": "Hǎo, mǎshàng jiù hǎo.",
+       "ko": "네, 금방 나와요."
+      },
+      {
+       "speaker": "A",
+       "text": "麻烦买单，谢谢。",
+       "pinyin": "Máfan mǎidān, xièxie.",
+       "ko": "계산 좀 부탁드려요, 감사합니다."
+      }
+     ],
+     "note": "买单(계산하다)은 식당에서 계산 요청할 때 꼭 필요한 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 2,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-002",
+    "text": "Just do good, and don't worry about what comes next.",
+    "source": "Modern Proverb",
+    "ko": "그저 좋은 일을 하고, 앞날은 굳이 묻지 말라."
+   },
+   "zh": {
+    "id": "qzh-002",
+    "text": "但行好事，莫问前程。",
+    "pinyin": "Dàn xíng hǎo shì, mò wèn qián chéng.",
+    "source": "现代语录",
+    "ko": "그저 좋은 일을 하며 걸어가라, 앞날은 굳이 묻지 말라."
+   }
+  }
+ },
+ {
   "date": "2026-07-05",
   "en": {
    "level": 1,
