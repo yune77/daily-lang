@@ -22,5 +22,13 @@
  "tg_offset": 0,
  "kb_sent": true,
  "days": 1,
- "last_sent": "2026-07-05"
+ "last_sent": "2026-07-05",
+ "quote": {
+  "en": {
+   "pos": 0
+  },
+  "zh": {
+   "pos": 0
+  }
+ }
 }
