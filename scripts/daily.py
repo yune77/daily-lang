@@ -4,7 +4,7 @@
 매일 오후 9시(KST) 실행되는 학습 발송 스크립트. (회화 대화 + 오늘의 글귀 버전)
 1) 오늘의 상황별 대화 선정 (언어당 1개, 레벨별 순차 진행)
 2) 오늘의 글귀 선정 (언어당 1개, 명언/속담/성경구절 순환)
-3) 음성(MP3) 생성 — edge-tts, 대사 줄마다·화자마다 다른 목소리
+3) 음성(MP3) 생성 — edge-tts, 대사 줄마다·화자마다 다른 목소리 + 글귀도 음성 생성
 4) 웹 아카이브(docs/data/archive.json)와 진도(state.json) 갱신
 5) 텔레그램에 대화 전문 + 오늘의 글귀 발송 + 버튼 2개(웹에서 보기 / Claude 회화 연습)
 """
@@ -213,6 +213,29 @@ def make_audio(lang, dialogues):
                     out.unlink()
 
 
+def make_quote_audio(lang, quote):
+    """오늘의 글귀 하나를 MP3로 생성 (글귀 id 기준 캐싱, 화자 A 목소리 사용)."""
+    if not quote:
+        return
+    outdir = AUDIO_DIR / "quotes" / lang
+    outdir.mkdir(parents=True, exist_ok=True)
+    out = outdir / f"{quote['id']}.mp3"
+    if out.exists():
+        return
+    voice = VOICES[lang]["A"]
+    try:
+        subprocess.run(
+            ["edge-tts", "--voice", voice, "--text", quote["text"],
+             "--write-media", str(out)],
+            check=True, timeout=60,
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+        )
+    except Exception as e:
+        print(f"[audio] {out.name} 생성 실패: {e}", file=sys.stderr)
+        if out.exists():
+            out.unlink()
+
+
 def telegram(method, payload):
     req = urllib.request.Request(
         f"https://api.telegram.org/bot{BOT_TOKEN}/{method}",
@@ -342,6 +365,8 @@ def main():
             entry[lang]["progress"] = entry[lang]["total"]
 
     entry["quote"] = {lang: pick_quote(lang, state) for lang in ("en", "zh")}
+    for lang in ("en", "zh"):
+        make_quote_audio(lang, entry["quote"][lang])
 
     archive.insert(0, entry)  # 최신이 앞
     state["last_sent"] = TODAY
