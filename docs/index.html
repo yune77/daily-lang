@@ -363,4 +363,61 @@ const QUOTES = [
   "어제의 나보다 대화 하나만큼 더 유창해졌다.",
   "유창함은 완벽한 하루가 아니라 빠지지 않은 하루들의 합이다.",
   "The secret of getting ahead is getting started. 시작이 반이다.",
-  "실수하는 입만이 새 언어를 얻는다.
+ "실수하는 입만이 새 언어를 얻는다. 어색해도 소리 내어 말해보는 것이 진짜 연습이다.",
+  "매일 밤 9시의 작은 약속이 1년 뒤의 나를 바꾼다.",
+  "Little by little, a little becomes a lot. 티끌 모아 태산.",
+  "포기하지 않는 한, 늦은 시작은 없다.",
+  "오늘의 쉐도잉이 내일의 자연스러운 한마디다.",
+  "坚持就是胜利。버티는 것이 곧 이기는 것이다.",
+  "외국어는 다른 인생을 하나 더 사는 일이다.",
+  "완벽한 문장보다 용감하게 뱉은 문장이 먼저다.",
+  "지금 이 순간에도 당신의 뇌는 새 회로를 만들고 있다."
+];
+function claudeUrl(){
+  const latest = ARCHIVE[0];
+  if(!latest) return "https://claude.ai/new";
+  const parts = [];
+  for(const lang of ["en","zh"]){
+    const items = latest[lang]?.items||[];
+    if(!items.length) continue;
+    const d = items[0];
+    const exprs = (d.key_expressions||[]).join(", ") || "없음";
+    parts.push(`${LANGNAME[lang]} 상황: ${d.situation} (핵심 표현: ${exprs})`);
+  }
+  const situations = parts.join(" / ") || "자유 주제";
+  const prompt = `오늘 배운 대화 상황으로 회화 연습을 하고 싶어. ${situations}. `
+    + `네가 원어민 친구 역할을 맡아서 이 상황을 자연스러운 롤플레이로 이어가 줘. `
+    + `내가 직접 대사를 말해보게 유도하고, 어색한 부분은 그때그때 자연스럽게 교정해줘. `
+    + `영어 상황부터 시작하고, 끝나면 중국어(병음 포함)로 넘어가자.`;
+  return "https://claude.ai/new?q=" + encodeURIComponent(prompt);
+}
+function shadowDone(){
+  const quote = QUOTES[Math.floor(Math.random()*QUOTES.length)];
+  $("#content").innerHTML = `<div class="quiz-box">
+    <div style="font-size:2.6rem">🎉</div>
+    <div class="quiz-q">오늘 학습 완료!</div>
+    <div class="quiz-sub">대화 ${shadowQueue.length}개 쉐도잉을 마쳤어요.</div>
+    <div style="margin:18px 8px;padding:16px;background:var(--accent-soft);border-radius:12px;
+      font-weight:700;font-size:.95rem;line-height:1.7">"${quote}"</div>
+    <a href="${claudeUrl()}" target="_blank" style="text-decoration:none">
+      <button class="big-btn">💬 오늘 표현으로 Claude와 회화 연습</button></a>
+    <div class="quiz-meta">내일 밤 9시에 새로운 대화로 만나요 🌙</div></div>`;
+}
+
+/* ---------- 탭 ---------- */
+function render(){
+  stopAudio();
+  if(TAB==="quiz") renderQuiz(); else renderLang(TAB);
+}
+document.querySelectorAll(".tab").forEach(t=>{
+  t.onclick = ()=>{
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");
+    TAB = t.dataset.tab;
+    render();
+  };
+});
+loadData();
+</script>
+</body>
+</html>
