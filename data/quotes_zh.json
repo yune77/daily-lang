@@ -1,0 +1,282 @@
+[
+ {
+  "id": "qzh-001",
+  "text": "学而时习之，不亦说乎？",
+  "pinyin": "Xué ér shí xí zhī, bù yì yuè hū?",
+  "source": "论语 (孔子)",
+  "ko": "배우고 때때로 익히면 또한 기쁘지 아니한가?"
+ },
+ {
+  "id": "qzh-002",
+  "text": "三人行，必有我师焉。",
+  "pinyin": "Sān rén xíng, bì yǒu wǒ shī yān.",
+  "source": "论语 (孔子)",
+  "ko": "세 사람이 길을 가면 그중에 반드시 내 스승이 있다."
+ },
+ {
+  "id": "qzh-003",
+  "text": "千里之行，始于足下。",
+  "pinyin": "Qiānlǐ zhī xíng, shǐ yú zúxià.",
+  "source": "老子",
+  "ko": "천 리 길도 한 걸음부터."
+ },
+ {
+  "id": "qzh-004",
+  "text": "上善若水。",
+  "pinyin": "Shàng shàn ruò shuǐ.",
+  "source": "老子",
+  "ko": "최고의 선은 물과 같다."
+ },
+ {
+  "id": "qzh-005",
+  "text": "生于忧患，死于安乐。",
+  "pinyin": "Shēng yú yōuhuàn, sǐ yú ānlè.",
+  "source": "孟子",
+  "ko": "우환 속에서 살아나고, 안락 속에서 죽는다."
+ },
+ {
+  "id": "qzh-006",
+  "text": "活到老，学到老。",
+  "pinyin": "Huó dào lǎo, xué dào lǎo.",
+  "source": "谚语",
+  "ko": "늙어 죽을 때까지 배운다."
+ },
+ {
+  "id": "qzh-007",
+  "text": "熟能生巧。",
+  "pinyin": "Shú néng shēng qiǎo.",
+  "source": "谚语",
+  "ko": "숙달되면 요령이 생긴다."
+ },
+ {
+  "id": "qzh-008",
+  "text": "有志者事竟成。",
+  "pinyin": "Yǒu zhì zhě shì jìng chéng.",
+  "source": "谚语",
+  "ko": "뜻이 있는 자는 결국 이룬다."
+ },
+ {
+  "id": "qzh-009",
+  "text": "一分耕耘，一分收获。",
+  "pinyin": "Yī fēn gēngyún, yī fēn shōuhuò.",
+  "source": "谚语",
+  "ko": "노력한 만큼 거둔다."
+ },
+ {
+  "id": "qzh-010",
+  "text": "失败乃成功之母。",
+  "pinyin": "Shībài nǎi chénggōng zhī mǔ.",
+  "source": "谚语",
+  "ko": "실패는 성공의 어머니."
+ },
+ {
+  "id": "qzh-011",
+  "text": "近朱者赤，近墨者黑。",
+  "pinyin": "Jìn zhū zhě chì, jìn mò zhě hēi.",
+  "source": "谚语",
+  "ko": "주사를 가까이하면 붉어지고, 먹을 가까이하면 검어진다 (환경의 영향)."
+ },
+ {
+  "id": "qzh-012",
+  "text": "画蛇添足。",
+  "pinyin": "Huà shé tiān zú.",
+  "source": "成语",
+  "ko": "뱀을 그리는데 다리를 더하다 (쓸데없는 짓을 하다)."
+ },
+ {
+  "id": "qzh-013",
+  "text": "亡羊补牢，为时未晚。",
+  "pinyin": "Wáng yáng bǔ láo, wéi shí wèi wǎn.",
+  "source": "成语",
+  "ko": "양을 잃고 우리를 고쳐도 늦지 않다."
+ },
+ {
+  "id": "qzh-014",
+  "text": "水滴石穿。",
+  "pinyin": "Shuǐ dī shí chuān.",
+  "source": "成语",
+  "ko": "물방울이 돌을 뚫는다 (꾸준함이 결국 이긴다)."
+ },
+ {
+  "id": "qzh-015",
+  "text": "欲速则不达。",
+  "pinyin": "Yù sù zé bù dá.",
+  "source": "论语 (孔子)",
+  "ko": "서두르면 도달하지 못한다."
+ },
+ {
+  "id": "qzh-016",
+  "text": "笑一笑，十年少。",
+  "pinyin": "Xiào yí xiào, shí nián shào.",
+  "source": "谚语",
+  "ko": "한 번 웃으면 십 년은 젊어진다."
+ },
+ {
+  "id": "qzh-017",
+  "text": "书山有路勤为径。",
+  "pinyin": "Shū shān yǒu lù qín wéi jìng.",
+  "source": "谚语",
+  "ko": "책의 산에 이르는 길은 부지런함이 지름길이다."
+ },
+ {
+  "id": "qzh-018",
+  "text": "三思而后行。",
+  "pinyin": "Sān sī ér hòu xíng.",
+  "source": "论语 (孔子)",
+  "ko": "세 번 생각한 후에 행동하라."
+ },
+ {
+  "id": "qzh-019",
+  "text": "知己知彼，百战不殆。",
+  "pinyin": "Zhī jǐ zhī bǐ, bǎi zhàn bù dài.",
+  "source": "孙子兵法",
+  "ko": "나를 알고 상대를 알면 백 번 싸워도 위태롭지 않다."
+ },
+ {
+  "id": "qzh-020",
+  "text": "凡事都有定期，天下万务都有定时。",
+  "pinyin": "Fánshì dōu yǒu dìngqī, tiānxià wànwù dōu yǒu dìngshí.",
+  "source": "传道书 3:1 (和合本)",
+  "ko": "범사에 기한이 있고 천하만사에 다 때가 있다."
+ },
+ {
+  "id": "qzh-021",
+  "text": "你所作的，要交托耶和华，你所谋的，就必成立。",
+  "pinyin": "Nǐ suǒ zuò de, yào jiāotuō Yēhéhuá, nǐ suǒ móu de, jiù bì chénglì.",
+  "source": "箴言 16:3 (和合本)",
+  "ko": "너의 행사를 여호와께 맡기라 그리하면 네가 경영하는 것이 이루어지리라."
+ },
+ {
+  "id": "qzh-022",
+  "text": "我靠着那加给我力量的，凡事都能作。",
+  "pinyin": "Wǒ kàozhe nà jiā gěi wǒ lìliang de, fánshì dōu néng zuò.",
+  "source": "腓立比书 4:13 (和合本)",
+  "ko": "내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라."
+ },
+ {
+  "id": "qzh-023",
+  "text": "神是我们的避难所，是我们的力量，是我们在患难中随时的帮助。",
+  "pinyin": "Shén shì wǒmen de bìnànsuǒ, shì wǒmen de lìliang, shì wǒmen zài huànnàn zhōng suíshí de bāngzhù.",
+  "source": "诗篇 46:1 (和合本)",
+  "ko": "하나님은 우리의 피난처시요 힘이시니 환난 중에 만날 큰 도움이시라."
+ },
+ {
+  "id": "qzh-024",
+  "text": "路遥知马力，日久见人心。",
+  "pinyin": "Lù yáo zhī mǎlì, rì jiǔ jiàn rénxīn.",
+  "source": "谚语",
+  "ko": "먼 길을 가봐야 말의 힘을 알고, 오래 지내봐야 사람의 마음을 안다."
+ },
+ {
+  "id": "qzh-025",
+  "text": "不入虎穴，焉得虎子。",
+  "pinyin": "Bú rù hǔxué, yān dé hǔzǐ.",
+  "source": "谚语",
+  "ko": "호랑이굴에 들어가지 않으면 어찌 호랑이 새끼를 얻으랴."
+ },
+ {
+  "id": "qzh-026",
+  "text": "十年树木，百年树人。",
+  "pinyin": "Shí nián shù mù, bǎi nián shù rén.",
+  "source": "谚语",
+  "ko": "나무를 기르는 데 십 년, 사람을 기르는 데 백 년."
+ },
+ {
+  "id": "qzh-027",
+  "text": "机不可失，时不再来。",
+  "pinyin": "Jī bù kě shī, shí bú zài lái.",
+  "source": "谚语",
+  "ko": "기회는 놓칠 수 없고, 때는 다시 오지 않는다."
+ },
+ {
+  "id": "qzh-028",
+  "text": "留得青山在，不怕没柴烧。",
+  "pinyin": "Liú dé qīngshān zài, bú pà méi chái shāo.",
+  "source": "谚语",
+  "ko": "청산을 남겨두면 땔감 없을까 걱정하지 않는다."
+ },
+ {
+  "id": "qzh-029",
+  "text": "天生我材必有用。",
+  "pinyin": "Tiān shēng wǒ cái bì yǒu yòng.",
+  "source": "李白 《将进酒》",
+  "ko": "하늘이 나를 내었으니 반드시 쓸모가 있다."
+ },
+ {
+  "id": "qzh-030",
+  "text": "人无远虑，必有近忧。",
+  "pinyin": "Rén wú yuǎnlǜ, bì yǒu jìnyōu.",
+  "source": "论语 (孔子)",
+  "ko": "사람이 멀리 생각하지 않으면 반드시 가까운 근심이 있다."
+ },
+ {
+  "id": "qzh-031",
+  "text": "读万卷书，行万里路。",
+  "pinyin": "Dú wàn juàn shū, xíng wàn lǐ lù.",
+  "source": "谚语",
+  "ko": "만 권의 책을 읽고, 만 리 길을 가라."
+ },
+ {
+  "id": "qzh-032",
+  "text": "吃一堑，长一智。",
+  "pinyin": "Chī yí qiàn, zhǎng yí zhì.",
+  "source": "谚语",
+  "ko": "한 번 넘어지면 한 번 지혜가 는다."
+ },
+ {
+  "id": "qzh-033",
+  "text": "海内存知己，天涯若比邻。",
+  "pinyin": "Hǎinèi cún zhījǐ, tiānyá ruò bǐlín.",
+  "source": "王勃 《送杜少府之任蜀州》",
+  "ko": "세상에 지기가 있으면 하늘 끝도 이웃과 같다."
+ },
+ {
+  "id": "qzh-034",
+  "text": "梅花香自苦寒来。",
+  "pinyin": "Méihuā xiāng zì kǔhán lái.",
+  "source": "谚语",
+  "ko": "매화 향기는 혹독한 추위에서 나온다 (고생 끝에 낙이 온다)."
+ },
+ {
+  "id": "qzh-035",
+  "text": "你们祈求，就给你们；寻找，就寻见；叩门，就给你们开门。",
+  "pinyin": "Nǐmen qíqiú, jiù gěi nǐmen; xúnzhǎo, jiù xúnjiàn; kòumén, jiù gěi nǐmen kāimén.",
+  "source": "马太福音 7:7 (和合本)",
+  "ko": "구하라 그리하면 너희에게 주실 것이요 찾으라 그리하면 찾아낼 것이요 문을 두드리라 그리하면 너희에게 열릴 것이니."
+ },
+ {
+  "id": "qzh-036",
+  "text": "百闻不如一见。",
+  "pinyin": "Bǎi wén bù rú yí jiàn.",
+  "source": "谚语",
+  "ko": "백 번 듣는 것이 한 번 보는 것만 못하다."
+ },
+ {
+  "id": "qzh-037",
+  "text": "众人拾柴火焰高。",
+  "pinyin": "Zhòngrén shí chái huǒyàn gāo.",
+  "source": "谚语",
+  "ko": "여러 사람이 땔감을 주우면 불꽃이 높아진다 (뭉치면 힘이 커진다)."
+ },
+ {
+  "id": "qzh-038",
+  "text": "有付出，才有收获。",
+  "pinyin": "Yǒu fùchū, cái yǒu shōuhuò.",
+  "source": "谚语",
+  "ko": "노력이 있어야 수확이 있다."
+ },
+ {
+  "id": "qzh-039",
+  "text": "路是人走出来的。",
+  "pinyin": "Lù shì rén zǒu chūlái de.",
+  "source": "谚语",
+  "ko": "길은 사람이 걸어서 만드는 것이다."
+ },
+ {
+  "id": "qzh-040",
+  "text": "少壮不努力，老大徒伤悲。",
+  "pinyin": "Shàozhuàng bù nǔlì, lǎodà tú shāngbēi.",
+  "source": "汉乐府 《长歌行》",
+  "ko": "젊어서 노력하지 않으면 늙어서 헛되이 슬퍼한다."
+ }
+]
