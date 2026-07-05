@@ -238,4 +238,80 @@ def build_claude_url(entry):
         f"내가 직접 대사를 말해보게 유도하고, 어색한 부분은 그때그때 자연스럽게 교정해줘. "
         f"영어 상황부터 시작하고, 끝나면 중국어(병음 포함)로 넘어가자."
     )
-    return
+    return "https://claude.ai/new?q=" + urllib.parse.quote(prompt)
+
+
+def send(entry):
+    keyboard = {"inline_keyboard": [
+        [{"text": "\U0001F4D6 웹에서 보기", "url": f"{SITE}/?d={entry['date']}"}],
+        [{"text": "\U0001F4AC Claude로 회화 연습", "url": build_claude_url(entry)}],
+    ]}
+    if DRY_RUN:
+        print("=== DRY RUN: 발송할 메시지 ===")
+        print(build_message(entry))
+        print("버튼1:", keyboard["inline_keyboard"][0][0]["url"])
+        print("버튼2:", keyboard["inline_keyboard"][1][0]["url"][:120], "...")
+        return
+    telegram("sendMessage", {
+        "chat_id": CHAT_ID,
+        "text": build_message(entry),
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+        "reply_markup": keyboard,
+    })
+
+
+def main():
+    state = read_json(WEB_DATA / "state.json", None)
+    if state is None:
+        print("state.json이 없습니다.", file=sys.stderr)
+        sys.exit(1)
+    ensure_state_shape(state)
+    process_commands(state)
+    ensure_keyboard(state)
+    archive = read_json(WEB_DATA / "archive.json", [])
+
+    # 오늘 이미 발송했으면: 기본은 건너뛰기, force면 같은 내용 재발송(진도 중복 진행 없음)
+    existing = next((e for e in archive if e["date"] == TODAY), None)
+    if existing:
+        write_json(WEB_DATA / "state.json", state)  # 레벨 명령 처리분 저장
+        if FORCE:
+            print("오늘 항목 재발송(force).")
+            send(existing)
+        else:
+            print("오늘은 이미 발송했습니다. 건너뜁니다.")
+        return
+
+    entry = {"date": TODAY}
+    for lang in ("en", "zh"):
+        before_level = state[lang]["level"]
+        items, levelup, done = pick_today(lang, state)
+        make_audio(lang, items)
+        entry[lang] = {
+            "level": before_level,
+            "level_name": LEVEL_NAMES.get(before_level, str(before_level)),
+            "items": items,
+            "levelup": levelup,
+            "next_level_name": LEVEL_NAMES.get(state[lang]["level"], ""),
+            "progress": state[lang]["pos"].get(str(before_level), 0),
+            "total": len(load_level(lang, before_level) or []),
+            "done": done,
+        }
+        # 레벨업/완주 시에는 그 레벨을 전부 끝낸 것이므로 전체 완료로 표기
+        if levelup or done:
+            entry[lang]["progress"] = entry[lang]["total"]
+
+    archive.insert(0, entry)  # 최신이 앞
+    state["last_sent"] = TODAY
+    state["days"] = state.get("days", 0) + 1
+
+    write_json(WEB_DATA / "archive.json", archive)
+    write_json(WEB_DATA / "state.json", state)
+
+    send(entry)
+    print(f"{TODAY} 발송 완료: 영어 {len(entry['en']['items'])}개 대화, "
+          f"중국어 {len(entry['zh']['items'])}개 대화")
+
+
+if __name__ == "__main__":
+    main()
