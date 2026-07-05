@@ -1,6 +1,6 @@
 {
  "en": {
-  "level": 2,
+  "level": 1,
   "learned": 15,
   "done": false,
   "pos": {
@@ -21,6 +21,6 @@
  },
  "days": 3,
  "last_sent": "2026-07-05",
- "tg_offset": 129658928,
+ "tg_offset": 129658929,
  "kb_sent": true
 }
