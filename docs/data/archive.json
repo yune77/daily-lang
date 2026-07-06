@@ -1,5 +1,142 @@
 [
  {
+  "date": "2026-07-07",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-003",
+     "situation": "길 묻기",
+     "key_expressions": [
+      "Excuse me",
+      "Is it far from here",
+      "Just go straight"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Excuse me, how do I get to the subway station?",
+       "ko": "저기요, 지하철역까지 어떻게 가나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Just go straight and turn left at the light.",
+       "ko": "쭉 가시다가 신호등에서 왼쪽으로 도세요."
+      },
+      {
+       "speaker": "A",
+       "text": "Is it far from here?",
+       "ko": "여기서 멀어요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Not really, about five minutes on foot.",
+       "ko": "그렇게 멀지 않아요, 걸어서 5분 정도요."
+      },
+      {
+       "speaker": "A",
+       "text": "Great, thank you so much!",
+       "ko": "좋네요, 정말 감사합니다!"
+      }
+     ],
+     "note": "길을 묻고 답할 때 가장 흔히 쓰는 패턴"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 3,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-003",
+     "situation": "길 묻기",
+     "key_expressions": [
+      "请问",
+      "怎么走",
+      "谢谢"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "请问，地铁站怎么走？",
+       "pinyin": "Qǐngwèn, dìtiězhàn zěnme zǒu?",
+       "ko": "저기요, 지하철역 어떻게 가나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "一直走，然后在红绿灯左转。",
+       "pinyin": "Yìzhí zǒu, ránhòu zài hónglǜdēng zuǒzhuǎn.",
+       "ko": "쭉 가시다가 신호등에서 왼쪽으로 도세요."
+      },
+      {
+       "speaker": "A",
+       "text": "大概要走多久？",
+       "pinyin": "Dàgài yào zǒu duōjiǔ?",
+       "ko": "대략 얼마나 걸어야 하나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "十分钟左右吧。",
+       "pinyin": "Shí fēnzhōng zuǒyòu ba.",
+       "ko": "10분 정도요."
+      },
+      {
+       "speaker": "A",
+       "text": "远吗？我可以打车过去吗？",
+       "pinyin": "Yuǎn ma? Wǒ kěyǐ dǎchē guòqù ma?",
+       "ko": "먼가요? 택시 타고 가도 될까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "不用，走路就可以。",
+       "pinyin": "Bú yòng, zǒulù jiù kěyǐ.",
+       "ko": "아니요, 걸어가도 돼요."
+      },
+      {
+       "speaker": "A",
+       "text": "好的，谢谢你！",
+       "pinyin": "Hǎo de, xièxie nǐ!",
+       "ko": "네, 감사합니다!"
+      },
+      {
+       "speaker": "B",
+       "text": "不客气，慢走。",
+       "pinyin": "Bú kèqi, màn zǒu.",
+       "ko": "별말씀을요, 조심히 가세요."
+      }
+     ],
+     "note": "请问은 낯선 사람에게 말을 걸 때 쓰는 정중한 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 3,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-003",
+    "text": "Life is like tea — you don't have to fill the cup all the way.",
+    "source": "Modern Proverb",
+    "ko": "인생은 차와 같으니, 잔을 끝까지 채울 필요는 없다."
+   },
+   "zh": {
+    "id": "qzh-003",
+    "text": "人生如茶，不必太满。",
+    "pinyin": "Rénshēng rú chá, bú bì tài mǎn.",
+    "source": "现代语录",
+    "ko": "인생은 차와 같으니, 너무 가득 채울 필요는 없다."
+   }
+  }
+ },
+ {
   "date": "2026-07-06",
   "en": {
    "level": 1,
