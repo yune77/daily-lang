@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-08",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-004",
+     "situation": "카페에서 라떼 포장 주문하기",
+     "key_expressions": [
+      "Can I get",
+      "For here or to go",
+      "That'll be"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, can I get a medium latte, please?",
+       "ko": "안녕하세요, 라떼 미디엄 사이즈로 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. For here or to go?",
+       "ko": "네. 여기서 드시나요, 아니면 포장이신가요?"
+      },
+      {
+       "speaker": "A",
+       "text": "To go, please. Oh, and can you make it iced?",
+       "ko": "포장이요. 아, 아이스로 해주실 수 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "No problem. That'll be four fifty.",
+       "ko": "그럼요. 4달러 50센트 나왔습니다."
+      },
+      {
+       "speaker": "A",
+       "text": "Here you go. Keep the change.",
+       "ko": "여기요. 잔돈은 괜찮아요."
+      },
+      {
+       "speaker": "B",
+       "text": "Thanks! It'll be ready in a few minutes.",
+       "ko": "감사합니다! 몇 분 안에 준비될 거예요."
+      }
+     ],
+     "note": "카페에서는 for here or to go를 거의 항상 물어보니까 미리 답 준비해두면 편함"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 4,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-004",
+     "situation": "시장에서 흥정하기",
+     "key_expressions": [
+      "怎么卖",
+      "便宜一点",
+      "太贵了"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "老板，这个苹果怎么卖？",
+       "pinyin": "Lǎobǎn, zhège píngguǒ zěnme mài?",
+       "ko": "사장님, 이 사과 어떻게 팔아요?"
+      },
+      {
+       "speaker": "B",
+       "text": "五块钱一斤。",
+       "pinyin": "Wǔ kuài qián yì jīn.",
+       "ko": "한 근에 5위안이에요."
+      },
+      {
+       "speaker": "A",
+       "text": "太贵了，便宜一点吧。",
+       "pinyin": "Tài guì le, piányi yìdiǎn ba.",
+       "ko": "너무 비싸요, 좀 싸게 해주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "那给你四块五吧。",
+       "pinyin": "Nà gěi nǐ sì kuài wǔ ba.",
+       "ko": "그럼 4.5위안에 드릴게요."
+      },
+      {
+       "speaker": "A",
+       "text": "再便宜点，四块怎么样？",
+       "pinyin": "Zài piányi diǎn, sì kuài zěnmeyàng?",
+       "ko": "좀 더 깎아서 4위안 어때요?"
+      },
+      {
+       "speaker": "B",
+       "text": "好吧，看你是老顾客。",
+       "pinyin": "Hǎo ba, kàn nǐ shì lǎo gùkè.",
+       "ko": "알겠어요, 단골이시니까요."
+      },
+      {
+       "speaker": "A",
+       "text": "谢谢老板，我要两斤。",
+       "pinyin": "Xièxie lǎobǎn, wǒ yào liǎng jīn.",
+       "ko": "감사합니다, 두 근 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "好嘞，一共八块钱。",
+       "pinyin": "Hǎo lei, yígòng bā kuài qián.",
+       "ko": "네, 총 8위안이에요."
+      }
+     ],
+     "note": "시장에서는 便宜点이라고 자연스럽게 흥정할 수 있어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 4,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-004",
+    "text": "Slow down, you'll get there faster.",
+    "source": "Modern Proverb",
+    "ko": "천천히 가라, 그게 오히려 더 빨리 도착하는 길이다."
+   },
+   "zh": {
+    "id": "qzh-004",
+    "text": "慢慢来，比较快。",
+    "pinyin": "Màn man lái, bǐjiào kuài.",
+    "source": "现代语录",
+    "ko": "천천히 가는 것이 오히려 더 빠르다."
+   }
+  }
+ },
+ {
   "date": "2026-07-07",
   "en": {
    "level": 1,
