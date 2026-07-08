@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-09",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-005",
+     "situation": "식당에서 자리 예약하기",
+     "key_expressions": [
+      "I'd like to make a reservation",
+      "for how many",
+      "Do you have anything"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'd like to make a reservation for tonight.",
+       "ko": "안녕하세요, 오늘 저녁에 예약하고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, for how many people?",
+       "ko": "네, 몇 분이서 오시나요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Four, around seven o'clock.",
+       "ko": "네 명이요, 7시쯤이요."
+      },
+      {
+       "speaker": "B",
+       "text": "Let me check... we're full at seven. Do you have anything later?",
+       "ko": "잠시만요... 7시는 자리가 다 찼네요. 조금 늦게 오실 수 있으세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Sure, how about seven thirty?",
+       "ko": "네, 7시 반은 어떨까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "That works. Can I get your name?",
+       "ko": "좋습니다. 성함이 어떻게 되시나요?"
+      }
+     ],
+     "note": "예약할 때 인원수랑 시간부터 물어보니까 미리 정해두고 전화하면 좋음"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 5,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-005",
+     "situation": "국수집에서 주문하기",
+     "key_expressions": [
+      "我要",
+      "微辣",
+      "还要别的吗"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "老板，我要一碗牛肉面。",
+       "pinyin": "Lǎobǎn, wǒ yào yì wǎn niúròumiàn.",
+       "ko": "사장님, 소고기 국수 한 그릇 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "要辣的还是不辣的？",
+       "pinyin": "Yào là de háishi bú là de?",
+       "ko": "매운 거로 드릴까요, 안 매운 거로 드릴까요?"
+      },
+      {
+       "speaker": "A",
+       "text": "微辣就可以。",
+       "pinyin": "Wēilà jiù kěyǐ.",
+       "ko": "약간 매운 걸로 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，还要别的吗？",
+       "pinyin": "Hǎo de, hái yào bié de ma?",
+       "ko": "네, 더 필요하신 거 있으세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "再来一份凉菜。",
+       "pinyin": "Zài lái yí fèn liángcài.",
+       "ko": "냉채 하나 더 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "好，请稍等。",
+       "pinyin": "Hǎo, qǐng shāo děng.",
+       "ko": "네, 잠시만 기다려 주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "多长时间能好？",
+       "pinyin": "Duō cháng shíjiān néng hǎo?",
+       "ko": "얼마나 걸릴까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "五分钟就好。",
+       "pinyin": "Wǔ fēnzhōng jiù hǎo.",
+       "ko": "5분이면 돼요."
+      }
+     ],
+     "note": "微辣는 살짝 매운맛을 뜻해서 매운 음식 주문할 때 유용해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 5,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-005",
+    "text": "When you bloom, the right people will find you.",
+    "source": "Modern Proverb",
+    "ko": "네가 활짝 피면, 맞는 사람들이 알아서 찾아온다."
+   },
+   "zh": {
+    "id": "qzh-005",
+    "text": "你若盛开，清风自来。",
+    "pinyin": "Nǐ ruò shèngkāi, qīngfēng zì lái.",
+    "source": "现代语录",
+    "ko": "네가 활짝 피면, 맑은 바람은 저절로 찾아온다."
+   }
+  }
+ },
+ {
   "date": "2026-07-08",
   "en": {
    "level": 1,
