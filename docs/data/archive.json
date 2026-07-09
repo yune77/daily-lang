@@ -1,5 +1,136 @@
 [
  {
+  "date": "2026-07-10",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-006",
+     "situation": "새로운 이웃과 인사 나누기",
+     "key_expressions": [
+      "I just moved in",
+      "Nice to meet you",
+      "If you ever need anything"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi there! I just moved in next door.",
+       "ko": "안녕하세요! 저 옆집에 새로 이사 왔어요."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh, welcome! I'm Rachel, I live right across the hall.",
+       "ko": "아, 환영해요! 저는 레이첼이에요, 바로 맞은편에 살아요."
+      },
+      {
+       "speaker": "A",
+       "text": "Nice to meet you. I'm Kevin.",
+       "ko": "만나서 반가워요. 저는 케빈이에요."
+      },
+      {
+       "speaker": "B",
+       "text": "If you ever need anything, just knock on my door.",
+       "ko": "뭐 필요한 거 있으면 언제든 문 두드리세요."
+      },
+      {
+       "speaker": "A",
+       "text": "That's so kind, thank you. I'll be sure to do that.",
+       "ko": "진짜 친절하시네요, 감사해요. 그럴게요."
+      }
+     ],
+     "note": "새 이웃한테는 짧게 이름 소개하고 도움 필요하면 말하라는 식으로 마무리하는 게 자연스러움"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 6,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-006",
+     "situation": "공유자전거 빌리기",
+     "key_expressions": [
+      "扫二维码",
+      "共享单车",
+      "指定地点"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你会用共享单车吗？",
+       "pinyin": "Nǐ huì yòng gòngxiǎng dānchē ma?",
+       "ko": "너 공유자전거 쓸 줄 알아?"
+      },
+      {
+       "speaker": "B",
+       "text": "会啊，扫一下二维码就行。",
+       "pinyin": "Huì a, sǎo yíxià èrwéimǎ jiù xíng.",
+       "ko": "응, QR코드 스캔하면 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "怎么扫？",
+       "pinyin": "Zěnme sǎo?",
+       "ko": "어떻게 스캔해?"
+      },
+      {
+       "speaker": "B",
+       "text": "打开手机app，对准这个码。",
+       "pinyin": "Dǎkāi shǒujī app, duìzhǔn zhège mǎ.",
+       "ko": "휴대폰 앱 열고 이 코드에 맞추면 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "好了，车锁开了！",
+       "pinyin": "Hǎo le, chē suǒ kāi le!",
+       "ko": "됐다, 자물쇠 열렸어!"
+      },
+      {
+       "speaker": "B",
+       "text": "骑完以后要停在指定地点。",
+       "pinyin": "Qí wán yǐhòu yào tíng zài zhǐdìng dìdiǎn.",
+       "ko": "다 타고 나서는 지정된 곳에 세워야 해."
+      },
+      {
+       "speaker": "A",
+       "text": "明白了，走吧！",
+       "pinyin": "Míngbai le, zǒu ba!",
+       "ko": "알겠어, 가자!"
+      }
+     ],
+     "note": "요즘 중국에서는 QR코드로 자전거를 빌리는 게 정말 흔해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 6,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-006",
+    "text": "Time has never truly failed anyone.",
+    "source": "Modern Proverb",
+    "ko": "시간은 그 누구도 저버린 적이 없다."
+   },
+   "zh": {
+    "id": "qzh-006",
+    "text": "岁月不曾亏待过谁。",
+    "pinyin": "Suìyuè bù céng kuīdài guo shéi.",
+    "source": "现代语录",
+    "ko": "세월은 그 누구도 저버린 적이 없다."
+   }
+  }
+ },
+ {
   "date": "2026-07-09",
   "en": {
    "level": 1,
