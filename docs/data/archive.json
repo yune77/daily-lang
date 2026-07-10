@@ -1,5 +1,142 @@
 [
  {
+  "date": "2026-07-11",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-007",
+     "situation": "친구와 저녁 약속 잡기",
+     "key_expressions": [
+      "Are you free",
+      "How about",
+      "Let's meet at"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, are you free for dinner this week?",
+       "ko": "야, 이번 주에 저녁 시간 돼?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, I think so. How about Thursday?",
+       "ko": "응, 될 것 같아. 목요일 어때?"
+      },
+      {
+       "speaker": "A",
+       "text": "Thursday works for me. Where do you want to go?",
+       "ko": "목요일 나도 좋아. 어디 갈까?"
+      },
+      {
+       "speaker": "B",
+       "text": "There's a new Thai place downtown. Let's meet at seven.",
+       "ko": "시내에 새로 생긴 태국 음식점 있잖아. 7시에 만나자."
+      },
+      {
+       "speaker": "A",
+       "text": "Sounds perfect. See you then!",
+       "ko": "완전 좋아. 그때 봐!"
+      }
+     ],
+     "note": "약속 잡을 때 요일이랑 시간 딱 정해서 말하면 서로 편함"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 7,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-007",
+     "situation": "기차역에서 표 사기",
+     "key_expressions": [
+      "买票",
+      "身份证",
+      "多少钱"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我要买一张去上海的票。",
+       "pinyin": "Nǐ hǎo, wǒ yào mǎi yì zhāng qù Shànghǎi de piào.",
+       "ko": "안녕하세요, 상하이 가는 표 한 장 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "要什么时候的？",
+       "pinyin": "Yào shénme shíhou de?",
+       "ko": "언제 걸로 드릴까요?"
+      },
+      {
+       "speaker": "A",
+       "text": "明天上午的。",
+       "pinyin": "Míngtiān shàngwǔ de.",
+       "ko": "내일 오전 거요."
+      },
+      {
+       "speaker": "B",
+       "text": "有九点和十一点的，要哪个？",
+       "pinyin": "Yǒu jiǔ diǎn hé shíyī diǎn de, yào nǎge?",
+       "ko": "9시와 11시 있는데 어느 걸로 하시겠어요?"
+      },
+      {
+       "speaker": "A",
+       "text": "九点的吧。",
+       "pinyin": "Jiǔ diǎn de ba.",
+       "ko": "9시 거로 할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "请出示一下身份证。",
+       "pinyin": "Qǐng chūshì yíxià shēnfènzhèng.",
+       "ko": "신분증 좀 보여주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "给你。多少钱？",
+       "pinyin": "Gěi nǐ. Duōshao qián?",
+       "ko": "여기요. 얼마예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "三百五十块。",
+       "pinyin": "Sānbǎi wǔshí kuài.",
+       "ko": "350위안입니다."
+      }
+     ],
+     "note": "중국에서 기차표를 살 때는 신분증(외국인은 여권)을 꼭 챙겨야 해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 7,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-007",
+    "text": "What's meant to come will come; what's meant to leave can't be held back.",
+    "source": "Modern Proverb",
+    "ko": "와야 할 것은 결국 오고, 떠나야 할 것은 붙잡을 수 없다."
+   },
+   "zh": {
+    "id": "qzh-007",
+    "text": "该来的都会来，该走的留不住。",
+    "pinyin": "Gāi lái de dōu huì lái, gāi zǒu de liú bu zhù.",
+    "source": "现代语录",
+    "ko": "와야 할 것은 결국 오고, 가야 할 것은 붙잡을 수 없다."
+   }
+  }
+ },
+ {
   "date": "2026-07-10",
   "en": {
    "level": 1,
