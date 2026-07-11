@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-12",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-008",
+     "situation": "옷가게에서 사이즈 문의하기",
+     "key_expressions": [
+      "Do you have this in",
+      "Can I try it on",
+      "It's a bit tight"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Excuse me, do you have this in a medium?",
+       "ko": "저기요, 이거 미디엄 사이즈 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Let me check the back. Yes, we have it.",
+       "ko": "창고에 확인해볼게요. 네, 있어요."
+      },
+      {
+       "speaker": "A",
+       "text": "Great, can I try it on?",
+       "ko": "좋아요, 입어봐도 될까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Of course, the fitting room is right over there.",
+       "ko": "그럼요, 탈의실은 바로 저쪽에 있어요."
+      },
+      {
+       "speaker": "A",
+       "text": "Actually, it's a bit tight. Do you have a large instead?",
+       "ko": "음, 이거 좀 끼는데요. 라지 사이즈로 있을까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, I'll grab one for you.",
+       "ko": "네, 하나 가져다드릴게요."
+      }
+     ],
+     "note": "사이즈 안 맞을 때는 It's a bit tight/loose라고 편하게 말하면 됨"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 8,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-008",
+     "situation": "약국에서 약 사기",
+     "key_expressions": [
+      "感冒药",
+      "症状",
+      "饭后吃"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我想买点感冒药。",
+       "pinyin": "Nǐ hǎo, wǒ xiǎng mǎi diǎn gǎnmàoyào.",
+       "ko": "안녕하세요, 감기약 좀 사고 싶어요."
+      },
+      {
+       "speaker": "B",
+       "text": "有什么症状？",
+       "pinyin": "Yǒu shénme zhèngzhuàng?",
+       "ko": "어떤 증상이 있으세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "头疼，还有点咳嗽。",
+       "pinyin": "Tóuténg, hái yǒudiǎn késou.",
+       "ko": "머리가 아프고 기침도 좀 나요."
+      },
+      {
+       "speaker": "B",
+       "text": "这个药一天吃三次。",
+       "pinyin": "Zhège yào yìtiān chī sān cì.",
+       "ko": "이 약은 하루에 세 번 드세요."
+      },
+      {
+       "speaker": "A",
+       "text": "饭前还是饭后吃？",
+       "pinyin": "Fànqián háishi fànhòu chī?",
+       "ko": "식전에 먹어요, 식후에 먹어요?"
+      },
+      {
+       "speaker": "B",
+       "text": "饭后吃比较好。",
+       "pinyin": "Fànhòu chī bǐjiào hǎo.",
+       "ko": "식후에 드시는 게 좋아요."
+      },
+      {
+       "speaker": "A",
+       "text": "好的，多少钱？",
+       "pinyin": "Hǎo de, duōshao qián?",
+       "ko": "네, 얼마예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "一共三十五块。",
+       "pinyin": "Yígòng sānshíwǔ kuài.",
+       "ko": "총 35위안입니다."
+      }
+     ],
+     "note": "症状은 증상이라는 뜻으로 병원이나 약국에서 자주 쓰여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 8,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-008",
+    "text": "You don't have to be perfect, just real.",
+    "source": "Modern Proverb",
+    "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
+   },
+   "zh": {
+    "id": "qzh-008",
+    "text": "你不用完美，你只需要真实。",
+    "pinyin": "Nǐ búyòng wánměi, nǐ zhǐ xūyào zhēnshí.",
+    "source": "现代语录",
+    "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
+   }
+  }
+ },
+ {
   "date": "2026-07-11",
   "en": {
    "level": 1,
