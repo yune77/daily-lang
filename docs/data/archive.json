@@ -1,5 +1,141 @@
 [
  {
+  "date": "2026-07-13",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-009",
+     "situation": "택시 잡고 목적지 말하기",
+     "key_expressions": [
+      "Can you take me to",
+      "How long will it take",
+      "Right here is fine"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, can you take me to the airport?",
+       "ko": "안녕하세요, 공항까지 가주실 수 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure thing. Which terminal?",
+       "ko": "그럼요. 어느 터미널이세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Terminal two, please. How long will it take?",
+       "ko": "2터미널이요. 얼마나 걸릴까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "With traffic, maybe thirty minutes.",
+       "ko": "차 막히는 거 감안하면 한 30분 정도요."
+      },
+      {
+       "speaker": "A",
+       "text": "That's fine. Right here is fine, thanks.",
+       "ko": "괜찮아요. 여기서 세워주시면 돼요, 감사합니다."
+      },
+      {
+       "speaker": "B",
+       "text": "No problem, have a safe flight.",
+       "ko": "네, 좋은 비행 되세요."
+      }
+     ],
+     "note": "목적지 말할 때는 세부 장소(터미널, 출입구 등)까지 같이 말해주면 훨씬 편함"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 9,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-009",
+     "situation": "지하철 환승 방법 묻기",
+     "key_expressions": [
+      "换乘",
+      "站内",
+      "坐几站"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "请问，去颐和园要在哪儿换乘？",
+       "pinyin": "Qǐngwèn, qù Yíhéyuán yào zài nǎr huànchéng?",
+       "ko": "저기요, 이허위안 가려면 어디서 환승해야 해요?"
+      },
+      {
+       "speaker": "B",
+       "text": "在下一站换四号线。",
+       "pinyin": "Zài xià yí zhàn huàn sìhàoxiàn.",
+       "ko": "다음 역에서 4호선으로 갈아타세요."
+      },
+      {
+       "speaker": "A",
+       "text": "需要出站吗？",
+       "pinyin": "Xūyào chūzhàn ma?",
+       "ko": "역 밖으로 나가야 하나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "不用，站内换乘就可以。",
+       "pinyin": "Bú yòng, zhàn nèi huànchéng jiù kěyǐ.",
+       "ko": "아니요, 역 안에서 환승하면 돼요."
+      },
+      {
+       "speaker": "A",
+       "text": "大概要坐几站？",
+       "pinyin": "Dàgài yào zuò jǐ zhàn?",
+       "ko": "대략 몇 정거장 타야 해요?"
+      },
+      {
+       "speaker": "B",
+       "text": "换乘以后再坐五站。",
+       "pinyin": "Huànchéng yǐhòu zài zuò wǔ zhàn.",
+       "ko": "환승하고 나서 5정거장 더 타면 돼요."
+      },
+      {
+       "speaker": "A",
+       "text": "明白了，谢谢！",
+       "pinyin": "Míngbai le, xièxie!",
+       "ko": "알겠습니다, 감사해요!"
+      }
+     ],
+     "note": "换乘은 환승이라는 뜻이라 지하철 탈 때 꼭 알아둬야 해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 9,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-009",
+    "text": "Let everything happen the way it needs to.",
+    "source": "Modern Proverb",
+    "ko": "모든 일이 그래야 하는 대로 일어나도록 두어라."
+   },
+   "zh": {
+    "id": "qzh-009",
+    "text": "允许一切发生。",
+    "pinyin": "Yǔnxǔ yíqiè fāshēng.",
+    "source": "现代语录",
+    "ko": "모든 일이 일어나도록 그대로 두어라."
+   }
+  }
+ },
+ {
   "date": "2026-07-12",
   "en": {
    "level": 1,
