@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-14",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-010",
+     "situation": "호텔 체크인하기",
+     "key_expressions": [
+      "I have a reservation under",
+      "Could I get a room with",
+      "What time is checkout"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I have a reservation under the name Sophie Lee.",
+       "ko": "안녕하세요, 소피 리라는 이름으로 예약했어요."
+      },
+      {
+       "speaker": "B",
+       "text": "Let me pull that up... yes, two nights, one queen bed.",
+       "ko": "확인해볼게요... 네, 2박에 퀸사이즈 침대 하나로 되어 있네요."
+      },
+      {
+       "speaker": "A",
+       "text": "That's right. Could I get a room with a view, if possible?",
+       "ko": "맞아요. 혹시 가능하면 전망 좋은 방으로 받을 수 있을까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "I can put you on a higher floor, no extra charge.",
+       "ko": "높은 층으로 배정해드릴게요, 추가 비용은 없어요."
+      },
+      {
+       "speaker": "A",
+       "text": "Perfect. What time is checkout?",
+       "ko": "완벽하네요. 체크아웃은 몇 시인가요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Checkout is at eleven. Here's your key card.",
+       "ko": "체크아웃은 11시입니다. 키카드 여기 있습니다."
+      }
+     ],
+     "note": "체크인할 때 예약 이름 먼저 말하고 원하는 요청은 자연스럽게 덧붙이면 됨"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 10,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-010",
+     "situation": "위챗페이로 결제하기",
+     "key_expressions": [
+      "微信支付",
+      "扫二维码",
+      "支付成功"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "一共多少钱？",
+       "pinyin": "Yígòng duōshao qián?",
+       "ko": "전부 얼마예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "一共六十八块。",
+       "pinyin": "Yígòng liùshíbā kuài.",
+       "ko": "전부 68위안입니다."
+      },
+      {
+       "speaker": "A",
+       "text": "可以用微信支付吗？",
+       "pinyin": "Kěyǐ yòng Wēixìn zhīfù ma?",
+       "ko": "위챗페이로 결제할 수 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "可以，扫这个二维码。",
+       "pinyin": "Kěyǐ, sǎo zhège èrwéimǎ.",
+       "ko": "네, 이 QR코드 스캔하세요."
+      },
+      {
+       "speaker": "A",
+       "text": "好了，我扫好了。",
+       "pinyin": "Hǎo le, wǒ sǎo hǎo le.",
+       "ko": "됐어요, 스캔했어요."
+      },
+      {
+       "speaker": "B",
+       "text": "请输入密码。",
+       "pinyin": "Qǐng shūrù mìmǎ.",
+       "ko": "비밀번호 입력해 주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "支付成功了吗？",
+       "pinyin": "Zhīfù chénggōng le ma?",
+       "ko": "결제 성공했나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "成功了，这是小票。",
+       "pinyin": "Chénggōng le, zhè shì xiǎopiào.",
+       "ko": "성공했습니다, 여기 영수증이요."
+      }
+     ],
+     "note": "요즘 중국에서는 현금보다 위챗페이/알리페이가 훨씬 많이 쓰여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 10,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-010",
+    "text": "When life feels bright, everything looks lovely.",
+    "source": "Modern Proverb",
+    "ko": "삶이 밝게 느껴지면, 모든 것이 사랑스러워 보인다."
+   },
+   "zh": {
+    "id": "qzh-010",
+    "text": "生活明朗，万物可爱。",
+    "pinyin": "Shēnghuó mínglǎng, wànwù kě'ài.",
+    "source": "现代语录",
+    "ko": "삶이 밝으면, 만물이 사랑스러워 보인다."
+   }
+  }
+ },
+ {
   "date": "2026-07-13",
   "en": {
    "level": 1,
