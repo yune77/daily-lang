@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-15",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-011",
+     "situation": "병원에서 진료 접수하기",
+     "key_expressions": [
+      "I'd like to see a doctor",
+      "Is this your first time here",
+      "Fill out this form"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'd like to see a doctor. I've had a sore throat for days.",
+       "ko": "안녕하세요, 진료 좀 받고 싶은데요. 목이 며칠째 아파서요."
+      },
+      {
+       "speaker": "B",
+       "text": "Is this your first time here?",
+       "ko": "저희 병원 처음 오시는 건가요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, it is.",
+       "ko": "네, 처음이에요."
+      },
+      {
+       "speaker": "B",
+       "text": "Okay, please fill out this form and have a seat.",
+       "ko": "네, 이 서류 작성하시고 잠시 앉아 계세요."
+      },
+      {
+       "speaker": "A",
+       "text": "Sure. About how long is the wait?",
+       "ko": "네. 대기 시간은 얼마나 될까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "About fifteen minutes. We'll call your name.",
+       "ko": "한 15분 정도요. 성함 부르면 들어가시면 돼요."
+      }
+     ],
+     "note": "접수할 때 증상 간단히 말하고 첫 방문인지 물으면 대답만 잘하면 됨"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 11,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-011",
+     "situation": "룸메이트 구하는 것 문의하기",
+     "key_expressions": [
+      "招室友",
+      "房租",
+      "水电费"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，请问你们还招室友吗？",
+       "pinyin": "Nǐ hǎo, qǐngwèn nǐmen hái zhāo shìyǒu ma?",
+       "ko": "안녕하세요, 혹시 룸메이트 아직 구하시나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "对，还有一个房间空着。",
+       "pinyin": "Duì, hái yǒu yí ge fángjiān kòngzhe.",
+       "ko": "네, 방이 하나 아직 비어 있어요."
+      },
+      {
+       "speaker": "A",
+       "text": "房租多少钱一个月？",
+       "pinyin": "Fángzū duōshao qián yí ge yuè?",
+       "ko": "월세는 한 달에 얼마예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "一千五，水电费另算。",
+       "pinyin": "Yìqiān wǔ, shuǐdiànfèi lìng suàn.",
+       "ko": "1500위안이고, 수도세랑 전기세는 따로예요."
+      },
+      {
+       "speaker": "A",
+       "text": "可以养宠物吗？",
+       "pinyin": "Kěyǐ yǎng chǒngwù ma?",
+       "ko": "반려동물 키워도 되나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "不好意思，房东不允许。",
+       "pinyin": "Bù hǎoyìsi, fángdōng bù yǔnxǔ.",
+       "ko": "죄송한데 집주인이 허락 안 해요."
+      },
+      {
+       "speaker": "A",
+       "text": "好吧，我可以先去看看房子吗？",
+       "pinyin": "Hǎo ba, wǒ kěyǐ xiān qù kànkan fángzi ma?",
+       "ko": "그렇군요, 먼저 방 좀 볼 수 있을까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "当然可以，什么时候方便？",
+       "pinyin": "Dāngrán kěyǐ, shénme shíhou fāngbiàn?",
+       "ko": "그럼요, 언제가 편하세요?"
+      }
+     ],
+     "note": "집 구할 때는 房租 외에 水电费를 따로 내는 경우가 많으니 꼭 확인하세요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 11,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-011",
+    "text": "The world is big — take your time seeing it.",
+    "source": "Modern Proverb",
+    "ko": "세상은 넓으니, 천천히 둘러봐도 괜찮다."
+   },
+   "zh": {
+    "id": "qzh-011",
+    "text": "世界很大，慢慢去看。",
+    "pinyin": "Shìjiè hěn dà, màn man qù kàn.",
+    "source": "现代语录",
+    "ko": "세상은 넓으니, 천천히 둘러봐도 된다."
+   }
+  }
+ },
+ {
   "date": "2026-07-14",
   "en": {
    "level": 1,
