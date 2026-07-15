@@ -1,5 +1,141 @@
 [
  {
+  "date": "2026-07-16",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-012",
+     "situation": "편의점에서 계산하기",
+     "key_expressions": [
+      "Is that everything",
+      "Do you want a bag",
+      "Here's your change"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, just these two, please.",
+       "ko": "안녕하세요, 이 두 개만 계산해주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "Is that everything for you today?",
+       "ko": "오늘은 이게 다인가요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, that's it.",
+       "ko": "네, 이게 다예요."
+      },
+      {
+       "speaker": "B",
+       "text": "Do you want a bag for that?",
+       "ko": "봉투 필요하세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "No thanks, I'll just carry it.",
+       "ko": "아니요 괜찮아요, 그냥 들고 갈게요."
+      },
+      {
+       "speaker": "B",
+       "text": "Okay, that'll be three dollars. Here's your change.",
+       "ko": "네, 3달러입니다. 거스름돈 여기 있어요."
+      }
+     ],
+     "note": "간단한 계산 상황이라 짧고 반복되는 표현 위주라 익혀두면 편함"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 12,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-012",
+     "situation": "과일가게에서 무게 달아 사기",
+     "key_expressions": [
+      "怎么卖",
+      "称一下",
+      "一斤"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "老板，这个西瓜怎么卖？",
+       "pinyin": "Lǎobǎn, zhège xīguā zěnme mài?",
+       "ko": "사장님, 이 수박 어떻게 팔아요?"
+      },
+      {
+       "speaker": "B",
+       "text": "两块钱一斤。",
+       "pinyin": "Liǎng kuài qián yì jīn.",
+       "ko": "한 근에 2위안이에요."
+      },
+      {
+       "speaker": "A",
+       "text": "帮我称一下这个吧。",
+       "pinyin": "Bāng wǒ chēng yíxià zhège ba.",
+       "ko": "이거 무게 좀 달아주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "好嘞，十斤，二十块。",
+       "pinyin": "Hǎo lei, shí jīn, èrshí kuài.",
+       "ko": "네, 10근에 20위안이요."
+      },
+      {
+       "speaker": "A",
+       "text": "有点重，能帮我切开吗？",
+       "pinyin": "Yǒudiǎn zhòng, néng bāng wǒ qiēkāi ma?",
+       "ko": "좀 무거운데 반으로 잘라주실 수 있어요?"
+      },
+      {
+       "speaker": "B",
+       "text": "没问题，我帮你切。",
+       "pinyin": "Méi wèntí, wǒ bāng nǐ qiē.",
+       "ko": "문제없어요, 잘라드릴게요."
+      },
+      {
+       "speaker": "A",
+       "text": "谢谢，这是二十块。",
+       "pinyin": "Xièxie, zhè shì èrshí kuài.",
+       "ko": "감사합니다, 여기 20위안이요."
+      }
+     ],
+     "note": "중국 과일가게에서는 무게(斤) 단위로 가격을 매기는 경우가 많아요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 12,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-012",
+    "text": "An inch more patience makes the road a mile wider.",
+    "source": "Modern Proverb",
+    "ko": "한 치의 인내가 길을 한 장만큼 넓혀준다."
+   },
+   "zh": {
+    "id": "qzh-012",
+    "text": "心宽一寸，路宽一丈。",
+    "pinyin": "Xīn kuān yí cùn, lù kuān yí zhàng.",
+    "source": "现代语录",
+    "ko": "마음이 한 치 넓어지면, 길은 한 장만큼 넓어진다."
+   }
+  }
+ },
+ {
   "date": "2026-07-15",
   "en": {
    "level": 1,
