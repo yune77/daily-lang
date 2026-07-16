@@ -1,5 +1,142 @@
 [
  {
+  "date": "2026-07-17",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-013",
+     "situation": "날씨 이야기로 스몰토크",
+     "key_expressions": [
+      "Nice weather, isn't it",
+      "supposed to rain",
+      "I love this kind of weather"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Nice weather today, isn't it?",
+       "ko": "오늘 날씨 진짜 좋다, 그치?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, it's perfect. I heard it's supposed to rain tomorrow though.",
+       "ko": "응, 완전 좋아. 근데 내일은 비 온다더라."
+      },
+      {
+       "speaker": "A",
+       "text": "Really? That's a shame, I was going to go hiking.",
+       "ko": "진짜? 아쉽다, 나 등산 가려고 했는데."
+      },
+      {
+       "speaker": "B",
+       "text": "Maybe do it today instead. I love this kind of weather.",
+       "ko": "그럼 오늘 가는 게 어때. 나 이런 날씨 완전 좋아해."
+      },
+      {
+       "speaker": "A",
+       "text": "That's a good idea, actually.",
+       "ko": "그거 좋은 생각이네."
+      }
+     ],
+     "note": "영어권에서는 날씨 얘기가 진짜 흔한 스몰토크 소재라 짧게 던지기 좋음"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 13,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-013",
+     "situation": "세탁소에 옷 맡기기",
+     "key_expressions": [
+      "干洗",
+      "污渍",
+      "取衣单"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我想洗这件外套。",
+       "pinyin": "Nǐ hǎo, wǒ xiǎng xǐ zhè jiàn wàitào.",
+       "ko": "안녕하세요, 이 외투 세탁하고 싶어요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，需要干洗吗？",
+       "pinyin": "Hǎo de, xūyào gānxǐ ma?",
+       "ko": "네, 드라이클리닝 필요하세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "对，这上面有个污渍。",
+       "pinyin": "Duì, zhè shàngmiàn yǒu ge wūzì.",
+       "ko": "네, 여기 얼룩이 있어요."
+      },
+      {
+       "speaker": "B",
+       "text": "我看看，应该能洗掉。",
+       "pinyin": "Wǒ kànkan, yīnggāi néng xǐdiào.",
+       "ko": "어디 볼게요, 지워질 것 같아요."
+      },
+      {
+       "speaker": "A",
+       "text": "什么时候能取？",
+       "pinyin": "Shénme shíhou néng qǔ?",
+       "ko": "언제 찾으러 올 수 있어요?"
+      },
+      {
+       "speaker": "B",
+       "text": "后天下午就可以。",
+       "pinyin": "Hòutiān xiàwǔ jiù kěyǐ.",
+       "ko": "모레 오후면 돼요."
+      },
+      {
+       "speaker": "A",
+       "text": "好的，多少钱？",
+       "pinyin": "Hǎo de, duōshao qián?",
+       "ko": "네, 얼마예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "二十五块，这是取衣单。",
+       "pinyin": "Èrshíwǔ kuài, zhè shì qǔyī dān.",
+       "ko": "25위안이고, 여기 옷 찾는 표예요."
+      }
+     ],
+     "note": "取衣单을 잘 챙겨야 나중에 세탁물을 찾을 수 있어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 13,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-013",
+    "text": "Don't rush, just wait quietly for the flowers to bloom.",
+    "source": "Modern Proverb",
+    "ko": "조급해하지 말고, 고요히 꽃이 피기를 기다려라."
+   },
+   "zh": {
+    "id": "qzh-013",
+    "text": "不急不躁，静待花开。",
+    "pinyin": "Bù jí bú zào, jìng dài huā kāi.",
+    "source": "现代语录",
+    "ko": "조급해하지 말고, 고요히 꽃 피기를 기다려라."
+   }
+  }
+ },
+ {
   "date": "2026-07-16",
   "en": {
    "level": 1,
