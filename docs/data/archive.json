@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-18",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-014",
+     "situation": "전화로 예약 시간 변경하기",
+     "key_expressions": [
+      "I'm calling to change",
+      "Would it be possible to",
+      "That works better for me"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'm calling to change my appointment.",
+       "ko": "안녕하세요, 예약 시간 좀 바꾸려고 전화드렸어요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, can I get your name and current appointment time?",
+       "ko": "네, 성함이랑 원래 예약 시간 알려주시겠어요?"
+      },
+      {
+       "speaker": "A",
+       "text": "It's Daniel Park, I'm booked for two on Friday.",
+       "ko": "다니엘 박이고요, 금요일 2시로 되어 있어요."
+      },
+      {
+       "speaker": "B",
+       "text": "Got it. What time would you like instead?",
+       "ko": "확인했어요. 몇 시로 바꿔드릴까요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Would it be possible to move it to four?",
+       "ko": "혹시 4시로 옮길 수 있을까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, that's open. All set for four on Friday.",
+       "ko": "네, 그 시간 비어 있어요. 금요일 4시로 변경됐습니다."
+      }
+     ],
+     "note": "전화로 일정 바꿀 땐 원래 시간이랑 원하는 시간을 딱 말해주면 빨리 처리됨"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 14,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-014",
+     "situation": "헤어숍에서 원하는 스타일 설명하기",
+     "key_expressions": [
+      "剪短一点",
+      "打薄",
+      "刘海"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，今天想剪什么样的？",
+       "pinyin": "Nǐ hǎo, jīntiān xiǎng jiǎn shénme yàng de?",
+       "ko": "안녕하세요, 오늘 어떤 스타일로 자르고 싶으세요?"
+      },
+      {
+       "speaker": "B",
+       "text": "我想剪短一点，齐肩就好。",
+       "pinyin": "Wǒ xiǎng jiǎn duǎn yìdiǎn, qíjiān jiù hǎo.",
+       "ko": "좀 짧게, 어깨선 정도로 잘라주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "要不要顺便打薄？",
+       "pinyin": "Yào bu yào shùnbiàn dǎbáo?",
+       "ko": "겸사겸사 숱도 좀 쳐드릴까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "好，刘海也帮我修一下。",
+       "pinyin": "Hǎo, liúhǎi yě bāng wǒ xiū yíxià.",
+       "ko": "좋아요, 앞머리도 좀 다듬어주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "没问题，先去洗头吧。",
+       "pinyin": "Méi wèntí, xiān qù xǐtóu ba.",
+       "ko": "문제없어요, 먼저 머리 감으러 가시죠."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，麻烦你了。",
+       "pinyin": "Hǎo de, máfan nǐ le.",
+       "ko": "네, 잘 부탁드려요."
+      },
+      {
+       "speaker": "A",
+       "text": "剪完感觉怎么样？",
+       "pinyin": "Jiǎn wán gǎnjué zěnmeyàng?",
+       "ko": "다 자르고 나니 느낌이 어떠세요?"
+      },
+      {
+       "speaker": "B",
+       "text": "很好看，谢谢！",
+       "pinyin": "Hěn hǎokàn, xièxie!",
+       "ko": "예쁘네요, 감사합니다!"
+      }
+     ],
+     "note": "刘海는 앞머리를 뜻하는 표현으로 미용실에서 자주 써요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 14,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-014",
+    "text": "Time will give you the answer.",
+    "source": "Modern Proverb",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   },
+   "zh": {
+    "id": "qzh-014",
+    "text": "时间会给你答案。",
+    "pinyin": "Shíjiān huì gěi nǐ dá'àn.",
+    "source": "现代语录",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   }
+  }
+ },
+ {
   "date": "2026-07-17",
   "en": {
    "level": 1,
