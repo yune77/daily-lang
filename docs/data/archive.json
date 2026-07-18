@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-19",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-015",
+     "situation": "공항에서 탑승 수속하기",
+     "key_expressions": [
+      "Here's my passport",
+      "Aisle or window seat",
+      "Where's the gate"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, here's my passport and reservation.",
+       "ko": "안녕하세요, 여기 여권이랑 예약 확인서요."
+      },
+      {
+       "speaker": "B",
+       "text": "Thank you. Aisle or window seat?",
+       "ko": "감사합니다. 통로 쪽 좋으세요, 창가 쪽 좋으세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Window, please, if it's available.",
+       "ko": "가능하면 창가 쪽으로 부탁드려요."
+      },
+      {
+       "speaker": "B",
+       "text": "You're all set, seat 24A. Any bags to check?",
+       "ko": "완료됐습니다, 24A석이에요. 부칠 짐 있으세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Just this one suitcase. Where's the gate?",
+       "ko": "이 캐리어 하나만요. 탑승구는 어디예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Gate fourteen, boarding starts at nine thirty.",
+       "ko": "14번 게이트고요, 탑승은 9시 반부터 시작해요."
+      }
+     ],
+     "note": "체크인할 때 좌석 선호랑 짐 개수 미리 생각해두면 수속이 빨리 끝남"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 15,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-015",
+     "situation": "도서관에서 회원증 만들기",
+     "key_expressions": [
+      "借书证",
+      "押金",
+      "续借"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我想办一张借书证。",
+       "pinyin": "Nǐ hǎo, wǒ xiǎng bàn yì zhāng jièshūzhèng.",
+       "ko": "안녕하세요, 도서 대출증을 만들고 싶어요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，请出示身份证件。",
+       "pinyin": "Hǎo de, qǐng chūshì shēnfèn zhèngjiàn.",
+       "ko": "네, 신분증 좀 보여주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "给你，需要交押金吗？",
+       "pinyin": "Gěi nǐ, xūyào jiāo yājīn ma?",
+       "ko": "여기요, 보증금 내야 하나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "需要，押金一百块。",
+       "pinyin": "Xūyào, yājīn yìbǎi kuài.",
+       "ko": "네, 보증금은 100위안이에요."
+      },
+      {
+       "speaker": "A",
+       "text": "一次可以借几本书？",
+       "pinyin": "Yícì kěyǐ jiè jǐ běn shū?",
+       "ko": "한 번에 몇 권까지 빌릴 수 있어요?"
+      },
+      {
+       "speaker": "B",
+       "text": "最多可以借五本。",
+       "pinyin": "Zuìduō kěyǐ jiè wǔ běn.",
+       "ko": "최대 5권까지 빌릴 수 있어요."
+      },
+      {
+       "speaker": "A",
+       "text": "借书期限是多久？",
+       "pinyin": "Jièshū qīxiàn shì duōjiǔ?",
+       "ko": "대출 기간은 얼마나 돼요?"
+      },
+      {
+       "speaker": "B",
+       "text": "一个月，可以续借一次。",
+       "pinyin": "Yí ge yuè, kěyǐ xùjiè yí cì.",
+       "ko": "한 달이고, 한 번 연장 가능해요."
+      }
+     ],
+     "note": "续借는 대출 연장을 뜻하는데 반납 기한 전에 미리 하는 게 좋아요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 15,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-015",
+    "text": "Walk slowly — the scenery isn't going anywhere.",
+    "source": "Modern Proverb",
+    "ko": "천천히 걸어도 돼, 풍경은 도망가지 않는다."
+   },
+   "zh": {
+    "id": "qzh-015",
+    "text": "走慢一点，风景不会跑。",
+    "pinyin": "Zǒu màn yìdiǎn, fēngjǐng bú huì pǎo.",
+    "source": "现代语录",
+    "ko": "조금 천천히 걸어도, 풍경은 도망가지 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-07-18",
   "en": {
    "level": 1,
