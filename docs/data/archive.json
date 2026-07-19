@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-20",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-016",
+     "situation": "헬스장 회원 등록하기",
+     "key_expressions": [
+      "I'd like to sign up",
+      "What plans do you have",
+      "Is there a trial"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'd like to sign up for a membership.",
+       "ko": "안녕하세요, 회원 등록하고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "Great, what plans do you have in mind? Monthly or annual?",
+       "ko": "좋아요, 어떤 플랜 생각하세요? 월 단위요, 아니면 연 단위요?"
+      },
+      {
+       "speaker": "A",
+       "text": "I'm not sure yet. Is there a trial period?",
+       "ko": "아직 잘 모르겠어요. 체험 기간 같은 게 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, we offer a free three-day trial.",
+       "ko": "네, 3일 무료 체험 있어요."
+      },
+      {
+       "speaker": "A",
+       "text": "Perfect, let's start with that.",
+       "ko": "완벽하네요, 그걸로 시작할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sounds good. I'll just need your ID and phone number.",
+       "ko": "좋아요. 신분증이랑 전화번호만 주시면 돼요."
+      }
+     ],
+     "note": "등록 전에 체험 기간부터 물어보는 게 자연스러운 순서"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 16,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-016",
+     "situation": "배달앱으로 음식 주문하기",
+     "key_expressions": [
+      "点外卖",
+      "下单",
+      "送到"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "今天晚上吃什么？",
+       "pinyin": "Jīntiān wǎnshang chī shénme?",
+       "ko": "오늘 저녁에 뭐 먹지?"
+      },
+      {
+       "speaker": "B",
+       "text": "我们点外卖吧。",
+       "pinyin": "Wǒmen diǎn wàimài ba.",
+       "ko": "우리 배달 시키자."
+      },
+      {
+       "speaker": "A",
+       "text": "好啊，你想吃什么？",
+       "pinyin": "Hǎo a, nǐ xiǎng chī shénme?",
+       "ko": "좋아, 뭐 먹고 싶어?"
+      },
+      {
+       "speaker": "B",
+       "text": "我想吃麻辣烫，你呢？",
+       "pinyin": "Wǒ xiǎng chī málàtàng, nǐ ne?",
+       "ko": "마라탕 먹고 싶은데, 너는?"
+      },
+      {
+       "speaker": "A",
+       "text": "我也要，再加一杯奶茶。",
+       "pinyin": "Wǒ yě yào, zài jiā yì bēi nǎichá.",
+       "ko": "나도, 밀크티 한 잔도 추가하자."
+      },
+      {
+       "speaker": "B",
+       "text": "好，我下单了。",
+       "pinyin": "Hǎo, wǒ xiàdān le.",
+       "ko": "좋아, 내가 주문할게."
+      },
+      {
+       "speaker": "A",
+       "text": "大概多久能送到？",
+       "pinyin": "Dàgài duōjiǔ néng sòngdào?",
+       "ko": "대략 얼마나 걸려서 배달될까?"
+      },
+      {
+       "speaker": "B",
+       "text": "显示半个小时左右。",
+       "pinyin": "Xiǎnshì bàn ge xiǎoshí zuǒyòu.",
+       "ko": "30분 정도 걸린다고 뜨네."
+      }
+     ],
+     "note": "点外卖는 배달 음식을 시킨다는 뜻으로 요즘 중국 젊은이들이 자주 써요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 16,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-016",
+    "text": "The harder you try, the luckier you get.",
+    "source": "Modern Proverb",
+    "ko": "노력할수록 운도 따라온다."
+   },
+   "zh": {
+    "id": "qzh-016",
+    "text": "越努力，越幸运。",
+    "pinyin": "Yuè nǔlì, yuè xìngyùn.",
+    "source": "现代语录",
+    "ko": "노력할수록, 운도 따라온다."
+   }
+  }
+ },
+ {
   "date": "2026-07-19",
   "en": {
    "level": 1,
