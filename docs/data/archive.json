@@ -1,5 +1,141 @@
 [
  {
+  "date": "2026-07-21",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-017",
+     "situation": "은행에서 계좌 개설 문의하기",
+     "key_expressions": [
+      "I'd like to open an account",
+      "What do I need to bring",
+      "Is there a monthly fee"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'd like to open a checking account.",
+       "ko": "안녕하세요, 입출금 계좌 만들고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. What do I need to bring, you mean documents?",
+       "ko": "네. 어떤 게 필요하신지, 서류 말씀이신 거죠?"
+      },
+      {
+       "speaker": "A",
+       "text": "Right, what do I need to bring for that?",
+       "ko": "네, 그거 만들려면 뭐가 필요할까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Just a photo ID and proof of address.",
+       "ko": "신분증이랑 주소 증명 서류만 있으면 돼요."
+      },
+      {
+       "speaker": "A",
+       "text": "Got it. Is there a monthly fee?",
+       "ko": "알겠어요. 매달 나가는 수수료 같은 거 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "No fee if you keep a minimum balance of five hundred.",
+       "ko": "최소 잔액 500달러만 유지하시면 수수료는 없어요."
+      }
+     ],
+     "note": "계좌 관련 문의는 필요 서류랑 수수료부터 물어보면 됨"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 17,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-017",
+     "situation": "공원에서 길 잃은 관광객 돕기",
+     "key_expressions": [
+      "需要帮忙吗",
+      "找不到",
+      "往东走"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "请问，你需要帮忙吗？",
+       "pinyin": "Qǐngwèn, nǐ xūyào bāngmáng ma?",
+       "ko": "저기요, 도움이 필요하세요?"
+      },
+      {
+       "speaker": "B",
+       "text": "是的，我找不到公园出口。",
+       "pinyin": "Shì de, wǒ zhǎo bú dào gōngyuán chūkǒu.",
+       "ko": "네, 공원 출구를 못 찾겠어요."
+      },
+      {
+       "speaker": "A",
+       "text": "你要去哪个出口？",
+       "pinyin": "Nǐ yào qù nǎge chūkǒu?",
+       "ko": "어느 출구로 가시려고요?"
+      },
+      {
+       "speaker": "B",
+       "text": "我要去地铁站那边的出口。",
+       "pinyin": "Wǒ yào qù dìtiězhàn nàbiān de chūkǒu.",
+       "ko": "지하철역 쪽 출구로 가려고요."
+      },
+      {
+       "speaker": "A",
+       "text": "那你要往东走，很近的。",
+       "pinyin": "Nà nǐ yào wǎng dōng zǒu, hěn jìn de.",
+       "ko": "그럼 동쪽으로 가시면 돼요, 아주 가까워요."
+      },
+      {
+       "speaker": "B",
+       "text": "太谢谢你了。",
+       "pinyin": "Tài xièxie nǐ le.",
+       "ko": "정말 감사합니다."
+      },
+      {
+       "speaker": "A",
+       "text": "不客气，祝你玩得开心。",
+       "pinyin": "Bú kèqi, zhù nǐ wán de kāixīn.",
+       "ko": "별말씀을요, 즐거운 시간 보내세요."
+      }
+     ],
+     "note": "祝你玩得开心은 놀러 온 사람에게 건네는 다정한 인사예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 17,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-017",
+    "text": "Someone, somewhere, is waiting for you.",
+    "source": "Modern Proverb",
+    "ko": "어딘가에서 누군가는 늘 너를 기다리고 있다."
+   },
+   "zh": {
+    "id": "qzh-017",
+    "text": "你要相信，总有人在等你。",
+    "pinyin": "Nǐ yào xiāngxìn, zǒng yǒu rén zài děng nǐ.",
+    "source": "现代语录",
+    "ko": "믿어봐, 언제나 누군가는 너를 기다리고 있어."
+   }
+  }
+ },
+ {
   "date": "2026-07-20",
   "en": {
    "level": 1,
