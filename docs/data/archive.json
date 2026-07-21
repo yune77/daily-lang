@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-22",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-018",
+     "situation": "우체국에서 소포 보내기",
+     "key_expressions": [
+      "I'd like to send this package",
+      "How long will it take to arrive",
+      "Do you need it insured"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'd like to send this package to Korea.",
+       "ko": "안녕하세요, 이 소포 한국으로 보내고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, let's put it on the scale. That'll be around thirty dollars.",
+       "ko": "네, 저울에 올려볼게요. 30달러 정도 나오네요."
+      },
+      {
+       "speaker": "A",
+       "text": "How long will it take to arrive?",
+       "ko": "도착하는 데 얼마나 걸릴까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "About a week with standard shipping.",
+       "ko": "일반 배송이면 일주일 정도 걸려요."
+      },
+      {
+       "speaker": "A",
+       "text": "That's fine. Do you need it insured?",
+       "ko": "괜찮아요. 보험 들어야 하나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "It's optional, but I'd recommend it for electronics.",
+       "ko": "선택 사항인데, 전자기기면 드는 걸 추천드려요."
+      }
+     ],
+     "note": "소포 보낼 때는 무게 재고 가격, 도착 기간, 보험 순으로 물어보면 자연스러움"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 18,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-018",
+     "situation": "노래방(KTV)에서 놀기",
+     "key_expressions": [
+      "唱歌",
+      "点歌",
+      "包间"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我们今晚去唱歌吧！",
+       "pinyin": "Wǒmen jīnwǎn qù chànggē ba!",
+       "ko": "우리 오늘 저녁 노래방 가자!"
+      },
+      {
+       "speaker": "B",
+       "text": "好啊，去哪家KTV？",
+       "pinyin": "Hǎo a, qù nǎ jiā KTV?",
+       "ko": "좋아, 어느 노래방으로 갈까?"
+      },
+      {
+       "speaker": "A",
+       "text": "就楼下那家吧，挺便宜的。",
+       "pinyin": "Jiù lóuxià nà jiā ba, tǐng piányi de.",
+       "ko": "그냥 아래층 그곳으로 가자, 꽤 싸."
+      },
+      {
+       "speaker": "B",
+       "text": "好，我们订个小包间。",
+       "pinyin": "Hǎo, wǒmen dìng ge xiǎo bāojiān.",
+       "ko": "좋아, 작은 룸으로 예약하자."
+      },
+      {
+       "speaker": "A",
+       "text": "你先点几首歌吧。",
+       "pinyin": "Nǐ xiān diǎn jǐ shǒu gē ba.",
+       "ko": "네가 먼저 몇 곡 골라봐."
+      },
+      {
+       "speaker": "B",
+       "text": "好，我最喜欢唱这首。",
+       "pinyin": "Hǎo, wǒ zuì xǐhuan chàng zhè shǒu.",
+       "ko": "좋아, 나 이 노래 부르는 거 제일 좋아해."
+      },
+      {
+       "speaker": "A",
+       "text": "你唱得真好听！",
+       "pinyin": "Nǐ chàng de zhēn hǎotīng!",
+       "ko": "너 노래 진짜 잘 부른다!"
+      },
+      {
+       "speaker": "B",
+       "text": "谢谢，一起唱吧！",
+       "pinyin": "Xièxie, yìqǐ chàng ba!",
+       "ko": "고마워, 같이 부르자!"
+      }
+     ],
+     "note": "包间은 KTV의 개별 룸을 가리키는 말이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 18,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-018",
+    "text": "Being yourself matters more than anything else.",
+    "source": "Modern Proverb",
+    "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
+   },
+   "zh": {
+    "id": "qzh-018",
+    "text": "做自己，比什么都重要。",
+    "pinyin": "Zuò zìjǐ, bǐ shénme dōu zhòngyào.",
+    "source": "现代语录",
+    "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
+   }
+  }
+ },
+ {
   "date": "2026-07-21",
   "en": {
    "level": 1,
