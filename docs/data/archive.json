@@ -1,5 +1,141 @@
 [
  {
+  "date": "2026-07-23",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-019",
+     "situation": "영화관에서 표 구매하기",
+     "key_expressions": [
+      "Two tickets for",
+      "What time does it start",
+      "Can we sit near the back"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, two tickets for the seven o'clock showing, please.",
+       "ko": "안녕하세요, 7시 영화 두 장 주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. What time does it start, did you say seven?",
+       "ko": "네. 몇 시라고 하셨죠, 7시 맞으시죠?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, seven. Can we sit near the back?",
+       "ko": "네, 7시요. 뒤쪽 자리로 앉을 수 있을까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Let me check the seating chart... row J works.",
+       "ko": "좌석표 확인해볼게요... J열 자리 있어요."
+      },
+      {
+       "speaker": "A",
+       "text": "Perfect, we'll take that.",
+       "ko": "완벽해요, 그걸로 할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "Great, that'll be twenty-four dollars total.",
+       "ko": "네, 총 24달러입니다."
+      }
+     ],
+     "note": "영화표 살 때 시간이랑 좌석 위치 순서로 얘기하면 됨"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 19,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-019",
+     "situation": "편의점에서 택배 찾기",
+     "key_expressions": [
+      "取快递",
+      "取件码",
+      "签字"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我来取快递。",
+       "pinyin": "Nǐ hǎo, wǒ lái qǔ kuàidì.",
+       "ko": "안녕하세요, 택배 찾으러 왔어요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，取件码是多少？",
+       "pinyin": "Hǎo de, qǔjiànmǎ shì duōshao?",
+       "ko": "네, 수령 코드가 몇 번이에요?"
+      },
+      {
+       "speaker": "A",
+       "text": "是1234。",
+       "pinyin": "Shì yī èr sān sì.",
+       "ko": "1234예요."
+      },
+      {
+       "speaker": "B",
+       "text": "请稍等，我帮你找一下。",
+       "pinyin": "Qǐng shāo děng, wǒ bāng nǐ zhǎo yíxià.",
+       "ko": "잠시만요, 찾아드릴게요."
+      },
+      {
+       "speaker": "A",
+       "text": "麻烦你了。",
+       "pinyin": "Máfan nǐ le.",
+       "ko": "번거롭게 해드려서 죄송해요."
+      },
+      {
+       "speaker": "B",
+       "text": "找到了，麻烦签一下字。",
+       "pinyin": "Zhǎodào le, máfan qiān yíxià zì.",
+       "ko": "찾았어요, 서명 좀 부탁드려요."
+      },
+      {
+       "speaker": "A",
+       "text": "好的，谢谢！",
+       "pinyin": "Hǎo de, xièxie!",
+       "ko": "네, 감사합니다!"
+      }
+     ],
+     "note": "편의점이 택배 수령 장소로 자주 쓰이니 取件码를 미리 확인해두면 편해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 19,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-019",
+    "text": "Every day is a chance to start again.",
+    "source": "Modern Proverb",
+    "ko": "매일은 다시 시작할 수 있는 기회다."
+   },
+   "zh": {
+    "id": "qzh-019",
+    "text": "每一天都是重新开始的机会。",
+    "pinyin": "Měi yì tiān dōu shì chóngxīn kāishǐ de jīhuì.",
+    "source": "现代语录",
+    "ko": "매일은 다시 시작할 수 있는 기회다."
+   }
+  }
+ },
+ {
   "date": "2026-07-22",
   "en": {
    "level": 1,
