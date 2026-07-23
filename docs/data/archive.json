@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-24",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-020",
+     "situation": "미용실 예약 전화하기",
+     "key_expressions": [
+      "I'd like to book an appointment",
+      "Do you have any openings",
+      "How much does it cost"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'd like to book an appointment for a haircut.",
+       "ko": "안녕하세요, 커트 예약하고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, do you have a stylist in mind?",
+       "ko": "네, 원하시는 디자이너 있으세요?"
+      },
+      {
+       "speaker": "A",
+       "text": "Not really. Do you have any openings this weekend?",
+       "ko": "딱히 없어요. 이번 주말에 예약 가능한 시간 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "We have Saturday at eleven or Sunday at two.",
+       "ko": "토요일 11시나 일요일 2시 가능해요."
+      },
+      {
+       "speaker": "A",
+       "text": "Saturday works. How much does it cost?",
+       "ko": "토요일이 좋아요. 가격은 어떻게 되나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "A haircut is thirty-five dollars.",
+       "ko": "커트는 35달러입니다."
+      }
+     ],
+     "note": "미용실 예약은 원하는 시술이랑 가능한 시간대부터 확인하면 편함"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 20,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-020",
+     "situation": "새 학기 학교 등록하기",
+     "key_expressions": [
+      "入学手续",
+      "材料",
+      "学费"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我来办理入学手续。",
+       "pinyin": "Nǐ hǎo, wǒ lái bànlǐ rùxué shǒuxù.",
+       "ko": "안녕하세요, 입학 수속하러 왔어요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，请把材料给我看一下。",
+       "pinyin": "Hǎo de, qǐng bǎ cáiliào gěi wǒ kàn yíxià.",
+       "ko": "네, 서류 좀 보여주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "给你，都在这里了。",
+       "pinyin": "Gěi nǐ, dōu zài zhèlǐ le.",
+       "ko": "여기요, 다 있어요."
+      },
+      {
+       "speaker": "B",
+       "text": "还需要交一张照片。",
+       "pinyin": "Hái xūyào jiāo yì zhāng zhàopiàn.",
+       "ko": "사진 한 장도 더 제출해야 해요."
+      },
+      {
+       "speaker": "A",
+       "text": "我这里有，给你。",
+       "pinyin": "Wǒ zhèlǐ yǒu, gěi nǐ.",
+       "ko": "여기 있어요, 드릴게요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，学费需要现在交吗？",
+       "pinyin": "Hǎo de, xuéfèi xūyào xiànzài jiāo ma?",
+       "ko": "네, 학비는 지금 내야 하나요?"
+      },
+      {
+       "speaker": "A",
+       "text": "是的，可以刷卡吗？",
+       "pinyin": "Shì de, kěyǐ shuākǎ ma?",
+       "ko": "네, 카드로 결제할 수 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "可以，请到那边的窗口。",
+       "pinyin": "Kěyǐ, qǐng dào nàbiān de chuāngkǒu.",
+       "ko": "가능해요, 저쪽 창구로 가주세요."
+      }
+     ],
+     "note": "入学手续는 입학 수속 전체를 가리키는 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 20,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-020",
+    "text": "The simpler life gets, the happier you become.",
+    "source": "Modern Proverb",
+    "ko": "삶이 단순해질수록, 행복은 늘어난다."
+   },
+   "zh": {
+    "id": "qzh-020",
+    "text": "简单一点，快乐才会多一点。",
+    "pinyin": "Jiǎndān yìdiǎn, kuàilè cái huì duō yìdiǎn.",
+    "source": "现代语录",
+    "ko": "단순하게 살수록, 행복은 더 많아진다."
+   }
+  }
+ },
+ {
   "date": "2026-07-23",
   "en": {
    "level": 1,
