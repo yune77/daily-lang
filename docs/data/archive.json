@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-07-25",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-021",
+     "situation": "마트에서 직원에게 물건 위치 묻기",
+     "key_expressions": [
+      "Excuse me, where can I find",
+      "It's in aisle",
+      "Do you have any in the back"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Excuse me, where can I find olive oil?",
+       "ko": "저기요, 올리브오일은 어디 있나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "It's in aisle six, next to the vinegar.",
+       "ko": "6번 통로에 있어요, 식초 옆에요."
+      },
+      {
+       "speaker": "A",
+       "text": "Thanks. Also, do you have any in the back? The shelf looks empty.",
+       "ko": "감사해요. 그리고 혹시 창고에 더 있나요? 선반이 비어 보여서요."
+      },
+      {
+       "speaker": "B",
+       "text": "Let me check for you real quick.",
+       "ko": "잠깐 확인해볼게요."
+      },
+      {
+       "speaker": "A",
+       "text": "I appreciate it.",
+       "ko": "감사합니다."
+      },
+      {
+       "speaker": "B",
+       "text": "Good news, we have more. I'll bring some out.",
+       "ko": "다행히 더 있네요. 갖다드릴게요."
+      }
+     ],
+     "note": "마트에서는 aisle 번호로 위치 설명하니까 이 표현만 알아둬도 충분함"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 21,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-021",
+     "situation": "헬스장에서 트레이너와 상담하기",
+     "key_expressions": [
+      "私教",
+      "健身目标",
+      "打折"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好，我想请一个私教。",
+       "pinyin": "Nǐ hǎo, wǒ xiǎng qǐng yí ge sījiào.",
+       "ko": "안녕하세요, 개인 트레이너를 받고 싶어요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的，你的健身目标是什么？",
+       "pinyin": "Hǎo de, nǐ de jiànshēn mùbiāo shì shénme?",
+       "ko": "네, 운동 목표가 뭐예요?"
+      },
+      {
+       "speaker": "A",
+       "text": "我想减肥，也想练肌肉。",
+       "pinyin": "Wǒ xiǎng jiǎnféi, yě xiǎng liàn jīròu.",
+       "ko": "살을 빼고 싶고 근육도 키우고 싶어요."
+      },
+      {
+       "speaker": "B",
+       "text": "那我们先测一下你的体重。",
+       "pinyin": "Nà wǒmen xiān cè yíxià nǐ de tǐzhòng.",
+       "ko": "그럼 먼저 체중을 재볼게요."
+      },
+      {
+       "speaker": "A",
+       "text": "好的，一节课多少钱？",
+       "pinyin": "Hǎo de, yì jié kè duōshao qián?",
+       "ko": "네, 한 회에 얼마예요?"
+      },
+      {
+       "speaker": "B",
+       "text": "两百块一节，十节打折。",
+       "pinyin": "Liǎngbǎi kuài yì jié, shí jié dǎzhé.",
+       "ko": "한 회에 200위안이고 10회는 할인돼요."
+      },
+      {
+       "speaker": "A",
+       "text": "那我先报十节课吧。",
+       "pinyin": "Nà wǒ xiān bào shí jié kè ba.",
+       "ko": "그럼 우선 10회로 등록할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "好，我们明天开始训练。",
+       "pinyin": "Hǎo, wǒmen míngtiān kāishǐ xùnliàn.",
+       "ko": "좋아요, 내일부터 훈련 시작하죠."
+      }
+     ],
+     "note": "私教는 개인 트레이너(퍼스널 트레이닝)를 줄여 부르는 말이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "초급",
+   "progress": 21,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-021",
+    "text": "You've already tried hard enough — well done.",
+    "source": "Modern Proverb",
+    "ko": "넌 이미 충분히 애썼어, 수고했어."
+   },
+   "zh": {
+    "id": "qzh-021",
+    "text": "你已经很努力了，辛苦了。",
+    "pinyin": "Nǐ yǐjīng hěn nǔlì le, xīnkǔ le.",
+    "source": "现代语录",
+    "ko": "넌 이미 충분히 애썼어, 고생했어."
+   }
+  }
+ },
+ {
   "date": "2026-07-24",
   "en": {
    "level": 1,
