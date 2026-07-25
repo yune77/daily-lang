@@ -1,5 +1,141 @@
 [
  {
+  "date": "2026-07-26",
+  "en": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "en1-022",
+     "situation": "생일 파티에서 축하 인사 나누기",
+     "key_expressions": [
+      "Happy birthday",
+      "I got you something",
+      "Hope all your wishes come true"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Happy birthday, Grace! You look amazing tonight.",
+       "ko": "생일 축하해, 그레이스! 오늘 진짜 예쁘다."
+      },
+      {
+       "speaker": "B",
+       "text": "Aw, thank you so much for coming!",
+       "ko": "와, 와줘서 정말 고마워!"
+      },
+      {
+       "speaker": "A",
+       "text": "Of course. I got you something, it's not much.",
+       "ko": "당연하지. 이거 작은 선물인데 준비했어."
+      },
+      {
+       "speaker": "B",
+       "text": "You didn't have to! Can I open it now?",
+       "ko": "안 그래도 되는데! 지금 열어봐도 돼?"
+      },
+      {
+       "speaker": "A",
+       "text": "Go ahead! Hope all your wishes come true this year.",
+       "ko": "열어봐! 올해는 소원 다 이루어지길 바라."
+      },
+      {
+       "speaker": "B",
+       "text": "That's so sweet of you, thank you.",
+       "ko": "진짜 감동이다, 고마워."
+      }
+     ],
+     "note": "생일 파티에서는 칭찬 한마디랑 선물, 덕담을 자연스럽게 이어서 말하면 됨"
+    }
+   ],
+   "levelup": true,
+   "next_level_name": "중급",
+   "progress": 22,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 1,
+   "level_name": "초급",
+   "items": [
+    {
+     "id": "zh1-022",
+     "situation": "명절 인사 나누기",
+     "key_expressions": [
+      "恭喜发财",
+      "包饺子",
+      "过年"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "新年好！恭喜发财！",
+       "pinyin": "Xīnnián hǎo! Gōngxǐ fācái!",
+       "ko": "새해 복 많이 받으세요! 부자 되세요!"
+      },
+      {
+       "speaker": "B",
+       "text": "新年快乐，身体健康！",
+       "pinyin": "Xīnnián kuàilè, shēntǐ jiànkāng!",
+       "ko": "새해 복 많이 받으시고 건강하세요!"
+      },
+      {
+       "speaker": "A",
+       "text": "你们家过年怎么过的？",
+       "pinyin": "Nǐmen jiā guònián zěnme guò de?",
+       "ko": "너희 집은 설을 어떻게 보내?"
+      },
+      {
+       "speaker": "B",
+       "text": "我们一起包饺子，看春晚。",
+       "pinyin": "Wǒmen yìqǐ bāo jiǎozi, kàn Chūnwǎn.",
+       "ko": "우리는 같이 만두 빚고 춘완(설 특집방송) 봐."
+      },
+      {
+       "speaker": "A",
+       "text": "真热闹，我也想试试包饺子。",
+       "pinyin": "Zhēn rènao, wǒ yě xiǎng shìshi bāo jiǎozi.",
+       "ko": "정말 시끌벅적하네, 나도 만두 빚어보고 싶다."
+      },
+      {
+       "speaker": "B",
+       "text": "欢迎你来我家一起过年。",
+       "pinyin": "Huānyíng nǐ lái wǒ jiā yìqǐ guònián.",
+       "ko": "우리 집에 와서 같이 설 보내는 거 환영이야."
+      },
+      {
+       "speaker": "A",
+       "text": "太好了，谢谢邀请！",
+       "pinyin": "Tài hǎo le, xièxie yāoqǐng!",
+       "ko": "너무 좋다, 초대해줘서 고마워!"
+      }
+     ],
+     "note": "恭喜发财는 설날에 자주 쓰는 인사말로 돈 많이 벌라는 덕담이에요."
+    }
+   ],
+   "levelup": true,
+   "next_level_name": "중급",
+   "progress": 22,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-022",
+    "text": "The sun always comes out after the storm.",
+    "source": "Modern Proverb",
+    "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
+   },
+   "zh": {
+    "id": "qzh-022",
+    "text": "阳光总在风雨后。",
+    "pinyin": "Yángguāng zǒng zài fēngyǔ hòu.",
+    "source": "现代语录",
+    "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
+   }
+  }
+ },
+ {
   "date": "2026-07-25",
   "en": {
    "level": 1,
