@@ -1,5 +1,124 @@
 [
  {
+  "date": "2026-07-27",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-001",
+     "situation": "늦어서 사과하기",
+     "key_expressions": [
+      "I'm so sorry",
+      "traffic was insane",
+      "I'll make it up to you"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I'm so sorry I'm late. Traffic was insane.",
+       "ko": "늦어서 정말 미안해. 차가 미쳤더라고."
+      },
+      {
+       "speaker": "B",
+       "text": "It's fine, but you said that last time too.",
+       "ko": "괜찮은데, 저번에도 그렇게 말했잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "I know, I know. I'll make it up to you.",
+       "ko": "알아, 알아. 내가 갚을게."
+      },
+      {
+       "speaker": "B",
+       "text": "How exactly?",
+       "ko": "어떻게 갚을 건데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Dinner's on me tonight. My treat.",
+       "ko": "오늘 저녁은 내가 살게. 내가 쏜다."
+      },
+      {
+       "speaker": "B",
+       "text": "Alright, I'll let it slide this time.",
+       "ko": "좋아, 이번엔 그냥 넘어가 줄게."
+      }
+     ],
+     "note": "let it slide(넘어가주다)는 가벼운 잘못을 용서할 때 자주 쓰는 구어체"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 1,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-001",
+     "situation": "약속 취소 양해 구하기",
+     "key_expressions": [
+      "不好意思",
+      "突然有事",
+      "改天",
+      "没关系"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "不好意思，今天突然有事，可能去不了了。",
+       "pinyin": "Bù hǎoyìsi, jīntiān tūrán yǒu shì, kěnéng qù bùliǎo le.",
+       "ko": "미안한데, 오늘 갑자기 일이 생겨서 못 갈 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "没关系，那我们改天吧。",
+       "pinyin": "Méi guānxi, nà wǒmen gǎitiān ba.",
+       "ko": "괜찮아, 그럼 다음에 하자."
+      },
+      {
+       "speaker": "A",
+       "text": "真的很抱歉，我请你吃饭补偿你。",
+       "pinyin": "Zhēnde hěn bàoqiàn, wǒ qǐng nǐ chīfàn bǔcháng nǐ.",
+       "ko": "정말 미안해, 밥 사서 갚을게."
+      },
+      {
+       "speaker": "B",
+       "text": "哈哈，不用这么客气。",
+       "pinyin": "Hāhā, bú yòng zhème kèqi.",
+       "ko": "하하, 그렇게 예의 차릴 필요 없어."
+      }
+     ],
+     "note": "改天(다음에)는 약속을 미룰 때 가장 자연스러운 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 1,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-023",
+    "text": "Learning to let go is its own kind of growth.",
+    "source": "Modern Proverb",
+    "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
+   },
+   "zh": {
+    "id": "qzh-023",
+    "text": "学会放手，也是一种成长。",
+    "pinyin": "Xuéhuì fàngshǒu, yě shì yì zhǒng chéngzhǎng.",
+    "source": "现代语录",
+    "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
+   }
+  }
+ },
+ {
   "date": "2026-07-26",
   "en": {
    "level": 1,
