@@ -1,5 +1,123 @@
 [
  {
+  "date": "2026-07-28",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-002",
+     "situation": "주말 계획 이야기하기",
+     "key_expressions": [
+      "I'm thinking of",
+      "that works for me",
+      "count me in"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Any plans this weekend?",
+       "ko": "이번 주말에 뭐 계획 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Not really. I'm thinking of just staying in.",
+       "ko": "딱히 없어. 그냥 집에 있으려고."
+      },
+      {
+       "speaker": "A",
+       "text": "Want to come hiking with us instead?",
+       "ko": "그러지 말고 우리랑 등산 갈래?"
+      },
+      {
+       "speaker": "B",
+       "text": "When were you thinking?",
+       "ko": "언제 갈 생각인데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Saturday morning, around eight.",
+       "ko": "토요일 아침, 8시쯤."
+      },
+      {
+       "speaker": "B",
+       "text": "That works for me. Count me in!",
+       "ko": "그 시간 괜찮아. 나도 낄게!"
+      }
+     ],
+     "note": "count me in(나도 낄게)은 제안에 흔쾌히 합류할 때 쓰는 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 2,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-002",
+     "situation": "날씨 이야기로 스몰토크",
+     "key_expressions": [
+      "越来越",
+      "听说",
+      "要不"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "最近天气越来越冷了。",
+       "pinyin": "Zuìjìn tiānqì yuèláiyuè lěng le.",
+       "ko": "요즘 날씨가 점점 추워지네."
+      },
+      {
+       "speaker": "B",
+       "text": "是啊，听说这周末会下雪。",
+       "pinyin": "Shì a, tīngshuō zhè zhōumò huì xiàxuě.",
+       "ko": "맞아, 듣자 하니 이번 주말에 눈 온대."
+      },
+      {
+       "speaker": "A",
+       "text": "真的吗？要不我们周末在家看电影吧。",
+       "pinyin": "Zhēn de ma? Yàobù wǒmen zhōumò zài jiā kàn diànyǐng ba.",
+       "ko": "진짜? 그러지 말고 주말에 우리 집에서 영화 보자."
+      },
+      {
+       "speaker": "B",
+       "text": "好主意，我带零食过去。",
+       "pinyin": "Hǎo zhǔyì, wǒ dài língshí guòqù.",
+       "ko": "좋은 생각이야, 내가 간식 가져갈게."
+      }
+     ],
+     "note": "要不(그러지 말고 ~하자)는 대안을 제안할 때 쓰는 회화 패턴"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 2,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-024",
+    "text": "You don't have to rush — just stay on the road.",
+    "source": "Modern Proverb",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   },
+   "zh": {
+    "id": "qzh-024",
+    "text": "你不必赶路，只需要在路上。",
+    "pinyin": "Nǐ bú bì gǎn lù, zhǐ xūyào zài lù shàng.",
+    "source": "现代语录",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   }
+  }
+ },
+ {
   "date": "2026-07-27",
   "en": {
    "level": 2,
