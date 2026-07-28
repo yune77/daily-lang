@@ -1,5 +1,135 @@
 [
  {
+  "date": "2026-07-29",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-003",
+     "situation": "회의에 지각해서 사과하기",
+     "key_expressions": [
+      "I'm so sorry I'm late",
+      "It won't happen again",
+      "Traffic was insane"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Ben, hey, you're missing the whole first half of the meeting.",
+       "ko": "벤, 저기, 너 회의 전반부를 완전히 놓쳤어."
+      },
+      {
+       "speaker": "B",
+       "text": "I know, I know, I'm so sorry I'm late. Traffic was insane on the highway.",
+       "ko": "알아, 알아, 늦어서 진짜 미안해. 고속도로가 완전 미쳤더라고."
+      },
+      {
+       "speaker": "A",
+       "text": "It's the third time this month, though.",
+       "ko": "근데 이번 달만 벌써 세 번째잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "You're right, I hear you. It won't happen again, I promise.",
+       "ko": "맞아, 무슨 말인지 알아. 다시는 안 그럴게, 약속해."
+      },
+      {
+       "speaker": "A",
+       "text": "Okay, just grab a seat, we're on slide three.",
+       "ko": "알겠어, 일단 앉아, 지금 3페이지 하고 있어."
+      },
+      {
+       "speaker": "B",
+       "text": "Got it, thanks for bearing with me.",
+       "ko": "알겠어, 참아줘서 고마워."
+      }
+     ],
+     "note": "지각해서 사과할 때는 'I'm so sorry I'm late'로 바로 사과부터 하고, 이유는 뒤에 짧게 붙이는 게 자연스러워. 'It won't happen again'은 진짜 다짐할 때 쓰는 국룰 표현이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 3,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-003",
+     "situation": "친구에게 지각 이유 둘러대기",
+     "key_expressions": [
+      "差点儿",
+      "不好意思",
+      "堵车"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你怎么才来啊?我都等了半个小时了!",
+       "pinyin": "Nǐ zěnme cái lái a? Wǒ dōu děngle bàn ge xiǎoshí le!",
+       "ko": "너 왜 이제 와? 나 30분이나 기다렸잖아!"
+      },
+      {
+       "speaker": "B",
+       "text": "不好意思不好意思,路上堵车堵得特别厉害。",
+       "pinyin": "Bù hǎoyìsi bù hǎoyìsi, lùshang dǔchē dǔ de tèbié lìhai.",
+       "ko": "미안 미안, 길에서 차가 엄청 막혔어."
+      },
+      {
+       "speaker": "A",
+       "text": "又堵车?你每次都这么说。",
+       "pinyin": "Yòu dǔchē? Nǐ měi cì dōu zhème shuō.",
+       "ko": "또 차 막혔다고? 너 매번 그렇게 말하잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "这次是真的!我差点儿就迟到一个小时了,你信不信?",
+       "pinyin": "Zhè cì shì zhēn de! Wǒ chàdiǎnr jiù chídào yí ge xiǎoshí le, nǐ xìn bu xìn?",
+       "ko": "이번엔 진짜야! 나 하마터면 한 시간이나 늦을 뻔했다니까, 믿어 안 믿어?"
+      },
+      {
+       "speaker": "A",
+       "text": "好啦好啦,下次早点儿出门吧。",
+       "pinyin": "Hǎo la hǎo la, xià cì zǎodiǎnr chūmén ba.",
+       "ko": "알았어 알았어, 다음엔 좀 일찍 나와."
+      },
+      {
+       "speaker": "B",
+       "text": "好,我请你喝奶茶赔罪,行吧?",
+       "pinyin": "Hǎo, wǒ qǐng nǐ hē nǎichá péizuì, xíng ba?",
+       "ko": "알았어, 내가 밀크티 사줄게 사과의 의미로, 됐지?"
+      }
+     ],
+     "note": "差点儿는 '하마터면 ~할 뻔했다'는 뜻으로 안 좋은 일이 겨우 안 일어났을 때 써요. 늦잠이나 차 막힘 핑계 댈 때 진짜 자주 나오는 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 3,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-025",
+    "text": "Everything you lose comes back in another form.",
+    "source": "Modern Proverb",
+    "ko": "잃어버린 모든 것은 다른 모습으로 다시 돌아온다."
+   },
+   "zh": {
+    "id": "qzh-025",
+    "text": "所有的失去，都会以另一种方式归来。",
+    "pinyin": "Suǒyǒu de shīqù, dōu huì yǐ lìng yì zhǒng fāngshì guīlái.",
+    "source": "现代语录",
+    "ko": "모든 잃어버린 것은 다른 방식으로 다시 돌아온다."
+   }
+  }
+ },
+ {
   "date": "2026-07-28",
   "en": {
    "level": 2,
