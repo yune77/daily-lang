@@ -1,5 +1,151 @@
 [
  {
+  "date": "2026-07-30",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-004",
+     "situation": "주말 계획 물어보기",
+     "key_expressions": [
+      "What are you up to this weekend?",
+      "I'm thinking about",
+      "Wanna tag along?"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, what are you up to this weekend?",
+       "ko": "야, 이번 주말에 뭐 해?"
+      },
+      {
+       "speaker": "B",
+       "text": "Not much, honestly. I'm thinking about just catching up on sleep.",
+       "ko": "솔직히 별거 없어. 그냥 밀린 잠이나 잘까 생각 중이야."
+      },
+      {
+       "speaker": "A",
+       "text": "Same old, huh? I was gonna check out that new hiking trail Saturday morning.",
+       "ko": "맨날 똑같네 그럼. 나는 토요일 아침에 새로 생긴 등산로 가보려고 했는데."
+      },
+      {
+       "speaker": "B",
+       "text": "Ooh, that sounds nice actually. Wanna tag along, or is this a solo thing?",
+       "ko": "오 그거 괜찮은데. 나도 따라가도 돼, 아니면 혼자 가는 거야?"
+      },
+      {
+       "speaker": "A",
+       "text": "No, come along! The more the merrier.",
+       "ko": "아니야, 같이 가자! 사람 많을수록 좋지."
+      },
+      {
+       "speaker": "B",
+       "text": "Alright, count me in. What time are we talking?",
+       "ko": "좋아, 나도 낄게. 몇 시쯤인데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Probably around 8, before it gets too hot.",
+       "ko": "너무 더워지기 전에 8시쯤일 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "Deal. I'll bring snacks.",
+       "ko": "콜. 내가 간식 챙겨갈게."
+      }
+     ],
+     "note": "'What are you up to this weekend?'은 주말 계획 물을 때 진짜 자주 쓰는 표현이야. 같이 가고 싶을 때는 'Wanna tag along?'처럼 가볍게 물어보면 부담 없이 들려."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 4,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-004",
+     "situation": "주말 나들이 계획 세우기",
+     "key_expressions": [
+      "要不",
+      "顺便",
+      "不见不散"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "周末你有什么安排吗?一起出去走走怎么样?",
+       "pinyin": "Zhōumò nǐ yǒu shénme ānpái ma? Yìqǐ chūqù zǒuzou zěnmeyàng?",
+       "ko": "주말에 뭐 계획 있어? 같이 나가서 좀 걷는 거 어때?"
+      },
+      {
+       "speaker": "B",
+       "text": "我还没想好呢,你有什么好主意?",
+       "pinyin": "Wǒ hái méi xiǎnghǎo ne, nǐ yǒu shénme hǎo zhǔyi?",
+       "ko": "아직 딱히 생각한 거 없는데, 뭐 좋은 생각 있어?"
+      },
+      {
+       "speaker": "A",
+       "text": "要不我们去公园野餐吧,天气这么好。",
+       "pinyin": "Yàobù wǒmen qù gōngyuán yěcān ba, tiānqì zhème hǎo.",
+       "ko": "아니면 우리 공원 가서 소풍 갈까, 날씨도 이렇게 좋은데."
+      },
+      {
+       "speaker": "B",
+       "text": "好主意!顺便可以带上相机,拍点照片。",
+       "pinyin": "Hǎo zhǔyi! Shùnbiàn kěyǐ dàishang xiàngjī, pāi diǎn zhàopiàn.",
+       "ko": "좋은 생각이야! 겸사겸사 카메라도 가져가서 사진도 좀 찍자."
+      },
+      {
+       "speaker": "A",
+       "text": "那我们几点出发?我十点之前应该能准备好。",
+       "pinyin": "Nà wǒmen jǐ diǎn chūfā? Wǒ shí diǎn zhīqián yīnggāi néng zhǔnbèi hǎo.",
+       "ko": "그럼 우리 몇 시에 출발할까? 나는 10시 전에는 준비될 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "十点半吧,我顺路去买点水果和面包。",
+       "pinyin": "Shí diǎn bàn ba, wǒ shùnlù qù mǎi diǎn shuǐguǒ hé miànbāo.",
+       "ko": "10시 반으로 하자, 나는 가는 길에 과일이랑 빵 좀 사갈게."
+      },
+      {
+       "speaker": "A",
+       "text": "行,那就这么定了,不见不散!",
+       "pinyin": "Xíng, nà jiù zhème dìng le, bú jiàn bú sàn!",
+       "ko": "좋아, 그럼 그렇게 정하자, 꼭 만나!"
+      }
+     ],
+     "note": "要不는 '아니면, ~하는 게 어때'라는 뜻으로 제안할 때 정말 많이 써요. 뒤에 顺便 붙이면 '이왕 나가는 김에'라는 뉘앙스가 자연스럽게 살아나요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 4,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-026",
+    "text": "Instead of worrying about tomorrow, take care of today.",
+    "source": "Modern Proverb",
+    "ko": "내일을 걱정하기보다, 오늘을 잘 돌보는 편이 낫다."
+   },
+   "zh": {
+    "id": "qzh-026",
+    "text": "与其焦虑明天，不如做好今天。",
+    "pinyin": "Yǔqí jiāolǜ míngtiān, bùrú zuò hǎo jīntiān.",
+    "source": "现代语录",
+    "ko": "내일을 걱정하기보다, 오늘을 잘 살아내는 편이 낫다."
+   }
+  }
+ },
+ {
   "date": "2026-07-29",
   "en": {
    "level": 2,
