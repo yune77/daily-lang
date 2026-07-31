@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-07-31",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-005",
+     "situation": "직장 동료와 스몰토크하기",
+     "key_expressions": [
+      "long time no see",
+      "How's it going",
+      "same old, same old"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey Jen, long time no see! How's it going?",
+       "ko": "젠, 오랜만이야! 요즘 어때?"
+      },
+      {
+       "speaker": "B",
+       "text": "Oh, hey Tom! Pretty good, just swamped with this new project. You?",
+       "ko": "어, 톰! 나쁘지 않아, 새 프로젝트 때문에 정신없어. 너는?"
+      },
+      {
+       "speaker": "A",
+       "text": "Same old, same old. Coffee's the only thing keeping me going today.",
+       "ko": "맨날 똑같지 뭐. 오늘은 커피 덕분에 겨우 버티는 중이야."
+      },
+      {
+       "speaker": "B",
+       "text": "Tell me about it. This machine is basically my best friend at this point.",
+       "ko": "완전 공감. 이 커피머신이 이제 거의 내 절친 수준이야."
+      },
+      {
+       "speaker": "A",
+       "text": "Ha, right? So how was your trip to Busan last month?",
+       "ko": "하 맞아. 그나저나 지난달 부산 여행은 어땠어?"
+      },
+      {
+       "speaker": "B",
+       "text": "It was amazing, actually. We should grab lunch sometime and I'll fill you in.",
+       "ko": "완전 좋았어. 언제 점심 같이 먹으면서 자세히 얘기해줄게."
+      },
+      {
+       "speaker": "A",
+       "text": "For sure, let's do that this week.",
+       "ko": "좋아, 이번 주에 한번 잡자."
+      }
+     ],
+     "note": "'long time no see'는 오랜만에 만난 동료한테 캐주얼하게 인사할 때 딱이고, 'same old, same old'는 별일 없다고 답할 때 자주 쓰는 표현이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 5,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-005",
+     "situation": "친구에게 소문 전하기",
+     "key_expressions": [
+      "听说",
+      "好像",
+      "嘴巴严"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "哎,你听说了吗?隔壁部门的经理好像要辞职了。",
+       "pinyin": "Āi, nǐ tīngshuō le ma? Gébì bùmén de jīnglǐ hǎoxiàng yào cízhí le.",
+       "ko": "야, 너 들었어? 옆 부서 매니저 사표 낼 것 같대."
+      },
+      {
+       "speaker": "B",
+       "text": "真的假的?我怎么一点儿都不知道。",
+       "pinyin": "Zhēn de jiǎ de? Wǒ zěnme yìdiǎnr dōu bù zhīdào.",
+       "ko": "진짜야 가짜야? 나는 전혀 몰랐는데."
+      },
+      {
+       "speaker": "A",
+       "text": "听说是因为跟老板意见不合,吵得挺厉害的。",
+       "pinyin": "Tīngshuō shì yīnwèi gēn lǎobǎn yìjiàn bùhé, chǎo de tǐng lìhai de.",
+       "ko": "듣기로는 사장님이랑 의견이 안 맞아서, 꽤 심하게 싸웠대."
+      },
+      {
+       "speaker": "B",
+       "text": "好像最近他们部门确实气氛不太好。",
+       "pinyin": "Hǎoxiàng zuìjìn tāmen bùmén quèshí qìfēn bú tài hǎo.",
+       "ko": "그러고 보니 요즘 그 부서 분위기가 진짜 안 좋긴 하더라."
+      },
+      {
+       "speaker": "A",
+       "text": "你可别到处说啊,我也是听小刘说的。",
+       "pinyin": "Nǐ kě bié dàochù shuō a, wǒ yě shì tīng Xiǎo Liú shuō de.",
+       "ko": "너 여기저기 말하고 다니지 마, 나도 샤오리우한테 들은 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "放心吧,我嘴巴严着呢。",
+       "pinyin": "Fàngxīn ba, wǒ zuǐba yán zhe ne.",
+       "ko": "걱정 마, 나 입 무거워."
+      }
+     ],
+     "note": "听说는 '듣기로는~', 직접 확인 안 된 소문 전할 때 필수 표현이에요. 好像이랑 같이 쓰면 '확실친 않지만 그런 것 같다'는 느낌이 자연스럽게 나와요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 5,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-027",
+    "text": "Become your own light.",
+    "source": "Modern Proverb",
+    "ko": "너 자신의 빛이 되어라."
+   },
+   "zh": {
+    "id": "qzh-027",
+    "text": "你要成为自己的光。",
+    "pinyin": "Nǐ yào chéngwéi zìjǐ de guāng.",
+    "source": "现代语录",
+    "ko": "너 자신의 빛이 되어야 한다."
+   }
+  }
+ },
+ {
   "date": "2026-07-30",
   "en": {
    "level": 2,
