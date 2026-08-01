@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-08-01",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-006",
+     "situation": "친구의 부탁을 완곡하게 거절하기",
+     "key_expressions": [
+      "I'd love to, but",
+      "to be honest",
+      "raincheck"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, so this might be a weird ask, but could I borrow your car this weekend? Mine's in the shop.",
+       "ko": "저기, 좀 이상한 부탁일 수 있는데, 이번 주말에 네 차 좀 빌려도 될까? 내 차가 수리 맡겨져 있어서."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh man, I'd love to, but I'm actually using it myself this weekend.",
+       "ko": "아 이런, 진짜 빌려주고 싶은데, 이번 주말엔 나도 차를 써야 해서."
+      },
+      {
+       "speaker": "A",
+       "text": "Ah, no worries, I figured I'd ask.",
+       "ko": "아 괜찮아, 그냥 혹시나 해서 물어본 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "To be honest, I'm kind of paranoid about lending it out since the last time someone dinged it.",
+       "ko": "솔직히 말하면, 지난번에 누가 긁고 나서부터 차 빌려주는 거 좀 예민해졌어."
+      },
+      {
+       "speaker": "A",
+       "text": "Totally get it, don't even worry about it.",
+       "ko": "완전 이해해, 신경 쓰지 마."
+      },
+      {
+       "speaker": "B",
+       "text": "Can I give you a raincheck though? Maybe I can help you find a rental instead.",
+       "ko": "대신 다음에 갚아도 될까? 렌트카 찾는 거 도와줄 수는 있어."
+      },
+      {
+       "speaker": "A",
+       "text": "That'd be great, actually. Thanks for thinking of it.",
+       "ko": "오 그거 진짜 좋다. 신경 써줘서 고마워."
+      }
+     ],
+     "note": "부탁을 거절할 때 'I'd love to, but...'로 시작하면 훨씬 부드럽게 들려. 'raincheck'은 지금은 안 되지만 다음에 대신 해주겠다는 뉘앙스야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 6,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-006",
+     "situation": "친구 초대 완곡하게 거절하기",
+     "key_expressions": [
+      "不好意思",
+      "反正",
+      "改天"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "这周六我生日,来我家聚一聚吧!",
+       "pinyin": "Zhè zhōuliù wǒ shēngrì, lái wǒ jiā jùyiju ba!",
+       "ko": "이번 주 토요일 내 생일인데, 우리 집에 와서 모이자!"
+      },
+      {
+       "speaker": "B",
+       "text": "啊,真不好意思,这周六我可能没办法去。",
+       "pinyin": "À, zhēn bù hǎoyìsi, zhè zhōuliù wǒ kěnéng méi bànfǎ qù.",
+       "ko": "아, 진짜 미안한데, 이번 주 토요일엔 나 못 갈 것 같아."
+      },
+      {
+       "speaker": "A",
+       "text": "怎么了?有事儿吗?",
+       "pinyin": "Zěnme le? Yǒu shìr ma?",
+       "ko": "왜? 무슨 일 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "我爸妈那天要来看我,不好推掉。反正下次一定补上。",
+       "pinyin": "Wǒ bàmā nà tiān yào lái kàn wǒ, bù hǎo tuīdiào. Fǎnzhèng xià cì yídìng bǔshàng.",
+       "ko": "그날 우리 부모님이 나 보러 오시기로 해서, 미루기가 좀 그래. 그래도 다음엔 꼭 챙길게."
+      },
+      {
+       "speaker": "A",
+       "text": "哦,那没关系,家人重要。",
+       "pinyin": "Ó, nà méi guānxi, jiārén zhòngyào.",
+       "ko": "아, 그럼 괜찮아, 가족이 더 중요하지."
+      },
+      {
+       "speaker": "B",
+       "text": "谢谢你理解,改天我请你吃饭补偿一下。",
+       "pinyin": "Xièxie nǐ lǐjiě, gǎitiān wǒ qǐng nǐ chīfàn bǔcháng yíxià.",
+       "ko": "이해해줘서 고마워, 나중에 밥 한 끼 사면서 미안함 갚을게."
+      }
+     ],
+     "note": "거절할 땐 바로 '안 돼'라고 하기보다 不好意思로 시작해서 이유를 대고 反正(어차피, 그래도)으로 다음을 기약하면 훨씬 부드럽게 들려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 6,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-028",
+    "text": "Walk slowly and enjoy the view along the way.",
+    "source": "Modern Proverb",
+    "ko": "천천히 걸으며 가는 길의 풍경을 즐겨라."
+   },
+   "zh": {
+    "id": "qzh-028",
+    "text": "慢慢走，欣赏一路的风景。",
+    "pinyin": "Màn man zǒu, xīnshǎng yí lù de fēngjǐng.",
+    "source": "现代语录",
+    "ko": "천천히 걸으며, 가는 길의 풍경을 감상하라."
+   }
+  }
+ },
+ {
   "date": "2026-07-31",
   "en": {
    "level": 2,
