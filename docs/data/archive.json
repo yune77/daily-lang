@@ -1,5 +1,151 @@
 [
  {
+  "date": "2026-08-02",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-007",
+     "situation": "스트레스 받은 하루 털어놓기",
+     "key_expressions": [
+      "I'm gonna vent for a sec",
+      "at the end of my rope",
+      "let off some steam"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Ugh, today was just the worst, sorry, I'm gonna vent for a sec.",
+       "ko": "아 진짜 오늘 최악이었어, 미안한데 잠깐 하소연 좀 할게."
+      },
+      {
+       "speaker": "B",
+       "text": "Go for it, what happened?",
+       "ko": "얼마든지, 무슨 일 있었는데?"
+      },
+      {
+       "speaker": "A",
+       "text": "My boss dumped three extra reports on me an hour before I was supposed to leave.",
+       "ko": "퇴근하기 한 시간 전에 팀장이 보고서 세 개를 더 던져줬어."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh no, that's rough.",
+       "ko": "헐, 진짜 힘들었겠다."
+      },
+      {
+       "speaker": "A",
+       "text": "I swear, I'm at the end of my rope with that guy.",
+       "ko": "진짜 그 사람 때문에 인내심 바닥났어."
+      },
+      {
+       "speaker": "B",
+       "text": "Do you wanna go for a walk or something, let off some steam?",
+       "ko": "산책이라도 하면서 스트레스 좀 풀래?"
+      },
+      {
+       "speaker": "A",
+       "text": "Actually yeah, that sounds perfect right now.",
+       "ko": "어 진짜, 지금 딱 그게 필요해."
+      },
+      {
+       "speaker": "B",
+       "text": "Come on, let's go, my treat on ice cream after.",
+       "ko": "가자, 산책하고 아이스크림은 내가 살게."
+      }
+     ],
+     "note": "친구한테 하소연 시작할 때 'I'm gonna vent for a sec'라고 미리 말하면 상대도 마음의 준비를 하고 들어줘. 'at the end of my rope'는 인내심이 거의 바닥났다는 뜻이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 7,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-007",
+     "situation": "감기 걸려서 걱정 끼치기",
+     "key_expressions": [
+      "好像",
+      "顺便",
+      "养病"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你脸色怎么这么差?没事儿吧?",
+       "pinyin": "Nǐ liǎnsè zěnme zhème chà? Méishìr ba?",
+       "ko": "너 얼굴이 왜 이렇게 안 좋아? 괜찮아?"
+      },
+      {
+       "speaker": "B",
+       "text": "我好像感冒了,昨天晚上开始发烧。",
+       "pinyin": "Wǒ hǎoxiàng gǎnmào le, zuótiān wǎnshang kāishǐ fāshāo.",
+       "ko": "나 감기 걸린 것 같아, 어제저녁부터 열이 나기 시작했어."
+      },
+      {
+       "speaker": "A",
+       "text": "那你吃药了吗?去医院看了没有?",
+       "pinyin": "Nà nǐ chī yào le ma? Qù yīyuàn kàn le méiyǒu?",
+       "ko": "그럼 약은 먹었어? 병원은 가봤어?"
+      },
+      {
+       "speaker": "B",
+       "text": "吃了退烧药,不过还是有点儿头疼。",
+       "pinyin": "Chī le tuìshāo yào, búguò háishi yǒudiǎnr tóuténg.",
+       "ko": "해열제는 먹었는데, 그래도 좀 머리가 아파."
+      },
+      {
+       "speaker": "A",
+       "text": "那你别硬撑着上班了,好好在家休息。",
+       "pinyin": "Nà nǐ bié yìngchēngzhe shàngbān le, hǎohāo zài jiā xiūxi.",
+       "ko": "그럼 억지로 출근하지 말고, 집에서 푹 쉬어."
+      },
+      {
+       "speaker": "B",
+       "text": "嗯,我请了假。你顺便帮我请个假,跟老师说一声吧?",
+       "pinyin": "Ń, wǒ qǐng le jià. Nǐ shùnbiàn bāng wǒ qǐng ge jià, gēn lǎoshī shuō yì shēng ba?",
+       "ko": "응, 나 휴가 냈어. 겸사겸사 나 대신 선생님한테 말 좀 전해줄래?"
+      },
+      {
+       "speaker": "A",
+       "text": "没问题,你好好养病,有事儿给我打电话。",
+       "pinyin": "Méi wèntí, nǐ hǎohāo yǎngbìng, yǒu shìr gěi wǒ dǎ diànhuà.",
+       "ko": "문제없어, 몸조리 잘해, 일 있으면 전화해."
+      }
+     ],
+     "note": "好像感冒了처럼 好像은 자기 몸 상태를 말할 때도 '확실친 않지만 그런 듯'이라는 느낌으로 자연스럽게 붙여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 7,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-029",
+    "text": "You deserve to be treated gently.",
+    "source": "Modern Proverb",
+    "ko": "너는 다정하게 대접받을 자격이 있다."
+   },
+   "zh": {
+    "id": "qzh-029",
+    "text": "你值得被温柔以待。",
+    "pinyin": "Nǐ zhídé bèi wēnróu yǐ dài.",
+    "source": "现代语录",
+    "ko": "너는 다정하게 대접받을 자격이 있다."
+   }
+  }
+ },
+ {
   "date": "2026-08-01",
   "en": {
    "level": 2,
