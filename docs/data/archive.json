@@ -1,5 +1,150 @@
 [
  {
+  "date": "2026-08-03",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-008",
+     "situation": "이사 도와달라고 부탁하기",
+     "key_expressions": [
+      "Do you mind giving me a hand",
+      "I owe you one",
+      "pizza's on me"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey Dave, so I'm moving next Saturday, do you mind giving me a hand?",
+       "ko": "데이브, 나 다음 주 토요일에 이사하는데, 혹시 좀 도와줄 수 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, sure, what time should I show up?",
+       "ko": "어, 당연하지, 몇 시까지 가면 돼?"
+      },
+      {
+       "speaker": "A",
+       "text": "Maybe around 10? We just need to load the truck and unload at the new place.",
+       "ko": "한 10시쯤? 트럭에 짐 싣고 새 집에서 내리기만 하면 돼."
+      },
+      {
+       "speaker": "B",
+       "text": "Sounds doable. Is it just boxes or furniture too?",
+       "ko": "할 만하네. 박스만이야 아니면 가구도 있어?"
+      },
+      {
+       "speaker": "A",
+       "text": "Mostly boxes, but there's a couch and a dresser.",
+       "ko": "대부분 박스인데, 소파랑 서랍장이 좀 있어."
+      },
+      {
+       "speaker": "B",
+       "text": "No problem, I'll bring my dolly.",
+       "ko": "문제없어, 손수레 가져갈게."
+      },
+      {
+       "speaker": "A",
+       "text": "You're a lifesaver, I owe you one.",
+       "ko": "진짜 은인이다, 신세 졌어."
+      },
+      {
+       "speaker": "B",
+       "text": "Just make sure pizza's on you afterward.",
+       "ko": "대신 나중에 피자는 네가 사는 거다."
+      },
+      {
+       "speaker": "A",
+       "text": "Deal, pizza's on me, promise.",
+       "ko": "콜, 피자 내가 살게, 약속."
+      }
+     ],
+     "note": "도움 요청할 땐 'Do you mind giving me a hand'가 부담 없이 자연스러운 표현이야. 도와준 대가로 'pizza's on me'처럼 소소하게 갚겠다고 하는 게 미국식 유머야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 8,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-008",
+     "situation": "이삿짐 도움 요청하기",
+     "key_expressions": [
+      "要不",
+      "人多好办事",
+      "帮忙"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "喂,你这周末有空吗?我下周要搬家。",
+       "pinyin": "Wéi, nǐ zhè zhōumò yǒu kòng ma? Wǒ xià zhōu yào bānjiā.",
+       "ko": "여보세요, 너 이번 주말에 시간 있어? 나 다음 주에 이사해."
+      },
+      {
+       "speaker": "B",
+       "text": "有空啊,怎么了,需要帮忙吗?",
+       "pinyin": "Yǒu kòng a, zěnme le, xūyào bāngmáng ma?",
+       "ko": "시간 있어, 왜, 도움 필요해?"
+      },
+      {
+       "speaker": "A",
+       "text": "对啊,东西挺多的,一个人搬不完。要不你来帮我搬几箱书?",
+       "pinyin": "Duì a, dōngxi tǐng duō de, yí ge rén bān bu wán. Yàobù nǐ lái bāng wǒ bān jǐ xiāng shū?",
+       "ko": "응, 짐이 꽤 많아서 혼자 다 못 옮기겠어. 혹시 와서 책 몇 상자만 좀 옮겨줄 수 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "没问题,我叫上小王一起去,人多好办事。",
+       "pinyin": "Méi wèntí, wǒ jiào shàng Xiǎo Wáng yìqǐ qù, rén duō hǎo bàn shì.",
+       "ko": "문제없어, 샤오왕도 같이 부를게, 사람 많으면 일하기 편하니까."
+      },
+      {
+       "speaker": "A",
+       "text": "太好了,谢谢你们!我请你们吃火锅当谢礼。",
+       "pinyin": "Tài hǎo le, xièxie nǐmen! Wǒ qǐng nǐmen chī huǒguō dāng xiè lǐ.",
+       "ko": "너무 좋다, 고마워! 감사 표시로 훠궈 살게."
+      },
+      {
+       "speaker": "B",
+       "text": "那可说好了,我最爱吃火锅了。",
+       "pinyin": "Nà kě shuōhǎo le, wǒ zuì ài chī huǒguō le.",
+       "ko": "그럼 약속한 거다, 나 훠궈 완전 좋아하거든."
+      }
+     ],
+     "note": "부탁할 때 要不 뒤에 구체적인 요청을 붙이면 명령조가 아니라 제안하듯 부드럽게 들려서 부탁하기 훨씬 편해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 8,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-030",
+    "text": "When your heart is at peace, every day feels sunny.",
+    "source": "Modern Proverb",
+    "ko": "마음이 평온하면, 매일이 맑은 날처럼 느껴진다."
+   },
+   "zh": {
+    "id": "qzh-030",
+    "text": "心若安好，便是晴天。",
+    "pinyin": "Xīn ruò ānhǎo, biàn shì qíngtiān.",
+    "source": "现代语录",
+    "ko": "마음이 평온하면, 그것이 곧 맑은 날이다."
+   }
+  }
+ },
+ {
   "date": "2026-08-02",
   "en": {
    "level": 2,
