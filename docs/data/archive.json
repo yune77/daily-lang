@@ -1,5 +1,151 @@
 [
  {
+  "date": "2026-08-04",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-009",
+     "situation": "다이어트 작심삼일 이야기하기",
+     "key_expressions": [
+      "fell off the wagon",
+      "caved in",
+      "back on track"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So how's the diet going?",
+       "ko": "그래서 다이어트는 잘 돼가?"
+      },
+      {
+       "speaker": "B",
+       "text": "Don't even ask. I fell off the wagon like two days in.",
+       "ko": "말도 마. 이틀 만에 완전 무너졌어."
+      },
+      {
+       "speaker": "A",
+       "text": "Ha, the classic three-day thing, huh?",
+       "ko": "하, 딱 작심삼일이네?"
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly, I made it to day three and then totally caved in at the pizza place.",
+       "ko": "맞아, 3일째 되니까 피자집에서 완전 무너졌어."
+      },
+      {
+       "speaker": "A",
+       "text": "It happens to the best of us.",
+       "ko": "누구나 그런 적 있지 뭐."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm just gonna get back on track tomorrow, for real this time.",
+       "ko": "내일부터 다시 제대로 시작할 거야, 이번엔 진짜로."
+      },
+      {
+       "speaker": "A",
+       "text": "That's what you said last week.",
+       "ko": "그거 지난주에도 했던 말인데."
+      },
+      {
+       "speaker": "B",
+       "text": "Ha, fair point. Okay, tomorrow, I mean it this time.",
+       "ko": "하, 맞는 말이네. 그래, 내일부터, 이번엔 진짜야."
+      }
+     ],
+     "note": "'fell off the wagon'은 원래 금주 실패할 때 많이 쓰는데, 다이어트나 운동 작심삼일 얘기할 때도 자연스럽게 써. 'back on track'은 다시 제대로 시작한다는 의미로 세트처럼 붙여 쓰면 좋아."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 9,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-009",
+     "situation": "다이어트 실패담 나누기",
+     "key_expressions": [
+      "差点儿",
+      "反正",
+      "走着瞧"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你不是说这个月要减肥吗?怎么又在吃炸鸡?",
+       "pinyin": "Nǐ búshì shuō zhè ge yuè yào jiǎnféi ma? Zěnme yòu zài chī zhájī?",
+       "ko": "너 이번 달에 다이어트한다고 하지 않았어? 근데 왜 또 치킨 먹고 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "别提了,我差点儿就坚持住了,结果昨天晚上没忍住。",
+       "pinyin": "Bié tí le, wǒ chàdiǎnr jiù jiānchí zhù le, jiéguǒ zuótiān wǎnshang méi rěnzhù.",
+       "ko": "말도 마, 나 하마터면 참을 뻔했는데, 결국 어제저녁에 못 참았어."
+      },
+      {
+       "speaker": "A",
+       "text": "哈哈,你都坚持几天了?",
+       "pinyin": "Hāhā, nǐ dōu jiānchí jǐ tiān le?",
+       "ko": "하하, 너 며칠이나 버텼는데?"
+      },
+      {
+       "speaker": "B",
+       "text": "三天。反正明天开始重新来过,这次是认真的。",
+       "pinyin": "Sān tiān. Fǎnzhèng míngtiān kāishǐ chóngxīn láiguò, zhè cì shì rènzhēn de.",
+       "ko": "3일. 어차피 내일부터 다시 시작하지 뭐, 이번엔 진짜야."
+      },
+      {
+       "speaker": "A",
+       "text": "你每次都说这次是认真的。",
+       "pinyin": "Nǐ měi cì dōu shuō zhè cì shì rènzhēn de.",
+       "ko": "너 매번 이번엔 진짜라고 하잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "这次真的不一样!我都办健身卡了。",
+       "pinyin": "Zhè cì zhēn de bù yíyàng! Wǒ dōu bàn jiànshēn kǎ le.",
+       "ko": "이번엔 진짜 달라! 나 헬스장 카드도 끊었다니까."
+      },
+      {
+       "speaker": "A",
+       "text": "那咱们走着瞧吧。",
+       "pinyin": "Nà zánmen zǒuzhe qiáo ba.",
+       "ko": "그럼 우리 지켜보자고."
+      }
+     ],
+     "note": "差点儿는 좋은 일이든 나쁜 일이든 '하마터면'이라는 뜻인데, 여기선 다이어트 성공 직전에 실패했다는 아쉬움을 살짝 유머러스하게 표현해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 9,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-031",
+    "text": "Don't let small things grow big, and don't carry worries too long.",
+    "source": "Modern Proverb",
+    "ko": "작은 일을 크게 만들지 말고, 걱정을 너무 오래 품지 마라."
+   },
+   "zh": {
+    "id": "qzh-031",
+    "text": "别把小事放大，别把心事放太久。",
+    "pinyin": "Bié bǎ xiǎoshì fàngdà, bié bǎ xīnshì fàng tài jiǔ.",
+    "source": "现代语录",
+    "ko": "작은 일을 크게 만들지 말고, 마음의 짐을 너무 오래 담아두지 마라."
+   }
+  }
+ },
+ {
   "date": "2026-08-03",
   "en": {
    "level": 2,
