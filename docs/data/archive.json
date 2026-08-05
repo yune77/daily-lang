@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-08-05",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-010",
+     "situation": "룸메이트와 생활 규칙 정하기",
+     "key_expressions": [
+      "hash out some ground rules",
+      "on the same page",
+      "pull their weight"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, since we're moving in together, let's hash out some ground rules.",
+       "ko": "우리 같이 살 거니까, 기본 규칙 좀 정해놓자."
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, good idea, I wanna make sure we're on the same page.",
+       "ko": "어 좋은 생각이야, 서로 생각이 다르지 않게 확실히 해두고 싶어."
+      },
+      {
+       "speaker": "A",
+       "text": "Cool, so like, cleaning schedule, who does dishes when.",
+       "ko": "좋아, 예를 들면 청소 순서라던가, 설거지는 누가 언제 할지."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm fine splitting it by week. As long as everyone pulls their weight.",
+       "ko": "일주일씩 번갈아 하는 거 괜찮아. 서로 각자 몫만 제대로 하면 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "Agreed. Also, can we talk about having guests over?",
+       "ko": "좋아. 그리고 손님 초대하는 것도 얘기해도 될까?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, maybe just a heads-up text before anyone comes by?",
+       "ko": "당연하지, 누구 오기 전에 그냥 미리 문자 한 통 주는 걸로 하자."
+      },
+      {
+       "speaker": "A",
+       "text": "Perfect, that works for me.",
+       "ko": "완벽해, 나도 좋아."
+      }
+     ],
+     "note": "새로 같이 살기 시작할 때 'hash out some ground rules'라고 하면 규칙을 진지하게 정한다는 뉘앙스가 잘 살아. 'pull your weight'는 자기 몫을 제대로 한다는 뜻이라 룸메이트 얘기할 때 자주 나와."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 10,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-010",
+     "situation": "하우스메이트와 집안일 분담 정하기",
+     "key_expressions": [
+      "要不",
+      "顺便",
+      "轮流"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "咱们是不是应该商量一下家务怎么分配?",
+       "pinyin": "Zánmen shìbushì yīnggāi shāngliang yíxià jiāwù zěnme fēnpèi?",
+       "ko": "우리 집안일 어떻게 나눌지 좀 상의해야 하지 않을까?"
+      },
+      {
+       "speaker": "B",
+       "text": "对,一直都是我洗碗,你好像从来没洗过。",
+       "pinyin": "Duì, yìzhí dōu shì wǒ xǐ wǎn, nǐ hǎoxiàng cónglái méi xǐguo.",
+       "ko": "맞아, 계속 내가 설거지했잖아, 너는 한 번도 안 한 것 같은데."
+      },
+      {
+       "speaker": "A",
+       "text": "是吗?那要不这样,我负责洗碗,你负责倒垃圾和拖地?",
+       "pinyin": "Shì ma? Nà yàobù zhèyàng, wǒ fùzé xǐ wǎn, nǐ fùzé dào lājī hé tuōdì?",
+       "ko": "그래? 그럼 이렇게 하는 거 어때, 내가 설거지 맡고, 너는 쓰레기 버리고 바닥 청소 맡는 걸로?"
+      },
+      {
+       "speaker": "B",
+       "text": "行啊,顺便说一下,冰箱里的过期食品也得定期清理。",
+       "pinyin": "Xíng a, shùnbiàn shuō yíxià, bīngxiāng lǐ de guòqī shípǐn yě děi dìngqī qīnglǐ.",
+       "ko": "좋아, 겸사겸사 말하는 건데, 냉장고 안 유통기한 지난 음식도 정기적으로 치워야 해."
+      },
+      {
+       "speaker": "A",
+       "text": "好,那我们一人一周,轮流打扫公共区域怎么样?",
+       "pinyin": "Hǎo, nà wǒmen yì rén yì zhōu, lúnliú dǎsǎo gōnggòng qūyù zěnmeyàng?",
+       "ko": "좋아, 그럼 우리 일주일씩 번갈아 가면서 공용 공간 청소하는 거 어때?"
+      },
+      {
+       "speaker": "B",
+       "text": "没问题,这样比较公平。",
+       "pinyin": "Méi wèntí, zhèyàng bǐjiào gōngpíng.",
+       "ko": "문제없어, 이게 더 공평하네."
+      }
+     ],
+     "note": "룸메이트끼리 집안일 나눌 때 要不这样(이렇게 하는 거 어때)으로 구체적인 제안을 던지면 갈등 없이 자연스럽게 대화가 풀려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 10,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-032",
+    "text": "Do what you love, and become who you want to be.",
+    "source": "Modern Proverb",
+    "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
+   },
+   "zh": {
+    "id": "qzh-032",
+    "text": "做喜欢的事，成为想成为的人。",
+    "pinyin": "Zuò xǐhuan de shì, chéngwéi xiǎng chéngwéi de rén.",
+    "source": "现代语录",
+    "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
+   }
+  }
+ },
+ {
   "date": "2026-08-04",
   "en": {
    "level": 2,
