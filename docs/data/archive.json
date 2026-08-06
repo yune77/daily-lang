@@ -1,5 +1,145 @@
 [
  {
+  "date": "2026-08-06",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-011",
+     "situation": "소개팅 후기 나누기",
+     "key_expressions": [
+      "hit it off",
+      "no spark",
+      "not my type"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So? How'd the blind date go last night?",
+       "ko": "그래서? 어제 소개팅 어땠어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Honestly, we just didn't hit it off.",
+       "ko": "솔직히, 서로 잘 안 맞더라고."
+      },
+      {
+       "speaker": "A",
+       "text": "Really? What happened?",
+       "ko": "진짜? 뭔 일 있었는데?"
+      },
+      {
+       "speaker": "B",
+       "text": "He was nice enough, but there was just no spark, you know?",
+       "ko": "사람 자체는 괜찮았는데, 그냥 뭔가 설렘이 없었어."
+      },
+      {
+       "speaker": "A",
+       "text": "Ah, that's too bad. Was he not your type or something?",
+       "ko": "아 아쉽다. 네 타입이 아니었나 보네?"
+      },
+      {
+       "speaker": "B",
+       "text": "Kind of, yeah. He talked about work the entire time.",
+       "ko": "뭐 그런 것 같아. 계속 일 얘기만 하더라."
+      },
+      {
+       "speaker": "A",
+       "text": "Ha, classic. Well, there's always next time.",
+       "ko": "하 흔한 패턴이네. 뭐, 다음 기회도 있잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "True, I'm not giving up yet.",
+       "ko": "맞아, 아직 포기 안 했어."
+      }
+     ],
+     "note": "'hit it off'은 처음 만났는데 죽이 잘 맞았다는 뜻이라 소개팅 얘기할 때 딱이야. 반대로 'no spark'는 설렘이 없었다는 걸 자연스럽게 돌려 말하는 표현이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 11,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-011",
+     "situation": "소개팅 주선 부탁하기",
+     "key_expressions": [
+      "听说",
+      "顺便",
+      "聊得来"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "婉婷,你能不能帮我介绍个对象啊?",
+       "pinyin": "Wǎntíng, nǐ néng bu néng bāng wǒ jièshào ge duìxiàng a?",
+       "ko": "완팅, 나 소개팅 좀 시켜줄 수 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "哟,你终于开窍了?听说你一直挺抗拒相亲的。",
+       "pinyin": "Yō, nǐ zhōngyú kāiqiào le? Tīngshuō nǐ yìzhí tǐng kàngjù xiāngqīn de.",
+       "ko": "어머, 드디어 마음이 열렸어? 듣기로는 너 계속 소개팅 거부했다던데."
+      },
+      {
+       "speaker": "A",
+       "text": "以前是,不过最近想通了,单身太久也不是办法。",
+       "pinyin": "Yǐqián shì, búguò zuìjìn xiǎngtōng le, dānshēn tài jiǔ yě bú shì bànfǎ.",
+       "ko": "예전엔 그랬는데, 요즘 마음을 좀 정리했어, 너무 오래 혼자인 것도 방법은 아니잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "那正好,我同事有个人挺不错的,顺便帮你们约个时间见面吧。",
+       "pinyin": "Nà zhènghǎo, wǒ tóngshì yǒu ge rén tǐng búcuò de, shùnbiàn bāng nǐmen yuē ge shíjiān jiànmiàn ba.",
+       "ko": "그럼 마침 잘됐다, 내 동료 중에 괜찮은 사람 있는데, 겸사겸사 너희 만날 시간 잡아줄게."
+      },
+      {
+       "speaker": "A",
+       "text": "真的吗?太谢谢你了!他是做什么工作的?",
+       "pinyin": "Zhēn de ma? Tài xièxie nǐ le! Tā shì zuò shénme gōngzuò de?",
+       "ko": "진짜? 완전 고마워! 그 사람 무슨 일 해?"
+      },
+      {
+       "speaker": "B",
+       "text": "是个设计师,人挺幽默的,你们应该聊得来。",
+       "pinyin": "Shì ge shèjìshī, rén tǐng yōumò de, nǐmen yīnggāi liáo de lái.",
+       "ko": "디자이너인데, 사람이 꽤 유머러스해서, 너희 잘 통할 것 같아."
+      }
+     ],
+     "note": "听说你一直挺抗拒相亲的처럼 상대방에 대해 들은 얘기를 살짝 언급하면서 대화를 자연스럽게 이어가는 방식이 회화체에서 자주 쓰여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 11,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-033",
+    "text": "Every road you've walked counts for something.",
+    "source": "Modern Proverb",
+    "ko": "네가 걸어온 모든 길은 다 의미가 있다."
+   },
+   "zh": {
+    "id": "qzh-033",
+    "text": "你走过的路，都算数。",
+    "pinyin": "Nǐ zǒu guò de lù, dōu suànshù.",
+    "source": "现代语录",
+    "ko": "네가 걸어온 길은 모두 의미가 있다."
+   }
+  }
+ },
+ {
   "date": "2026-08-05",
   "en": {
    "level": 2,
