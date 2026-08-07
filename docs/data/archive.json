@@ -1,5 +1,146 @@
 [
  {
+  "date": "2026-08-07",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-012",
+     "situation": "상사에게 연차 요청하기",
+     "key_expressions": [
+      "Would it be okay if",
+      "take a day off",
+      "wrap it up"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, do you have a minute? Would it be okay if I took a day off next Friday?",
+       "ko": "저기, 잠깐 시간 되세요? 혹시 다음 주 금요일에 연차 써도 될까요?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, is everything alright?",
+       "ko": "네, 별일 없으신 거죠?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yeah, just a family thing I need to take care of.",
+       "ko": "네, 그냥 집안일 좀 처리할 게 있어서요."
+      },
+      {
+       "speaker": "B",
+       "text": "No problem at all. Just make sure the client report is done before then.",
+       "ko": "전혀 문제없어요. 대신 그 전에 클라이언트 보고서만 끝내 주세요."
+      },
+      {
+       "speaker": "A",
+       "text": "Absolutely, I'll wrap it up by Thursday.",
+       "ko": "당연하죠, 목요일까지 마무리할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sounds good. Enjoy your day off.",
+       "ko": "좋아요. 연차 잘 보내고 오세요."
+      },
+      {
+       "speaker": "A",
+       "text": "Thanks so much, I really appreciate it.",
+       "ko": "정말 감사합니다, 진심으로요."
+      }
+     ],
+     "note": "상사한테 연차 요청할 땐 'Would it be okay if...'로 시작하면 훨씬 공손하게 들려. 업무 마무리 얘기할 땐 'wrap it up'을 쓰면 자연스러워."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 12,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-012",
+     "situation": "상사에게 조퇴 요청하기",
+     "key_expressions": [
+      "不好意思",
+      "麻烦",
+      "请假"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "经理,不好意思,打扰一下。",
+       "pinyin": "Jīnglǐ, bù hǎoyìsi, dǎrǎo yíxià.",
+       "ko": "팀장님, 죄송한데, 잠깐 방해 좀 할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "怎么了?有什么事儿吗?",
+       "pinyin": "Zěnme le? Yǒu shénme shìr ma?",
+       "ko": "무슨 일이야? 뭐 일 있어?"
+      },
+      {
+       "speaker": "A",
+       "text": "我女儿学校突然打电话来,说她发烧了,我想申请下午请假去接她。",
+       "pinyin": "Wǒ nǚ'ér xuéxiào tūrán dǎ diànhuà lái, shuō tā fāshāo le, wǒ xiǎng shēnqǐng xiàwǔ qǐngjià qù jiē tā.",
+       "ko": "딸 학교에서 갑자기 전화가 와서, 애가 열이 난다고 해서요, 오후에 조퇴하고 데리러 가고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "没事儿,家庭为重,你赶紧去吧。",
+       "pinyin": "Méishìr, jiātíng wéi zhòng, nǐ gǎnjǐn qù ba.",
+       "ko": "괜찮아, 가족이 우선이지, 얼른 가봐."
+      },
+      {
+       "speaker": "A",
+       "text": "麻烦您了,手头的报告我今天晚上回去补上。",
+       "pinyin": "Máfan nín le, shǒutóu de bàogào wǒ jīntiān wǎnshang huíqù bǔshàng.",
+       "ko": "번거롭게 해서 죄송해요, 지금 하던 보고서는 오늘 저녁에 마저 할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "不用着急,先把孩子照顾好,报告明天交也行。",
+       "pinyin": "Búyòng zháojí, xiān bǎ háizi zhàogù hǎo, bàogào míngtiān jiāo yě xíng.",
+       "ko": "서두르지 말고, 우선 애부터 잘 챙겨, 보고서는 내일 내도 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "谢谢经理体谅,我这就走了。",
+       "pinyin": "Xièxie jīnglǐ tǐliàng, wǒ zhè jiù zǒu le.",
+       "ko": "이해해주셔서 감사합니다, 저 바로 갈게요."
+      }
+     ],
+     "note": "상사한테 부탁할 땐 麻烦您了(번거롭게 해드려서 죄송해요) 같은 표현을 붙이면 훨씬 공손하고 예의 있게 들려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 12,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-034",
+    "text": "Not every effort pays off right away, but none of it is wasted.",
+    "source": "Modern Proverb",
+    "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
+   },
+   "zh": {
+    "id": "qzh-034",
+    "text": "不是所有的努力都立刻有回报，但都不会白费。",
+    "pinyin": "Bú shì suǒyǒu de nǔlì dōu lìkè yǒu huíbào, dàn dōu bú huì báifèi.",
+    "source": "现代语录",
+    "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-08-06",
   "en": {
    "level": 2,
