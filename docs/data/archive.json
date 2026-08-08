@@ -1,5 +1,151 @@
 [
  {
+  "date": "2026-08-08",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-013",
+     "situation": "친구의 고민 들어주기",
+     "key_expressions": [
+      "vent to someone",
+      "I'm all ears",
+      "get it off your chest"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, do you have a sec? I need to vent to someone.",
+       "ko": "야, 시간 좀 있어? 누구한테 좀 털어놔야 할 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "Of course, I'm all ears. What's going on?",
+       "ko": "당연하지, 다 들을게. 무슨 일이야?"
+      },
+      {
+       "speaker": "A",
+       "text": "I just feel so behind compared to everyone else at work.",
+       "ko": "그냥 회사에서 다른 사람들보다 너무 뒤처지는 느낌이야."
+      },
+      {
+       "speaker": "B",
+       "text": "I get that, but honestly, everyone feels that way sometimes.",
+       "ko": "그 마음 알아, 근데 솔직히 다들 가끔 그런 느낌 받아."
+      },
+      {
+       "speaker": "A",
+       "text": "Maybe, but it's been eating at me for weeks.",
+       "ko": "그럴 수도 있는데, 몇 주째 계속 신경 쓰이더라고."
+      },
+      {
+       "speaker": "B",
+       "text": "Have you talked to your manager about it?",
+       "ko": "팀장한테 그거 얘기해봤어?"
+      },
+      {
+       "speaker": "A",
+       "text": "Not yet, I'm kind of scared to.",
+       "ko": "아직 안 했어, 좀 무섭기도 하고."
+      },
+      {
+       "speaker": "B",
+       "text": "I think you should. It'll work itself out once you get it off your chest.",
+       "ko": "말해보는 게 좋을 것 같아. 일단 털어놓으면 자연스럽게 풀릴 거야."
+      }
+     ],
+     "note": "친구가 고민 얘기할 때 'I'm all ears'라고 하면 진심으로 다 들어줄 준비 됐다는 느낌이 확 살아. 'get it off your chest'는 마음속에 담아둔 걸 털어놓는다는 뜻이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 13,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-013",
+     "situation": "친구 고민 상담해주기",
+     "key_expressions": [
+      "其实",
+      "反正",
+      "万一"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我最近心里特别乱,不知道该不该换工作。",
+       "pinyin": "Wǒ zuìjìn xīnli tèbié luàn, bù zhīdào gāi bu gāi huàn gōngzuò.",
+       "ko": "나 요즘 마음이 진짜 복잡해, 이직을 해야 할지 말지 모르겠어."
+      },
+      {
+       "speaker": "B",
+       "text": "怎么了?现在这份工作不是挺稳定的吗?",
+       "pinyin": "Zěnme le? Xiànzài zhè fèn gōngzuò búshì tǐng wěndìng de ma?",
+       "ko": "왜? 지금 일 꽤 안정적이지 않아?"
+      },
+      {
+       "speaker": "A",
+       "text": "稳定是稳定,不过我一点儿都不喜欢,每天都很痛苦。",
+       "pinyin": "Wěndìng shì wěndìng, búguò wǒ yìdiǎnr dōu bù xǐhuan, měitiān dōu hěn tòngkǔ.",
+       "ko": "안정적이긴 한데, 근데 하나도 안 좋아, 매일이 너무 힘들어."
+      },
+      {
+       "speaker": "B",
+       "text": "其实我觉得,工作是为了生活,不是为了痛苦。",
+       "pinyin": "Qíshí wǒ juéde, gōngzuò shì wèile shēnghuó, búshì wèile tòngkǔ.",
+       "ko": "사실 내 생각엔, 일은 삶을 위한 건데, 고통받으려고 하는 게 아니잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "可是万一换了新工作也不合适怎么办?",
+       "pinyin": "Kěshì wànyī huàn le xīn gōngzuò yě bù héshì zěnme bàn?",
+       "ko": "근데 만약에 새 직장도 안 맞으면 어떡해?"
+      },
+      {
+       "speaker": "B",
+       "text": "反正你现在已经这么不开心了,试一试也没什么损失。",
+       "pinyin": "Fǎnzhèng nǐ xiànzài yǐjīng zhème bù kāixīn le, shì yi shì yě méi shénme sǔnshī.",
+       "ko": "어차피 지금도 이렇게 안 행복한데, 한번 시도해봐도 손해 볼 거 없잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "你说得对,我再好好想想。",
+       "pinyin": "Nǐ shuō de duì, wǒ zài hǎohāo xiǎngxiang.",
+       "ko": "네 말이 맞아, 다시 잘 생각해볼게."
+      }
+     ],
+     "note": "친구 고민 들어줄 때 其实我觉得로 부드럽게 자기 의견을 꺼내고 反正으로 밀어붙이면 조언이 강요처럼 안 들리고 편하게 들려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 13,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-035",
+    "text": "Making peace with yourself is the best kind of growth.",
+    "source": "Modern Proverb",
+    "ko": "자기 자신과 화해하는 것이 가장 좋은 성장이다."
+   },
+   "zh": {
+    "id": "qzh-035",
+    "text": "与自己和解，是最好的成长。",
+    "pinyin": "Yǔ zìjǐ héjiě, shì zuì hǎo de chéngzhǎng.",
+    "source": "现代语录",
+    "ko": "자기 자신과 화해하는 것이 가장 좋은 성장이다."
+   }
+  }
+ },
+ {
   "date": "2026-08-07",
   "en": {
    "level": 2,
