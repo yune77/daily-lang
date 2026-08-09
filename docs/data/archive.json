@@ -1,5 +1,135 @@
 [
  {
+  "date": "2026-08-09",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-014",
+     "situation": "여행 일정 상의하기",
+     "key_expressions": [
+      "play it by ear",
+      "pack too much into",
+      "wing it"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Okay so for the trip, should we plan every single day or just wing it?",
+       "ko": "그래서 여행 말인데, 하루하루 다 계획할까 아니면 그냥 즉흥적으로 갈까?"
+      },
+      {
+       "speaker": "B",
+       "text": "I kind of wanna play it by ear, honestly.",
+       "ko": "솔직히 나는 그때그때 상황 봐서 정하고 싶어."
+      },
+      {
+       "speaker": "A",
+       "text": "Yeah, but we also don't wanna pack too much into one day and burn out.",
+       "ko": "그래, 근데 하루에 너무 많이 몰아넣어서 지치는 것도 싫잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "True. How about we just book the flights and hotel, and figure out the rest there?",
+       "ko": "맞아. 그럼 항공권이랑 숙소만 예약하고, 나머지는 가서 정하는 건 어때?"
+      },
+      {
+       "speaker": "A",
+       "text": "That works for me. Maybe just pin a few must-see spots.",
+       "ko": "나는 좋아. 꼭 가야 할 곳 몇 군데만 정해두자."
+      },
+      {
+       "speaker": "B",
+       "text": "Deal. Let's not overplan this one.",
+       "ko": "콜. 이번엔 너무 빡빡하게 짜지 말자."
+      }
+     ],
+     "note": "'play it by ear'는 미리 정하지 않고 상황 봐가며 결정한다는 뜻이라 여행 일정 얘기할 때 자주 나와. 'wing it'도 즉흥적으로 한다는 비슷한 뉘앙스야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 14,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-014",
+     "situation": "국내 여행지 추천받기",
+     "key_expressions": [
+      "听说",
+      "要不",
+      "顺便"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "十一假期你有推荐的地方吗?我想去国内玩玩。",
+       "pinyin": "Shíyī jiàqī nǐ yǒu tuījiàn de dìfang ma? Wǒ xiǎng qù guónèi wánwan.",
+       "ko": "국경절 연휴 때 추천할 만한 곳 있어? 국내 여행 좀 가고 싶은데."
+      },
+      {
+       "speaker": "B",
+       "text": "听说丽江最近特别火,风景特别美。",
+       "pinyin": "Tīngshuō Lìjiāng zuìjìn tèbié huǒ, fēngjǐng tèbié měi.",
+       "ko": "듣기로는 리장이 요즘 진짜 핫하대, 풍경이 엄청 예쁘다더라."
+      },
+      {
+       "speaker": "A",
+       "text": "是吗?不过假期人是不是特别多?",
+       "pinyin": "Shì ma? Búguò jiàqī rén shìbushì tèbié duō?",
+       "ko": "그래? 근데 연휴엔 사람 엄청 많지 않아?"
+      },
+      {
+       "speaker": "B",
+       "text": "那倒是,要不你避开假期,提前几天请假去?",
+       "pinyin": "Nà dàoshì, yàobù nǐ bìkāi jiàqī, tíqián jǐ tiān qǐngjià qù?",
+       "ko": "그건 그렇지, 아니면 연휴는 피하고 며칠 미리 휴가 내서 가는 건 어때?"
+      },
+      {
+       "speaker": "A",
+       "text": "这个主意不错,顺便可以避开高价机票。",
+       "pinyin": "Zhè ge zhǔyi búcuò, shùnbiàn kěyǐ bìkāi gāojià jīpiào.",
+       "ko": "그거 괜찮은 생각이네, 겸사겸사 비싼 항공권도 피할 수 있고."
+      },
+      {
+       "speaker": "B",
+       "text": "对啊,我上次就是这么去的,体验特别好。",
+       "pinyin": "Duì a, wǒ shàng cì jiùshì zhème qù de, tǐyàn tèbié hǎo.",
+       "ko": "맞아, 나도 저번에 그렇게 갔었는데, 경험이 진짜 좋았어."
+      }
+     ],
+     "note": "여행지 추천받을 때 听说로 시작하면 '카더라'긴 하지만 관심 있다는 뉘앙스를 자연스럽게 전달할 수 있어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 14,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-036",
+    "text": "Life never lets down those who take it seriously.",
+    "source": "Modern Proverb",
+    "ko": "삶은 진지하게 살아가는 사람을 저버리지 않는다."
+   },
+   "zh": {
+    "id": "qzh-036",
+    "text": "生活不会辜负每一个认真的人。",
+    "pinyin": "Shēnghuó bú huì gūfù měi yí gè rènzhēn de rén.",
+    "source": "现代语录",
+    "ko": "삶은 진지하게 살아가는 사람을 저버리지 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-08-08",
   "en": {
    "level": 2,
