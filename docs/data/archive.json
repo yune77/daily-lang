@@ -1,5 +1,146 @@
 [
  {
+  "date": "2026-08-10",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-015",
+     "situation": "배달 실수에 대해 항의하기",
+     "key_expressions": [
+      "this isn't what I ordered",
+      "make it right",
+      "I'd appreciate it if"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hi, I just got my order and this isn't what I ordered at all.",
+       "ko": "안녕하세요, 방금 주문한 거 받았는데 제가 시킨 거랑 완전 다른 게 왔어요."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh no, I'm really sorry to hear that. What did you receive?",
+       "ko": "아, 정말 죄송합니다. 어떤 게 오셨나요?"
+      },
+      {
+       "speaker": "A",
+       "text": "I ordered the bulgogi bowl, but I got bibimbap instead.",
+       "ko": "불고기덮밥 시켰는데, 비빔밥이 왔더라고요."
+      },
+      {
+       "speaker": "B",
+       "text": "That's on us, I apologize. We'd like to make it right.",
+       "ko": "저희 실수예요, 죄송합니다. 제대로 바로잡아 드리고 싶어요."
+      },
+      {
+       "speaker": "A",
+       "text": "I'd appreciate it if you could send the correct order, or just refund me.",
+       "ko": "제대로 된 주문 다시 보내주시거나, 아니면 그냥 환불해주시면 감사하겠어요."
+      },
+      {
+       "speaker": "B",
+       "text": "We'll get the right one out to you right away, no charge, and I'll refund the mistake too.",
+       "ko": "제대로 된 걸로 바로 다시 보내드릴게요, 무료로요, 그리고 실수한 부분은 환불도 해드릴게요."
+      },
+      {
+       "speaker": "A",
+       "text": "Thank you, I appreciate you handling it so fast.",
+       "ko": "감사합니다, 이렇게 빨리 처리해주셔서 고마워요."
+      }
+     ],
+     "note": "항의할 때 화내지 않고도 확실하게 말하려면 'this isn't what I ordered'로 사실만 담백하게 말하는 게 좋아. 'I'd appreciate it if'는 요청을 정중하게 할 때 쓰는 표현이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 15,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-015",
+     "situation": "온라인 쇼핑 환불 문의하기",
+     "key_expressions": [
+      "麻烦",
+      "好像",
+      "退款"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好,我想咨询一下退款的事情。",
+       "pinyin": "Nǐ hǎo, wǒ xiǎng zīxún yíxià tuìkuǎn de shìqing.",
+       "ko": "안녕하세요, 환불 관련해서 문의 좀 드리고 싶은데요."
+      },
+      {
+       "speaker": "B",
+       "text": "您好,请问是什么问题呢?",
+       "pinyin": "Nín hǎo, qǐngwèn shì shénme wèntí ne?",
+       "ko": "안녕하세요, 어떤 문제이신가요?"
+      },
+      {
+       "speaker": "A",
+       "text": "我收到的衣服好像有点儿破损,跟图片不太一样。",
+       "pinyin": "Wǒ shōudào de yīfu hǎoxiàng yǒudiǎnr pòsǔn, gēn túpiàn bú tài yíyàng.",
+       "ko": "받은 옷이 좀 손상된 것 같고, 사진이랑 좀 다른 것 같아요."
+      },
+      {
+       "speaker": "B",
+       "text": "不好意思给您带来不便,麻烦您上传一下照片,我们核实一下。",
+       "pinyin": "Bù hǎoyìsi gěi nín dàilái búbiàn, máfan nín shàngchuán yíxià zhàopiàn, wǒmen héshí yíxià.",
+       "ko": "불편을 드려 죄송합니다, 번거로우시겠지만 사진 좀 올려주시면, 저희가 확인해보겠습니다."
+      },
+      {
+       "speaker": "A",
+       "text": "好的,我发过去了,大概什么时候能退款?",
+       "pinyin": "Hǎo de, wǒ fā guòqù le, dàgài shénme shíhou néng tuìkuǎn?",
+       "ko": "네, 보냈습니다, 대략 언제쯤 환불되나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "审核通过后,三到五个工作日内会退回您的账户。",
+       "pinyin": "Shěnhé tōngguò hòu, sān dào wǔ ge gōngzuòrì nèi huì tuìhuí nín de zhànghù.",
+       "ko": "심사 통과 후, 영업일 기준 3~5일 안에 계좌로 환불됩니다."
+      },
+      {
+       "speaker": "A",
+       "text": "好的,麻烦你们尽快处理,谢谢。",
+       "pinyin": "Hǎo de, máfan nǐmen jǐnkuài chǔlǐ, xièxie.",
+       "ko": "네, 최대한 빨리 처리해주세요, 감사합니다."
+      }
+     ],
+     "note": "컴플레인할 때도 好像(~인 것 같다)을 붙여서 말하면 단정적으로 따지는 느낌보다 훨씬 부드럽게 들려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 15,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-037",
+    "text": "Give yourself a little time to slowly get better.",
+    "source": "Modern Proverb",
+    "ko": "자신에게 시간을 조금 주고, 천천히 나아지면 된다."
+   },
+   "zh": {
+    "id": "qzh-037",
+    "text": "给自己一点时间，慢慢变好。",
+    "pinyin": "Gěi zìjǐ yìdiǎn shíjiān, màn man biàn hǎo.",
+    "source": "现代语录",
+    "ko": "자신에게 시간을 조금 주고, 천천히 나아지면 된다."
+   }
+  }
+ },
+ {
   "date": "2026-08-09",
   "en": {
    "level": 2,
