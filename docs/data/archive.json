@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-08-11",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-016",
+     "situation": "운동 습관 만들기 이야기",
+     "key_expressions": [
+      "get into the swing of",
+      "beat myself up",
+      "baby steps"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So are you still going to the gym?",
+       "ko": "그래서 헬스장은 계속 다니고 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Trying to. It's taken a while to get into the swing of it.",
+       "ko": "노력 중이야. 근데 적응하는 데 시간이 좀 걸리네."
+      },
+      {
+       "speaker": "A",
+       "text": "That's normal, don't beat yourself up over it.",
+       "ko": "그거 원래 그래, 너무 자책하지 마."
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, I'm just doing baby steps, like three times a week for now.",
+       "ko": "응, 그냥 조금씩 시작하는 중이야, 일단 일주일에 세 번 정도로."
+      },
+      {
+       "speaker": "A",
+       "text": "That's honestly a great start.",
+       "ko": "그 정도면 진짜 좋은 시작이지."
+      },
+      {
+       "speaker": "B",
+       "text": "Thanks, I used to go all in and burn out in a week.",
+       "ko": "고마워, 예전엔 너무 무리해서 일주일 만에 지쳐버렸었거든."
+      },
+      {
+       "speaker": "A",
+       "text": "Slow and steady wins the race, right?",
+       "ko": "천천히 꾸준히 하는 게 결국 이기는 거잖아, 그치?"
+      }
+     ],
+     "note": "새 습관에 적응 중일 때 'get into the swing of it'을 쓰면 자연스러워. 'baby steps'는 무리하지 않고 조금씩 해나간다는 느낌을 잘 살려줘."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 16,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-016",
+     "situation": "새해 결심 이야기하기",
+     "key_expressions": [
+      "反正",
+      "说不定",
+      "坚持"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "新的一年,你有什么计划或者目标吗?",
+       "pinyin": "Xīn de yì nián, nǐ yǒu shénme jìhuà huòzhě mùbiāo ma?",
+       "ko": "새해에 무슨 계획이나 목표 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "我打算今年一定要学会游泳,去年说了一年也没去。",
+       "pinyin": "Wǒ dǎsuàn jīnnián yídìng yào xuéhuì yóuyǒng, qùnián shuō le yì nián yě méi qù.",
+       "ko": "난 올해 꼭 수영 배우려고, 작년엔 말만 하고 한 번도 안 갔거든."
+      },
+      {
+       "speaker": "A",
+       "text": "哈哈,反正每年的新年计划都差不多,是吧?",
+       "pinyin": "Hāhā, fǎnzhèng měinián de xīnnián jìhuà dōu chàbuduō, shì ba?",
+       "ko": "하하, 어차피 매년 새해 계획 다 비슷하지, 안 그래?"
+      },
+      {
+       "speaker": "B",
+       "text": "是啊,不过这次我真的报名健身房了,说不定这次能坚持下来。",
+       "pinyin": "Shì a, búguò zhè cì wǒ zhēn de bàomíng jiànshēnfáng le, shuōbudìng zhè cì néng jiānchí xiàlái.",
+       "ko": "맞아, 근데 이번엔 진짜 헬스장 등록했어, 어쩌면 이번엔 계속할 수 있을지도 몰라."
+      },
+      {
+       "speaker": "A",
+       "text": "那你监督我一下,我也想养成早睡早起的习惯。",
+       "pinyin": "Nà nǐ jiāndū wǒ yíxià, wǒ yě xiǎng yǎngchéng zǎoshuì zǎoqǐ de xíguàn.",
+       "ko": "그럼 나도 좀 감독해줘, 나도 일찍 자고 일찍 일어나는 습관 들이고 싶거든."
+      },
+      {
+       "speaker": "B",
+       "text": "没问题,我们俩互相监督,一起加油!",
+       "pinyin": "Méi wèntí, wǒmen liǎ hùxiāng jiāndū, yìqǐ jiāyóu!",
+       "ko": "문제없어, 우리 둘이 서로 감독하면서, 같이 힘내자!"
+      }
+     ],
+     "note": "说不定(어쩌면 ~일지도 몰라)은 확신은 없지만 살짝 희망을 담아 말할 때 자주 쓰이는 표현이에요, 새해 다짐 얘기할 때 딱이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 16,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-038",
+    "text": "Even ordinary days deserve to be lived fully.",
+    "source": "Modern Proverb",
+    "ko": "평범한 하루도 충실하게 살아갈 가치가 있다."
+   },
+   "zh": {
+    "id": "qzh-038",
+    "text": "平凡的日子，也值得被认真对待。",
+    "pinyin": "Píngfán de rìzi, yě zhídé bèi rènzhēn duìdài.",
+    "source": "现代语录",
+    "ko": "평범한 나날도 진지하게 대할 가치가 있다."
+   }
+  }
+ },
+ {
   "date": "2026-08-10",
   "en": {
    "level": 2,
