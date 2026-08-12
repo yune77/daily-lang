@@ -1,5 +1,151 @@
 [
  {
+  "date": "2026-08-12",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-017",
+     "situation": "친구의 이별 위로하기",
+     "key_expressions": [
+      "it's okay to not be okay",
+      "take it one day at a time",
+      "I'm here for you"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I don't know, man, I just feel kind of numb since the breakup.",
+       "ko": "모르겠어, 그냥 헤어지고 나서부터 아무 감정도 안 느껴지는 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "That's completely normal. It's okay to not be okay right now.",
+       "ko": "완전 정상이야. 지금 안 괜찮아도 괜찮아."
+      },
+      {
+       "speaker": "A",
+       "text": "I keep thinking I should be over it by now.",
+       "ko": "이제 좀 괜찮아져야 하는데 자꾸 그런 생각이 들어."
+      },
+      {
+       "speaker": "B",
+       "text": "There's no timeline for this stuff. Just take it one day at a time.",
+       "ko": "이런 건 정해진 기간 같은 거 없어. 그냥 하루하루 넘기면 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "Thanks, I really needed to hear that.",
+       "ko": "고마워, 진짜 그 말이 필요했어."
+      },
+      {
+       "speaker": "B",
+       "text": "Of course. I'm here for you, whatever you need.",
+       "ko": "당연하지. 뭐든 필요하면 내가 옆에 있을게."
+      },
+      {
+       "speaker": "A",
+       "text": "Maybe just distract me with something dumb tonight.",
+       "ko": "오늘 밤은 그냥 별생각 없이 딴 데 신경 좀 돌리게 해줘."
+      },
+      {
+       "speaker": "B",
+       "text": "Say no more, I'm ordering pizza and picking a terrible movie.",
+       "ko": "더 말할 필요 없어, 피자 시키고 완전 유치한 영화 하나 골라볼게."
+      }
+     ],
+     "note": "이별로 힘들어하는 친구한테는 'it's okay to not be okay'처럼 감정을 억지로 추스르라고 하지 않는 위로가 좋아. 'I'm here for you'는 진심으로 곁에 있어주겠다는 표현이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 17,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-017",
+     "situation": "실연한 친구 위로하기",
+     "key_expressions": [
+      "其实",
+      "反正",
+      "过不去"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我们真的分手了,我现在心里特别难受。",
+       "pinyin": "Wǒmen zhēn de fēnshǒu le, wǒ xiànzài xīnli tèbié nánshòu.",
+       "ko": "우리 진짜 헤어졌어, 지금 마음이 너무 힘들어."
+      },
+      {
+       "speaker": "B",
+       "text": "别哭别哭,发生什么事了?",
+       "pinyin": "Bié kū bié kū, fāshēng shénme shì le?",
+       "ko": "울지 마 울지 마, 무슨 일이 있었던 거야?"
+      },
+      {
+       "speaker": "A",
+       "text": "其实早就有征兆了,只是我一直不愿意承认。",
+       "pinyin": "Qíshí zǎo jiù yǒu zhēngzhào le, zhǐshì wǒ yìzhí bú yuànyì chéngrèn.",
+       "ko": "사실 진작에 조짐이 있었는데, 그저 계속 인정하고 싶지 않았던 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "反正他不珍惜你,分开对你来说也许是好事。",
+       "pinyin": "Fǎnzhèng tā bù zhēnxī nǐ, fēnkāi duì nǐ láishuō yěxǔ shì hǎoshì.",
+       "ko": "어차피 그 사람이 널 소중히 여기지 않았으니까, 헤어진 게 너한테는 오히려 잘된 일일 수도 있어."
+      },
+      {
+       "speaker": "A",
+       "text": "我知道,可是心里还是过不去。",
+       "pinyin": "Wǒ zhīdào, kěshì xīnli háishi guòbuqù.",
+       "ko": "알아, 근데 마음은 아직도 힘들어."
+      },
+      {
+       "speaker": "B",
+       "text": "慢慢来,别着急,有我陪着你呢。",
+       "pinyin": "Mànmàn lái, bié zhāojí, yǒu wǒ péizhe nǐ ne.",
+       "ko": "천천히 해, 조급해하지 마, 내가 곁에 있어줄게."
+      },
+      {
+       "speaker": "A",
+       "text": "谢谢你,有你在身边真好。",
+       "pinyin": "Xièxie nǐ, yǒu nǐ zài shēnbiān zhēn hǎo.",
+       "ko": "고마워, 네가 곁에 있어줘서 정말 좋다."
+      }
+     ],
+     "note": "위로할 때 反正他不珍惜你처럼 상대방 잘못을 짚어주면서 위로하면 '네 탓이 아니야'라는 메시지가 자연스럽게 전달돼요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 17,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-039",
+    "text": "You're not the only one trying hard.",
+    "source": "Modern Proverb",
+    "ko": "열심히 애쓰고 있는 건 너 혼자만이 아니다."
+   },
+   "zh": {
+    "id": "qzh-039",
+    "text": "你不是一个人在努力。",
+    "pinyin": "Nǐ bú shì yí gè rén zài nǔlì.",
+    "source": "现代语录",
+    "ko": "혼자 애쓰고 있는 게 아니야."
+   }
+  }
+ },
+ {
   "date": "2026-08-11",
   "en": {
    "level": 2,
