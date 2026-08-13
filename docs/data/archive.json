@@ -1,5 +1,146 @@
 [
  {
+  "date": "2026-08-13",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-018",
+     "situation": "새로운 취미 추천받기",
+     "key_expressions": [
+      "right up your alley",
+      "give it a shot",
+      "get into"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I've been so bored lately, I need a new hobby.",
+       "ko": "요즘 너무 심심해서, 새로운 취미가 필요해."
+      },
+      {
+       "speaker": "B",
+       "text": "You should get into pottery, honestly. I think it'd be right up your alley.",
+       "ko": "솔직히 도자기 공예 한번 해봐. 딱 네 취향일 것 같아."
+      },
+      {
+       "speaker": "A",
+       "text": "Really? I've never done anything like that.",
+       "ko": "진짜? 그런 거 한 번도 안 해봤는데."
+      },
+      {
+       "speaker": "B",
+       "text": "That's the fun part, just give it a shot. There's a beginner class near my place.",
+       "ko": "그게 재밌는 부분이지, 그냥 한번 해봐. 우리 동네에 초보자 클래스 있어."
+      },
+      {
+       "speaker": "A",
+       "text": "Okay, you've sold me. Send me the info?",
+       "ko": "좋아, 완전 설득됐어. 정보 좀 보내줄래?"
+      },
+      {
+       "speaker": "B",
+       "text": "Will do. Fair warning though, you'll probably get clay everywhere.",
+       "ko": "그럴게. 근데 미리 말해두는데, 온몸에 흙 다 묻을 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "Ha, I can live with that.",
+       "ko": "하, 그 정도는 감수할 수 있어."
+      }
+     ],
+     "note": "누군가한테 잘 어울릴 것 같은 걸 추천할 때 'right up your alley'라고 하면 딱 맞는 취향이라는 느낌이 잘 살아. 'give it a shot'은 부담 없이 한번 해보라고 할 때 쓰는 표현이야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 18,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-018",
+     "situation": "새로운 취미반 등록 상의하기",
+     "key_expressions": [
+      "要不",
+      "顺便",
+      "感兴趣"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我最近想报个兴趣班,你有什么建议吗?",
+       "pinyin": "Wǒ zuìjìn xiǎng bào ge xìngqù bān, nǐ yǒu shénme jiànyì ma?",
+       "ko": "나 요즘 취미반 등록하고 싶은데, 뭐 추천할 거 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "你对什么感兴趣?画画还是烘焙?",
+       "pinyin": "Nǐ duì shénme gǎn xìngqù? Huàhuà háishi hōngbèi?",
+       "ko": "너 뭐에 관심 있어? 그림이야 아니면 베이킹이야?"
+      },
+      {
+       "speaker": "A",
+       "text": "我一直想学做陶艺,感觉挺解压的。",
+       "pinyin": "Wǒ yìzhí xiǎng xué zuò táoyì, gǎnjué tǐng jiěyā de.",
+       "ko": "나 계속 도예 배우고 싶었어, 스트레스 해소에 좋을 것 같아서."
+      },
+      {
+       "speaker": "B",
+       "text": "要不我们一起报名吧,我也一直想试试看。",
+       "pinyin": "Yàobù wǒmen yìqǐ bàomíng ba, wǒ yě yìzhí xiǎng shìshi kàn.",
+       "ko": "아니면 우리 같이 등록할까, 나도 계속 한번 해보고 싶었거든."
+      },
+      {
+       "speaker": "A",
+       "text": "真的吗?那太好了,一个人去还有点儿紧张呢。",
+       "pinyin": "Zhēn de ma? Nà tài hǎo le, yí ge rén qù hái yǒudiǎnr jǐnzhāng ne.",
+       "ko": "진짜? 그럼 완전 좋다, 혼자 가면 좀 긴장되거든."
+      },
+      {
+       "speaker": "B",
+       "text": "顺便查一下附近有没有口碑好的工作室。",
+       "pinyin": "Shùnbiàn chá yíxià fùjìn yǒu méiyǒu kǒubēi hǎo de gōngzuòshì.",
+       "ko": "겸사겸사 근처에 평판 좋은 공방 있는지 좀 찾아보자."
+      },
+      {
+       "speaker": "A",
+       "text": "好,我今晚就上网找找看。",
+       "pinyin": "Hǎo, wǒ jīnwǎn jiù shàngwǎng zhǎozhao kàn.",
+       "ko": "좋아, 오늘 저녁에 바로 인터넷으로 찾아볼게."
+      }
+     ],
+     "note": "要不我们一起报名吧처럼 친구랑 뭔가 같이 하자고 제안할 때 要不가 들어가면 훨씬 캐주얼하고 친근하게 들려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 18,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-040",
+    "text": "Bloom anyway, even if no one's watching.",
+    "source": "Modern Proverb",
+    "ko": "아무도 보지 않아도, 그래도 피어나라."
+   },
+   "zh": {
+    "id": "qzh-001",
+    "text": "花开有时，花落有时，一切自有安排。",
+    "pinyin": "Huā kāi yǒu shí, huā luò yǒu shí, yíqiè zì yǒu ānpái.",
+    "source": "现代语录",
+    "ko": "피어나는 것도, 지는 것도 모두 자기만의 때가 있으니, 모든 것에는 이미 안배가 있다."
+   }
+  }
+ },
+ {
   "date": "2026-08-12",
   "en": {
    "level": 2,
