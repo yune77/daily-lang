@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-08-14",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-019",
+     "situation": "집들이 초대하기",
+     "key_expressions": [
+      "swing by",
+      "bring anything",
+      "can't wait to show you around"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, I'm finally having my housewarming this Saturday, you should swing by.",
+       "ko": "야, 나 드디어 이번 주 토요일에 집들이 하는데, 너도 놀러 와."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh nice, congrats on the new place! What time?",
+       "ko": "오 좋다, 새집 축하해! 몇 시야?"
+      },
+      {
+       "speaker": "A",
+       "text": "Around 7. Just a casual thing, some food and drinks.",
+       "ko": "7시쯤. 그냥 편하게 음식이랑 음료 정도만 준비했어."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm in. Should I bring anything?",
+       "ko": "갈게. 뭐 가져가야 할 거 있어?"
+      },
+      {
+       "speaker": "A",
+       "text": "Just yourself, honestly, but if you wanna bring something, maybe dessert?",
+       "ko": "솔직히 그냥 몸만 와도 되는데, 뭔가 가져오고 싶으면 디저트 정도?"
+      },
+      {
+       "speaker": "B",
+       "text": "Got it, I'll grab a cake on the way.",
+       "ko": "알겠어, 오는 길에 케이크 사갈게."
+      },
+      {
+       "speaker": "A",
+       "text": "Perfect, can't wait to show you around.",
+       "ko": "완벽해, 집 구경시켜줄 생각에 벌써 기대돼."
+      }
+     ],
+     "note": "가볍게 놀러오라고 할 때 'swing by'를 쓰면 격식 없이 자연스러워. 집들이에서 손님이 뭘 가져갈지 물어보면 'Just yourself'라고 답하는 게 미국식 매너야."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 19,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-019",
+     "situation": "집들이 음식 준비 상의하기",
+     "key_expressions": [
+      "顺便",
+      "要不",
+      "反正"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "下周六我要办乔迁宴,你能来帮我准备一下吗?",
+       "pinyin": "Xià zhōuliù wǒ yào bàn qiáoqiān yàn, nǐ néng lái bāng wǒ zhǔnbèi yíxià ma?",
+       "ko": "다음 주 토요일에 집들이하려고 하는데, 와서 준비 좀 도와줄 수 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "没问题,准备请多少人啊?",
+       "pinyin": "Méi wèntí, zhǔnbèi qǐng duōshao rén a?",
+       "ko": "문제없어, 몇 명 초대할 예정이야?"
+      },
+      {
+       "speaker": "A",
+       "text": "大概十个人左右,我想做几个家常菜,顺便点点外卖。",
+       "pinyin": "Dàgài shí ge rén zuǒyòu, wǒ xiǎng zuò jǐ ge jiācháng cài, shùnbiàn diǎndian wàimài.",
+       "ko": "대략 10명 정도, 집밥 몇 가지 만들고, 겸사겸사 배달 음식도 좀 시키려고."
+      },
+      {
+       "speaker": "B",
+       "text": "要不我负责做几道凉菜,你专心做主菜?",
+       "pinyin": "Yàobù wǒ fùzé zuò jǐ dào liángcài, nǐ zhuānxīn zuò zhǔcài?",
+       "ko": "아니면 내가 냉채 몇 가지 맡을게, 너는 메인 요리에 집중하고?"
+      },
+      {
+       "speaker": "A",
+       "text": "太好了,那水果和饮料我来准备。",
+       "pinyin": "Tài hǎo le, nà shuǐguǒ hé yǐnliào wǒ lái zhǔnbèi.",
+       "ko": "너무 좋아, 그럼 과일이랑 음료는 내가 준비할게."
+      },
+      {
+       "speaker": "B",
+       "text": "好,反正东西不够我们再临时去买就行。",
+       "pinyin": "Hǎo, fǎnzhèng dōngxi bú gòu wǒmen zài línshí qù mǎi jiù xíng.",
+       "ko": "좋아, 어차피 부족하면 우리가 그때 가서 사면 되니까."
+      }
+     ],
+     "note": "집들이처럼 준비할 게 많은 상황에서 顺便으로 '겸사겸사 이것도'라고 덧붙이면 계획이 훨씬 자연스럽게 짜여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 19,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-001",
+    "text": "Everything blooms in its own time.",
+    "source": "Modern Proverb",
+    "ko": "시간이 되면 모든 것은 저절로 피어난다."
+   },
+   "zh": {
+    "id": "qzh-002",
+    "text": "但行好事，莫问前程。",
+    "pinyin": "Dàn xíng hǎo shì, mò wèn qián chéng.",
+    "source": "现代语录",
+    "ko": "그저 좋은 일을 하며 걸어가라, 앞날은 굳이 묻지 말라."
+   }
+  }
+ },
+ {
   "date": "2026-08-13",
   "en": {
    "level": 2,
