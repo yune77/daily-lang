@@ -3,32 +3,32 @@
   "level": 2,
   "pos": {
    "1": 22,
-   "2": 19,
+   "2": 20,
    "3": 0
   },
   "done": false,
-  "learned": 41
+  "learned": 42
  },
  "zh": {
   "level": 2,
   "pos": {
    "1": 22,
-   "2": 19,
+   "2": 20,
    "3": 0
   },
   "done": false,
-  "learned": 41
+  "learned": 42
  },
  "tg_offset": 129658935,
  "kb_sent": true,
- "days": 41,
- "last_sent": "2026-08-14",
+ "days": 42,
+ "last_sent": "2026-08-15",
  "quote": {
   "en": {
-   "pos": 1
+   "pos": 2
   },
   "zh": {
-   "pos": 2
+   "pos": 3
   }
  }
 }

@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-08-15",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-020",
+     "situation": "드라마 정주행 이야기하기",
+     "key_expressions": [
+      "binge-watch",
+      "on the edge of my seat",
+      "spoil it"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Have you started that new drama everyone's talking about?",
+       "ko": "다들 얘기하는 그 새 드라마 봤어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Oh my gosh, yes. I binge-watched the whole season in like two days.",
+       "ko": "어머, 봤지. 시즌 전체를 이틀 만에 정주행했어."
+      },
+      {
+       "speaker": "A",
+       "text": "No way, already? How is it?",
+       "ko": "말도 안 돼, 벌써? 어때, 재밌어?"
+      },
+      {
+       "speaker": "B",
+       "text": "So good, I was on the edge of my seat the entire time.",
+       "ko": "완전 재밌어, 처음부터 끝까지 손에 땀을 쥐고 봤어."
+      },
+      {
+       "speaker": "A",
+       "text": "Don't spoil it, I just started episode two.",
+       "ko": "스포하지 마, 나 이제 2화 시작했어."
+      },
+      {
+       "speaker": "B",
+       "text": "My lips are sealed, but trust me, episode five will wreck you.",
+       "ko": "입 다물게, 근데 진짜 5화 보면 멘탈 나갈 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "Okay now I'm scared and excited.",
+       "ko": "이제 무섭기도 하고 기대되기도 하네."
+      }
+     ],
+     "note": "드라마 몰아본 얘기할 때 'binge-watch'가 정주행이랑 딱 맞는 표현이야. 'on the edge of my seat'은 긴장감 있게 봤다는 걸 생생하게 전달해줘."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 20,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-020",
+     "situation": "인기 드라마 추천받기",
+     "key_expressions": [
+      "听说",
+      "差点儿",
+      "上头"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "最近有什么好看的电视剧吗?我都不知道看什么了。",
+       "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànshìjù ma? Wǒ dōu bù zhīdào kàn shénme le.",
+       "ko": "요즘 볼 만한 드라마 있어? 나 뭐 봐야 할지 모르겠어."
+      },
+      {
+       "speaker": "B",
+       "text": "听说最近那部古装剧特别火,好多人都在追。",
+       "pinyin": "Tīngshuō zuìjìn nà bù gǔzhuāngjù tèbié huǒ, hǎoduō rén dōu zài zhuī.",
+       "ko": "듣기로는 요즘 그 사극이 완전 인기라던데, 많은 사람들이 챙겨 보고 있대."
+      },
+      {
+       "speaker": "A",
+       "text": "是那部讲皇宫的吗?我听说剧情很虐。",
+       "pinyin": "Shì nà bù jiǎng huánggōng de ma? Wǒ tīngshuō jùqíng hěn nüè.",
+       "ko": "궁궐 얘기하는 그거? 스토리가 되게 애타게 만든다고 들었는데."
+      },
+      {
+       "speaker": "B",
+       "text": "对,我昨天看到半夜,差点儿哭出来。",
+       "pinyin": "Duì, wǒ zuótiān kàndào bànyè, chàdiǎnr kū chūlái.",
+       "ko": "맞아, 나 어제 새벽까지 봤는데, 하마터면 울 뻔했어."
+      },
+      {
+       "speaker": "A",
+       "text": "这么好看啊,那我今晚就开始追。",
+       "pinyin": "Zhème hǎokàn a, nà wǒ jīnwǎn jiù kāishǐ zhuī.",
+       "ko": "그렇게 재밌어? 그럼 나 오늘 저녁부터 바로 볼게."
+      },
+      {
+       "speaker": "B",
+       "text": "你一定会上头的,记得别熬夜太晚啊。",
+       "pinyin": "Nǐ yídìng huì shàngtóu de, jìde bié áoyè tài wǎn a.",
+       "ko": "너 완전 빠질걸, 너무 늦게까지 밤새지는 말고."
+      }
+     ],
+     "note": "上头는 요즘 젊은 사람들이 '완전 꽂히다, 헤어나올 수 없다'는 뜻으로 자주 쓰는 신조어 같은 표현이라 드라마나 아이돌 얘기할 때 잘 어울려요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 20,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-002",
+    "text": "Just do good, and don't worry about what comes next.",
+    "source": "Modern Proverb",
+    "ko": "그저 좋은 일을 하고, 앞날은 굳이 묻지 말라."
+   },
+   "zh": {
+    "id": "qzh-003",
+    "text": "人生如茶，不必太满。",
+    "pinyin": "Rénshēng rú chá, bú bì tài mǎn.",
+    "source": "现代语录",
+    "ko": "인생은 차와 같으니, 너무 가득 채울 필요는 없다."
+   }
+  }
+ },
+ {
   "date": "2026-08-14",
   "en": {
    "level": 2,
