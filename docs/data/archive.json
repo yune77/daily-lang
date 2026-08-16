@@ -1,5 +1,135 @@
 [
  {
+  "date": "2026-08-16",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-021",
+     "situation": "건강검진 결과 나누기",
+     "key_expressions": [
+      "get the results back",
+      "nothing to worry about",
+      "wake-up call"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, did you get your checkup results back yet?",
+       "ko": "저기, 건강검진 결과 받았어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, just got them yesterday. Cholesterol's a little high, but nothing to worry about too much.",
+       "ko": "응, 어제 받았어. 콜레스테롤이 좀 높은데, 그렇게 크게 걱정할 정도는 아니래."
+      },
+      {
+       "speaker": "A",
+       "text": "Ah, that's still good to catch it early though.",
+       "ko": "아 그래도 일찍 알아챈 게 다행이네."
+      },
+      {
+       "speaker": "B",
+       "text": "For real, it was kind of a wake-up call. I'm cutting back on fried food.",
+       "ko": "진짜, 그게 좀 경각심을 주더라고. 튀긴 음식 줄이려고."
+      },
+      {
+       "speaker": "A",
+       "text": "Good for you. I need to go get mine done too, honestly.",
+       "ko": "잘됐네. 솔직히 나도 검진 받으러 가야 하는데."
+      },
+      {
+       "speaker": "B",
+       "text": "You really should, better safe than sorry.",
+       "ko": "진짜 받아봐, 나중에 후회하는 것보다 낫잖아."
+      }
+     ],
+     "note": "건강검진 결과 얘기할 때 'nothing to worry about'으로 안심시키는 뉘앙스를 담을 수 있어. 'wake-up call'은 뭔가 계기가 돼서 생활습관을 바꾸게 됐다는 뜻으로 자주 써."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 21,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-021",
+     "situation": "건강 검진 예약 잡기",
+     "key_expressions": [
+      "顺便",
+      "麻烦",
+      "空腹"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你好,我想预约一下体检,请问怎么安排?",
+       "pinyin": "Nǐ hǎo, wǒ xiǎng yùyuē yíxià tǐjiǎn, qǐngwèn zěnme ānpái?",
+       "ko": "안녕하세요, 건강검진 예약하고 싶은데, 어떻게 하면 되나요?"
+      },
+      {
+       "speaker": "B",
+       "text": "您好,请问您想做基础套餐还是全面体检?",
+       "pinyin": "Nín hǎo, qǐngwèn nín xiǎng zuò jīchǔ tàocān háishi quánmiàn tǐjiǎn?",
+       "ko": "안녕하세요, 기본 패키지로 하시겠어요 아니면 종합검진으로 하시겠어요?"
+      },
+      {
+       "speaker": "A",
+       "text": "我想做全面一点儿的,顺便加一个胃镜检查。",
+       "pinyin": "Wǒ xiǎng zuò quánmiàn yìdiǎnr de, shùnbiàn jiā yí ge wèijìng jiǎnchá.",
+       "ko": "좀 더 종합적으로 하고 싶은데, 겸사겸사 위내시경도 추가할게요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的,那需要提前一天开始清淡饮食,当天要空腹。",
+       "pinyin": "Hǎo de, nà xūyào tíqián yì tiān kāishǐ qīngdàn yǐnshí, dāngtiān yào kōngfù.",
+       "ko": "네, 그럼 하루 전부터 가볍게 드시고, 당일에는 공복이셔야 해요."
+      },
+      {
+       "speaker": "A",
+       "text": "明白,那麻烦帮我约下周三上午吧。",
+       "pinyin": "Míngbai, nà máfan bāng wǒ yuē xià zhōusān shàngwǔ ba.",
+       "ko": "알겠습니다, 그럼 번거로우시겠지만 다음 주 수요일 오전으로 잡아주세요."
+      },
+      {
+       "speaker": "B",
+       "text": "好的,已经帮您预约好了,记得提前十五分钟到。",
+       "pinyin": "Hǎo de, yǐjīng bāng nín yùyuē hǎo le, jìde tíqián shíwǔ fēnzhōng dào.",
+       "ko": "네, 예약 완료해드렸습니다, 15분 일찍 오시는 거 잊지 마세요."
+      }
+     ],
+     "note": "병원이나 서비스 예약할 때 麻烦帮我...는 '번거로우시겠지만 ~좀 해주세요'라는 뜻으로 정중하게 부탁하는 필수 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "중급",
+   "progress": 21,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-003",
+    "text": "Life is like tea — you don't have to fill the cup all the way.",
+    "source": "Modern Proverb",
+    "ko": "인생은 차와 같으니, 잔을 끝까지 채울 필요는 없다."
+   },
+   "zh": {
+    "id": "qzh-004",
+    "text": "慢慢来，比较快。",
+    "pinyin": "Màn man lái, bǐjiào kuài.",
+    "source": "现代语录",
+    "ko": "천천히 가는 것이 오히려 더 빠르다."
+   }
+  }
+ },
+ {
   "date": "2026-08-15",
   "en": {
    "level": 2,
