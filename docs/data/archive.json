@@ -1,5 +1,140 @@
 [
  {
+  "date": "2026-08-17",
+  "en": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "en2-022",
+     "situation": "마감 압박감 나누기",
+     "key_expressions": [
+      "down to the wire",
+      "burning the midnight oil",
+      "crunch time"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How's the report coming along?",
+       "ko": "보고서는 잘 돼가?"
+      },
+      {
+       "speaker": "B",
+       "text": "Honestly, it's down to the wire. I've been burning the midnight oil all week.",
+       "ko": "솔직히, 시간이 진짜 촉박해. 이번 주 내내 밤새 일하고 있어."
+      },
+      {
+       "speaker": "A",
+       "text": "Yeah, this is definitely crunch time for all of us.",
+       "ko": "그래, 지금 다들 진짜 마감 압박 시기지."
+      },
+      {
+       "speaker": "B",
+       "text": "I just hope I can get it done before the deadline tomorrow.",
+       "ko": "그냥 내일 마감 전까지 끝낼 수 있길 바랄 뿐이야."
+      },
+      {
+       "speaker": "A",
+       "text": "You've got this. Let me know if you need another set of eyes.",
+       "ko": "넌 할 수 있어. 누가 한번 봐줘야 하면 말해."
+      },
+      {
+       "speaker": "B",
+       "text": "I might take you up on that later tonight.",
+       "ko": "오늘 밤늦게 그 제안 받아들일 수도 있어."
+      },
+      {
+       "speaker": "A",
+       "text": "Anytime, we're all in this together.",
+       "ko": "언제든지, 우리 다 같이 힘내는 거지."
+      }
+     ],
+     "note": "마감 임박했을 때 'down to the wire'라고 하면 진짜 아슬아슬한 상황이라는 게 잘 전달돼. 'burning the midnight oil'은 밤늦게까지 일한다는 뜻으로 자주 쓰는 관용 표현이야."
+    }
+   ],
+   "levelup": true,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 2,
+   "level_name": "중급",
+   "items": [
+    {
+     "id": "zh2-022",
+     "situation": "시험 스트레스 나누기",
+     "key_expressions": [
+      "好像",
+      "反正",
+      "压力"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "快考试了,我压力好大,每天都睡不好。",
+       "pinyin": "Kuài kǎoshì le, wǒ yālì hǎo dà, měitiān dōu shuì bu hǎo.",
+       "ko": "곧 시험인데, 나 스트레스가 너무 커서 매일 잠도 잘 못 자."
+      },
+      {
+       "speaker": "B",
+       "text": "我也是,好像复习永远都复习不完的感觉。",
+       "pinyin": "Wǒ yě shì, hǎoxiàng fùxí yǒngyuǎn dōu fùxí bu wán de gǎnjué.",
+       "ko": "나도 그래, 복습이 영원히 안 끝날 것 같은 느낌이야."
+      },
+      {
+       "speaker": "A",
+       "text": "你都复习到哪儿了?我感觉自己进度特别慢。",
+       "pinyin": "Nǐ dōu fùxí dào nǎr le? Wǒ gǎnjué zìjǐ jìndù tèbié màn.",
+       "ko": "너는 어디까지 복습했어? 나는 내 진도가 너무 느린 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "反正大家都差不多,别太逼自己了。",
+       "pinyin": "Fǎnzhèng dàjiā dōu chàbuduō, bié tài bī zìjǐ le.",
+       "ko": "어차피 다들 비슷하니까, 너무 스스로를 몰아붙이지 마."
+      },
+      {
+       "speaker": "A",
+       "text": "说得也是,那我们要不要一起找个地方复习?",
+       "pinyin": "Shuō de yě shì, nà wǒmen yào bu yào yìqǐ zhǎo ge dìfang fùxí?",
+       "ko": "그건 그렇네, 그럼 우리 같이 어디 가서 복습할까?"
+      },
+      {
+       "speaker": "B",
+       "text": "好啊,一起复习效率应该会高一点儿。",
+       "pinyin": "Hǎo a, yìqǐ fùxí xiàolǜ yīnggāi huì gāo yìdiǎnr.",
+       "ko": "좋아, 같이 하면 효율이 좀 더 높아질 거야."
+      }
+     ],
+     "note": "시험 스트레스 나눌 때 反正大家都差不多(어차피 다 비슷해)라고 말해주면 위로가 되면서 부담을 덜어주는 효과가 있어요."
+    }
+   ],
+   "levelup": true,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-004",
+    "text": "Slow down, you'll get there faster.",
+    "source": "Modern Proverb",
+    "ko": "천천히 가라, 그게 오히려 더 빨리 도착하는 길이다."
+   },
+   "zh": {
+    "id": "qzh-005",
+    "text": "你若盛开，清风自来。",
+    "pinyin": "Nǐ ruò shèngkāi, qīngfēng zì lái.",
+    "source": "现代语录",
+    "ko": "네가 활짝 피면, 맑은 바람은 저절로 찾아온다."
+   }
+  }
+ },
+ {
   "date": "2026-08-16",
   "en": {
    "level": 2,
