@@ -1,5 +1,129 @@
 [
  {
+  "date": "2026-08-18",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-001",
+     "situation": "직장에서 뒷담화 눈치채기",
+     "key_expressions": [
+      "read the room",
+      "throw someone under the bus",
+      "play devil's advocate"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Did you hear what happened in the meeting?",
+       "ko": "회의에서 무슨 일 있었는지 들었어?"
+      },
+      {
+       "speaker": "B",
+       "text": "No, what happened?",
+       "ko": "아니, 무슨 일인데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Mark totally threw Sarah under the bus.",
+       "ko": "마크가 사라를 완전히 팔아넘겼어."
+      },
+      {
+       "speaker": "B",
+       "text": "Seriously? He needs to read the room sometimes.",
+       "ko": "진짜? 걔는 가끔 분위기 파악을 좀 해야 해."
+      },
+      {
+       "speaker": "A",
+       "text": "I know. Though, playing devil's advocate, maybe he panicked.",
+       "ko": "그러니까. 근데 반대로 생각하면, 당황해서 그랬을 수도 있어."
+      },
+      {
+       "speaker": "B",
+       "text": "Still doesn't excuse it.",
+       "ko": "그래도 그게 변명이 되진 않지."
+      }
+     ],
+     "note": "throw under the bus(책임 전가)와 read the room(분위기 파악)은 직장 드라마 필수 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 1,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-001",
+     "situation": "친구의 아부를 놀리기",
+     "key_expressions": [
+      "拍马屁",
+      "靠谱",
+      "算了吧"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你今天怎么一直夸老板？",
+       "pinyin": "Nǐ jīntiān zěnme yìzhí kuā lǎobǎn?",
+       "ko": "너 오늘 왜 계속 사장님 칭찬해?"
+      },
+      {
+       "speaker": "B",
+       "text": "没有啊，我只是说实话。",
+       "pinyin": "Méiyǒu a, wǒ zhǐshì shuō shíhuà.",
+       "ko": "아니야, 그냥 사실을 말한 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "少来，你就是在拍马屁。",
+       "pinyin": "Shǎo lái, nǐ jiùshì zài pāi mǎpì.",
+       "ko": "됐거든, 완전 아부 떠는 거잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "好吧好吧，算了吧，被你发现了。",
+       "pinyin": "Hǎo ba hǎo ba, suàn le ba, bèi nǐ fāxiàn le.",
+       "ko": "알았어 알았어, 됐다, 너한테 딱 걸렸네."
+      },
+      {
+       "speaker": "A",
+       "text": "下次靠谱一点，别这么明显。",
+       "pinyin": "Xiàcì kàopǔ yìdiǎn, bié zhème míngxiǎn.",
+       "ko": "다음엔 좀 자연스럽게 해, 이렇게 티나게 하지 말고."
+      }
+     ],
+     "note": "拍马屁(아부하다)는 중드에서 자주 나오는 놀림 표현, 少来(됐거든)는 믿지 않을 때 쓰는 반응"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 1,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-005",
+    "text": "When you bloom, the right people will find you.",
+    "source": "Modern Proverb",
+    "ko": "네가 활짝 피면, 맞는 사람들이 알아서 찾아온다."
+   },
+   "zh": {
+    "id": "qzh-006",
+    "text": "岁月不曾亏待过谁。",
+    "pinyin": "Suìyuè bù céng kuīdài guo shéi.",
+    "source": "现代语录",
+    "ko": "세월은 그 누구도 저버린 적이 없다."
+   }
+  }
+ },
+ {
   "date": "2026-08-17",
   "en": {
    "level": 2,
