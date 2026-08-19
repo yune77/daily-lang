@@ -1,5 +1,123 @@
 [
  {
+  "date": "2026-08-19",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-002",
+     "situation": "연인과 서운함 표현하기",
+     "key_expressions": [
+      "ghost me",
+      "give me the cold shoulder",
+      "talk it out"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "You've been kind of distant lately.",
+       "ko": "요즘 너 좀 거리 두는 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "I know. I'm sorry I've been giving you the cold shoulder.",
+       "ko": "알아. 너한테 쌀쌀맞게 굴어서 미안해."
+      },
+      {
+       "speaker": "A",
+       "text": "I thought you were going to ghost me.",
+       "ko": "나 잠수 타는 줄 알았잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "No, never. I've just been stressed about work.",
+       "ko": "아니, 절대 아니야. 그냥 요즘 일 때문에 스트레스 받았어."
+      },
+      {
+       "speaker": "A",
+       "text": "Can we talk it out instead of you shutting down?",
+       "ko": "네가 마음 닫는 대신 우리 얘기로 풀면 안 될까?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah. You're right. Let's talk.",
+       "ko": "응. 네 말이 맞아. 얘기하자."
+      }
+     ],
+     "note": "give someone the cold shoulder(쌀쌀맞게 대하다), ghost(잠수타다)는 연애 상황 필수 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 2,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-002",
+     "situation": "이별 후 감정 정리하기",
+     "key_expressions": [
+      "分手",
+      "心想事成",
+      "想开点"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我们还是分手吧，这样下去不行。",
+       "pinyin": "Wǒmen háishi fēnshǒu ba, zhèyàng xiàqù bùxíng.",
+       "ko": "우리 그냥 헤어지자, 이렇게는 안 되겠어."
+      },
+      {
+       "speaker": "B",
+       "text": "我知道你受委屈了，对不起。",
+       "pinyin": "Wǒ zhīdào nǐ shòu wěiqu le, duìbuqǐ.",
+       "ko": "네가 억울했던 거 알아, 미안해."
+      },
+      {
+       "speaker": "A",
+       "text": "没事，想开点，我们都会好起来的。",
+       "pinyin": "Méishì, xiǎngkāi diǎn, wǒmen dōu huì hǎo qǐlái de.",
+       "ko": "괜찮아, 마음 편히 가져, 우리 다 잘될 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "祝你以后心想事成。",
+       "pinyin": "Zhù nǐ yǐhòu xīnxiǎngshìchéng.",
+       "ko": "앞으로 원하는 대로 다 이루어지길 바라."
+      }
+     ],
+     "note": "想开点(마음 편히 가져)은 힘든 상황에서 서로를 다독일 때 쓰는 표현"
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 2,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-006",
+    "text": "Time has never truly failed anyone.",
+    "source": "Modern Proverb",
+    "ko": "시간은 그 누구도 저버린 적이 없다."
+   },
+   "zh": {
+    "id": "qzh-007",
+    "text": "该来的都会来，该走的留不住。",
+    "pinyin": "Gāi lái de dōu huì lái, gāi zǒu de liú bu zhù.",
+    "source": "现代语录",
+    "ko": "와야 할 것은 결국 오고, 가야 할 것은 붙잡을 수 없다."
+   }
+  }
+ },
+ {
   "date": "2026-08-18",
   "en": {
    "level": 3,
