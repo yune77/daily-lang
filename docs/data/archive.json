@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-20",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-003",
+     "situation": "직장 상사 뒷담화하기",
+     "key_expressions": [
+      "throw someone under the bus",
+      "suck-up",
+      "it is what it is"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Did you hear what happened in the meeting today? Our boss basically threw Daniel under the bus in front of the whole team.",
+       "ko": "오늘 회의에서 무슨 일 있었는지 들었어? 우리 부장님이 다니엘을 팀 전체 앞에서 완전 팔아넘겼잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "Seriously? I mean, he does that all the time, but that was next level.",
+       "ko": "진짜? 원래 그러긴 하는데, 이번엔 진짜 선 넘었더라."
+      },
+      {
+       "speaker": "A",
+       "text": "He took credit for Daniel's idea last month and now he's blaming him for the delay. Like, make up your mind.",
+       "ko": "지난달엔 다니엘 아이디어 자기가 낸 척하더니 이번엔 딜레이 책임까지 씌우네. 어느 장단에 맞추라는 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "Classic. He's such a suck-up to upper management though, so nobody's gonna call him out.",
+       "ko": "완전 전형적이지. 근데 윗사람들한테는 또 얼마나 아부를 떠는지, 아무도 대놓고 뭐라 못 해."
+      },
+      {
+       "speaker": "A",
+       "text": "It is what it is, I guess. I just feel bad for Daniel.",
+       "ko": "뭐 어쩌겠어. 그냥 다니엘이 안됐다."
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah. He should start covering himself in writing from now on.",
+       "ko": "그니까. 이제부터라도 메일로 다 증거 남겨야 될 듯."
+      }
+     ],
+     "note": "throw ~ under the bus는 남한테 책임 떠넘기고 자기만 쏙 빠지는 거 말할 때 딱이에요. 회사 뒷담화에 자주 등장."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 3,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-003",
+     "situation": "상사한테 아부하는 동료 험담하기",
+     "key_expressions": [
+      "拍马屁",
+      "看不惯",
+      "巴结"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你看小李,又在给老板递咖啡了。",
+       "pinyin": "Nǐ kàn Xiǎo Lǐ, yòu zài gěi lǎobǎn dì kāfēi le.",
+       "ko": "저것 봐 샤오리, 또 사장님한테 커피 갖다 바치네."
+      },
+      {
+       "speaker": "B",
+       "text": "别提了,一天到晚就知道拍马屁,看得我尴尬癌都犯了。",
+       "pinyin": "Bié tí le, yī tiān dào wǎn jiù zhīdào pāi mǎpì, kàn de wǒ gāngà ái dōu fàn le.",
+       "ko": "말도 마, 하루 종일 아부만 떨어서 보는 내가 다 오글거려."
+      },
+      {
+       "speaker": "A",
+       "text": "是啊,上次开会他把功劳全揽自己身上,我们这些干活的都成了空气。",
+       "pinyin": "Shì a, shàng cì kāihuì tā bǎ gōngláo quán lǎn zìjǐ shēnshang, wǒmen zhèxiē gàn huó de dōu chéng le kōngqì.",
+       "ko": "맞아, 저번 회의 때 공을 다 자기가 가로챘잖아, 우리처럼 실제로 일한 사람들은 완전 투명인간 됐어."
+      },
+      {
+       "speaker": "B",
+       "text": "这种人最会来事儿,巴结领导一套一套的。",
+       "pinyin": "Zhè zhǒng rén zuì huì láishìr, bājié lǐngdǎo yī tào yī tào de.",
+       "ko": "저런 애들이 상사한테 잘 보이는 건 진짜 도가 텄다니까."
+      },
+      {
+       "speaker": "A",
+       "text": "我是真看不惯,可又能怎么办,人家升职比谁都快。",
+       "pinyin": "Wǒ shì zhēn kànbùguàn, kě yòu néng zěnme bàn, rénjiā shēngzhí bǐ shéi dōu kuài.",
+       "ko": "나도 진짜 꼴 보기 싫은데, 어쩌겠어, 승진은 또 제일 빠르잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "唉,职场就这样,老实干活的不一定有出路。",
+       "pinyin": "Āi, zhíchǎng jiù zhèyàng, lǎoshi gàn huó de bùyīdìng yǒu chūlù.",
+       "ko": "하... 회사가 다 그렇지 뭐, 성실하게 일한다고 꼭 잘 풀리는 것도 아니고."
+      },
+      {
+       "speaker": "A",
+       "text": "也是,咱俩还是少说两句,小心传到他耳朵里。",
+       "pinyin": "Yěshì, zán liǎ háishì shǎo shuō liǎng jù, xiǎoxīn chuán dào tā ěrduo lǐ.",
+       "ko": "그러게, 우리도 말 좀 아끼자, 걔 귀에 들어가면 곤란해."
+      },
+      {
+       "speaker": "B",
+       "text": "放心,我又不傻,背后吐槽归吐槽,当面还是得客客气气的。",
+       "pinyin": "Fàngxīn, wǒ yòu bù shǎ, bèihòu tǔcáo guī tǔcáo, dāngmiàn háishì děi kèkèqìqì de.",
+       "ko": "걱정 마, 나도 바보 아니야, 뒤에서 욕은 욕이고 앞에서는 그래도 예의는 지켜야지."
+      }
+     ],
+     "note": "拍马屁는 직역하면 '말 엉덩이를 두드리다'인데 아부/아첨을 뜻하는 아주 흔한 관용구예요. 看不惯은 '눈에 거슬리다, 꼴 보기 싫다'는 뜻으로 회사 뒷담화 할 때 자주 써요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 3,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-007",
+    "text": "What's meant to come will come; what's meant to leave can't be held back.",
+    "source": "Modern Proverb",
+    "ko": "와야 할 것은 결국 오고, 떠나야 할 것은 붙잡을 수 없다."
+   },
+   "zh": {
+    "id": "qzh-008",
+    "text": "你不用完美，你只需要真实。",
+    "pinyin": "Nǐ búyòng wánměi, nǐ zhǐ xūyào zhēnshí.",
+    "source": "现代语录",
+    "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
+   }
+  }
+ },
+ {
   "date": "2026-08-19",
   "en": {
    "level": 3,
