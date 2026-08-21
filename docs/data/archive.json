@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-21",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-004",
+     "situation": "연인과 다투고 화해하기",
+     "key_expressions": [
+      "sweep under the rug",
+      "hash it out",
+      "meet me halfway"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Look, I'm sorry about last night. I shouldn't have snapped at you like that.",
+       "ko": "있잖아, 어젯밤 일은 미안해. 그렇게 화낼 일이 아니었는데."
+      },
+      {
+       "speaker": "B",
+       "text": "You really hurt my feelings, Liam. I felt like you weren't even listening to me.",
+       "ko": "진짜 상처받았어, 리암. 내 말은 아예 안 듣는 것처럼 느껴졌다고."
+      },
+      {
+       "speaker": "A",
+       "text": "I know. I was stressed about work and I took it out on you, which wasn't fair.",
+       "ko": "알아. 일 때문에 스트레스 받은 걸 너한테 풀었네, 그건 진짜 아니었어."
+      },
+      {
+       "speaker": "B",
+       "text": "I don't want to keep fighting about the same thing every week. Can we actually talk instead of just sweeping it under the rug?",
+       "ko": "매주 똑같은 걸로 계속 싸우고 싶지 않아. 그냥 덮어두지 말고 진짜 얘기 좀 하면 안 될까?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yeah, you're right. Let's actually hash it out this time instead of pretending everything's fine.",
+       "ko": "맞아, 네 말이 맞아. 이번엔 그냥 괜찮은 척하지 말고 제대로 풀어보자."
+      },
+      {
+       "speaker": "B",
+       "text": "Okay. I love you, I just need you to meet me halfway.",
+       "ko": "알겠어. 사랑하는 거 알지, 근데 너도 나한테 좀 맞춰줬으면 좋겠어."
+      }
+     ],
+     "note": "sweep under the rug는 문제를 안 풀고 그냥 덮어버리는 거. 커플싸움 화해할 때 진짜 많이 써요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 4,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-004",
+     "situation": "여자친구랑 다투고 화해하기",
+     "key_expressions": [
+      "吃醋",
+      "玻璃心",
+      "哄"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "别生气了嘛,是我不对,不该那么说话。",
+       "pinyin": "Bié shēngqì le ma, shì wǒ bùduì, bùgāi nàme shuōhuà.",
+       "ko": "화 좀 풀어, 내가 잘못했어, 그렇게 말하는 게 아니었는데."
+      },
+      {
+       "speaker": "B",
+       "text": "哼,你现在知道错了?刚才干嘛那么凶。",
+       "pinyin": "Hēng, nǐ xiànzài zhīdào cuò le? Gāngcái gànma nàme xiōng.",
+       "ko": "흥, 이제야 잘못한 거 알아? 아까는 왜 그렇게 소리 질렀는데."
+      },
+      {
+       "speaker": "A",
+       "text": "我就是嘴笨,一着急就说重了,你别往心里去。",
+       "pinyin": "Wǒ jiùshì zuǐbèn, yī zháojí jiù shuō zhòng le, nǐ bié wǎng xīnli qù.",
+       "ko": "내가 말주변이 없어서 급하면 말이 세게 나가, 마음에 담아두지 마."
+      },
+      {
+       "speaker": "B",
+       "text": "我这个人玻璃心你又不是不知道,你说话能不能过过脑子。",
+       "pinyin": "Wǒ zhège rén bōli xīn nǐ yòu bùshì bù zhīdào, nǐ shuōhuà néng bùnéng guò guò nǎozi.",
+       "ko": "나 유리멘탈인 거 몰라서 그래? 말 좀 생각하고 하면 안 돼?"
+      },
+      {
+       "speaker": "A",
+       "text": "知道知道,以后我肯定注意,别气了行不行。",
+       "pinyin": "Zhīdào zhīdào, yǐhòu wǒ kěndìng zhùyì, bié qì le xíng bùxíng.",
+       "ko": "알았어 알았어, 앞으로 진짜 조심할게, 이제 화 좀 풀어주면 안 돼?"
+      },
+      {
+       "speaker": "B",
+       "text": "你是不是就是想哄哄我就完事了?",
+       "pinyin": "Nǐ shìbùshì jiùshì xiǎng hǒng hǒng wǒ jiù wánshì le?",
+       "ko": "너 지금 그냥 좀 달래서 넘어가려는 거지?"
+      },
+      {
+       "speaker": "A",
+       "text": "不是哄,是真心认错,走,我请你吃你最爱的火锅赔罪。",
+       "pinyin": "Bùshì hǒng, shì zhēnxīn rèncuò, zǒu, wǒ qǐng nǐ chī nǐ zuì ài de huǒguō péizuì.",
+       "ko": "달래는 게 아니라 진심으로 잘못했다는 거야, 가자, 네가 제일 좋아하는 훠궈 사줄게 사죄의 의미로."
+      },
+      {
+       "speaker": "B",
+       "text": "算你会来事儿,这次就原谅你,下次再这样我可不惯着你。",
+       "pinyin": "Suàn nǐ huì láishìr, zhè cì jiù yuánliàng nǐ, xiàcì zài zhèyàng wǒ kě bù guàn zhe nǐ.",
+       "ko": "눈치는 있네, 이번엔 봐준다, 다음에 또 이러면 진짜 안 봐줘."
+      }
+     ],
+     "note": "玻璃心(유리 멘탈)은 작은 말에도 쉽게 상처받는 사람을 놀리듯 말할 때 쓰는 표현이에요. 哄은 '달래다'라는 뜻으로 연인 사이 다툼 후 화해할 때 자주 등장해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 4,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-008",
+    "text": "You don't have to be perfect, just real.",
+    "source": "Modern Proverb",
+    "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
+   },
+   "zh": {
+    "id": "qzh-009",
+    "text": "允许一切发生。",
+    "pinyin": "Yǔnxǔ yíqiè fāshēng.",
+    "source": "现代语录",
+    "ko": "모든 일이 일어나도록 그대로 두어라."
+   }
+  }
+ },
+ {
   "date": "2026-08-20",
   "en": {
    "level": 3,
