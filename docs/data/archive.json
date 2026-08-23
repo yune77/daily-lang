@@ -1,5 +1,152 @@
 [
  {
+  "date": "2026-08-23",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-006",
+     "situation": "이별 통보하기",
+     "key_expressions": [
+      "drifting apart",
+      "calling it quits",
+      "give someone space"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Mia, we need to talk. I don't think this is working anymore.",
+       "ko": "미아, 우리 얘기 좀 해야 될 것 같아. 나 이제 이거 잘 안 되는 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "Wait, what? Where is this coming from?",
+       "ko": "잠깐, 뭐라고? 갑자기 왜 이래?"
+      },
+      {
+       "speaker": "A",
+       "text": "It's not sudden for me. I've felt like we've been drifting apart for months.",
+       "ko": "나한테는 갑자기가 아니야. 몇 달 전부터 우리 사이가 점점 멀어지는 게 느껴졌어."
+      },
+      {
+       "speaker": "B",
+       "text": "So you're just calling it quits? Just like that?",
+       "ko": "그러니까 그냥 이렇게 끝내겠다는 거야? 이렇게 갑자기?"
+      },
+      {
+       "speaker": "A",
+       "text": "I'm not trying to hurt you, I promise. I just think we both deserve better than this.",
+       "ko": "너 아프게 하려는 거 아니야, 진짜로. 그냥 우리 둘 다 이것보다는 나은 걸 받을 자격이 있다고 생각해."
+      },
+      {
+       "speaker": "B",
+       "text": "I need some time. Can you just give me some space right now?",
+       "ko": "나 시간이 좀 필요해. 지금은 그냥 좀 혼자 있게 해줄래?"
+      },
+      {
+       "speaker": "A",
+       "text": "Of course. Take all the time you need.",
+       "ko": "당연하지. 필요한 만큼 다 가져."
+      }
+     ],
+     "note": "call it quits는 관계나 일을 그만 끝내자는 뜻. 이별 통보할 때 자주 나오는 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 6,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-006",
+     "situation": "헤어지자고 통보하기",
+     "key_expressions": [
+      "分手",
+      "将就",
+      "走到头了"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我们......分手吧。",
+       "pinyin": "Wǒmen...... fēnshǒu ba.",
+       "ko": "우리...... 헤어지자."
+      },
+      {
+       "speaker": "B",
+       "text": "你说什么?怎么突然这样?",
+       "pinyin": "Nǐ shuō shénme? Zěnme tūrán zhèyàng?",
+       "ko": "뭐라고? 왜 갑자기 이래?"
+      },
+      {
+       "speaker": "A",
+       "text": "不是突然,这段感情早就走到头了,你自己心里也清楚。",
+       "pinyin": "Bùshì tūrán, zhè duàn gǎnqíng zǎo jiù zǒu dào tóu le, nǐ zìjǐ xīnli yě qīngchu.",
+       "ko": "갑자기가 아니야, 이 관계는 진작에 끝난 거야, 너도 마음속으론 알고 있잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "是因为上次吵架吗?我可以改,你别这样。",
+       "pinyin": "Shì yīnwèi shàng cì chǎojià ma? Wǒ kěyǐ gǎi, nǐ bié zhèyàng.",
+       "ko": "저번에 싸운 것 때문이야? 나 고칠 수 있어, 이러지 마."
+      },
+      {
+       "speaker": "A",
+       "text": "不只是那次,是我们两个早就不合适了,一直是我在将就。",
+       "pinyin": "Bùzhǐ shì nà cì, shì wǒmen liǎng ge zǎo jiù bù héshì le, yīzhí shì wǒ zài jiāngjiù.",
+       "ko": "그것 때문만이 아니야, 우리 둘은 진작부터 안 맞았어, 계속 내가 참고 지낸 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "将就?你竟然用这个词形容我们三年的感情?",
+       "pinyin": "Jiāngjiù? Nǐ jìngrán yòng zhège cí xíngróng wǒmen sān nián de gǎnqíng?",
+       "ko": "참고 지냈다고? 3년 사귄 우리 사이를 그런 말로 표현해?"
+      },
+      {
+       "speaker": "A",
+       "text": "对不起,我知道这样说很伤人,但拖着对谁都不好。",
+       "pinyin": "Duìbuqǐ, wǒ zhīdào zhèyàng shuō hěn shāng rén, dàn tuō zhe duì shéi dōu bù hǎo.",
+       "ko": "미안해, 이 말이 상처된다는 거 알아, 근데 질질 끄는 게 서로한테 안 좋아."
+      },
+      {
+       "speaker": "B",
+       "text": "......行,你想清楚了就好,我不会求你留下来的。",
+       "pinyin": "...... Xíng, nǐ xiǎng qīngchu le jiù hǎo, wǒ bùhuì qiú nǐ liú xiàlái de.",
+       "ko": "...... 그래, 네가 확실히 정했다면 됐어, 붙잡지 않을게."
+      }
+     ],
+     "note": "将就는 '마지못해 맞춰 살다, 억지로 참고 지내다'라는 뜻으로 연애나 결혼 얘기할 때 자주 나와요. 走到头了는 '끝에 다다랐다' 즉 관계가 끝났다는 의미예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 6,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-010",
+    "text": "When life feels bright, everything looks lovely.",
+    "source": "Modern Proverb",
+    "ko": "삶이 밝게 느껴지면, 모든 것이 사랑스러워 보인다."
+   },
+   "zh": {
+    "id": "qzh-011",
+    "text": "世界很大，慢慢去看。",
+    "pinyin": "Shìjiè hěn dà, màn man qù kàn.",
+    "source": "现代语录",
+    "ko": "세상은 넓으니, 천천히 둘러봐도 된다."
+   }
+  }
+ },
+ {
   "date": "2026-08-22",
   "en": {
    "level": 3,
