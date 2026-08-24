@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-24",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-007",
+     "situation": "실연 후 자조적 유머로 넘기기",
+     "key_expressions": [
+      "living the dream",
+      "lose it",
+      "over it"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So how are you holding up after the breakup?",
+       "ko": "이별하고 좀 어때, 버틸 만해?"
+      },
+      {
+       "speaker": "B",
+       "text": "Oh, you know, living the dream. Crying in the shower, eating cereal for dinner, the whole package.",
+       "ko": "아 뭐, 완전 꿈꾸던 삶이지. 샤워하면서 울고, 저녁으로 시리얼 먹고, 풀세트야."
+      },
+      {
+       "speaker": "A",
+       "text": "Classic. At least you're consistent.",
+       "ko": "역시. 그래도 일관성은 있네."
+      },
+      {
+       "speaker": "B",
+       "text": "Honestly I'm just trying to laugh about it because if I don't, I'll actually lose it.",
+       "ko": "솔직히 그냥 웃으려고 하는 거야, 안 그러면 진짜 무너질 것 같아서."
+      },
+      {
+       "speaker": "A",
+       "text": "That's fair. You'll get there. It just takes time.",
+       "ko": "그럴 만해. 시간이 좀 지나면 괜찮아질 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, yeah. Ask me again in six months when I'm over it.",
+       "ko": "그래그래. 6개월 뒤에 다시 물어봐, 그때쯤엔 다 극복했다고 하겠지."
+      }
+     ],
+     "note": "living the dream은 원래 좋은 뜻인데 이렇게 비꼬듯 쓰면 완전 반대 의미의 웃픈 자조개그가 돼요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 7,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-007",
+     "situation": "모태솔로 놀림 받고 받아치기",
+     "key_expressions": [
+      "单身狗",
+      "母胎单身",
+      "酸"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "哎,你都二十八了吧,到现在还是单身狗一条?",
+       "pinyin": "Āi, nǐ dōu èrshíbā le ba, dào xiànzài hái shì dāntúgǒu yī tiáo?",
+       "ko": "야, 너 이제 스물여덟이지, 아직도 모태솔로냐?"
+      },
+      {
+       "speaker": "B",
+       "text": "怎么了,单身怎么了,我这叫享受自由。",
+       "pinyin": "Zěnme le, dānshēn zěnme le, wǒ zhè jiào xiǎngshòu zìyóu.",
+       "ko": "왜, 솔로가 뭐 어때서, 이건 자유를 즐기는 거라고 하는 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "别自我安慰了,你这是标准的母胎单身,从小到大没谈过恋爱。",
+       "pinyin": "Bié zìwǒ ānwèi le, nǐ zhè shì biāozhǔn de mǔtāi dānshēn, cóngxiǎo dàodà méi tán guò liàn'ài.",
+       "ko": "자기 위로 그만해, 너 완전 정석 모태솔로잖아, 어릴 때부터 지금까지 연애 한 번도 못해봤으면서."
+      },
+      {
+       "speaker": "B",
+       "text": "你才酸呢,你自己天天跟对象吵架吵得死去活来,还不如我一个人自在。",
+       "pinyin": "Nǐ cái suān ne, nǐ zìjǐ tiāntiān gēn duìxiàng chǎojià chǎo de sǐqùhuólái, hái bùrú wǒ yīgè rén zìzài.",
+       "ko": "너나 배 아파하지 마셔, 너는 맨날 애인이랑 죽어라 싸우던데, 나 혼자가 훨씬 편하겠다."
+      },
+      {
+       "speaker": "A",
+       "text": "哈哈哈,行行行,算你厉害,那你打算单身到什么时候啊?",
+       "pinyin": "Hāhāhā, xíng xíng xíng, suàn nǐ lìhài, nà nǐ dǎsuàn dānshēn dào shénme shíhou a?",
+       "ko": "하하하, 그래 그래, 너 대단하다, 그래서 언제까지 솔로할 건데?"
+      },
+      {
+       "speaker": "B",
+       "text": "缘分到了自然就有了,我又不着急,总比随便找一个凑合强。",
+       "pinyin": "Yuánfèn dào le zìrán jiù yǒu le, wǒ yòu bù zháojí, zǒng bǐ suíbiàn zhǎo yīgè còuhé qiáng.",
+       "ko": "인연이 오면 자연스럽게 생기겠지, 나 급할 것도 없고, 아무나 대충 만나는 것보다 낫지."
+      },
+      {
+       "speaker": "A",
+       "text": "说得好像很有道理的样子,行吧,祝你早日脱单。",
+       "pinyin": "Shuō de hǎoxiàng hěn yǒu dàolǐ de yàngzi, xíng ba, zhù nǐ zǎorì tuōdān.",
+       "ko": "말은 되게 그럴싸하게 하네, 알았어, 얼른 솔로 탈출하길 바랄게."
+      },
+      {
+       "speaker": "B",
+       "text": "谢谢,不过我现在过得挺好的,你少替我操心。",
+       "pinyin": "Xièxie, bùguò wǒ xiànzài guò de tǐng hǎo de, nǐ shǎo tì wǒ cāoxīn.",
+       "ko": "고마워, 근데 나 지금 꽤 잘 지내고 있으니까 걱정 좀 그만해."
+      }
+     ],
+     "note": "单身狗는 자기 비하로 쓰는 '솔로 신세' 표현이고 母胎单身은 '모태솔로'에 딱 맞는 표현이에요. 酸은 원래 '시다'인데 여기선 남 잘되는 거 질투하는 '배 아파하다'는 뜻으로 쓰였어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 7,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-011",
+    "text": "The world is big — take your time seeing it.",
+    "source": "Modern Proverb",
+    "ko": "세상은 넓으니, 천천히 둘러봐도 괜찮다."
+   },
+   "zh": {
+    "id": "qzh-012",
+    "text": "心宽一寸，路宽一丈。",
+    "pinyin": "Xīn kuān yí cùn, lù kuān yí zhàng.",
+    "source": "现代语录",
+    "ko": "마음이 한 치 넓어지면, 길은 한 장만큼 넓어진다."
+   }
+  }
+ },
+ {
   "date": "2026-08-23",
   "en": {
    "level": 3,
