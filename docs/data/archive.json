@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-25",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-008",
+     "situation": "친구가 책임 떠넘기는 것에 대해 이야기하기",
+     "key_expressions": [
+      "throw someone under the bus",
+      "make a scene",
+      "get away with it"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I'm still annoyed about what happened with the group project.",
+       "ko": "나 아직도 그 조모임 프로젝트 일 생각하면 열받아."
+      },
+      {
+       "speaker": "B",
+       "text": "What happened?",
+       "ko": "무슨 일 있었는데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Sarah completely threw me under the bus when the professor asked who missed the deadline. It was her part that was late!",
+       "ko": "사라가 교수님이 누가 마감 놓쳤냐고 물어보니까 완전 나한테 책임 떠넘기더라. 자기 파트가 늦은 거였는데!"
+      },
+      {
+       "speaker": "B",
+       "text": "Wow, that's messed up. Did you say anything?",
+       "ko": "와, 진짜 어이없다. 뭐라고 했어?"
+      },
+      {
+       "speaker": "A",
+       "text": "I just stood there. I froze up because I didn't want to make a scene, but I've been fuming about it since.",
+       "ko": "그냥 가만히 있었어. 소란 만들기 싫어서 얼어붙었는데, 그 이후로 계속 열받아 있어."
+      },
+      {
+       "speaker": "B",
+       "text": "You should've called her out on it. Next time, don't let her get away with it.",
+       "ko": "그때 바로 지적했어야지. 다음엔 절대 그냥 넘어가게 두지 마."
+      }
+     ],
+     "note": "get away with it은 잘못하고도 처벌 없이 넘어가는 거. 억울한 상황 얘기할 때 자주 써요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 8,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-008",
+     "situation": "갑자기 연락 끊긴 썸 상대 이야기하기",
+     "key_expressions": [
+      "人间蒸发",
+      "失联",
+      "暧昧"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我跟你说,那个跟我暧昧了两个月的男生,突然人间蒸发了。",
+       "pinyin": "Wǒ gēn nǐ shuō, nàge gēn wǒ àimèi le liǎng ge yuè de nánshēng, tūrán rénjiān zhēngfā le.",
+       "ko": "있잖아, 나랑 두 달 동안 썸 타던 그 남자애, 갑자기 연락이 뚝 끊겼어."
+      },
+      {
+       "speaker": "B",
+       "text": "什么意思,失联了?",
+       "pinyin": "Shénme yìsi, shīlián le?",
+       "ko": "무슨 말이야, 잠수 탄 거야?"
+      },
+      {
+       "speaker": "A",
+       "text": "对,前几天还聊得好好的,说周末要见面,结果这几天消息不回,电话也不接。",
+       "pinyin": "Duì, qián jǐ tiān hái liáo de hǎohāo de, shuō zhōumò yào jiànmiàn, jiéguǒ zhè jǐ tiān xiāoxi bù huí, diànhuà yě bù jiē.",
+       "ko": "응, 며칠 전까지만 해도 잘 얘기하고 주말에 만나자고 했는데, 요 며칠 메시지도 안 읽고 전화도 안 받아."
+      },
+      {
+       "speaker": "B",
+       "text": "这也太过分了吧,好歹说一声啊,搞得跟玩失踪似的。",
+       "pinyin": "Zhè yě tài guòfèn le ba, hǎodǎi shuō yī shēng a, gǎo de gēn wán shīzōng shìde.",
+       "ko": "그건 너무 심하다, 한마디라도 해야지, 완전 잠수 이별이네."
+      },
+      {
+       "speaker": "A",
+       "text": "我一开始还以为他手机坏了,后来发现他朋友圈都还在更新,就是不理我。",
+       "pinyin": "Wǒ yī kāishǐ hái yǐwéi tā shǒujī huài le, hòulái fāxiàn tā péngyǒuquān dōu hái zài gēngxīn, jiùshì bù lǐ wǒ.",
+       "ko": "처음엔 휴대폰 고장 났나 했는데, 나중에 보니까 모멘트는 계속 올리더라고, 그냥 나만 무시하는 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "那就是纯纯的渣男行为,连个交代都不给。",
+       "pinyin": "Nà jiùshì chúnchún de zhānán xíngwéi, lián ge jiāodài dōu bù gěi.",
+       "ko": "그건 그냥 완전 나쁜 남자 짓이네, 최소한의 설명도 안 해주고."
+      },
+      {
+       "speaker": "A",
+       "text": "我也是服了自己,还傻乎乎地等回复,现在想想挺丢人的。",
+       "pinyin": "Wǒ yě shì fúle zìjǐ, hái shǎhūhū de děng huífù, xiànzài xiǎngxiǎng tǐng diūrén de.",
+       "ko": "나도 참 어이없어, 그런 걸 바보같이 답장 기다리고 있었으니, 지금 생각하면 좀 창피해."
+      },
+      {
+       "speaker": "B",
+       "text": "别往心里去,这种说没就没的人,不值得你难过。",
+       "pinyin": "Bié wǎng xīnli qù, zhè zhǒng shuō méi jiù méi de rén, bùzhí de nǐ nánguò.",
+       "ko": "마음에 담아두지 마, 그렇게 갑자기 사라지는 사람은 네가 슬퍼할 가치도 없어."
+      }
+     ],
+     "note": "人间蒸发는 '인간 증발' 즉 갑자기 연락 끊고 사라지는 걸 재미있게 표현한 말이에요. 暧昧는 사귀기 전 애매한 썸 타는 관계를 말할 때 딱 맞는 단어예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 8,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-012",
+    "text": "An inch more patience makes the road a mile wider.",
+    "source": "Modern Proverb",
+    "ko": "한 치의 인내가 길을 한 장만큼 넓혀준다."
+   },
+   "zh": {
+    "id": "qzh-013",
+    "text": "不急不躁，静待花开。",
+    "pinyin": "Bù jí bú zào, jìng dài huā kāi.",
+    "source": "现代语录",
+    "ko": "조급해하지 말고, 고요히 꽃 피기를 기다려라."
+   }
+  }
+ },
+ {
   "date": "2026-08-24",
   "en": {
    "level": 3,
