@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-26",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-009",
+     "situation": "갑자기 연락 끊긴 상대에 대해 얘기하기",
+     "key_expressions": [
+      "ghost",
+      "radio silence",
+      "his loss"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So, update on the guy from the dating app. He straight up ghosted me.",
+       "ko": "아, 그 데이팅 앱남 업데이트, 나 완전 잠수 이별 당했어."
+      },
+      {
+       "speaker": "B",
+       "text": "No way. After three months of talking every day?",
+       "ko": "말도 안 돼. 매일 세 달 동안 얘기하다가?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yep. One day he was texting me good morning, the next day radio silence. It's been two weeks now.",
+       "ko": "응. 어제까지 굿모닝 문자 보내다가 그다음 날부터 완전 무응답. 벌써 2주째야."
+      },
+      {
+       "speaker": "B",
+       "text": "That's brutal. Did you try reaching out again?",
+       "ko": "진짜 심하다. 다시 연락해봤어?"
+      },
+      {
+       "speaker": "A",
+       "text": "I sent one more text and then I told myself I'm not chasing someone who can't even send a paragraph explaining why.",
+       "ko": "문자 한 번 더 보내고, 그다음엔 그냥 이유 한 줄도 못 쓰는 사람 쫓아다니지 말자고 마음먹었어."
+      },
+      {
+       "speaker": "B",
+       "text": "Good. His loss. You deserve someone who actually shows up.",
+       "ko": "잘했어. 걔 손해지. 넌 진짜 곁에 있어주는 사람 만날 자격 있어."
+      }
+     ],
+     "note": "ghost는 이제 거의 필수 슬랭이에요. 연락 뚝 끊고 사라지는 거, 데이팅 얘기할 때 무조건 나와요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 9,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-009",
+     "situation": "분위기 파악 못하는 후배 흉보기",
+     "key_expressions": [
+      "不会看眼色",
+      "尴尬",
+      "情商低"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "今天开会的时候你注意到没有,新来的小林又抢话了。",
+       "pinyin": "Jīntiān kāihuì de shíhou nǐ zhùyì dào méiyǒu, xīn lái de Xiǎo Lín yòu qiǎnghuà le.",
+       "ko": "오늘 회의 때 봤어? 새로 온 샤오린 또 말 끊고 끼어들더라."
+      },
+      {
+       "speaker": "B",
+       "text": "何止抢话,领导都皱眉头了他还在那儿滔滔不绝。",
+       "pinyin": "Hézhǐ qiǎnghuà, lǐngdǎo dōu zhòu méitóu le tā hái zài nàr tāotāobùjué.",
+       "ko": "끼어드는 정도가 아니지, 팀장님이 미간을 찌푸리는데도 혼자 계속 떠들던데."
+      },
+      {
+       "speaker": "A",
+       "text": "就是,气氛都尴尬成那样了,他一点都感觉不到。",
+       "pinyin": "Jiùshì, qìfēn dōu gāngà chéng nàyàng le, tā yīdiǎn dōu gǎnjué bùdào.",
+       "ko": "그러니까, 분위기가 그렇게 어색해졌는데 걔는 전혀 눈치를 못 채더라."
+      },
+      {
+       "speaker": "B",
+       "text": "这孩子情商是真的低,完全不会看眼色。",
+       "pinyin": "Zhè háizi qíngshāng shì zhēn de dī, wánquán bùhuì kàn yǎnsè.",
+       "ko": "걔는 진짜 눈치가 없어, 상황 파악을 아예 못해."
+      },
+      {
+       "speaker": "A",
+       "text": "而且他还老爱在大家面前秀自己多厉害,显得特别刺眼。",
+       "pinyin": "Érqiě tā hái lǎo ài zài dàjiā miànqián xiù zìjǐ duō lìhài, xiǎnde tèbié cìyǎn.",
+       "ko": "게다가 맨날 사람들 앞에서 자기 잘난 거 티내려고 하는 게 너무 거슬려."
+      },
+      {
+       "speaker": "B",
+       "text": "我们私下都提醒过他好几次了,他就是记不住。",
+       "pinyin": "Wǒmen sīxià dōu tíxǐng guò tā hǎo jǐ cì le, tā jiùshì jìbùzhù.",
+       "ko": "우리가 몰래 몇 번이나 알려줬는데도, 걔는 계속 기억을 못 하더라."
+      },
+      {
+       "speaker": "A",
+       "text": "唉,新人嘛,慢慢磨吧,不然以后指定要吃亏。",
+       "pinyin": "Āi, xīnrén ma, mànmàn mó ba, bùrán yǐhòu zhǐdìng yào chīkuī.",
+       "ko": "하... 신입이니까 천천히 다듬어지겠지, 안 그러면 나중에 분명 손해 볼 텐데."
+      },
+      {
+       "speaker": "B",
+       "text": "但愿他能早点开窍,不然真的挺让人头疼的。",
+       "pinyin": "Dànyuàn tā néng zǎodiǎn kāiqiào, bùrán zhēnde tǐng ràng rén tóuténg de.",
+       "ko": "빨리 철 좀 들었으면 좋겠다, 안 그러면 진짜 골치 아프겠어."
+      }
+     ],
+     "note": "看眼色는 '눈치를 보다/살피다'라는 뜻으로 분위기 파악 못하는 사람 얘기할 때 자주 나와요. 情商低는 '감성지수(EQ)가 낮다' 즉 눈치 없고 배려 없는 사람을 가리켜요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 9,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-013",
+    "text": "Don't rush, just wait quietly for the flowers to bloom.",
+    "source": "Modern Proverb",
+    "ko": "조급해하지 말고, 고요히 꽃이 피기를 기다려라."
+   },
+   "zh": {
+    "id": "qzh-014",
+    "text": "时间会给你答案。",
+    "pinyin": "Shíjiān huì gěi nǐ dá'àn.",
+    "source": "现代语录",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   }
+  }
+ },
+ {
   "date": "2026-08-25",
   "en": {
    "level": 3,
