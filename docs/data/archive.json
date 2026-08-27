@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-28",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-010",
+     "situation": "분위기 파악 못하는 동료 흉보기",
+     "key_expressions": [
+      "read the room",
+      "pull someone aside",
+      "cringe"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Did you see Peter cracking jokes during the layoff announcement meeting?",
+       "ko": "피터가 정리해고 발표 회의 중에 농담 던지는 거 봤어?"
+      },
+      {
+       "speaker": "B",
+       "text": "I couldn't believe it. People were literally in tears and he's over there doing stand-up comedy.",
+       "ko": "진짜 못 믿겠더라. 사람들은 완전 울고 있는데 걔는 저기서 스탠드업 코미디 하고 있고."
+      },
+      {
+       "speaker": "A",
+       "text": "He seriously cannot read the room. It's like he lives on a different planet.",
+       "ko": "걔는 진짜 분위기 파악을 못 해. 다른 행성에서 사는 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "I know. Someone needs to pull him aside and explain that timing matters.",
+       "ko": "그니까. 누가 좀 따로 불러서 타이밍이라는 게 있다고 설명해줘야 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "Honestly at this point I just cringe every time he opens his mouth.",
+       "ko": "솔직히 이제는 걔가 입 열 때마다 그냥 오글거려."
+      },
+      {
+       "speaker": "B",
+       "text": "Same. Let's just hope he doesn't say anything at the town hall next week.",
+       "ko": "나도 그래. 다음 주 전체 회의 때는 제발 아무 말도 안 했으면 좋겠다."
+      }
+     ],
+     "note": "read the room은 분위기 파악한다는 뜻, 못 읽는 사람 얘기할 땐 can't read the room으로 쓰면 돼요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 10,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-010",
+     "situation": "승진 탈락 후 자조하기",
+     "key_expressions": [
+      "内卷",
+      "摆烂",
+      "emo了"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "升职名单出来了,又没有我。",
+       "pinyin": "Shēngzhí míngdān chūlái le, yòu méiyǒu wǒ.",
+       "ko": "승진자 명단 나왔는데, 또 나는 없어."
+      },
+      {
+       "speaker": "B",
+       "text": "啊?不是说你这次呼声最高吗?",
+       "pinyin": "À? Bùshì shuō nǐ zhè cì hūshēng zuì gāo ma?",
+       "ko": "어? 이번엔 네가 제일 유력하다고 하지 않았어?"
+      },
+      {
+       "speaker": "A",
+       "text": "呼声高有什么用,最后还是被空降的人截胡了。",
+       "pinyin": "Hūshēng gāo yǒu shénme yòng, zuìhòu háishì bèi kōngjiàng de rén jiéhú le.",
+       "ko": "유력하면 뭐 해, 결국 낙하산으로 온 사람한테 가로채였는데."
+      },
+      {
+       "speaker": "B",
+       "text": "太气人了,你辛辛苦苦干了一年,凭什么。",
+       "pinyin": "Tài qìrén le, nǐ xīnxīnkǔkǔ gàn le yī nián, píng shénme.",
+       "ko": "진짜 열받네, 너 일 년 동안 그렇게 고생했는데 왜."
+      },
+      {
+       "speaker": "A",
+       "text": "没办法,现在职场内卷成这样,努力都不一定有回报。",
+       "pinyin": "Méi bànfǎ, xiànzài zhíchǎng nèijuǎn chéng zhèyàng, nǔlì dōu bùyīdìng yǒu huíbào.",
+       "ko": "어쩔 수 없지, 요즘 회사가 워낙 다들 과열 경쟁이라, 노력한다고 꼭 보상받는 것도 아니고."
+      },
+      {
+       "speaker": "B",
+       "text": "你别太emo了,这次没成,下次机会还多着呢。",
+       "pinyin": "Nǐ bié tài emo le, zhè cì méi chéng, xiàcì jīhuì hái duō zhe ne.",
+       "ko": "너무 우울해하지 마, 이번에 안 됐어도 다음 기회는 또 많아."
+      },
+      {
+       "speaker": "A",
+       "text": "算了,我最近干脆就摆烂了,反正努力也不一定被看见。",
+       "pinyin": "Suànle, wǒ zuìjìn gāncuì jiù bǎilàn le, fǎnzhèng nǔlì yě bùyīdìng bèi kànjiàn.",
+       "ko": "됐어, 나 요즘 그냥 될 대로 되라는 심정이야, 어차피 노력해도 안 보이나 봐."
+      },
+      {
+       "speaker": "B",
+       "text": "话不能这么说,你先缓两天,别真的自暴自弃了。",
+       "pinyin": "Huà bùnéng zhème shuō, nǐ xiān huǎn liǎng tiān, bié zhēnde zìbàozìqì le.",
+       "ko": "그렇게 말하지 마, 며칠 쉬면서 마음 좀 추스르고, 진짜로 자포자기하진 마."
+      }
+     ],
+     "note": "内卷은 '제로섬 경쟁, 과열 경쟁'을 뜻하는 요즘 뜨는 신조어이고 摆烂은 '그냥 대충 살자, 노력 포기' 느낌의 자조적 표현이에요. emo了는 영어 emo에서 온 신조어로 '우울해지다'라는 뜻이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 10,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-014",
+    "text": "Time will give you the answer.",
+    "source": "Modern Proverb",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   },
+   "zh": {
+    "id": "qzh-015",
+    "text": "走慢一点，风景不会跑。",
+    "pinyin": "Zǒu màn yìdiǎn, fēngjǐng bú huì pǎo.",
+    "source": "现代语录",
+    "ko": "조금 천천히 걸어도, 풍경은 도망가지 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-08-26",
   "en": {
    "level": 3,
