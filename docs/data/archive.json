@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-08-29",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-011",
+     "situation": "회사 승진 탈락 후 위로하기",
+     "key_expressions": [
+      "take it personally",
+      "burn out",
+      "over (something)"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Hey, I heard about the promotion. I'm really sorry, Alicia.",
+       "ko": "저기, 승진 소식 들었어. 진짜 안됐다, 알리샤."
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah. Three years of overtime and they gave it to the guy who joined last year.",
+       "ko": "응. 3년 동안 야근했는데 작년에 들어온 사람한테 자리를 줬어."
+      },
+      {
+       "speaker": "A",
+       "text": "That's rough. Did they give you any real reason?",
+       "ko": "그거 진짜 힘들겠다. 제대로 된 이유는 말해줬어?"
+      },
+      {
+       "speaker": "B",
+       "text": "Just some vague nonsense about leadership potential. I'm trying not to take it personally, but honestly, I'm crushed.",
+       "ko": "그냥 리더십 잠재력 어쩌고 하는 애매한 소리뿐이었어. 개인적으로 받아들이지 않으려고 하는데, 솔직히 그냥 무너지겠어."
+      },
+      {
+       "speaker": "A",
+       "text": "You have every right to be upset. Just don't let it burn you out completely. You're better than this place gives you credit for.",
+       "ko": "속상해할 자격 충분해. 그래도 이것 때문에 완전 번아웃되진 마. 넌 이 회사가 인정하는 것보다 훨씬 나은 사람이야."
+      },
+      {
+       "speaker": "B",
+       "text": "Thanks. I might just start looking elsewhere. I'm so over playing this game.",
+       "ko": "고마워. 그냥 다른 데 알아볼까 봐. 이 게임 하는 거 진짜 지쳤어."
+      }
+     ],
+     "note": "I'm so over ~는 뭔가에 완전히 질렸다, 지쳤다는 감정 표현할 때 딱 맞는 캐주얼한 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 11,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-011",
+     "situation": "친구 뒷담화 듣고 맞장구치기",
+     "key_expressions": [
+      "塑料姐妹情",
+      "背后",
+      "装"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "跟你说个事儿,你可别往外传啊。",
+       "pinyin": "Gēn nǐ shuō ge shì, nǐ kě bié wǎngwài chuán a.",
+       "ko": "내가 얘기 하나 할 건데, 너 절대 밖에 말하면 안 돼."
+      },
+      {
+       "speaker": "B",
+       "text": "放心,你说,我嘴严着呢。",
+       "pinyin": "Fàngxīn, nǐ shuō, wǒ zuǐ yán zhe ne.",
+       "ko": "걱정 마, 말해봐, 내 입 무거운 거 알잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "就是小美,上次当着我的面夸我衣服好看,结果转头就跟别人说我审美差。",
+       "pinyin": "Jiùshì Xiǎoměi, shàng cì dāngzhe wǒ de miàn kuā wǒ yīfu hǎokàn, jiéguǒ zhuǎntóu jiù gēn biérén shuō wǒ shěnměi chà.",
+       "ko": "다름 아니라 샤오메이 있잖아, 저번에 내 앞에서는 옷 예쁘다고 칭찬해놓고, 돌아서서는 다른 사람한테 내 안목 별로라고 했대."
+      },
+      {
+       "speaker": "B",
+       "text": "真的假的?她当面一套背后一套啊。",
+       "pinyin": "Zhēn de jiǎ de? Tā dāngmiàn yī tào bèihòu yī tào a.",
+       "ko": "진짜? 앞에서랑 뒤에서랑 완전 다르네."
+      },
+      {
+       "speaker": "A",
+       "text": "可不是嘛,我们俩认识这么久,我一直以为她真心待我。",
+       "pinyin": "Kě bùshì ma, wǒmen liǎ rènshi zhème jiǔ, wǒ yīzhí yǐwéi tā zhēnxīn dài wǒ.",
+       "ko": "그러니까 말이야, 우리 알고 지낸 지 이렇게 오래됐는데, 난 걔가 진심으로 대해주는 줄 알았어."
+      },
+      {
+       "speaker": "B",
+       "text": "这就是典型的塑料姐妹情啊,表面上好得穿一条裤子,背地里互相捅刀子。",
+       "pinyin": "Zhè jiùshì diǎnxíng de sùliào jiěmèi qíng a, biǎomiàn shàng hǎo de chuān yī tiáo kùzi, bèidì lǐ hùxiāng tǒng dāozi.",
+       "ko": "그게 딱 전형적인 겉만 친한 척하는 우정이지, 겉으론 완전 붙어다니면서 뒤에서는 서로 칼 꽂는 거잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "我现在想想以前的事儿,好多细节都对上了,她根本没把我当朋友。",
+       "pinyin": "Wǒ xiànzài xiǎngxiǎng yǐqián de shìr, hǎoduō xìjié dōu duì shàng le, tā gēnběn méi bǎ wǒ dàng péngyǒu.",
+       "ko": "지금 생각해보니까 예전 일들도 여러 개 딱 들어맞더라, 걔는 애초에 나를 친구로 생각 안 했던 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "你也别太难过,这种人早晚会让别人看清她的真面目。",
+       "pinyin": "Nǐ yě bié tài nánguò, zhè zhǒng rén zǎowǎn huì ràng biérén kànqīng tā de zhēnmiànmù.",
+       "ko": "너무 속상해하지 마, 그런 애들은 언젠가 다른 사람들도 본모습을 알게 될 거야."
+      }
+     ],
+     "note": "塑料姐妹情는 '플라스틱 자매애'라는 뜻으로 겉으로만 친한 척하는 가짜 우정을 비꼬는 요즘 유행어예요. 一套一套는 여기서 '앞뒤가 다르다'는 뉘앙스로 쓰였어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 11,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-015",
+    "text": "Walk slowly — the scenery isn't going anywhere.",
+    "source": "Modern Proverb",
+    "ko": "천천히 걸어도 돼, 풍경은 도망가지 않는다."
+   },
+   "zh": {
+    "id": "qzh-016",
+    "text": "越努力，越幸运。",
+    "pinyin": "Yuè nǔlì, yuè xìngyùn.",
+    "source": "现代语录",
+    "ko": "노력할수록, 운도 따라온다."
+   }
+  }
+ },
+ {
   "date": "2026-08-28",
   "en": {
    "level": 3,
