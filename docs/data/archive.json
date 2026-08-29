@@ -1,5 +1,158 @@
 [
  {
+  "date": "2026-08-30",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-012",
+     "situation": "친구의 뒷담화를 듣고 반응하기",
+     "key_expressions": [
+      "talk behind someone's back",
+      "take over",
+      "deserve to know"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Okay, I have to tell you something, but please don't say I told you.",
+       "ko": "저기, 나 뭐 하나 말해줄 게 있는데, 내가 말했다고는 하지 마."
+      },
+      {
+       "speaker": "B",
+       "text": "Now I'm nervous. What's going on?",
+       "ko": "이제 긴장되네. 무슨 일인데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Someone told me Chloe's been talking behind your back about the trip you planned.",
+       "ko": "누가 그러던데 클로이가 네가 계획한 여행 얘기 뒷담화하고 다닌대."
+      },
+      {
+       "speaker": "B",
+       "text": "Seriously? What did she say?",
+       "ko": "진짜? 뭐라고 했는데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Apparently she said you always take over and never ask anyone what they actually want to do.",
+       "ko": "네가 항상 다 좌지우지하고 다른 사람들이 뭘 원하는지는 물어본 적도 없다고 했대."
+      },
+      {
+       "speaker": "B",
+       "text": "Wow. If she had a problem, she should've just told me instead of talking behind my back.",
+       "ko": "와. 문제가 있었으면 뒷담화할 게 아니라 그냥 나한테 말했어야지."
+      },
+      {
+       "speaker": "A",
+       "text": "I agree. I just thought you deserved to know.",
+       "ko": "나도 그렇게 생각해. 그냥 너도 알아야 할 것 같아서."
+      }
+     ],
+     "note": "talk behind someone's back은 당사자 없는 데서 욕하거나 흉보는 것. 친구 뒷담화 얘기할 때 기본 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 12,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-012",
+     "situation": "회사에서 부당한 지시 받고 하소연하기",
+     "key_expressions": [
+      "甩锅",
+      "憋屈",
+      "穿小鞋"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我们领导今天又给我派了个烂摊子,还不是我的活儿。",
+       "pinyin": "Wǒmen lǐngdǎo jīntiān yòu gěi wǒ pài le ge làntānzi, hái bùshì wǒ de huór.",
+       "ko": "우리 팀장님이 오늘 또 나한테 골치 아픈 일 떠넘겼어, 원래 내 일도 아닌데."
+      },
+      {
+       "speaker": "B",
+       "text": "怎么回事,详细说说。",
+       "pinyin": "Zěnme huí shì, xiángxì shuōshuo.",
+       "ko": "무슨 일인데, 자세히 말해봐."
+      },
+      {
+       "speaker": "A",
+       "text": "就是别的部门搞砸的项目,领导直接甩锅让我来收拾,加班加点地干。",
+       "pinyin": "Jiùshì bié de bùmén gǎozá de xiàngmù, lǐngdǎo zhíjiē shuǎiguō ràng wǒ lái shōushi, jiābāndiǎn de gàn.",
+       "ko": "다른 부서에서 망친 프로젝트인데, 팀장님이 그냥 나한테 떠넘기면서 수습하라는 거야, 야근까지 해가면서."
+      },
+      {
+       "speaker": "B",
+       "text": "这不合理啊,凭什么让你背这个锅。",
+       "pinyin": "Zhè bù hélǐ a, píng shénme ràng nǐ bēi zhège guō.",
+       "ko": "그건 말이 안 되잖아, 왜 네가 그걸 뒤집어써."
+      },
+      {
+       "speaker": "A",
+       "text": "我也想反驳,可领导一句话堵回来,说这是锻炼我的机会。",
+       "pinyin": "Wǒ yě xiǎng fǎnbó, kě lǐngdǎo yī jù huà dǔ huílái, shuō zhè shì duànliàn wǒ de jīhuì.",
+       "ko": "나도 반박하고 싶었지, 근데 팀장님이 한마디로 막아버리더라, 이게 널 단련시키는 기회라고."
+      },
+      {
+       "speaker": "B",
+       "text": "什么锻炼机会,分明就是欺负你老实。",
+       "pinyin": "Shénme duànliàn jīhuì, fēnmíng jiùshì qīfù nǐ lǎoshi.",
+       "ko": "무슨 단련 기회야, 그냥 네가 착해서 만만하게 보는 거지."
+      },
+      {
+       "speaker": "A",
+       "text": "我现在真的很憋屈,干得多错得多,功劳还都是别人的。",
+       "pinyin": "Wǒ xiànzài zhēnde hěn biēqu, gàn de duō cuò de duō, gōngláo hái dōu shì biérén de.",
+       "ko": "나 지금 진짜 억울해, 할수록 실수만 늘고, 공은 다 남이 가져가고."
+      },
+      {
+       "speaker": "B",
+       "text": "你要是一直忍着,以后这种事只会越来越多,得学会拒绝。",
+       "pinyin": "Nǐ yàoshi yīzhí rěn zhe, yǐhòu zhè zhǒng shì zhǐhuì yuèláiyuè duō, děi xuéhuì jùjué.",
+       "ko": "계속 참고만 있으면 앞으로 이런 일 더 많아질 거야, 거절하는 법도 배워야 해."
+      },
+      {
+       "speaker": "A",
+       "text": "我知道,可真到跟前又不敢说,怕被穿小鞋。",
+       "pinyin": "Wǒ zhīdào, kě zhēn dào gēnqián yòu bùgǎn shuō, pà bèi chuān xiǎoxié.",
+       "ko": "나도 알아, 근데 막상 눈앞에 닥치면 말을 못 하겠어, 찍힐까 봐 무섭기도 하고."
+      }
+     ],
+     "note": "甩锅는 여기서도 '책임 떠넘기기'로 쓰였고, 穿小鞋는 '작은 신발을 신기다'가 원뜻인데 윗사람이 뒤에서 불이익을 주는 것을 뜻하는 관용구예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 12,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-016",
+    "text": "The harder you try, the luckier you get.",
+    "source": "Modern Proverb",
+    "ko": "노력할수록 운도 따라온다."
+   },
+   "zh": {
+    "id": "qzh-017",
+    "text": "你要相信，总有人在等你。",
+    "pinyin": "Nǐ yào xiāngxìn, zǒng yǒu rén zài děng nǐ.",
+    "source": "现代语录",
+    "ko": "믿어봐, 언제나 누군가는 너를 기다리고 있어."
+   }
+  }
+ },
+ {
   "date": "2026-08-29",
   "en": {
    "level": 3,
