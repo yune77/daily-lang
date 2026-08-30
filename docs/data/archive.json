@@ -1,5 +1,152 @@
 [
  {
+  "date": "2026-08-31",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-013",
+     "situation": "직장에서 부당한 대우 항의하기",
+     "key_expressions": [
+      "leave someone out",
+      "get the short end of the stick",
+      "treated fairly"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Frank, I need to talk to you about how the client complaint was handled.",
+       "ko": "프랭크, 저번 고객 컴플레인 처리 방식에 대해서 얘기 좀 해야 할 것 같아요."
+      },
+      {
+       "speaker": "B",
+       "text": "Sure, what's on your mind?",
+       "ko": "그래, 무슨 얘긴데?"
+      },
+      {
+       "speaker": "A",
+       "text": "I was the one who fixed the issue, but in the email to the client, you only credited the team lead. That's not okay.",
+       "ko": "문제 해결한 건 저였는데, 고객한테 보낸 메일에는 팀장님만 언급하셨더라고요. 그건 좀 아니라고 생각해요."
+      },
+      {
+       "speaker": "B",
+       "text": "I didn't mean to leave you out, I just summarized it quickly.",
+       "ko": "일부러 뺀 건 아니고 그냥 빨리 요약하다 보니까 그렇게 됐어."
+      },
+      {
+       "speaker": "A",
+       "text": "With respect, this isn't the first time. I feel like I keep getting the short end of the stick on credit.",
+       "ko": "죄송하지만, 이번이 처음이 아니에요. 저는 계속 공을 제대로 못 받는 것 같아요."
+      },
+      {
+       "speaker": "B",
+       "text": "That's fair feedback. Let me send a follow-up giving you proper credit.",
+       "ko": "맞는 지적이네. 정정 메일 보내서 제대로 크레딧 넣을게."
+      },
+      {
+       "speaker": "A",
+       "text": "I'd appreciate that. I just want to be treated fairly here.",
+       "ko": "그래 주시면 감사하겠어요. 그냥 여기서 공정하게 대우받고 싶어요."
+      }
+     ],
+     "note": "short end of the stick은 불공평하게 손해 보는 쪽에 있다는 뜻. 회사에서 부당한 대우 항의할 때 유용해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 13,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-013",
+     "situation": "소원해진 옛 친구와 재회하기",
+     "key_expressions": [
+      "生疏",
+      "默契",
+      "疏远"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "哎,好久不见,都快五年了吧。",
+       "pinyin": "Āi, hǎojiǔ bùjiàn, dōu kuài wǔ nián le ba.",
+       "ko": "야, 오랜만이다, 거의 5년 만이지."
+      },
+      {
+       "speaker": "B",
+       "text": "是啊,时间过得真快,你都没怎么变。",
+       "pinyin": "Shì a, shíjiān guò de zhēn kuài, nǐ dōu méi zěnme biàn.",
+       "ko": "그러게, 시간 진짜 빠르다, 너는 별로 안 변했네."
+      },
+      {
+       "speaker": "A",
+       "text": "你也是,就是感觉咱俩现在见面有点生疏了。",
+       "pinyin": "Nǐ yě shì, jiùshì gǎnjué zán liǎ xiànzài jiànmiàn yǒudiǎn shēngshū le.",
+       "ko": "너도 그래, 근데 우리 지금 좀 서먹서먹해진 느낌이야."
+      },
+      {
+       "speaker": "B",
+       "text": "确实,以前天天腻在一起,现在见一面都得提前预约。",
+       "pinyin": "Quèshí, yǐqián tiāntiān nì zài yīqǐ, xiànzài jiàn yī miàn dōu děi tíqián yùyuē.",
+       "ko": "맞아, 예전엔 매일 붙어 다녔는데, 지금은 한 번 만나는 것도 미리 약속을 잡아야 하네."
+      },
+      {
+       "speaker": "A",
+       "text": "也不是故意疏远,就是各自忙,慢慢就联系少了。",
+       "pinyin": "Yě bùshì gùyì shūyuǎn, jiùshì gèzì máng, mànmàn jiù liánxì shǎo le.",
+       "ko": "일부러 멀어진 건 아니고, 각자 바쁘다 보니까 자연스럽게 연락이 줄었어."
+      },
+      {
+       "speaker": "B",
+       "text": "我明白,大家都有自己的生活,没法像学生时代那样。",
+       "pinyin": "Wǒ míngbái, dàjiā dōu yǒu zìjǐ de shēnghuó, méi fǎ xiàng xuéshēng shídài nàyàng.",
+       "ko": "이해해, 다들 자기 삶이 있으니까, 학창 시절처럼 지낼 순 없지."
+      },
+      {
+       "speaker": "A",
+       "text": "不过今天见到你还是挺开心的,感觉那种默契还在。",
+       "pinyin": "Bùguò jīntiān jiàndào nǐ háishì tǐng kāixīn de, gǎnjué nà zhǒng mòqì hái zài.",
+       "ko": "그래도 오늘 너 만나니까 진짜 반갑다, 그 예전 케미는 여전한 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "对啊,以后可别再断了联系,多联系联系。",
+       "pinyin": "Duì a, yǐhòu kě bié zài duàn le liánxì, duō liánxì liánxì.",
+       "ko": "맞아, 앞으로 다시는 연락 끊기지 말자, 자주 연락하자."
+      }
+     ],
+     "note": "生疏는 '서먹서먹하다, 낯설어지다'라는 뜻으로 오랜만에 만난 사이의 어색함을 표현할 때 잘 어울려요. 默契는 '말 안 해도 통하는 호흡, 케미'를 뜻해요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 13,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-017",
+    "text": "Someone, somewhere, is waiting for you.",
+    "source": "Modern Proverb",
+    "ko": "어딘가에서 누군가는 늘 너를 기다리고 있다."
+   },
+   "zh": {
+    "id": "qzh-018",
+    "text": "做自己，比什么都重要。",
+    "pinyin": "Zuò zìjǐ, bǐ shénme dōu zhòngyào.",
+    "source": "现代语录",
+    "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
+   }
+  }
+ },
+ {
   "date": "2026-08-30",
   "en": {
    "level": 3,
