@@ -1,5 +1,159 @@
 [
  {
+  "date": "2026-09-01",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-014",
+     "situation": "오래된 친구와 서먹해진 사이 이야기하기",
+     "key_expressions": [
+      "drift apart",
+      "no hard feelings",
+      "fizzle out"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "It's kind of weird seeing you after all this time. Feels different, right?",
+       "ko": "이렇게 오랜만에 보니까 좀 이상하다. 뭔가 달라진 느낌이지?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, honestly. We used to talk every single day and now it's like we're catching up like acquaintances.",
+       "ko": "응, 솔직히. 예전엔 매일 얘기했는데 지금은 그냥 아는 사람들처럼 근황 얘기하고 있네."
+      },
+      {
+       "speaker": "A",
+       "text": "I don't know when exactly we drifted apart. Life just got in the way, I guess.",
+       "ko": "정확히 언제부터 우리가 멀어졌는지 모르겠어. 그냥 각자 사는 게 바빠졌나 봐."
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, no hard feelings though. It's just what happens sometimes.",
+       "ko": "그래, 그래도 서운한 감정은 없어. 그냥 가끔 이런 일이 생기는 거지."
+      },
+      {
+       "speaker": "A",
+       "text": "I do miss how close we used to be. Maybe we should actually make an effort this time.",
+       "ko": "그래도 예전만큼 가까웠던 게 그립긴 해. 이번엔 진짜 노력 좀 해볼까."
+      },
+      {
+       "speaker": "B",
+       "text": "I'd like that. Let's not let it fizzle out again.",
+       "ko": "나도 좋아. 이번엔 흐지부지되지 않게 하자."
+      }
+     ],
+     "note": "fizzle out은 관계나 열정이 서서히 흐지부지 식어버리는 거. 오래된 관계 얘기할 때 쓰기 좋아요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 14,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-014",
+     "situation": "헤어진 애인 SNS 몰래 보다 걸리기",
+     "key_expressions": [
+      "朋友圈",
+      "破防了",
+      "屏蔽"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你在看什么呢,看你手机看得这么入神。",
+       "pinyin": "Nǐ zài kàn shénme ne, kàn nǐ shǒujī kàn de zhème rùshén.",
+       "ko": "너 뭐 보는데 그렇게 휴대폰에 몰입해 있어?"
+      },
+      {
+       "speaker": "B",
+       "text": "没...没什么,就随便刷刷朋友圈。",
+       "pinyin": "Méi... méi shénme, jiù suíbiàn shuā shuā péngyǒuquān.",
+       "ko": "아... 아무것도 아니야, 그냥 모멘트 좀 훑어보는 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "我看你刚才明明在看你前任的主页,别瞒我了。",
+       "pinyin": "Wǒ kàn nǐ gāngcái míngmíng zài kàn nǐ qiánrèn de zhǔyè, bié mán wǒ le.",
+       "ko": "아까 딱 보니까 너 전남친 프로필 보고 있던데, 나 속이지 마."
+      },
+      {
+       "speaker": "B",
+       "text": "好吧,被你发现了,我就是忍不住点进去看了一眼。",
+       "pinyin": "Hǎo ba, bèi nǐ fāxiàn le, wǒ jiùshì rěnbuzhù diǎn jìnqù kàn le yī yǎn.",
+       "ko": "그래, 들켰네, 나도 모르게 눌러서 한 번 봤어."
+      },
+      {
+       "speaker": "A",
+       "text": "你俩都分手半年了,还天天偷偷看人家朋友圈,图什么啊。",
+       "pinyin": "Nǐ liǎ dōu fēnshǒu bàn nián le, hái tiāntiān tōutōu kàn rénjiā péngyǒuquān, tú shénme a.",
+       "ko": "너네 헤어진 지 반년이나 됐는데 아직도 매일 몰래 걔 모멘트 보고, 뭐 하러 그래."
+      },
+      {
+       "speaker": "B",
+       "text": "我也不知道,就是看到他发的照片跟别人在一起,心里突然特别不是滋味。",
+       "pinyin": "Wǒ yě bù zhīdào, jiùshì kàndào tā fā de zhàopiàn gēn biérén zài yīqǐ, xīnli tūrán tèbié bùshì zīwèi.",
+       "ko": "나도 모르겠어, 걔가 다른 사람이랑 같이 있는 사진 올린 거 보니까 갑자기 기분이 진짜 이상했어."
+      },
+      {
+       "speaker": "A",
+       "text": "你这不是自己给自己找罪受吗,看完了破防了吧。",
+       "pinyin": "Nǐ zhè bùshì zìjǐ gěi zìjǐ zhǎo zuìshòu ma, kàn wán le pòfáng le ba.",
+       "ko": "그거 완전 너 스스로 사서 고생하는 거 아니야, 다 보고 나니 완전 멘붕 왔지."
+      },
+      {
+       "speaker": "B",
+       "text": "是啊,我这心态是真的挺矛盾的,明明说好了要放下。",
+       "pinyin": "Shì a, wǒ zhè xīntài shì zhēnde tǐng máodùn de, míngmíng shuō hǎo le yào fàngxià.",
+       "ko": "맞아, 내 마음이 진짜 모순적이야, 분명 놓아준다고 해놓고서."
+      },
+      {
+       "speaker": "A",
+       "text": "建议你直接屏蔽了吧,眼不见心不烦,别再折磨自己了。",
+       "pinyin": "Jiànyì nǐ zhíjiē píngbì le ba, yǎn bùjiàn xīn bùfán, bié zài zhémó zìjǐ le.",
+       "ko": "그냥 차단하는 거 추천할게, 안 보이면 마음도 덜 시끄러워지지, 더 이상 자신을 괴롭히지 마."
+      },
+      {
+       "speaker": "B",
+       "text": "你说得对,我这就去把他删了,不能再这么作践自己了。",
+       "pinyin": "Nǐ shuō de duì, wǒ zhè jiù qù bǎ tā shān le, bùnéng zài zhème zuòjiàn zìjǐ le.",
+       "ko": "네 말이 맞아, 지금 바로 가서 삭제할게, 더는 이렇게 스스로를 못살게 굴면 안 되지."
+      }
+     ],
+     "note": "破防了는 원래 게임 용어인데 '멘탈 붕괴, 감정 무너짐'을 뜻하는 요즘 유행어로 자주 쓰여요. 朋友圈은 위챗의 SNS 피드로, 한국의 카톡 프로필이나 인스타 스토리와 비슷한 개념이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 14,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-018",
+    "text": "Being yourself matters more than anything else.",
+    "source": "Modern Proverb",
+    "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
+   },
+   "zh": {
+    "id": "qzh-019",
+    "text": "每一天都是重新开始的机会。",
+    "pinyin": "Měi yì tiān dōu shì chóngxīn kāishǐ de jīhuì.",
+    "source": "现代语录",
+    "ko": "매일은 다시 시작할 수 있는 기회다."
+   }
+  }
+ },
+ {
   "date": "2026-08-31",
   "en": {
    "level": 3,
