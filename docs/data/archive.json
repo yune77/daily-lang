@@ -1,5 +1,159 @@
 [
  {
+  "date": "2026-09-02",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-015",
+     "situation": "전 애인 SNS 염탐 고백하기",
+     "key_expressions": [
+      "spiral",
+      "stalk someone's page",
+      "move on"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Okay, don't judge me, but I may have looked through my ex's Instagram for like an hour last night.",
+       "ko": "저기, 판단하지 말고 들어줘, 근데 나 어제 전 남친 인스타 한 시간 정도 염탐했을지도 몰라."
+      },
+      {
+       "speaker": "B",
+       "text": "Hannah. You broke up eight months ago.",
+       "ko": "한나. 헤어진 지 8개월이나 됐잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "I know, I know! I just saw he posted a photo with someone new and I completely spiraled.",
+       "ko": "알아, 알아! 근데 새로운 사람이랑 찍은 사진 올린 거 보고 완전 멘붕 왔단 말이야."
+      },
+      {
+       "speaker": "B",
+       "text": "Girl, you have to stop stalking his page. It's not doing you any good.",
+       "ko": "야, 이제 그 계정 그만 좀 염탐해. 너한테 하나도 도움 안 돼."
+      },
+      {
+       "speaker": "A",
+       "text": "You're right. I'm blocking him tonight. I need to actually move on for real this time.",
+       "ko": "네 말이 맞아. 오늘 밤에 차단할게. 이번엔 진짜로 마음 정리해야겠어."
+      },
+      {
+       "speaker": "B",
+       "text": "Good. You deserve better than living in the past.",
+       "ko": "잘했어. 과거에 사는 거 말고 더 나은 걸 누릴 자격 있어."
+      }
+     ],
+     "note": "spiral은 감정이 걷잡을 수 없이 무너지는 걸 말해요. 전 애인 얘기할 때 감정 폭발 표현으로 딱이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 15,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-015",
+     "situation": "회식자리에서 상사 눈치보기",
+     "key_expressions": [
+      "察言观色",
+      "敬酒",
+      "哪壶不开提哪壶"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "领导今天心情好像不太好,你注意到没有。",
+       "pinyin": "Lǐngdǎo jīntiān xīnqíng hǎoxiàng bùtài hǎo, nǐ zhùyì dào méiyǒu.",
+       "ko": "팀장님 오늘 기분이 별로 안 좋아 보이던데, 너도 눈치챘어?"
+      },
+      {
+       "speaker": "B",
+       "text": "看出来了,一直不怎么说话,脸也板着。",
+       "pinyin": "Kàn chūlái le, yīzhí bù zěnme shuōhuà, liǎn yě bǎn zhe.",
+       "ko": "나도 봤어, 계속 말도 별로 없고 표정도 굳어 있더라."
+      },
+      {
+       "speaker": "A",
+       "text": "那我们等会儿敬酒是不是得注意点分寸。",
+       "pinyin": "Nà wǒmen děng huǐr jìngjiǔ shìbùshì děi zhùyì diǎn fēncùn.",
+       "ko": "그럼 이따 술 따를 때 우리 좀 조심해야 하는 거 아니야?"
+      },
+      {
+       "speaker": "B",
+       "text": "肯定得注意,别哪句话说错了触了霉头。",
+       "pinyin": "Kěndìng děi zhùyì, bié nǎ jù huà shuōcuò le chù le méitóu.",
+       "ko": "당연히 조심해야지, 말 잘못했다가 괜히 심기 건드릴라."
+      },
+      {
+       "speaker": "A",
+       "text": "待会儿他要是让我们表演节目,咱俩可怎么办。",
+       "pinyin": "Dāihuǐr tā yàoshi ràng wǒmen biǎoyǎn jiémù, zán liǎ kě zěnme bàn.",
+       "ko": "이따가 우리한테 장기자랑 시키면 어떡하지."
+      },
+      {
+       "speaker": "B",
+       "text": "到时候看情况呗,气氛不对咱就装喝多了溜边儿。",
+       "pinyin": "Dàoshíhòu kàn qíngkuàng bei, qìfēn bùduì zán jiù zhuāng hēduō le liū biānr.",
+       "ko": "그때 가서 상황 봐야지, 분위기 이상하면 우리 취한 척하고 슬쩍 빠지자."
+      },
+      {
+       "speaker": "A",
+       "text": "你可真行,还会这一招。",
+       "pinyin": "Nǐ kě zhēn xíng, hái huì zhè yī zhāo.",
+       "ko": "너 진짜 대단하다, 그런 수법까지 쓸 줄 알고."
+      },
+      {
+       "speaker": "B",
+       "text": "没办法,在职场混,这种察言观色的本事必须得有。",
+       "pinyin": "Méi bànfǎ, zài zhíchǎng hùn, zhè zhǒng cháyánguānsè de běnshì bìxū děi yǒu.",
+       "ko": "어쩔 수 없지, 회사 생활 하려면 이런 눈치 보는 능력은 필수야."
+      },
+      {
+       "speaker": "A",
+       "text": "说得也是,那我先去敬他一杯,活跃一下气氛。",
+       "pinyin": "Shuō de yěshì, nà wǒ xiān qù jìng tā yī bēi, huóyuè yīxià qìfēn.",
+       "ko": "그건 그래, 그럼 나 먼저 가서 한 잔 올릴게, 분위기 좀 띄워봐야지."
+      },
+      {
+       "speaker": "B",
+       "text": "去吧去吧,注意说话方式,别哪壶不开提哪壶。",
+       "pinyin": "Qù ba qù ba, zhùyì shuōhuà fāngshì, bié nǎhú bùkāi tí nǎhú.",
+       "ko": "가봐 가봐, 말투 조심하고, 아픈 곳 건드리지 말고."
+      }
+     ],
+     "note": "察言观色는 '말과 표정을 살피다' 즉 눈치를 보는 능력을 뜻하는 사자성어예요. 哪壶不开提哪壶는 하필 아픈 곳을 콕 집어 말한다는 뜻의 재미있는 관용구예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 15,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-019",
+    "text": "Every day is a chance to start again.",
+    "source": "Modern Proverb",
+    "ko": "매일은 다시 시작할 수 있는 기회다."
+   },
+   "zh": {
+    "id": "qzh-020",
+    "text": "简单一点，快乐才会多一点。",
+    "pinyin": "Jiǎndān yìdiǎn, kuàilè cái huì duō yìdiǎn.",
+    "source": "现代语录",
+    "ko": "단순하게 살수록, 행복은 더 많아진다."
+   }
+  }
+ },
+ {
   "date": "2026-09-01",
   "en": {
    "level": 3,
