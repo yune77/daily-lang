@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-09-03",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-016",
+     "situation": "회식 자리 눈치싸움",
+     "key_expressions": [
+      "read the room",
+      "make the first move",
+      "call it a night"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Is it just me or is everyone waiting for the boss to leave before they actually relax?",
+       "ko": "나만 그런가, 다들 부장님 가시기만 기다리는 것 같은데 그제서야 진짜 편해질 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh, definitely. Everyone's just nodding along and laughing at his jokes way too hard.",
+       "ko": "어 완전. 다들 그냥 고개 끄덕이면서 농담에 너무 오버해서 웃고 있잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "I keep trying to read the room to figure out when it's okay to actually order another round.",
+       "ko": "나는 계속 눈치 보면서 언제 한 잔 더 시켜도 되는지 타이밍 재는 중이야."
+      },
+      {
+       "speaker": "B",
+       "text": "Same. I don't want to be the first one to leave, but I also don't want to be stuck here till midnight.",
+       "ko": "나도. 제일 먼저 나가는 사람 되긴 싫은데, 그렇다고 자정까지 여기 갇혀있기도 싫고."
+      },
+      {
+       "speaker": "A",
+       "text": "Let's just wait for someone senior to make the first move.",
+       "ko": "그냥 윗사람 중 누가 먼저 움직일 때까지 기다리자."
+      },
+      {
+       "speaker": "B",
+       "text": "Deal. Fingers crossed he calls it a night soon.",
+       "ko": "콜. 빨리 오늘 여기서 끝내주시길."
+      }
+     ],
+     "note": "call it a night는 오늘은 여기까지 하고 끝내자는 뜻. 회식 자리 눈치싸움엔 필수 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 16,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-016",
+     "situation": "무임승차하는 팀원 뒷담화하기",
+     "key_expressions": [
+      "划水",
+      "摸鱼",
+      "蹭"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "这次团队项目,你说小张是不是又在划水啊。",
+       "pinyin": "Zhè cì tuánduì xiàngmù, nǐ shuō Xiǎo Zhāng shìbùshì yòu zài huáshuǐ a.",
+       "ko": "이번 팀 프로젝트에서 샤오장 또 농땡이 부리는 거 같지 않아?"
+      },
+      {
+       "speaker": "B",
+       "text": "何止划水,根本就是全程摸鱼,报告都是我们几个熬夜写的。",
+       "pinyin": "Hézhǐ huáshuǐ, gēnběn jiùshì quánchéng mōyú, bàogào dōu shì wǒmen jǐ ge áoyè xiě de.",
+       "ko": "농땡이 정도가 아니지, 완전 처음부터 끝까지 땡땡이야, 보고서도 다 우리끼리 밤새서 쓴 거잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "对啊,开会的时候他倒是发言积极,真到干活的时候就没影了。",
+       "pinyin": "Duì a, kāihuì de shíhou tā dàoshì fāyán jījí, zhēn dào gàn huó de shíhou jiù méi yǐng le.",
+       "ko": "맞아, 회의할 때는 발언은 또 열심히 하더니, 막상 일할 때 되면 그림자도 안 보여."
+      },
+      {
+       "speaker": "B",
+       "text": "最后评优他还想跟我们一起蹭功劳,想得美。",
+       "pinyin": "Zuìhòu píngyōu tā hái xiǎng gēn wǒmen yīqǐ cèng gōngláo, xiǎng de měi.",
+       "ko": "마지막에 우수사원 뽑을 때는 우리랑 같이 공로 묻어가려고 하더라, 꿈도 야무지지."
+      },
+      {
+       "speaker": "A",
+       "text": "我是真的服了,一分力没出,好处一点不落下。",
+       "pinyin": "Wǒ shì zhēnde fú le, yī fēn lì méi chū, hǎochù yīdiǎn bù luòxià.",
+       "ko": "나도 진짜 어이없어, 힘 하나도 안 보탰으면서 좋은 건 하나도 안 놓치려고 하고."
+      },
+      {
+       "speaker": "B",
+       "text": "这种人就是典型的白嫖型队友,得治治他。",
+       "pinyin": "Zhè zhǒng rén jiùshì diǎnxíng de báipiáo xíng duìyǒu, děi zhìzhi tā.",
+       "ko": "그런 사람이 딱 전형적인 무임승차형 팀원이지, 손 좀 봐줘야 해."
+      },
+      {
+       "speaker": "A",
+       "text": "下次分工必须写清楚,谁干了什么一目了然,让他没法混。",
+       "pinyin": "Xiàcì fēngōng bìxū xiě qīngchu, shéi gàn le shénme yīmùliǎorán, ràng tā méifǎ hùn.",
+       "ko": "다음엔 역할 분담을 확실히 써놔야 해, 누가 뭘 했는지 한눈에 보이게, 걔가 묻어갈 수 없게."
+      },
+      {
+       "speaker": "B",
+       "text": "支持,不然老实干活的人永远吃亏。",
+       "pinyin": "Zhīchí, bùrán lǎoshi gàn huó de rén yǒngyuǎn chīkuī.",
+       "ko": "찬성이야, 안 그러면 성실하게 일하는 사람만 늘 손해 보잖아."
+      }
+     ],
+     "note": "划水와 摸鱼는 둘 다 '농땡이 부리다, 일 안 하고 시간만 때우다'라는 뜻의 흔한 회사 슬랭이에요. 蹭은 '묻어가다, 무임승차하다'는 뜻으로 남의 성과에 슬쩍 숟가락 얹는 상황에 쓰여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 16,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-020",
+    "text": "The simpler life gets, the happier you become.",
+    "source": "Modern Proverb",
+    "ko": "삶이 단순해질수록, 행복은 늘어난다."
+   },
+   "zh": {
+    "id": "qzh-021",
+    "text": "你已经很努力了，辛苦了。",
+    "pinyin": "Nǐ yǐjīng hěn nǔlì le, xīnkǔ le.",
+    "source": "现代语录",
+    "ko": "넌 이미 충분히 애썼어, 고생했어."
+   }
+  }
+ },
+ {
   "date": "2026-09-02",
   "en": {
    "level": 3,
