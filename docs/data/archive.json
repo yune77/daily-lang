@@ -1,5 +1,142 @@
 [
  {
+  "date": "2026-09-04",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-017",
+     "situation": "팀 프로젝트에서 무임승차하는 동료 흉보기",
+     "key_expressions": [
+      "lose one's mind",
+      "freeload",
+      "pull an all-nighter"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I'm losing my mind over this project. Derek hasn't done a single thing in three weeks.",
+       "ko": "나 이 프로젝트 때문에 미치겠어. 데릭이 3주 동안 아무것도 안 했어."
+      },
+      {
+       "speaker": "B",
+       "text": "I noticed. He shows up to every meeting just to nod and take notes he never uses.",
+       "ko": "나도 느꼈어. 회의마다 나타나서 고개만 끄덕이고 절대 쓰지도 않을 노트나 적고 있고."
+      },
+      {
+       "speaker": "A",
+       "text": "He's basically freeloading off the rest of us while we're pulling all-nighters.",
+       "ko": "우리는 밤새 일하는데 걔는 완전 무임승차하는 거지."
+      },
+      {
+       "speaker": "B",
+       "text": "You should bring it up with the manager before the deadline. Otherwise he'll take equal credit for zero work.",
+       "ko": "마감 전에 팀장님한테 얘기해야 돼. 안 그러면 아무것도 안 하고 똑같이 공로 챙겨갈 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "Honestly I'm done covering for him. Let him explain himself for once.",
+       "ko": "솔직히 이제 그만 감싸줄래. 이번엔 걔가 직접 설명하게 놔두자."
+      }
+     ],
+     "note": "freeload는 남한테 묻어가면서 자기는 노력 안 하는 거. 무임승차 팀원 얘기할 때 딱 맞는 단어예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 17,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-017",
+     "situation": "이혼 소식 친구에게 전하기",
+     "key_expressions": [
+      "离婚",
+      "将就",
+      "塑料假笑"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我跟你说件事,你别太惊讶,我跟我老公离婚了。",
+       "pinyin": "Wǒ gēn nǐ shuō jiàn shì, nǐ bié tài jīngyà, wǒ gēn wǒ lǎogōng líhūn le.",
+       "ko": "나 얘기할 거 있는데, 너무 놀라지 마, 나 남편이랑 이혼했어."
+      },
+      {
+       "speaker": "B",
+       "text": "什么?你俩不是上个月还一起出去旅游了吗,怎么突然就离婚了。",
+       "pinyin": "Shénme? Nǐ liǎ bùshì shàng ge yuè hái yīqǐ chūqù lǚyóu le ma, zěnme tūrán jiù líhūn le.",
+       "ko": "뭐라고? 너네 저번 달에 같이 여행도 다녀오지 않았어? 왜 갑자기 이혼이야."
+      },
+      {
+       "speaker": "A",
+       "text": "那次旅游其实就是最后一次为了孩子装样子,回来没多久就签字了。",
+       "pinyin": "Nà cì lǚyóu qíshí jiùshì zuìhòu yī cì wèile háizi zhuāng yàngzi, huílái méi duōjiǔ jiù qiānzì le.",
+       "ko": "그 여행이 사실 애 때문에 마지막으로 티 안 내려고 간 거였어, 돌아오고 얼마 안 돼서 바로 도장 찍었어."
+      },
+      {
+       "speaker": "B",
+       "text": "天呐,我完全没看出来,你俩平时看着挺恩爱的啊。",
+       "pinyin": "Tiān na, wǒ wánquán méi kàn chūlái, nǐ liǎ píngshí kànzhe tǐng ēn'ài de a.",
+       "ko": "세상에, 나 전혀 눈치 못 챘어, 너네 평소엔 되게 금슬 좋아 보였는데."
+      },
+      {
+       "speaker": "A",
+       "text": "装的呗,其实我们俩早就过不下去了,一直都是在将就。",
+       "pinyin": "Zhuāng de bei, qíshí wǒmen liǎ zǎo jiù guòbùxiàqù le, yīzhí dōu shì zài jiāngjiù.",
+       "ko": "그런 척한 거지 뭐, 사실 우리 둘 진작에 더 이상 못 살겠더라고, 계속 억지로 참고 지낸 거야."
+      },
+      {
+       "speaker": "B",
+       "text": "那你还好吗,心里肯定不好受吧。",
+       "pinyin": "Nà nǐ hái hǎo ma, xīnli kěndìng bù hǎoshòu ba.",
+       "ko": "그럼 너는 괜찮아? 마음이 많이 힘들겠다."
+      },
+      {
+       "speaker": "A",
+       "text": "说实话,松了一口气比难过更多,总比两个人天天塑料假笑强。",
+       "pinyin": "Shuō shíhuà, sōng le yī kǒu qì bǐ nánguò gèng duō, zǒng bǐ liǎng ge rén tiāntiān sùliào jiǎxiào qiáng.",
+       "ko": "솔직히 말하면 속상한 것보다 후련한 게 더 커, 둘이서 매일 가짜 웃음 짓는 것보다야 낫지."
+      },
+      {
+       "speaker": "B",
+       "text": "你能想开就好,以后有什么需要尽管跟我说,我陪着你。",
+       "pinyin": "Nǐ néng xiǎngkāi jiù hǎo, yǐhòu yǒu shénme xūyào jǐnguǎn gēn wǒ shuō, wǒ péi zhe nǐ.",
+       "ko": "마음 잘 추스른 것 같아서 다행이다, 앞으로 필요한 거 있으면 뭐든지 얘기해, 내가 옆에 있을게."
+      }
+     ],
+     "note": "装样子는 '겉으로만 그런 척하다'라는 뜻으로 여기선 이혼 전 남들 눈 의식해서 부부인 척한 상황을 표현했어요. 塑料假笑는 塑料姐妹情처럼 '가짜, 억지스러운'이라는 의미의 塑料를 응용한 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 17,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-021",
+    "text": "You've already tried hard enough — well done.",
+    "source": "Modern Proverb",
+    "ko": "넌 이미 충분히 애썼어, 수고했어."
+   },
+   "zh": {
+    "id": "qzh-022",
+    "text": "阳光总在风雨后。",
+    "pinyin": "Yángguāng zǒng zài fēngyǔ hòu.",
+    "source": "现代语录",
+    "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
+   }
+  }
+ },
+ {
   "date": "2026-09-03",
   "en": {
    "level": 3,
