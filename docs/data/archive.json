@@ -1,5 +1,152 @@
 [
  {
+  "date": "2026-09-05",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-018",
+     "situation": "이혼 소식 전하기",
+     "key_expressions": [
+      "grow apart",
+      "get to the point where",
+      "for the best"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I have some news, and I need you to not freak out.",
+       "ko": "나 소식 하나 있는데, 놀라지 말고 들어줘."
+      },
+      {
+       "speaker": "B",
+       "text": "Okay, you're scaring me. What is it?",
+       "ko": "알겠어, 무서워지네. 뭔데?"
+      },
+      {
+       "speaker": "A",
+       "text": "Mark and I are getting a divorce. We filed the papers last week.",
+       "ko": "마크랑 나 이혼해. 지난주에 서류 접수했어."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh my god, Karen. Are you okay? I had no idea things were that bad.",
+       "ko": "세상에, 캐런. 괜찮아? 상황이 그렇게 안 좋은 줄 몰랐어."
+      },
+      {
+       "speaker": "A",
+       "text": "We'd been growing apart for years, honestly. It just finally got to the point where we both knew it was over.",
+       "ko": "솔직히 몇 년 동안 서서히 멀어졌어. 결국 둘 다 끝났다는 걸 인정할 수밖에 없는 지점까지 온 거지."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm really sorry. If you need anything at all, I'm here for you.",
+       "ko": "정말 안됐다. 뭐든 필요하면 내가 곁에 있을게."
+      },
+      {
+       "speaker": "A",
+       "text": "Thank you. It's going to be an adjustment, but honestly, I think it's for the best.",
+       "ko": "고마워. 적응하는 데 시간은 좀 걸리겠지만, 솔직히 이게 서로를 위해 나은 선택인 것 같아."
+      }
+     ],
+     "note": "for the best는 힘든 결정이지만 결과적으론 잘한 선택이라는 뉘앙스. 이혼처럼 무거운 얘기에도 위로하듯 쓸 수 있어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 18,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-018",
+     "situation": "회사 정치질에 대해 냉소적으로 말하기",
+     "key_expressions": [
+      "站队",
+      "内卷",
+      "出头鸟"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你发现没有,这公司最近站队站得特别明显。",
+       "pinyin": "Nǐ fāxiàn méiyǒu, zhè gōngsī zuìjìn zhànduì zhàn de tèbié míngxiǎn.",
+       "ko": "너 눈치챘어? 요즘 회사에서 편 가르기가 진짜 노골적이야."
+      },
+      {
+       "speaker": "B",
+       "text": "可不是嘛,一边是老张的人,一边是老刘的人,泾渭分明。",
+       "pinyin": "Kě bùshì ma, yī biān shì Lǎo Zhāng de rén, yī biān shì Lǎo Liú de rén, jìngwèi fēnmíng.",
+       "ko": "그러니까 말이야, 한쪽은 라오장 사람, 한쪽은 라오리우 사람, 완전 확실하게 갈라졌어."
+      },
+      {
+       "speaker": "A",
+       "text": "谁也不敢公开表态,私底下却都在拍马屁抢资源。",
+       "pinyin": "Shéi yě bùgǎn gōngkāi biǎotài, sīdǐxià què dōu zài pāi mǎpì qiǎng zīyuán.",
+       "ko": "아무도 대놓고 입장은 안 밝히면서 뒤에서는 다 아부하면서 자원 챙기려고 하지."
+      },
+      {
+       "speaker": "B",
+       "text": "说白了就是内卷加办公室政治,谁跟对了人谁就上位。",
+       "pinyin": "Shuōbái le jiùshì nèijuǎn jiā bàngōngshì zhèngzhì, shéi gēnduì le rén shéi jiù shàngwèi.",
+       "ko": "쉽게 말하면 과열 경쟁에 사내 정치까지 겹친 거지, 줄을 잘 서야 위로 올라가는 거고."
+      },
+      {
+       "speaker": "A",
+       "text": "我是真心累了,天天不是想着怎么做事,而是想着怎么站队。",
+       "pinyin": "Wǒ shì zhēnxīn lèi le, tiāntiān bùshì xiǎngzhe zěnme zuòshì, ér shì xiǎngzhe zěnme zhànduì.",
+       "ko": "나는 진짜 지친다, 매일 어떻게 일할지가 아니라 어느 편에 설지를 고민하게 돼."
+      },
+      {
+       "speaker": "B",
+       "text": "这种环境待久了人都会变得不像自己,挺可悲的。",
+       "pinyin": "Zhè zhǒng huánjìng dàijiǔ le rén dōu huì biàn de bù xiàng zìjǐ, tǐng kěbēi de.",
+       "ko": "이런 환경에 오래 있으면 사람이 자기답지 않게 변해, 참 씁쓸하다."
+      },
+      {
+       "speaker": "A",
+       "text": "是啊,可现实就是这样,不站队你连表现的机会都没有。",
+       "pinyin": "Shì a, kě xiànshí jiùshì zhèyàng, bù zhànduì nǐ lián biǎoxiàn de jīhuì dōu méiyǒu.",
+       "ko": "그러게, 근데 현실이 그런걸, 줄을 안 서면 나설 기회조차도 없잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "唉,说到底还是要看清形势,该低调低调,别当出头鸟。",
+       "pinyin": "Āi, shuōdàodǐ háishì yào kànqīng xíngshì, gāi dīdiào dīdiào, bié dāng chūtóuniǎo.",
+       "ko": "하... 결국은 상황 파악을 잘해야 해, 조용히 있을 땐 조용히 있고, 괜히 튀지 말고."
+      }
+     ],
+     "note": "站队는 '줄을 서다' 즉 사내 정치에서 특정 세력 편에 서는 걸 뜻해요. 出头鸟는 '먼저 튀어나온 새가 총 맞는다'는 속담에서 온 표현으로, 너무 나서다가 표적이 되는 사람을 가리켜요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 18,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-022",
+    "text": "The sun always comes out after the storm.",
+    "source": "Modern Proverb",
+    "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
+   },
+   "zh": {
+    "id": "qzh-023",
+    "text": "学会放手，也是一种成长。",
+    "pinyin": "Xuéhuì fàngshǒu, yě shì yì zhǒng chéngzhǎng.",
+    "source": "现代语录",
+    "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
+   }
+  }
+ },
+ {
   "date": "2026-09-04",
   "en": {
    "level": 3,
