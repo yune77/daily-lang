@@ -1,5 +1,159 @@
 [
  {
+  "date": "2026-09-06",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-019",
+     "situation": "사내 정치에 대해 냉소적으로 이야기하기",
+     "key_expressions": [
+      "play the game",
+      "alliance",
+      "default setting"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "You know what's funny? The people who get promoted here are never the ones who actually do the work.",
+       "ko": "웃긴 게 뭔지 알아? 여기서 승진하는 사람들은 절대 실제로 일 열심히 한 사람들이 아니야."
+      },
+      {
+       "speaker": "B",
+       "text": "Tell me about it. It's all about who plays the game best.",
+       "ko": "말도 마. 결국 다 누가 이 게임을 잘 하느냐의 문제야."
+      },
+      {
+       "speaker": "A",
+       "text": "I used to think if I just worked hard, I'd get noticed. Now I know it's all politics.",
+       "ko": "예전엔 그냥 열심히 하면 눈에 띌 거라고 생각했어. 근데 이제 보니까 다 정치더라."
+      },
+      {
+       "speaker": "B",
+       "text": "Yep. Half these people couldn't survive without their little alliances upstairs.",
+       "ko": "맞아. 저 사람들 절반은 위에다 만들어놓은 인맥 없으면 살아남지도 못할걸."
+      },
+      {
+       "speaker": "A",
+       "text": "It's exhausting pretending to care about the game when all I want to do is just do good work.",
+       "ko": "그냥 일 잘하고 싶을 뿐인데 이 게임에 신경 쓰는 척하는 것도 지친다."
+      },
+      {
+       "speaker": "B",
+       "text": "Welcome to corporate life. Cynical is basically the default setting here.",
+       "ko": "회사생활에 온 걸 환영해. 여기선 냉소적인 게 그냥 기본값이야."
+      }
+     ],
+     "note": "play the game은 사내정치 얘기할 때 거의 관용구처럼 쓰여요. 능력보다 처세가 중요하다는 뉘앙스예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 19,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-019",
+     "situation": "짝사랑 고백했다가 차인 이야기",
+     "key_expressions": [
+      "表白",
+      "好人卡",
+      "打脸"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我昨天跟她表白了。",
+       "pinyin": "Wǒ zuótiān gēn tā biǎobái le.",
+       "ko": "나 어제 걔한테 고백했어."
+      },
+      {
+       "speaker": "B",
+       "text": "然后呢,结果怎么样?",
+       "pinyin": "Ránhòu ne, jiéguǒ zěnmeyàng?",
+       "ko": "그래서, 결과가 어떻게 됐어?"
+      },
+      {
+       "speaker": "A",
+       "text": "还能怎么样,直接被发了好人卡呗。",
+       "pinyin": "Hái néng zěnmeyàng, zhíjiē bèi fā le hǎorén kǎ bei.",
+       "ko": "뭐 어떻게 되긴, 그냥 바로 좋은 사람 카드 받았지."
+      },
+      {
+       "speaker": "B",
+       "text": "她怎么说的?",
+       "pinyin": "Tā zěnme shuō de?",
+       "ko": "걔가 뭐라고 했는데?"
+      },
+      {
+       "speaker": "A",
+       "text": "她说我人特别好,但对我没有那种感觉,只能当好朋友。",
+       "pinyin": "Tā shuō wǒ rén tèbié hǎo, dàn duì wǒ méiyǒu nà zhǒng gǎnjué, zhǐnéng dāng hǎo péngyǒu.",
+       "ko": "나 사람은 진짜 좋은데, 그런 감정은 안 느껴진대, 좋은 친구로만 지내재."
+      },
+      {
+       "speaker": "B",
+       "text": "这不就是标准的委婉拒绝嘛,听着挺打脸的。",
+       "pinyin": "Zhè bùjiù shì biāozhǔn de wěiwǎn jùjué ma, tīngzhe tǐng dǎliǎn de.",
+       "ko": "그거 완전 정석 완곡한 거절이잖아, 듣기만 해도 뼈아프네."
+      },
+      {
+       "speaker": "A",
+       "text": "可不是嘛,我准备了那么久,结果一句话就被打回原形。",
+       "pinyin": "Kě bùshì ma, wǒ zhǔnbèi le nàme jiǔ, jiéguǒ yī jù huà jiù bèi dǎ huí yuánxíng.",
+       "ko": "그러니까 말이야, 그렇게 오래 준비했는데, 한마디에 완전 원점으로 돌아갔어."
+      },
+      {
+       "speaker": "B",
+       "text": "你别太难受,喜欢一个人本来就是有风险的,不试试怎么知道。",
+       "pinyin": "Nǐ bié tài nánshòu, xǐhuān yī ge rén běnlái jiùshì yǒu fēngxiǎn de, bù shìshi zěnme zhīdào.",
+       "ko": "너무 속상해하지 마, 누군가를 좋아하는 건 원래 리스크가 있는 거잖아, 시도 안 해보면 어떻게 알아."
+      },
+      {
+       "speaker": "A",
+       "text": "道理我都懂,可这心里还是挺不是滋味的,毕竟喜欢了她一年多。",
+       "pinyin": "Dàolǐ wǒ dōu dǒng, kě zhè xīnli háishì tǐng bùshì zīwèi de, bìjìng xǐhuān le tā yī nián duō.",
+       "ko": "이치는 다 아는데, 그래도 마음은 참 씁쓸하다, 어쨌든 걔를 일 년 넘게 좋아했으니까."
+      },
+      {
+       "speaker": "B",
+       "text": "那就先放一放,该emo就emo一阵,过了这段就好了。",
+       "pinyin": "Nà jiù xiān fàng yī fàng, gāi emo jiù emo yī zhèn, guò le zhè duàn jiù hǎo le.",
+       "ko": "그럼 일단 좀 내려놔, 우울할 땐 좀 우울해하고, 이 시기 지나면 괜찮아질 거야."
+      }
+     ],
+     "note": "好人卡는 '착한 사람 카드'라는 뜻으로 고백했다가 거절당할 때 듣는 전형적인 완곡한 멘트를 가리키는 재밌는 신조어예요. 打脸은 원래 '따귀를 때리다'인데 여기선 기대와 다른 창피한 결과를 맞았다는 의미로 쓰였어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 19,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-023",
+    "text": "Learning to let go is its own kind of growth.",
+    "source": "Modern Proverb",
+    "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
+   },
+   "zh": {
+    "id": "qzh-024",
+    "text": "你不必赶路，只需要在路上。",
+    "pinyin": "Nǐ bú bì gǎn lù, zhǐ xūyào zài lù shàng.",
+    "source": "现代语录",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   }
+  }
+ },
+ {
   "date": "2026-09-05",
   "en": {
    "level": 3,
