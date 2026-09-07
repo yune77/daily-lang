@@ -1,5 +1,164 @@
 [
  {
+  "date": "2026-09-08",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-020",
+     "situation": "짝사랑 고백 실패담 나누기",
+     "key_expressions": [
+      "word-vomit",
+      "code for",
+      "put yourself out there"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So remember I told you I was gonna confess to Emma at the party?",
+       "ko": "저번에 파티에서 엠마한테 고백할 거라고 했던 거 기억나?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yeah, how'd it go?",
+       "ko": "응, 어떻게 됐어?"
+      },
+      {
+       "speaker": "A",
+       "text": "Let's just say it did not go the way I planned. I basically word-vomited for two minutes and she just stood there.",
+       "ko": "그냥 계획대로 안 됐다고만 해두자. 나 거의 2분 동안 말 폭탄 쏟아냈고 걔는 그냥 가만히 서 있었어."
+      },
+      {
+       "speaker": "B",
+       "text": "Oh no. What did she say?",
+       "ko": "헐 어떡해. 걔가 뭐래?"
+      },
+      {
+       "speaker": "A",
+       "text": "She said she wasn't looking for anything right now, which we both know is code for no.",
+       "ko": "지금은 뭘 시작할 생각이 없다고 하더라, 근데 그거 그냥 거절이라는 거 우리 둘 다 알잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "Man, that's rough. But hey, at least you put yourself out there.",
+       "ko": "아 진짜 힘들었겠다. 근데 그래도 용기 낸 건 잘한 거야."
+      },
+      {
+       "speaker": "A",
+       "text": "Yeah, I guess. I'm just gonna laugh about it in a few weeks. Right now it just stings a little.",
+       "ko": "그렇겠지. 몇 주 지나면 그냥 웃으면서 얘기하겠지. 지금은 그냥 좀 따끔거려."
+      }
+     ],
+     "note": "put yourself out there는 거절당할 위험 감수하고 용기 내서 시도한다는 뜻. 고백 실패담엔 꼭 나오는 위로 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 20,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-020",
+     "situation": "번아웃 와서 퇴사 고민 나누기",
+     "key_expressions": [
+      "emo了",
+      "摆烂",
+      "裸辞"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "我最近是真的撑不住了,一想到上班就emo。",
+       "pinyin": "Wǒ zuìjìn shì zhēnde chēngbuzhù le, yī xiǎngdào shàngbān jiù emo.",
+       "ko": "나 요즘 진짜 못 버티겠어, 출근 생각만 해도 우울해져."
+      },
+      {
+       "speaker": "B",
+       "text": "怎么了,又加班了?",
+       "pinyin": "Zěnme le, yòu jiābān le?",
+       "ko": "왜 그래, 또 야근했어?"
+      },
+      {
+       "speaker": "A",
+       "text": "何止加班,感觉整个人都被工作掏空了,一点热情都没有了。",
+       "pinyin": "Hézhǐ jiābān, gǎnjué zhěnggè rén dōu bèi gōngzuò tāokōng le, yīdiǎn rèqíng dōu méiyǒu le.",
+       "ko": "야근 정도가 아니야, 완전 일에 다 빨려서 텅 빈 느낌이야, 열정이 하나도 안 남았어."
+      },
+      {
+       "speaker": "B",
+       "text": "你这是典型的职业倦怠啊,得注意休息了。",
+       "pinyin": "Nǐ zhè shì diǎnxíng de zhíyè juàndài a, děi zhùyì xiūxi le.",
+       "ko": "그거 완전 전형적인 번아웃이네, 좀 쉬어야겠다."
+      },
+      {
+       "speaker": "A",
+       "text": "我现在每天都是能摆烂就摆烂,反正干多干少结果都一样。",
+       "pinyin": "Wǒ xiànzài měitiān dōu shì néng bǎilàn jiù bǎilàn, fǎnzhèng gàn duō gàn shǎo jiéguǒ dōu yīyàng.",
+       "ko": "나 요즘 매일 될 대로 되라는 식이야, 어차피 열심히 하나 대충 하나 결과는 똑같으니까."
+      },
+      {
+       "speaker": "B",
+       "text": "那你有没有想过干脆裸辞,先歇一阵子?",
+       "pinyin": "Nà nǐ yǒu méiyǒu xiǎngguò gāncuì luǒcí, xiān xiē yī zhènzi?",
+       "ko": "그럼 차라리 아무 대책 없이 그냥 퇴사하고 좀 쉬는 건 생각해봤어?"
+      },
+      {
+       "speaker": "A",
+       "text": "想是想过,可又怕辞了之后找不到更好的工作,更焦虑。",
+       "pinyin": "Xiǎng shì xiǎngguò, kě yòu pà cí le zhīhòu zhǎo bùdào gèng hǎo de gōngzuò, gèng jiāolǜ.",
+       "ko": "생각은 해봤는데, 그만두고 나서 더 좋은 일 못 찾을까 봐 더 불안해."
+      },
+      {
+       "speaker": "B",
+       "text": "也是,不过身体和心理垮了才是最大的损失,钱以后还能再挣。",
+       "pinyin": "Yěshì, bùguò shēntǐ hé xīnlǐ kuǎ le cái shì zuìdà de sǔnshī, qián yǐhòu hái néng zài zhèng.",
+       "ko": "그것도 그런데, 몸이랑 마음이 무너지는 게 제일 큰 손해야, 돈은 나중에 또 벌면 되잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "你说得对,我这两天认真想想,是不是该给自己放个假了。",
+       "pinyin": "Nǐ shuō de duì, wǒ zhè liǎng tiān rènzhēn xiǎngxiǎng, shìbùshì gāi gěi zìjǐ fàng ge jià le.",
+       "ko": "네 말이 맞아, 요 며칠 진지하게 생각해봐야겠다, 나한테 휴가 좀 줘야 하나."
+      },
+      {
+       "speaker": "B",
+       "text": "嗯,该休息就休息,别硬撑,人不是机器。",
+       "pinyin": "Èn, gāi xiūxi jiù xiūxi, bié yìngchēng, rén bùshì jīqì.",
+       "ko": "응, 쉴 땐 쉬어야지, 억지로 버티지 마, 사람이 기계는 아니잖아."
+      }
+     ],
+     "note": "裸辞는 '다음 계획 없이 그냥 무작정 퇴사하는 것'을 뜻하는 요즘 신조어예요. 摆烂은 여기서도 '포기하고 대충 하기'라는 의미로 자연스럽게 쓰였어요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 20,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-024",
+    "text": "You don't have to rush — just stay on the road.",
+    "source": "Modern Proverb",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   },
+   "zh": {
+    "id": "qzh-025",
+    "text": "所有的失去，都会以另一种方式归来。",
+    "pinyin": "Suǒyǒu de shīqù, dōu huì yǐ lìng yì zhǒng fāngshì guīlái.",
+    "source": "现代语录",
+    "ko": "모든 잃어버린 것은 다른 방식으로 다시 돌아온다."
+   }
+  }
+ },
+ {
   "date": "2026-09-06",
   "en": {
    "level": 3,
