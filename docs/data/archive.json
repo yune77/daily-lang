@@ -1,5 +1,147 @@
 [
  {
+  "date": "2026-09-09",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-021",
+     "situation": "번아웃 고백하기",
+     "key_expressions": [
+      "burnt out",
+      "dread",
+      "hit pause"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I think I need to admit something. I'm completely burnt out.",
+       "ko": "나 뭐 하나 인정해야 할 것 같아. 나 완전 번아웃 왔어."
+      },
+      {
+       "speaker": "B",
+       "text": "I could kind of tell. You've seemed off for weeks.",
+       "ko": "어쩐지. 몇 주째 뭔가 이상해 보이긴 했어."
+      },
+      {
+       "speaker": "A",
+       "text": "I wake up dreading work, I can't focus, and I just feel numb about everything.",
+       "ko": "아침에 일어나면 출근하기 싫고, 집중도 안 되고, 그냥 모든 게 무감각하게 느껴져."
+      },
+      {
+       "speaker": "B",
+       "text": "That sounds serious, Amy. Have you thought about taking some time off?",
+       "ko": "심각하게 들린다, 에이미. 좀 쉬는 거 생각해봤어?"
+      },
+      {
+       "speaker": "A",
+       "text": "I've been putting it off because I felt guilty, but I think I actually need to hit pause before I break down completely.",
+       "ko": "죄책감 때문에 계속 미뤄왔는데, 완전히 무너지기 전에 진짜 좀 멈춰야 할 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "Do it. Your health matters more than any deadline. Nobody's gonna remember that one project in five years.",
+       "ko": "그렇게 해. 네 건강이 어떤 마감보다 중요해. 5년 뒤엔 그 프로젝트 하나 아무도 기억 안 해."
+      }
+     ],
+     "note": "burnt out은 이제 거의 일상 단어가 됐어요. 번아웃 고백할 때 자기감정 솔직히 표현하는 데 자주 쓰여요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 21,
+   "total": 22,
+   "done": false
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-021",
+     "situation": "잘난 척하는 친구 참아주기",
+     "key_expressions": [
+      "显摆",
+      "玻璃心",
+      "撕破脸"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你说小赵是不是又开始显摆了,朋友圈全是他新买的车。",
+       "pinyin": "Nǐ shuō Xiǎo Zhào shìbùshì yòu kāishǐ xiǎnbǎi le, péngyǒuquān quán shì tā xīn mǎi de chē.",
+       "ko": "샤오자오 또 잘난 척 시작한 거 같지 않아, 모멘트가 온통 새로 산 차 사진이야."
+      },
+      {
+       "speaker": "B",
+       "text": "别提了,昨天聚会他还一直炫耀自己升职加薪的事,说了得有半小时。",
+       "pinyin": "Bié tí le, zuótiān jùhuì tā hái yīzhí xuànyào zìjǐ shēngzhí jiāxīn de shì, shuō le děi yǒu bàn xiǎoshí.",
+       "ko": "말도 마, 어제 모임에서도 승진하고 월급 오른 얘기 계속 자랑하더라, 한 30분은 얘기했어."
+      },
+      {
+       "speaker": "A",
+       "text": "我们就在旁边附和,其实心里已经翻白眼了。",
+       "pinyin": "Wǒmen jiù zài pángbiān fùhè, qíshí xīnli yǐjīng fān báiyǎn le.",
+       "ko": "우리는 옆에서 맞장구쳐줬는데, 사실 속으로는 이미 눈 뒤집어졌지."
+      },
+      {
+       "speaker": "B",
+       "text": "没办法,他这个人就这样,虚荣心重,总想让别人羡慕他。",
+       "pinyin": "Méi bànfǎ, tā zhège rén jiù zhèyàng, xūróngxīn zhòng, zǒng xiǎng ràng biérén xiànmù tā.",
+       "ko": "어쩔 수 없어, 걔 원래 그런 사람이야, 허영심이 강해서 늘 남이 부러워해주길 바라잖아."
+      },
+      {
+       "speaker": "A",
+       "text": "而且他玻璃心还特别重,你稍微反驳一句他就不高兴。",
+       "pinyin": "Érqiě tā bōli xīn hái tèbié zhòng, nǐ shāowēi fǎnbó yī jù tā jiù bù gāoxìng.",
+       "ko": "게다가 유리멘탈까지 심해서, 조금만 반박해도 바로 기분 나빠해."
+      },
+      {
+       "speaker": "B",
+       "text": "所以大家都学乖了,他说什么咱就顺着夸两句,省得他闹脾气。",
+       "pinyin": "Suǒyǐ dàjiā dōu xuéguāi le, tā shuō shénme zán jiù shùn zhe kuā liǎng jù, shěngde tā nào píqì.",
+       "ko": "그래서 다들 요령이 생겼어, 뭐라고 하든 그냥 맞춰서 칭찬 몇 마디 해줘, 삐지지 않게."
+      },
+      {
+       "speaker": "A",
+       "text": "唉,朋友嘛,有点小毛病也就忍了,总不能真跟他撕破脸。",
+       "pinyin": "Āi, péngyǒu ma, yǒudiǎn xiǎo máobìng yě jiù rěn le, zǒng bùnéng zhēn gēn tā sīpò liǎn.",
+       "ko": "하... 친구니까 이런 자잘한 결점 정도는 참아야지, 진짜로 걔랑 척질 수는 없잖아."
+      },
+      {
+       "speaker": "B",
+       "text": "也是,当他自己嗨呢,咱们该干嘛干嘛。",
+       "pinyin": "Yěshì, dàng tā zìjǐ hāi ne, zánmen gāi gànma gànma.",
+       "ko": "그렇지, 걔 혼자 신났다고 치고, 우리는 우리 할 일 하면 되지."
+      }
+     ],
+     "note": "显摆는 '과시하다, 자랑질하다'라는 뜻의 구어체 표현이에요. 撕破脸은 '얼굴을 찢다' 즉 관계를 완전히 틀어지게 만드는 걸 뜻하는 관용구예요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 21,
+   "total": 22,
+   "done": false
+  },
+  "quote": {
+   "en": {
+    "id": "qen-025",
+    "text": "Everything you lose comes back in another form.",
+    "source": "Modern Proverb",
+    "ko": "잃어버린 모든 것은 다른 모습으로 다시 돌아온다."
+   },
+   "zh": {
+    "id": "qzh-026",
+    "text": "与其焦虑明天，不如做好今天。",
+    "pinyin": "Yǔqí jiāolǜ míngtiān, bùrú zuò hǎo jīntiān.",
+    "source": "现代语录",
+    "ko": "내일을 걱정하기보다, 오늘을 잘 살아내는 편이 낫다."
+   }
+  }
+ },
+ {
   "date": "2026-09-08",
   "en": {
    "level": 3,
