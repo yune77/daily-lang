@@ -1,5 +1,164 @@
 [
  {
+  "date": "2026-09-10",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "en3-022",
+     "situation": "친구의 과도한 자랑 참아주기",
+     "key_expressions": [
+      "falling into place",
+      "read the room",
+      "get carried away"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "So anyway, my new apartment has floor-to-ceiling windows and honestly the view is insane, like something out of a magazine.",
+       "ko": "아무튼 우리 새 아파트가 바닥부터 천장까지 창문인데 진짜 뷰가 미쳤어, 무슨 잡지에 나올 법한 느낌이야."
+      },
+      {
+       "speaker": "B",
+       "text": "Wow, that sounds really nice.",
+       "ko": "와, 진짜 좋아 보인다."
+      },
+      {
+       "speaker": "A",
+       "text": "And did I mention my boyfriend surprised me with a trip to Bali for our anniversary? Like, who does that?",
+       "ko": "아 그리고 내 남친이 기념일에 발리 여행 서프라이즈로 준비해준 거 말했나? 그런 걸 누가 해주냐고."
+      },
+      {
+       "speaker": "B",
+       "text": "You mentioned it. Twice, actually.",
+       "ko": "말했어. 사실 두 번이나."
+      },
+      {
+       "speaker": "A",
+       "text": "Sorry, I'm just so happy right now, everything's just kind of falling into place.",
+       "ko": "미안, 그냥 요즘 너무 행복해서 그런지, 뭐든 다 잘 풀리는 것 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "No, I'm happy for you, I really am. I just need you to read the room a little, some of us are going through it right now.",
+       "ko": "아니야, 나도 진짜 기뻐. 근데 눈치 좀 챙겨줬으면 좋겠어, 나 요즘 힘든 시기거든."
+      },
+      {
+       "speaker": "A",
+       "text": "Oh gosh, you're right, I'm sorry. I got carried away.",
+       "ko": "아 맞다, 미안해. 나 혼자 너무 신났었네."
+      }
+     ],
+     "note": "get carried away는 신나서 정신없이 계속하다가 선을 넘는 거. 자랑 늘어놓다 눈치 없어질 때 딱 맞는 표현이에요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [
+    {
+     "id": "zh3-022",
+     "situation": "소개팅 앱에서 바람맞은 이야기",
+     "key_expressions": [
+      "放鸽子",
+      "相亲",
+      "尴尬"
+     ],
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "你猜我昨天怎么了,相亲软件上约的那个人直接把我放鸽子了。",
+       "pinyin": "Nǐ cāi wǒ zuótiān zěnme le, xiāngqīn ruǎnjiàn shàng yuē de nàge rén zhíjiē bǎ wǒ fàng gēzi le.",
+       "ko": "내가 어제 무슨 일 있었는지 맞춰봐, 소개팅 앱에서 만나기로 한 사람이 나 바람맞혔어."
+      },
+      {
+       "speaker": "B",
+       "text": "什么?你俩不是聊了挺久,还约好见面时间地点了吗?",
+       "pinyin": "Shénme? Nǐ liǎ bùshì liáo le tǐng jiǔ, hái yuē hǎo jiànmiàn shíjiān dìdiǎn le ma?",
+       "ko": "뭐라고? 너네 꽤 오래 얘기하고 만날 시간이랑 장소까지 다 정했잖아?"
+      },
+      {
+       "speaker": "A",
+       "text": "就是啊,我提前半小时就到了,结果等了一个多小时,人影都没有。",
+       "pinyin": "Jiùshì a, wǒ tíqián bàn xiǎoshí jiù dào le, jiéguǒ děng le yī ge duō xiǎoshí, rényǐng dōu méiyǒu.",
+       "ko": "그니까 말이야, 나는 30분 일찍 도착했는데, 한 시간 넘게 기다려도 사람 그림자도 안 보이더라."
+      },
+      {
+       "speaker": "B",
+       "text": "也太过分了吧,好歹提前说一声取消啊。",
+       "pinyin": "Yě tài guòfèn le ba, hǎodǎi tíqián shuō yī shēng qǔxiāo a.",
+       "ko": "그건 너무 심하다, 최소한 미리 취소한다고 말은 해야지."
+      },
+      {
+       "speaker": "A",
+       "text": "我发消息问他,他也不回,估计是嫌我照片和本人差距太大,直接怂了。",
+       "pinyin": "Wǒ fā xiāoxi wèn tā, tā yě bùhuí, gūjì shì xián wǒ zhàopiàn hé běnrén chājù tài dà, zhíjiē sóng le.",
+       "ko": "메시지 보내서 물어봤는데 답장도 없어, 아마 사진이랑 실물 차이가 너무 커서 그냥 겁먹고 도망간 거 같아."
+      },
+      {
+       "speaker": "B",
+       "text": "这种人真的是,连基本的尊重都没有,放鸽子还不吭一声。",
+       "pinyin": "Zhè zhǒng rén zhēnde shì, lián jīběn de zūnzhòng dōu méiyǒu, fàng gēzi hái bù kēng yī shēng.",
+       "ko": "그런 사람들은 진짜, 기본적인 예의도 없이 바람맞히고 한마디도 안 하다니."
+      },
+      {
+       "speaker": "A",
+       "text": "我当时坐在那儿,感觉整个餐厅的人都在看我一个人傻等,尴尬死了。",
+       "pinyin": "Wǒ dāngshí zuò zài nàr, gǎnjué zhěnggè cāntīng de rén dōu zài kàn wǒ yī gè rén shǎ děng, gāngà sǐ le.",
+       "ko": "나 그때 앉아서, 식당에 있는 사람들이 다 나 혼자 바보같이 기다리는 거 쳐다보는 느낌이었어, 진짜 창피해 죽는 줄."
+      },
+      {
+       "speaker": "B",
+       "text": "别往心里去,这种一开始就不靠谱的人,躲过一劫也挺好的。",
+       "pinyin": "Bié wǎng xīnli qù, zhè zhǒng yī kāishǐ jiù bù kàopǔ de rén, duǒguò yī jié yě tǐng hǎo de.",
+       "ko": "마음에 담아두지 마, 그렇게 처음부터 못 믿을 사람이면 차라리 그 위기를 피한 게 다행이야."
+      },
+      {
+       "speaker": "A",
+       "text": "说得也是,以后相亲软件上的人,我可得多留个心眼了。",
+       "pinyin": "Shuō de yěshì, yǐhòu xiāngqīn ruǎnjiàn shàng de rén, wǒ kě děi duō liú ge xīnyǎn le.",
+       "ko": "그건 그래, 앞으로 소개팅 앱에서 만나는 사람은 좀 더 조심해야겠어."
+      },
+      {
+       "speaker": "B",
+       "text": "对,先视频聊聊再约见面,省得又被放鸽子。",
+       "pinyin": "Duì, xiān shìpín liáoliao zài yuē jiànmiàn, shěngde yòu bèi fàng gēzi.",
+       "ko": "맞아, 먼저 영상통화로 좀 얘기해보고 만나야지, 또 바람맞지 않게."
+      }
+     ],
+     "note": "放鸽子는 '비둘기를 날리다'가 아니라 약속을 어기고 바람맞히는 것을 뜻하는 아주 흔한 관용구예요. 怂了는 원래 '겁먹다'인데 여기선 나타나지 않고 도망간 소심한 행동을 가리켜요."
+    }
+   ],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-026",
+    "text": "Instead of worrying about tomorrow, take care of today.",
+    "source": "Modern Proverb",
+    "ko": "내일을 걱정하기보다, 오늘을 잘 돌보는 편이 낫다."
+   },
+   "zh": {
+    "id": "qzh-027",
+    "text": "你要成为自己的光。",
+    "pinyin": "Nǐ yào chéngwéi zìjǐ de guāng.",
+    "source": "现代语录",
+    "ko": "너 자신의 빛이 되어야 한다."
+   }
+  }
+ },
+ {
   "date": "2026-09-09",
   "en": {
    "level": 3,

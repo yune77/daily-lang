@@ -4,31 +4,31 @@
   "pos": {
    "1": 22,
    "2": 22,
-   "3": 21
+   "3": 22
   },
-  "done": false,
-  "learned": 65
+  "done": true,
+  "learned": 66
  },
  "zh": {
   "level": 3,
   "pos": {
    "1": 22,
    "2": 22,
-   "3": 21
+   "3": 22
   },
-  "done": false,
-  "learned": 65
+  "done": true,
+  "learned": 66
  },
  "tg_offset": 129658935,
  "kb_sent": true,
- "days": 65,
- "last_sent": "2026-09-09",
+ "days": 66,
+ "last_sent": "2026-09-10",
  "quote": {
   "en": {
-   "pos": 25
+   "pos": 26
   },
   "zh": {
-   "pos": 26
+   "pos": 27
   }
  }
 }
