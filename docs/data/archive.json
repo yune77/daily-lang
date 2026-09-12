@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-13",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-029",
+    "text": "You deserve to be treated gently.",
+    "source": "Modern Proverb",
+    "ko": "너는 다정하게 대접받을 자격이 있다."
+   },
+   "zh": {
+    "id": "qzh-030",
+    "text": "心若安好，便是晴天。",
+    "pinyin": "Xīn ruò ānhǎo, biàn shì qíngtiān.",
+    "source": "现代语录",
+    "ko": "마음이 평온하면, 그것이 곧 맑은 날이다."
+   }
+  }
+ },
+ {
   "date": "2026-09-12",
   "en": {
    "level": 3,
