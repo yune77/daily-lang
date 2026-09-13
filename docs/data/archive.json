@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-14",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-030",
+    "text": "When your heart is at peace, every day feels sunny.",
+    "source": "Modern Proverb",
+    "ko": "마음이 평온하면, 매일이 맑은 날처럼 느껴진다."
+   },
+   "zh": {
+    "id": "qzh-031",
+    "text": "别把小事放大，别把心事放太久。",
+    "pinyin": "Bié bǎ xiǎoshì fàngdà, bié bǎ xīnshì fàng tài jiǔ.",
+    "source": "现代语录",
+    "ko": "작은 일을 크게 만들지 말고, 마음의 짐을 너무 오래 담아두지 마라."
+   }
+  }
+ },
+ {
   "date": "2026-09-13",
   "en": {
    "level": 3,
