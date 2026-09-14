@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-15",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-031",
+    "text": "Don't let small things grow big, and don't carry worries too long.",
+    "source": "Modern Proverb",
+    "ko": "작은 일을 크게 만들지 말고, 걱정을 너무 오래 품지 마라."
+   },
+   "zh": {
+    "id": "qzh-032",
+    "text": "做喜欢的事，成为想成为的人。",
+    "pinyin": "Zuò xǐhuan de shì, chéngwéi xiǎng chéngwéi de rén.",
+    "source": "现代语录",
+    "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
+   }
+  }
+ },
+ {
   "date": "2026-09-14",
   "en": {
    "level": 3,
