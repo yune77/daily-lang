@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-16",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-032",
+    "text": "Do what you love, and become who you want to be.",
+    "source": "Modern Proverb",
+    "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
+   },
+   "zh": {
+    "id": "qzh-033",
+    "text": "你走过的路，都算数。",
+    "pinyin": "Nǐ zǒu guò de lù, dōu suànshù.",
+    "source": "现代语录",
+    "ko": "네가 걸어온 길은 모두 의미가 있다."
+   }
+  }
+ },
+ {
   "date": "2026-09-15",
   "en": {
    "level": 3,
