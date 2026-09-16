@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-17",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-033",
+    "text": "Every road you've walked counts for something.",
+    "source": "Modern Proverb",
+    "ko": "네가 걸어온 모든 길은 다 의미가 있다."
+   },
+   "zh": {
+    "id": "qzh-034",
+    "text": "不是所有的努力都立刻有回报，但都不会白费。",
+    "pinyin": "Bú shì suǒyǒu de nǔlì dōu lìkè yǒu huíbào, dàn dōu bú huì báifèi.",
+    "source": "现代语录",
+    "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-09-16",
   "en": {
    "level": 3,
