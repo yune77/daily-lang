@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-18",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-034",
+    "text": "Not every effort pays off right away, but none of it is wasted.",
+    "source": "Modern Proverb",
+    "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
+   },
+   "zh": {
+    "id": "qzh-035",
+    "text": "与自己和解，是最好的成长。",
+    "pinyin": "Yǔ zìjǐ héjiě, shì zuì hǎo de chéngzhǎng.",
+    "source": "现代语录",
+    "ko": "자기 자신과 화해하는 것이 가장 좋은 성장이다."
+   }
+  }
+ },
+ {
   "date": "2026-09-17",
   "en": {
    "level": 3,
