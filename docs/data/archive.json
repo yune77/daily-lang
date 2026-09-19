@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-20",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-036",
+    "text": "Life never lets down those who take it seriously.",
+    "source": "Modern Proverb",
+    "ko": "삶은 진지하게 살아가는 사람을 저버리지 않는다."
+   },
+   "zh": {
+    "id": "qzh-037",
+    "text": "给自己一点时间，慢慢变好。",
+    "pinyin": "Gěi zìjǐ yìdiǎn shíjiān, màn man biàn hǎo.",
+    "source": "现代语录",
+    "ko": "자신에게 시간을 조금 주고, 천천히 나아지면 된다."
+   }
+  }
+ },
+ {
   "date": "2026-09-19",
   "en": {
    "level": 3,
