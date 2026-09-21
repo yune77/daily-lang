@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-22",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-038",
+    "text": "Even ordinary days deserve to be lived fully.",
+    "source": "Modern Proverb",
+    "ko": "평범한 하루도 충실하게 살아갈 가치가 있다."
+   },
+   "zh": {
+    "id": "qzh-039",
+    "text": "你不是一个人在努力。",
+    "pinyin": "Nǐ bú shì yí gè rén zài nǔlì.",
+    "source": "现代语录",
+    "ko": "혼자 애쓰고 있는 게 아니야."
+   }
+  }
+ },
+ {
   "date": "2026-09-21",
   "en": {
    "level": 3,
