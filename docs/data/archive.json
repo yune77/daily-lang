@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-23",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-039",
+    "text": "You're not the only one trying hard.",
+    "source": "Modern Proverb",
+    "ko": "열심히 애쓰고 있는 건 너 혼자만이 아니다."
+   },
+   "zh": {
+    "id": "qzh-001",
+    "text": "花开有时，花落有时，一切自有安排。",
+    "pinyin": "Huā kāi yǒu shí, huā luò yǒu shí, yíqiè zì yǒu ānpái.",
+    "source": "现代语录",
+    "ko": "피어나는 것도, 지는 것도 모두 자기만의 때가 있으니, 모든 것에는 이미 안배가 있다."
+   }
+  }
+ },
+ {
   "date": "2026-09-22",
   "en": {
    "level": 3,
