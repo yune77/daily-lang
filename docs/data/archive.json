@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-25",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-001",
+    "text": "Everything blooms in its own time.",
+    "source": "Modern Proverb",
+    "ko": "시간이 되면 모든 것은 저절로 피어난다."
+   },
+   "zh": {
+    "id": "qzh-003",
+    "text": "人生如茶，不必太满。",
+    "pinyin": "Rénshēng rú chá, bú bì tài mǎn.",
+    "source": "现代语录",
+    "ko": "인생은 차와 같으니, 너무 가득 채울 필요는 없다."
+   }
+  }
+ },
+ {
   "date": "2026-09-24",
   "en": {
    "level": 3,
