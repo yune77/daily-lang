@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-27",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-003",
+    "text": "Life is like tea — you don't have to fill the cup all the way.",
+    "source": "Modern Proverb",
+    "ko": "인생은 차와 같으니, 잔을 끝까지 채울 필요는 없다."
+   },
+   "zh": {
+    "id": "qzh-005",
+    "text": "你若盛开，清风自来。",
+    "pinyin": "Nǐ ruò shèngkāi, qīngfēng zì lái.",
+    "source": "现代语录",
+    "ko": "네가 활짝 피면, 맑은 바람은 저절로 찾아온다."
+   }
+  }
+ },
+ {
   "date": "2026-09-26",
   "en": {
    "level": 3,
