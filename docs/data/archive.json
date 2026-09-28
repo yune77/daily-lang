@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-29",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-005",
+    "text": "When you bloom, the right people will find you.",
+    "source": "Modern Proverb",
+    "ko": "네가 활짝 피면, 맞는 사람들이 알아서 찾아온다."
+   },
+   "zh": {
+    "id": "qzh-007",
+    "text": "该来的都会来，该走的留不住。",
+    "pinyin": "Gāi lái de dōu huì lái, gāi zǒu de liú bu zhù.",
+    "source": "现代语录",
+    "ko": "와야 할 것은 결국 오고, 가야 할 것은 붙잡을 수 없다."
+   }
+  }
+ },
+ {
   "date": "2026-09-28",
   "en": {
    "level": 3,
