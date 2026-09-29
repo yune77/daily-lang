@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-09-30",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-006",
+    "text": "Time has never truly failed anyone.",
+    "source": "Modern Proverb",
+    "ko": "시간은 그 누구도 저버린 적이 없다."
+   },
+   "zh": {
+    "id": "qzh-008",
+    "text": "你不用完美，你只需要真实。",
+    "pinyin": "Nǐ búyòng wánměi, nǐ zhǐ xūyào zhēnshí.",
+    "source": "现代语录",
+    "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
+   }
+  }
+ },
+ {
   "date": "2026-09-29",
   "en": {
    "level": 3,
