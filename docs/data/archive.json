@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-01",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-007",
+    "text": "What's meant to come will come; what's meant to leave can't be held back.",
+    "source": "Modern Proverb",
+    "ko": "와야 할 것은 결국 오고, 떠나야 할 것은 붙잡을 수 없다."
+   },
+   "zh": {
+    "id": "qzh-009",
+    "text": "允许一切发生。",
+    "pinyin": "Yǔnxǔ yíqiè fāshēng.",
+    "source": "现代语录",
+    "ko": "모든 일이 일어나도록 그대로 두어라."
+   }
+  }
+ },
+ {
   "date": "2026-09-30",
   "en": {
    "level": 3,
