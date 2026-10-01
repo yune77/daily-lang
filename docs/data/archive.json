@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-02",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-008",
+    "text": "You don't have to be perfect, just real.",
+    "source": "Modern Proverb",
+    "ko": "완벽할 필요 없어, 그저 진실하기만 하면 돼."
+   },
+   "zh": {
+    "id": "qzh-010",
+    "text": "生活明朗，万物可爱。",
+    "pinyin": "Shēnghuó mínglǎng, wànwù kě'ài.",
+    "source": "现代语录",
+    "ko": "삶이 밝으면, 만물이 사랑스러워 보인다."
+   }
+  }
+ },
+ {
   "date": "2026-10-01",
   "en": {
    "level": 3,
