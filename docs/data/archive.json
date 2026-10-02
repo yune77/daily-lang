@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-03",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-009",
+    "text": "Let everything happen the way it needs to.",
+    "source": "Modern Proverb",
+    "ko": "모든 일이 그래야 하는 대로 일어나도록 두어라."
+   },
+   "zh": {
+    "id": "qzh-011",
+    "text": "世界很大，慢慢去看。",
+    "pinyin": "Shìjiè hěn dà, màn man qù kàn.",
+    "source": "现代语录",
+    "ko": "세상은 넓으니, 천천히 둘러봐도 된다."
+   }
+  }
+ },
+ {
   "date": "2026-10-02",
   "en": {
    "level": 3,
