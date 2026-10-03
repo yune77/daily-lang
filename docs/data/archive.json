@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-04",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-010",
+    "text": "When life feels bright, everything looks lovely.",
+    "source": "Modern Proverb",
+    "ko": "삶이 밝게 느껴지면, 모든 것이 사랑스러워 보인다."
+   },
+   "zh": {
+    "id": "qzh-012",
+    "text": "心宽一寸，路宽一丈。",
+    "pinyin": "Xīn kuān yí cùn, lù kuān yí zhàng.",
+    "source": "现代语录",
+    "ko": "마음이 한 치 넓어지면, 길은 한 장만큼 넓어진다."
+   }
+  }
+ },
+ {
   "date": "2026-10-03",
   "en": {
    "level": 3,
