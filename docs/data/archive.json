@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-05",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-011",
+    "text": "The world is big — take your time seeing it.",
+    "source": "Modern Proverb",
+    "ko": "세상은 넓으니, 천천히 둘러봐도 괜찮다."
+   },
+   "zh": {
+    "id": "qzh-013",
+    "text": "不急不躁，静待花开。",
+    "pinyin": "Bù jí bú zào, jìng dài huā kāi.",
+    "source": "现代语录",
+    "ko": "조급해하지 말고, 고요히 꽃 피기를 기다려라."
+   }
+  }
+ },
+ {
   "date": "2026-10-04",
   "en": {
    "level": 3,
