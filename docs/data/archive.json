@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-06",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-012",
+    "text": "An inch more patience makes the road a mile wider.",
+    "source": "Modern Proverb",
+    "ko": "한 치의 인내가 길을 한 장만큼 넓혀준다."
+   },
+   "zh": {
+    "id": "qzh-014",
+    "text": "时间会给你答案。",
+    "pinyin": "Shíjiān huì gěi nǐ dá'àn.",
+    "source": "现代语录",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   }
+  }
+ },
+ {
   "date": "2026-10-05",
   "en": {
    "level": 3,
