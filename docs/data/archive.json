@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-07",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-013",
+    "text": "Don't rush, just wait quietly for the flowers to bloom.",
+    "source": "Modern Proverb",
+    "ko": "조급해하지 말고, 고요히 꽃이 피기를 기다려라."
+   },
+   "zh": {
+    "id": "qzh-015",
+    "text": "走慢一点，风景不会跑。",
+    "pinyin": "Zǒu màn yìdiǎn, fēngjǐng bú huì pǎo.",
+    "source": "现代语录",
+    "ko": "조금 천천히 걸어도, 풍경은 도망가지 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-10-06",
   "en": {
    "level": 3,
