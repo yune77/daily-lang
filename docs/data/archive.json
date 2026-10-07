@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-08",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-014",
+    "text": "Time will give you the answer.",
+    "source": "Modern Proverb",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   },
+   "zh": {
+    "id": "qzh-016",
+    "text": "越努力，越幸运。",
+    "pinyin": "Yuè nǔlì, yuè xìngyùn.",
+    "source": "现代语录",
+    "ko": "노력할수록, 운도 따라온다."
+   }
+  }
+ },
+ {
   "date": "2026-10-07",
   "en": {
    "level": 3,
