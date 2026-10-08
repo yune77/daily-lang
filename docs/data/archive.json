@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-09",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-015",
+    "text": "Walk slowly — the scenery isn't going anywhere.",
+    "source": "Modern Proverb",
+    "ko": "천천히 걸어도 돼, 풍경은 도망가지 않는다."
+   },
+   "zh": {
+    "id": "qzh-017",
+    "text": "你要相信，总有人在等你。",
+    "pinyin": "Nǐ yào xiāngxìn, zǒng yǒu rén zài děng nǐ.",
+    "source": "现代语录",
+    "ko": "믿어봐, 언제나 누군가는 너를 기다리고 있어."
+   }
+  }
+ },
+ {
   "date": "2026-10-08",
   "en": {
    "level": 3,
