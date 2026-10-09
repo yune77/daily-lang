@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-10",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-016",
+    "text": "The harder you try, the luckier you get.",
+    "source": "Modern Proverb",
+    "ko": "노력할수록 운도 따라온다."
+   },
+   "zh": {
+    "id": "qzh-018",
+    "text": "做自己，比什么都重要。",
+    "pinyin": "Zuò zìjǐ, bǐ shénme dōu zhòngyào.",
+    "source": "现代语录",
+    "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
+   }
+  }
+ },
+ {
   "date": "2026-10-09",
   "en": {
    "level": 3,
