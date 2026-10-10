@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-11",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-017",
+    "text": "Someone, somewhere, is waiting for you.",
+    "source": "Modern Proverb",
+    "ko": "어딘가에서 누군가는 늘 너를 기다리고 있다."
+   },
+   "zh": {
+    "id": "qzh-019",
+    "text": "每一天都是重新开始的机会。",
+    "pinyin": "Měi yì tiān dōu shì chóngxīn kāishǐ de jīhuì.",
+    "source": "现代语录",
+    "ko": "매일은 다시 시작할 수 있는 기회다."
+   }
+  }
+ },
+ {
   "date": "2026-10-10",
   "en": {
    "level": 3,
