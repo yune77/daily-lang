@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-12",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-018",
+    "text": "Being yourself matters more than anything else.",
+    "source": "Modern Proverb",
+    "ko": "자기 자신답게 사는 것이 무엇보다 중요하다."
+   },
+   "zh": {
+    "id": "qzh-020",
+    "text": "简单一点，快乐才会多一点。",
+    "pinyin": "Jiǎndān yìdiǎn, kuàilè cái huì duō yìdiǎn.",
+    "source": "现代语录",
+    "ko": "단순하게 살수록, 행복은 더 많아진다."
+   }
+  }
+ },
+ {
   "date": "2026-10-11",
   "en": {
    "level": 3,
