@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-13",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-019",
+    "text": "Every day is a chance to start again.",
+    "source": "Modern Proverb",
+    "ko": "매일은 다시 시작할 수 있는 기회다."
+   },
+   "zh": {
+    "id": "qzh-021",
+    "text": "你已经很努力了，辛苦了。",
+    "pinyin": "Nǐ yǐjīng hěn nǔlì le, xīnkǔ le.",
+    "source": "现代语录",
+    "ko": "넌 이미 충분히 애썼어, 고생했어."
+   }
+  }
+ },
+ {
   "date": "2026-10-12",
   "en": {
    "level": 3,
