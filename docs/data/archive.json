@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-14",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-020",
+    "text": "The simpler life gets, the happier you become.",
+    "source": "Modern Proverb",
+    "ko": "삶이 단순해질수록, 행복은 늘어난다."
+   },
+   "zh": {
+    "id": "qzh-022",
+    "text": "阳光总在风雨后。",
+    "pinyin": "Yángguāng zǒng zài fēngyǔ hòu.",
+    "source": "现代语录",
+    "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
+   }
+  }
+ },
+ {
   "date": "2026-10-13",
   "en": {
    "level": 3,
