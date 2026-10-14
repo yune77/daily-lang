@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-15",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-021",
+    "text": "You've already tried hard enough — well done.",
+    "source": "Modern Proverb",
+    "ko": "넌 이미 충분히 애썼어, 수고했어."
+   },
+   "zh": {
+    "id": "qzh-023",
+    "text": "学会放手，也是一种成长。",
+    "pinyin": "Xuéhuì fàngshǒu, yě shì yì zhǒng chéngzhǎng.",
+    "source": "现代语录",
+    "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
+   }
+  }
+ },
+ {
   "date": "2026-10-14",
   "en": {
    "level": 3,
