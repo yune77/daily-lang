@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-16",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-022",
+    "text": "The sun always comes out after the storm.",
+    "source": "Modern Proverb",
+    "ko": "햇살은 늘 비바람이 지나간 뒤에 찾아온다."
+   },
+   "zh": {
+    "id": "qzh-024",
+    "text": "你不必赶路，只需要在路上。",
+    "pinyin": "Nǐ bú bì gǎn lù, zhǐ xūyào zài lù shàng.",
+    "source": "现代语录",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   }
+  }
+ },
+ {
   "date": "2026-10-15",
   "en": {
    "level": 3,
