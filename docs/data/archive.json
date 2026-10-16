@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-17",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-023",
+    "text": "Learning to let go is its own kind of growth.",
+    "source": "Modern Proverb",
+    "ko": "놓아주는 법을 배우는 것도 하나의 성장이다."
+   },
+   "zh": {
+    "id": "qzh-025",
+    "text": "所有的失去，都会以另一种方式归来。",
+    "pinyin": "Suǒyǒu de shīqù, dōu huì yǐ lìng yì zhǒng fāngshì guīlái.",
+    "source": "现代语录",
+    "ko": "모든 잃어버린 것은 다른 방식으로 다시 돌아온다."
+   }
+  }
+ },
+ {
   "date": "2026-10-16",
   "en": {
    "level": 3,
