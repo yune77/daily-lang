@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-19",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-024",
+    "text": "You don't have to rush — just stay on the road.",
+    "source": "Modern Proverb",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   },
+   "zh": {
+    "id": "qzh-026",
+    "text": "与其焦虑明天，不如做好今天。",
+    "pinyin": "Yǔqí jiāolǜ míngtiān, bùrú zuò hǎo jīntiān.",
+    "source": "现代语录",
+    "ko": "내일을 걱정하기보다, 오늘을 잘 살아내는 편이 낫다."
+   }
+  }
+ },
+ {
   "date": "2026-10-17",
   "en": {
    "level": 3,
