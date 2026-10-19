@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-20",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-025",
+    "text": "Everything you lose comes back in another form.",
+    "source": "Modern Proverb",
+    "ko": "잃어버린 모든 것은 다른 모습으로 다시 돌아온다."
+   },
+   "zh": {
+    "id": "qzh-027",
+    "text": "你要成为自己的光。",
+    "pinyin": "Nǐ yào chéngwéi zìjǐ de guāng.",
+    "source": "现代语录",
+    "ko": "너 자신의 빛이 되어야 한다."
+   }
+  }
+ },
+ {
   "date": "2026-10-19",
   "en": {
    "level": 3,
