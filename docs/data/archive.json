@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-21",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-026",
+    "text": "Instead of worrying about tomorrow, take care of today.",
+    "source": "Modern Proverb",
+    "ko": "내일을 걱정하기보다, 오늘을 잘 돌보는 편이 낫다."
+   },
+   "zh": {
+    "id": "qzh-028",
+    "text": "慢慢走，欣赏一路的风景。",
+    "pinyin": "Màn man zǒu, xīnshǎng yí lù de fēngjǐng.",
+    "source": "现代语录",
+    "ko": "천천히 걸으며, 가는 길의 풍경을 감상하라."
+   }
+  }
+ },
+ {
   "date": "2026-10-20",
   "en": {
    "level": 3,
