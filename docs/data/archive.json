@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-23",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-028",
+    "text": "Walk slowly and enjoy the view along the way.",
+    "source": "Modern Proverb",
+    "ko": "천천히 걸으며 가는 길의 풍경을 즐겨라."
+   },
+   "zh": {
+    "id": "qzh-030",
+    "text": "心若安好，便是晴天。",
+    "pinyin": "Xīn ruò ānhǎo, biàn shì qíngtiān.",
+    "source": "现代语录",
+    "ko": "마음이 평온하면, 그것이 곧 맑은 날이다."
+   }
+  }
+ },
+ {
   "date": "2026-10-22",
   "en": {
    "level": 3,
