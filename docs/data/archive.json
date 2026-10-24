@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-25",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-030",
+    "text": "When your heart is at peace, every day feels sunny.",
+    "source": "Modern Proverb",
+    "ko": "마음이 평온하면, 매일이 맑은 날처럼 느껴진다."
+   },
+   "zh": {
+    "id": "qzh-032",
+    "text": "做喜欢的事，成为想成为的人。",
+    "pinyin": "Zuò xǐhuan de shì, chéngwéi xiǎng chéngwéi de rén.",
+    "source": "现代语录",
+    "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
+   }
+  }
+ },
+ {
   "date": "2026-10-24",
   "en": {
    "level": 3,
