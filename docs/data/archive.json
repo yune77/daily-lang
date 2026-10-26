@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-27",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-032",
+    "text": "Do what you love, and become who you want to be.",
+    "source": "Modern Proverb",
+    "ko": "좋아하는 일을 하고, 되고 싶은 사람이 되어라."
+   },
+   "zh": {
+    "id": "qzh-034",
+    "text": "不是所有的努力都立刻有回报，但都不会白费。",
+    "pinyin": "Bú shì suǒyǒu de nǔlì dōu lìkè yǒu huíbào, dàn dōu bú huì báifèi.",
+    "source": "现代语录",
+    "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-10-26",
   "en": {
    "level": 3,
