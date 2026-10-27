@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-28",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-033",
+    "text": "Every road you've walked counts for something.",
+    "source": "Modern Proverb",
+    "ko": "네가 걸어온 모든 길은 다 의미가 있다."
+   },
+   "zh": {
+    "id": "qzh-035",
+    "text": "与自己和解，是最好的成长。",
+    "pinyin": "Yǔ zìjǐ héjiě, shì zuì hǎo de chéngzhǎng.",
+    "source": "现代语录",
+    "ko": "자기 자신과 화해하는 것이 가장 좋은 성장이다."
+   }
+  }
+ },
+ {
   "date": "2026-10-27",
   "en": {
    "level": 3,
