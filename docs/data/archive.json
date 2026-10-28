@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-29",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-034",
+    "text": "Not every effort pays off right away, but none of it is wasted.",
+    "source": "Modern Proverb",
+    "ko": "모든 노력이 바로 보상받는 건 아니지만, 헛되지는 않는다."
+   },
+   "zh": {
+    "id": "qzh-036",
+    "text": "生活不会辜负每一个认真的人。",
+    "pinyin": "Shēnghuó bú huì gūfù měi yí gè rènzhēn de rén.",
+    "source": "现代语录",
+    "ko": "삶은 진지하게 살아가는 사람을 저버리지 않는다."
+   }
+  }
+ },
+ {
   "date": "2026-10-28",
   "en": {
    "level": 3,
