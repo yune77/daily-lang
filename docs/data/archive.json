@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-30",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-035",
+    "text": "Making peace with yourself is the best kind of growth.",
+    "source": "Modern Proverb",
+    "ko": "자기 자신과 화해하는 것이 가장 좋은 성장이다."
+   },
+   "zh": {
+    "id": "qzh-037",
+    "text": "给自己一点时间，慢慢变好。",
+    "pinyin": "Gěi zìjǐ yìdiǎn shíjiān, màn man biàn hǎo.",
+    "source": "现代语录",
+    "ko": "자신에게 시간을 조금 주고, 천천히 나아지면 된다."
+   }
+  }
+ },
+ {
   "date": "2026-10-29",
   "en": {
    "level": 3,
