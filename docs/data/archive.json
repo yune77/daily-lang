@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-01",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-037",
+    "text": "Give yourself a little time to slowly get better.",
+    "source": "Modern Proverb",
+    "ko": "자신에게 시간을 조금 주고, 천천히 나아지면 된다."
+   },
+   "zh": {
+    "id": "qzh-039",
+    "text": "你不是一个人在努力。",
+    "pinyin": "Nǐ bú shì yí gè rén zài nǔlì.",
+    "source": "现代语录",
+    "ko": "혼자 애쓰고 있는 게 아니야."
+   }
+  }
+ },
+ {
   "date": "2026-10-31",
   "en": {
    "level": 3,
