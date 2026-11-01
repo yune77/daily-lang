@@ -21,14 +21,14 @@
  },
  "tg_offset": 129658935,
  "kb_sent": true,
- "days": 117,
- "last_sent": "2026-11-01",
+ "days": 118,
+ "last_sent": "2026-11-02",
  "quote": {
   "en": {
-   "pos": 37
+   "pos": 38
   },
   "zh": {
-   "pos": 39
+   "pos": 1
   }
  }
 }

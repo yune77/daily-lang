@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-02",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-038",
+    "text": "Even ordinary days deserve to be lived fully.",
+    "source": "Modern Proverb",
+    "ko": "평범한 하루도 충실하게 살아갈 가치가 있다."
+   },
+   "zh": {
+    "id": "qzh-001",
+    "text": "花开有时，花落有时，一切自有安排。",
+    "pinyin": "Huā kāi yǒu shí, huā luò yǒu shí, yíqiè zì yǒu ānpái.",
+    "source": "现代语录",
+    "ko": "피어나는 것도, 지는 것도 모두 자기만의 때가 있으니, 모든 것에는 이미 안배가 있다."
+   }
+  }
+ },
+ {
   "date": "2026-11-01",
   "en": {
    "level": 3,
