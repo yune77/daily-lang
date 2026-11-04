@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-05",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-001",
+    "text": "Everything blooms in its own time.",
+    "source": "Modern Proverb",
+    "ko": "시간이 되면 모든 것은 저절로 피어난다."
+   },
+   "zh": {
+    "id": "qzh-004",
+    "text": "慢慢来，比较快。",
+    "pinyin": "Màn man lái, bǐjiào kuài.",
+    "source": "现代语录",
+    "ko": "천천히 가는 것이 오히려 더 빠르다."
+   }
+  }
+ },
+ {
   "date": "2026-11-04",
   "en": {
    "level": 3,
