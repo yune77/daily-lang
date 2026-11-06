@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-07",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-003",
+    "text": "Life is like tea — you don't have to fill the cup all the way.",
+    "source": "Modern Proverb",
+    "ko": "인생은 차와 같으니, 잔을 끝까지 채울 필요는 없다."
+   },
+   "zh": {
+    "id": "qzh-006",
+    "text": "岁月不曾亏待过谁。",
+    "pinyin": "Suìyuè bù céng kuīdài guo shéi.",
+    "source": "现代语录",
+    "ko": "세월은 그 누구도 저버린 적이 없다."
+   }
+  }
+ },
+ {
   "date": "2026-11-06",
   "en": {
    "level": 3,
