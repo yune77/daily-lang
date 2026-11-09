@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-10",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-006",
+    "text": "Time has never truly failed anyone.",
+    "source": "Modern Proverb",
+    "ko": "시간은 그 누구도 저버린 적이 없다."
+   },
+   "zh": {
+    "id": "qzh-009",
+    "text": "允许一切发生。",
+    "pinyin": "Yǔnxǔ yíqiè fāshēng.",
+    "source": "现代语录",
+    "ko": "모든 일이 일어나도록 그대로 두어라."
+   }
+  }
+ },
+ {
   "date": "2026-11-09",
   "en": {
    "level": 3,
