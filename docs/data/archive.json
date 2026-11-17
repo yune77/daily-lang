@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-18",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-014",
+    "text": "Time will give you the answer.",
+    "source": "Modern Proverb",
+    "ko": "시간이 너에게 답을 줄 것이다."
+   },
+   "zh": {
+    "id": "qzh-017",
+    "text": "你要相信，总有人在等你。",
+    "pinyin": "Nǐ yào xiāngxìn, zǒng yǒu rén zài děng nǐ.",
+    "source": "现代语录",
+    "ko": "믿어봐, 언제나 누군가는 너를 기다리고 있어."
+   }
+  }
+ },
+ {
   "date": "2026-11-17",
   "en": {
    "level": 3,
