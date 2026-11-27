@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-11-28",
+  "en": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "zh": {
+   "level": 3,
+   "level_name": "고급",
+   "items": [],
+   "levelup": false,
+   "next_level_name": "고급",
+   "progress": 22,
+   "total": 22,
+   "done": true
+  },
+  "quote": {
+   "en": {
+    "id": "qen-024",
+    "text": "You don't have to rush — just stay on the road.",
+    "source": "Modern Proverb",
+    "ko": "서두를 필요 없어, 그저 그 길 위에 있으면 돼."
+   },
+   "zh": {
+    "id": "qzh-027",
+    "text": "你要成为自己的光。",
+    "pinyin": "Nǐ yào chéngwéi zìjǐ de guāng.",
+    "source": "现代语录",
+    "ko": "너 자신의 빛이 되어야 한다."
+   }
+  }
+ },
+ {
   "date": "2026-11-27",
   "en": {
    "level": 3,
